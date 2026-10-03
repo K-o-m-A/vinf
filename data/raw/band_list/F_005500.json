@@ -1,0 +1,3506 @@
+{ 
+	"iTotalRecords": 7230,
+	"iTotalDisplayRecords": 7230,
+	"sEcho": 1,
+	"aaData": [
+			[ 
+			"<a href='https://www.metal-archives.com/bands/Friday_the_13th/95354'>Friday the 13th</a>", 
+			"Germany",
+			"Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Friday_the_13th/3540261816'>Friday the 13th</a>", 
+			"Indonesia",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Friday_the_13th%3A_Part_2/3540484692'>Friday the 13th: Part 2</a>", 
+			"Unknown",
+			"Brutal Death Metal/Goregrind",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Fridge/3540590503'>Fridge</a>", 
+			"United States",
+			"Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Fried_Full_Rubber/3540566707'>Fried Full Rubber</a>", 
+			"Netherlands",
+			"Thrash Metal/Grindcore, Noise/Grindcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Fried_Pope/3540379880'>Fried Pope</a>", 
+			"Canada",
+			"Thrash/Industrial Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Friend/3540533926'>Friend</a>", 
+			"United Kingdom",
+			"Sludge/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Friend_2_Foe/3540571504'>Friend 2 Foe</a>", 
+			"United States",
+			"Groove Metal/Metalcore",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Friend_of_Misery/3540354116'>Friend of Misery</a>", 
+			"France",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Friend_or_Foe/3540536372'>Friend or Foe</a>", 
+			"United States",
+			"Heavy/Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Friendly_Fire/3540526636'>Friendly Fire</a>", 
+			"Germany",
+			"Thrash/Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Friends_of_Hell/3540503480'>Friends of Hell</a>", 
+			"International",
+			"Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Friendship_Commanders/3540531717'>Friendship Commanders</a>", 
+			"United States",
+			"Sludge/Doom Metal/Noise Rock/Grunge",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Friesenblut/113544'>Friesenblut</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frieza/3540424195'>Frieza</a>", 
+			"Brazil",
+			"Death/Post-Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/FRIG/3540441033'>FRIG</a>", 
+			"Romania",
+			"Avant-garde/Drone/Industrial Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Fright/3540464135'>Fright</a>", 
+			"United States",
+			"Heavy Metal/Hard Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Fright/3540499093'>Fright</a>", 
+			"United States",
+			"Thrash Metal/Crossover",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Fright/3540433882'>Fright</a>", 
+			"United States",
+			"Crossover/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Fright/43228'>Fright</a>", 
+			"Colombia",
+			"Black/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Fright_Machine/3540387049'>Fright Machine</a>", 
+			"Norway",
+			"Death/Doom Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Fright_Night/14181'>Fright Night</a>", 
+			"Brazil",
+			"Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Fright_Night/101736'>Fright Night</a>", 
+			"Germany",
+			"Power Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Fright_Night/3540548782'>Fright Night</a>", 
+			"Poland",
+			"Gothic Metal/Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Fright_Night/9917'>Fright Night</a>", 
+			"Portugal",
+			"Heavy/Glam Metal/Hard Rock",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Fright_Night/3540382411'>Fright Night</a>", 
+			"Russia",
+			"Gothic Metal/Rock",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frightening_Frozen_Moon/3540521173'>Frightening Frozen Moon</a>", 
+			"Sweden",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frightening_Shadow/3540503730'>Frightening Shadow</a>", 
+			"Indonesia",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frightful/3540425161'>Frightful</a>", 
+			"Poland",
+			"Death Metal/Grindcore (early); Death/Thrash Metal (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frightful_Cross/87381'>Frightful Cross</a>", 
+			"Mexico",
+			"Black/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frightmare/7786'>Frightmare</a>", 
+			"United States",
+			"Death/Thrash Metal/Grindcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frightmare/3540466336'>Frightmare</a>", 
+			"United States",
+			"Thrash/Speed Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frigid/3540560398'>Frigid</a>", 
+			"United States",
+			"Death/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frigid_Bich/16619'>Frigid Bich</a>", 
+			"United States",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frigid_Bitch/3540463735'>Frigid Bitch</a>", 
+			"United States",
+			"Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frigid_Bones/3540434886'>Frigid Bones</a>", 
+			"United States",
+			"Thrash/Death/Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frigid_Spell/3540523375'>Frigid Spell</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frigid_Winter/3540525638'>Frigid Winter</a>", 
+			"Finland",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frigidity/3540399576'>Frigidity</a>", 
+			"Indonesia",
+			"Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frigidum/3540434533'>Frigidum</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frigidum_Lacrima/3540416651'>Frigidum Lacrima</a>", 
+			"Greece",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frigora/3540546192'>Frigora</a>", 
+			"Brazil",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frigore/3540528298'>Frigore</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frigoris/3540266103'>Frigoris</a>", 
+			"Germany",
+			"Pagan/Black Metal (early); Atmospheric/Post-Black Metal (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frigority/3540548724'>Frigority</a>", 
+			"Switzerland",
+			"Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frigus_et_Obscurum/3540290515'>Frigus et Obscurum</a>", 
+			"Russia",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frigus_Odium/3540475630'>Frigus Odium</a>", 
+			"Russia",
+			"Depressive Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frigus_Sky/3540581946'>Frigus Sky</a>", 
+			"Finland",
+			"Atmospheric Sludge/Post-Metal/Shoegaze",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frigus_Tenebris/3540469700'>Frigus Tenebris</a>", 
+			"Argentina",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Friisk/3540447267'>Friisk</a>", 
+			"Germany",
+			"Atmospheric Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Fr%C3%ACjei/3540479121'>Frìjei</a>", 
+			"Germany",
+			"Raw Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frijgard/3540295680'>Frijgard</a>", 
+			"Switzerland",
+			"Pagan Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frimaire/3540430062'>Frimaire</a>", 
+			"Russia",
+			"Post-Black Metal/Shoegaze",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frimost/3540486734'>Frimost</a>", 
+			"Colombia",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frimost/53658'>Frimost</a>", 
+			"Mexico",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frimost/53662'>Frimost</a>", 
+			"United Kingdom",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Fringe_Sociology/3540462438'>Fringe Sociology</a>", 
+			"Sweden",
+			"Drone/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frio/3540338729'>Frio</a>", 
+			"Brazil",
+			"Depressive Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frio_Ins%C3%B3lito/3540470575'>Frio Insólito</a>", 
+			"Brazil",
+			"Depressive Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frio_Mortuorio/3540555310'>Frio Mortuorio</a>", 
+			"Chile",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frisky_Archer/3540442528'>Frisky Archer</a>", 
+			"United States",
+			"Heavy Metal/Hard Rock",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frisson/3540516362'>Frisson</a>", 
+			"Serbia",
+			"Groove Metal/Metalcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frisson/3540569566'>Frisson</a>", 
+			"United States",
+			"Sludge/Post-Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Fritherion/3540451148'>Fritherion</a>", 
+			"France",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Fritz_Brinkman/3540289151'>Fritz Brinkman</a>", 
+			"Netherlands",
+			"Melodic Power Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frivolous_Stir/105568'>Frivolous Stir</a>", 
+			"Croatia",
+			"Extreme Gothic Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Fri%F0%93%82%BDd%F0%93%82%BDn/3540570454'>Fri𓂽d𓂽n</a>", 
+			"United States",
+			"Black Metal/Dungeon Synth/Electronic",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frodhos_Death/3540349772'>Frodhos Death</a>", 
+			"Indonesia",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frodmortell/33942'>Frodmortell</a>", 
+			"Belarus",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frog_and_the_Porn/3540280442'>Frog and the Porn</a>", 
+			"Malaysia",
+			"Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frog_Mallet/3540479819'>Frog Mallet</a>", 
+			"United States",
+			"Slam/Brutal Deathcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frogg/3540462598'>Frogg</a>", 
+			"United States",
+			"Progressive/Technical Death Metal/Deathcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Fr%C3%B8gg%C3%AB/3540548313'>Frøggë</a>", 
+			"International",
+			"Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Froglord/3540551793'>Froglord</a>", 
+			"United States",
+			"Goregrind",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Froglord/3540467964'>Froglord</a>", 
+			"United Kingdom",
+			"Doom/Sludge Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frogmarch/113472'>Frogmarch</a>", 
+			"France",
+			"Thrash/Groove Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frogoroth/3540496806'>Frogoroth</a>", 
+			"Unknown",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frogskin/56005'>Frogskin</a>", 
+			"Finland",
+			"Sludge Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/FrogSword/3540548636'>FrogSword</a>", 
+			"United Kingdom",
+			"Folk Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frogtician/3540471771'>Frogtician</a>", 
+			"Germany",
+			"Brutal Death Metal/Goregrind",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Froideur_Quantique/3540485564'>Froideur Quantique</a>", 
+			"France",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frolic/3540477106'>Frolic</a>", 
+			"United States",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_a_Spectral_Life/3540549653'>From a Spectral Life</a>", 
+			"United States",
+			"Depressive Black Metal, Ambient",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_a_Wanderers_Mind/3540499473'>From a Wanderers Mind</a>", 
+			"Germany",
+			"Stoner Metal with Folk influences",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_All_Within/3540265090'>From All Within</a>", 
+			"United States",
+			"Metalcore",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Ambush/3540366107'>From Ambush</a>", 
+			"Germany",
+			"Thrash/Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Ancient_Waters/3540471835'>From Ancient Waters</a>", 
+			"United Kingdom",
+			"Melodic Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Angels_Gate/3540563507'>From Angels Gate</a>", 
+			"United States",
+			"Black/Sludge Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Another_Life/3540565179'>From Another Life</a>", 
+			"Hungary",
+			"Depressive/Post-Black Metal/Post-Rock/Shoegaze",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Another_Time/3540531566'>From Another Time</a>", 
+			"Canada",
+			"Melodic Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Ashes/16686'>From Ashes</a>", 
+			"Finland",
+			"Blackened Gothic/Doom Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Ashes/3540304724'>From Ashes</a>", 
+			"United States",
+			"Death/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Ashes_Reborn/3540443213'>From Ashes Reborn</a>", 
+			"Germany",
+			"Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Ashes_to_Empires/3540539795'>From Ashes to Empires</a>", 
+			"Germany",
+			"Metalcore",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Ashes_to_Redemption/3540419392'>From Ashes to Redemption</a>", 
+			"Costa Rica",
+			"Symphonic/Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Astral_Planes/3540343823'>From Astral Planes</a>", 
+			"United States",
+			"Doom/Post-Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Autumn/3540397867'>From Autumn</a>", 
+			"Brazil",
+			"Death/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Below/8234'>From Below</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Below/3540405927'>From Below</a>", 
+			"Norway",
+			"Melodic Death/Groove Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Beneath/3540573821'>From Beneath</a>", 
+			"Canada",
+			"Deathcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Beneath_Billows/3540314326'>From Beneath Billows</a>", 
+			"Norway",
+			"Atmospheric Sludge Metal/Post-Hardcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Beneath_It_Devours/3540378278'>From Beneath It Devours</a>", 
+			"United Kingdom",
+			"Progressive Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Beyond/3540457741'>From Beyond</a>", 
+			"Portugal",
+			"Progressive Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Beyond/38712'>From Beyond</a>", 
+			"Belgium",
+			"Thrash Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Beyond/3540547135'>From Beyond</a>", 
+			"United States",
+			"Sludge/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Beyond/3540506439'>From Beyond</a>", 
+			"France",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Beyond/11857'>From Beyond</a>", 
+			"Czechia",
+			"Doom/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Beyond/65884'>From Beyond</a>", 
+			"Germany",
+			"Power Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Beyond/3540564595'>From Beyond</a>", 
+			"Sweden",
+			"Death/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Beyond/3540311940'>From Beyond</a>", 
+			"France",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Beyond/3540347287'>From Beyond</a>", 
+			"United States",
+			"Psychedelic Doom/Stoner Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Beyond/3540399056'>From Beyond</a>", 
+			"Russia",
+			"Speed/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Beyond/83684'>From Beyond</a>", 
+			"Mexico",
+			"Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Beyond_Death/83741'>From Beyond Death</a>", 
+			"United States",
+			"Brutal Death/Black Metal/Grindcore",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Beyond_the_Abyss/3540365314'>From Beyond the Abyss</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Beyond_the_Grave/3540468863'>From Beyond the Grave</a>", 
+			"Germany",
+			"Depressive Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Birth_to_Burial/3540407081'>From Birth to Burial</a>", 
+			"Australia",
+			"Blackened Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Blood_and_Burning/3540524839'>From Blood and Burning</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Blue_to_Gray/3540389503'>From Blue to Gray</a>", 
+			"United States",
+			"Melodic Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Casket/3540580384'>From Casket</a>", 
+			"Finland",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Chaos/3540512906'>From Chaos</a>", 
+			"Canada",
+			"Melodic Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Chaos/69109'>From Chaos</a>", 
+			"China",
+			"Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Citizen_to_Soldier/70492'>From Citizen to Soldier</a>", 
+			"United States",
+			"Death Metal/Metalcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Crisis_to_Collapse/3540450082'>From Crisis to Collapse</a>", 
+			"Australia",
+			"Melodic Death Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Darkest_Skies/3540510646'>From Darkest Skies</a>", 
+			"Brazil",
+			"Groove/Death/Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Darkness/3540487811'>From Darkness</a>", 
+			"Guernsey",
+			"Alternative Metal/Metalcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Death_till_Rebirth/3540492204'>From Death till Rebirth</a>", 
+			"Australia",
+			"Progressive Metal/Metalcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Death%27s_Wings/3540277942'>From Death's Wings</a>", 
+			"United States",
+			"Melodic Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Deep_Space/3540522567'>From Deep Space</a>", 
+			"United States",
+			"Folk/Doom Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Depths/14245'>From Depths</a>", 
+			"Italy",
+			"Melodic Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Dissension/81123'>From Dissension</a>", 
+			"United States",
+			"Melodic Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Dissolution_to_Decay/101865'>From Dissolution to Decay</a>", 
+			"France",
+			"Black/Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Distant_Hills/3540580141'>From Distant Hills</a>", 
+			"Greece",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Dying_Suns/3540419522'>From Dying Suns</a>", 
+			"Canada",
+			"Progressive Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Earth/3540399371'>From Earth</a>", 
+			"Netherlands",
+			"Groove/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Eden_to_Exile/3540427658'>From Eden to Exile</a>", 
+			"United Kingdom",
+			"Death/Thrash/Groove Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Exile/78910'>From Exile</a>", 
+			"United States",
+			"Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Fall_of_Sins/3540482550'>From Fall of Sins</a>", 
+			"Germany",
+			"Melodic Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Flesh/3540388190'>From Flesh</a>", 
+			"Canada",
+			"Symphonic/Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Flesh_Removed/3540578281'>From Flesh Removed</a>", 
+			"United States",
+			"Slam/Brutal Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Forgotten_Being/50514'>From Forgotten Being</a>", 
+			"Mexico",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Frost/3540538919'>From Frost</a>", 
+			"United States",
+			"Heavy/Groove Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Funeral_Dust/3540318652'>From Funeral Dust</a>", 
+			"Italy",
+			"Symphonic Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Funeral_Skies/3540535526'>From Funeral Skies</a>", 
+			"Canada",
+			"Drone/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Grace/3540569867'>From Grace</a>", 
+			"Germany",
+			"Death/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Grace/3540513004'>From Grace</a>", 
+			"United Kingdom",
+			"Metalcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Hell/3540393250'>From Hell</a>", 
+			"Australia",
+			"Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Hell/3540326514'>From Hell</a>", 
+			"Spain",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Hell/3540510322'>From Hell</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Hell/3540379005'>From Hell</a>", 
+			"United States",
+			"Thrash/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Hell/113054'>From Hell</a>", 
+			"Brazil",
+			"Thrash/Death Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Hell/3540493471'>From Hell</a>", 
+			"Mexico",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Hell_to_Ascension/3540540427'>From Hell to Ascension</a>", 
+			"United States",
+			"Atmospheric Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Hell_with_Love/3540426657'>From Hell with Love</a>", 
+			"France",
+			"Symphonic Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Ice_to_Fire/3540415496'>From Ice to Fire</a>", 
+			"Italy",
+			"Thrash/Groove Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Idle_Hands/3540578116'>From Idle Hands</a>", 
+			"United States",
+			"Deathcore",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Kaos/3540554453'>From Kaos</a>", 
+			"France",
+			"Melodic Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Leaf/3540440569'>From Leaf</a>", 
+			"Japan",
+			"Heavy/Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Life_to_Death/3540572809'>From Life to Death</a>", 
+			"Canada",
+			"Metalcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Man_to_Dust/3540342134'>From Man to Dust</a>", 
+			"France",
+			"Death/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_March_to_May/3540533006'>From March to May</a>", 
+			"Germany",
+			"Melodic Death/Groove Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Mind_to_Hands/3540290910'>From Mind to Hands</a>", 
+			"Italy",
+			"Progressive Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Moonshadows_Falling/59701'>From Moonshadows Falling</a>", 
+			"United States",
+			"Blackened Doom Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Moose_Mountain/3540578344'>From Moose Mountain</a>", 
+			"New Zealand",
+			"Stoner/Doom/Sludge Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_My_Cold_Hands/3540515804'>From My Cold Hands</a>", 
+			"Russia",
+			"Deathcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_My_Grave/55876'>From My Grave</a>", 
+			"Hungary",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_My_Hands/124889'>From My Hands</a>", 
+			"Germany",
+			"Metalcore/Melodic Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_My_Soul/68091'>From My Soul</a>", 
+			"Japan",
+			"Thrash Metal/Crossover",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Nihil/3540577566'>From Nihil</a>", 
+			"United States",
+			"Melodic Deathcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_North/3540431118'>From North</a>", 
+			"Sweden",
+			"Folk/Viking Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Nowhere/83471'>From Nowhere</a>", 
+			"Spain",
+			"Thrash/Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Oblivion/3540277198'>From Oblivion</a>", 
+			"Costa Rica",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_One_Hell/3540539397'>From One Hell</a>", 
+			"United States",
+			"Thrash Metal/Crossover/Hardcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Prophecy/3540370699'>From Prophecy</a>", 
+			"United States",
+			"Black/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Ruin/3540385918'>From Ruin</a>", 
+			"United Kingdom",
+			"Melodic Heavy Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Ruins/3540310793'>From Ruins</a>", 
+			"Canada",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Ruins/3540530312'>From Ruins</a>", 
+			"United Kingdom",
+			"Groove Metal/Metalcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Shades/124494'>From Shades</a>", 
+			"Sweden",
+			"Death/Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Silence/3540467606'>From Silence</a>", 
+			"France",
+			"Progressive Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Sin/3540546706'>From Sin</a>", 
+			"Serbia",
+			"Metalcore/Melodic Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Sky_to_Abyss/3540407245'>From Sky to Abyss</a>", 
+			"Russia",
+			"Melodic Groove Metal/Metalcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Abyss/3540488085'>From the Abyss</a>", 
+			"Cuba",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Ages/3540527055'>From the Ages</a>", 
+			"United States",
+			"Doom/Stoner Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Ashes/3540346624'>From the Ashes</a>", 
+			"Netherlands",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Ashes/3540306974'>From the Ashes</a>", 
+			"Argentina",
+			"Melodic Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Ashes/126618'>From the Ashes</a>", 
+			"United Kingdom",
+			"Thrash Metal/Metalcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Barrel/3540540028'>From the Barrel</a>", 
+			"France",
+			"Groove Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Blackness/3540581531'>From the Blackness</a>", 
+			"Greece",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Carnival_of_Horrors/67382'>From the Carnival of Horrors</a>", 
+			"United Kingdom",
+			"Deathcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Caves/3540432693'>From the Caves</a>", 
+			"Denmark",
+			"Experimental Sludge/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Cross/126417'>From the Cross</a>", 
+			"Spain",
+			"Thrash/Groove Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Crypt/3540513070'>From the Crypt</a>", 
+			"Netherlands",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Crypt/3540383681'>From the Crypt</a>", 
+			"Spain",
+			"Grindcore",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Dark/4738'>From the Dark</a>", 
+			"New Zealand",
+			"Symphonic Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Dark/3540357295'>From the Dark</a>", 
+			"United States",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Darkness/14209'>From the Darkness</a>", 
+			"Chile",
+			"Death/Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Depth/3540312263'>From the Depth</a>", 
+			"Italy",
+			"Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Depths/7890'>From the Depths</a>", 
+			"United States",
+			"Death/Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Dying_Sky/3540333974'>From the Dying Sky</a>", 
+			"Italy",
+			"Metalcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Embrace/3540294914'>From the Embrace</a>", 
+			"United States",
+			"Progressive Melodic Death Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Eyes_of_Erra/3540340171'>From the Eyes of Erra</a>", 
+			"United States",
+			"Technical Deathcore",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Grave/3540463805'>From the Grave</a>", 
+			"Mexico",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Grave/3540512510'>From the Grave</a>", 
+			"United States",
+			"Southern/Stoner Metal/Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Graves/3540457557'>From the Graves</a>", 
+			"Cuba",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Hellmouth/3540400612'>From the Hellmouth</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Mist/3540501055'>From the Mist</a>", 
+			"United States",
+			"Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Mouth_of_Chaos/3540550484'>From the Mouth of Chaos</a>", 
+			"United States",
+			"Death/Thrash/Groove Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_North/41266'>From the North</a>", 
+			"Finland",
+			"Black Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Ruins/3540470804'>From the Ruins</a>", 
+			"United States",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Sewer/3540453990'>From the Sewer</a>", 
+			"Canada",
+			"Death Metal/Goregrind",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Shadow_of_the_Throne_Spreading_to_Infinity/3540583227'>From the Shadow of the Throne Spreading to Infinity</a>", 
+			"Japan",
+			"Blackened Post-Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Shadows/111631'>From the Shadows</a>", 
+			"United States",
+			"Melodic Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Shadows/3540258521'>From the Shadows</a>", 
+			"United States",
+			"Power Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Shadows/3540525539'>From the Shadows</a>", 
+			"United States",
+			"Melodic Death Metal/Metalcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Shallows/118946'>From the Shallows</a>", 
+			"United States",
+			"Deathcore",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Shores/3540269534'>From the Shores</a>", 
+			"Italy",
+			"Melodic Death Metal/Metalcore",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Sky/3540494305'>From the Sky</a>", 
+			"Hungary",
+			"Extreme Symphonic Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Sunset%2C_Forest_and_Grief/3540295042'>From the Sunset, Forest and Grief</a>", 
+			"Mexico",
+			"Atmospheric Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Throne/3540264178'>From the Throne</a>", 
+			"United States",
+			"Melodic Death Metal/Metalcore",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Tomb/3540577433'>From the Tomb</a>", 
+			"Mexico",
+			"Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Torrent_%26_the_Fountain/3540345388'>From the Torrent & the Fountain</a>", 
+			"Mexico",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Vastland/3540331603'>From the Vastland</a>", 
+			"Iran",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Void/3540443632'>From the Void</a>", 
+			"Finland",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Vomit/3540334443'>From the Vomit</a>", 
+			"United States",
+			"Melodic Death/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_the_Waters_of_Lake/29969'>From the Waters of Lake</a>", 
+			"Bulgaria",
+			"Gothic/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_These_Wounds/3540507959'>From These Wounds</a>", 
+			"Australia",
+			"Metalcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_This_Day/87651'>From This Day</a>", 
+			"United States",
+			"Melodic Death Metal/Metalcore",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_This_We_Rise/3540288790'>From This We Rise</a>", 
+			"United States",
+			"Technical Deathcore/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Those_Ashes/3540445219'>From Those Ashes</a>", 
+			"United States",
+			"Melodic Death Metal/Metalcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Thunder/3540463180'>From Thunder</a>", 
+			"United States",
+			"Sludge/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Thy_Ashes/12245'>From Thy Ashes</a>", 
+			"Germany",
+			"Power Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Within/3612'>From Within</a>", 
+			"United States",
+			"Thrash/Speed metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Within_the_Trench/3540535892'>From Within the Trench</a>", 
+			"United States",
+			"Melodic Deathcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Yuggoth/3540565533'>From Yuggoth</a>", 
+			"Germany",
+			"Sludge Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/From_Zero_to_Deth/3540329729'>From Zero to Deth</a>", 
+			"United States",
+			"Heavy/Sludge Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Fromagerie/3540497851'>Fromagerie</a>", 
+			"Canada",
+			"Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/FromBeyond/3540461375'>FromBeyond</a>", 
+			"Australia",
+			"Progressive Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Fromhell/3540389895'>Fromhell</a>", 
+			"Indonesia",
+			"Progressive/Pagan Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frondescent_Gout/59549'>Frondescent Gout</a>", 
+			"Czechia",
+			"Black Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Front/71454'>Front</a>", 
+			"Poland",
+			"Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Front/3540404097'>Front</a>", 
+			"Finland",
+			"Blackened Death/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Front_776/3540483757'>Front 776</a>", 
+			"Germany",
+			"Melodic Heavy Metal/RAC",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Front_Attack/3540505349'>Front Attack</a>", 
+			"Sweden",
+			"Crossover/Thrash Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Front_Attack_Line/103717'>Front Attack Line</a>", 
+			"Brazil",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Front_Beast/10581'>Front Beast</a>", 
+			"Germany",
+			"Black/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Front_Guerrilla/120322'>Front Guerrilla</a>", 
+			"Japan",
+			"Heavy/Speed Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Front_Natimorto/3540343869'>Front Natimorto</a>", 
+			"Brazil",
+			"Death/Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Front_Porch_Human_BBQ/3540496330'>Front Porch Human BBQ</a>", 
+			"United States",
+			"Brutal Death Metal/Noisecore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Front_Riders/3540424755'>Front Riders</a>", 
+			"Germany",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Front_Row/3540436155'>Front Row</a>", 
+			"Japan",
+			"Heavy Metal/Hard Rock",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Front_Row_Warriors/3540529191'>Front Row Warriors</a>", 
+			"Germany",
+			"Melodic Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Front_Terror/60099'>Front Terror</a>", 
+			"Poland",
+			"Death Metal/Grindcore",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Front_Toward_Enemy/126463'>Front Toward Enemy</a>", 
+			"Germany",
+			"Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Front_Towards_Enemy/32432'>Front Towards Enemy</a>", 
+			"Italy",
+			"Groove Metal/Hardcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Front-line/99372'>Front-line</a>", 
+			"United Kingdom",
+			"Heavy Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frontaalkwab/3540537347'>Frontaalkwab</a>", 
+			"Netherlands",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frontal/3540313353'>Frontal</a>", 
+			"France",
+			"Technical Groove Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frontal/3540563254'>Frontal</a>", 
+			"Argentina",
+			"Groove Metal/Metalcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frontal/30026'>Frontal</a>", 
+			"Argentina",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frontal_Assault/3540455818'>Frontal Assault</a>", 
+			"United States",
+			"Thrash/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frontal_Lobe_Destruction/3540544439'>Frontal Lobe Destruction</a>", 
+			"Korea, South",
+			"Various",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frontears/3767'>Frontears</a>", 
+			"Germany",
+			"Progressive Power Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frontera/3540530245'>Frontera</a>", 
+			"Chile",
+			"Heavy/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frontera_del_Olvido/3540548175'>Frontera del Olvido</a>", 
+			"Colombia",
+			"Atmospheric/Depressive Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frontier/2929'>Frontier</a>", 
+			"United Kingdom",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frontier/3540302830'>Frontier</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frontier_of_Existence/3540429220'>Frontier of Existence</a>", 
+			"Poland",
+			"Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frontisp%C3%ADcio_do_Mal/112609'>Frontispício do Mal</a>", 
+			"Brazil",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frontline/123726'>Frontline</a>", 
+			"United Kingdom",
+			"Thrash Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frontline/3540535007'>Frontline</a>", 
+			"Colombia",
+			"Thrash Metal/Crossover",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frontline_Despair/3540535169'>Frontline Despair</a>", 
+			"Netherlands",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frontlines/3540272783'>Frontlines</a>", 
+			"Finland",
+			"Groove Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frontschwein/3540560179'>Frontschwein</a>", 
+			"Poland",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frontside/3540542452'>Frontside</a>", 
+			"Poland",
+			"Metalcore/Deathcore/Hardcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frore_5_Four/3540463842'>Frore 5 Four</a>", 
+			"Canada",
+			"Avant-garde/Progressive Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/FroschGott/15028'>FroschGott</a>", 
+			"Germany",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frosk/3540518898'>Frosk</a>", 
+			"United States",
+			"Raw Black Metal/Dungeon Synth",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frosne_Niflheim/3540545724'>Frosne Niflheim</a>", 
+			"Australia",
+			"Depressive Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frosset_Skog/3540337660'>Frosset Skog</a>", 
+			"Russia",
+			"Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frosset_Skygge/3540537022'>Frosset Skygge</a>", 
+			"Canada",
+			"Depressive Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frost/103964'>Frost</a>", 
+			"Canada",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frost/6947'>Frost</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frost/6948'>Frost</a>", 
+			"Hungary",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frost/32846'>Frost</a>", 
+			"Norway",
+			"Black/Thrash Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frost/3540305998'>Frost</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frost/3540468819'>Frost</a>", 
+			"Ireland",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frost/4181'>Frost</a>", 
+			"United Kingdom",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frost/62098'>Frost</a>", 
+			"Poland",
+			"Black/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frost/3540547735'>Frost</a>", 
+			"United States",
+			"Gothic/Doom Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frost/15266'>Frost</a>", 
+			"United States",
+			"Heavy Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frost/3540496123'>Frost</a>", 
+			"China",
+			"Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frost_%26_Fury/26212'>Frost & Fury</a>", 
+			"United States",
+			"Death/Doom Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frost_Apocalypse/3540338670'>Frost Apocalypse</a>", 
+			"United States",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frost_Bite/67496'>Frost Bite</a>", 
+			"United States",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frost_Commander/3540338534'>Frost Commander</a>", 
+			"Poland",
+			"Power/Speed Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frost_Core/50603'>Frost Core</a>", 
+			"Finland",
+			"Melodic Death Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frost_de_Mexico/3540451815'>Frost de Mexico</a>", 
+			"France",
+			"Black/Doom Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frost_Despair/3540341077'>Frost Despair</a>", 
+			"Brazil",
+			"Symphonic Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frost_Domain/96379'>Frost Domain</a>", 
+			"France",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frost_Eternity/3540527817'>Frost Eternity</a>", 
+			"Poland",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frost_Flame/3540397707'>Frost Flame</a>", 
+			"Russia",
+			"Pagan Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frost_Giant/3540304682'>Frost Giant</a>", 
+			"United States",
+			"Melodic Death/Folk Metal, Hardcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frost_Koffin/3540437616'>Frost Koffin</a>", 
+			"United States",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frost_Legion/3540376164'>Frost Legion</a>", 
+			"Portugal",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frost_like_Ashes/6009'>Frost like Ashes</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frost_Mork/3540486318'>Frost Mork</a>", 
+			"Russia",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frost_Revenge/3540472025'>Frost Revenge</a>", 
+			"Malaysia",
+			"Death/Groove Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Fr%C3%B6st_Rot/3540371656'>Fröst Rot</a>", 
+			"United States",
+			"Black/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frost_Satan/3540533633'>Frost Satan</a>", 
+			"Finland",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frost_Tears/3540347177'>Frost Tears</a>", 
+			"Taiwan",
+			"Gothic Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frost_Tyrant/3540434418'>Frost Tyrant</a>", 
+			"Poland",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frost_Witch/3540568300'>Frost Witch</a>", 
+			"United Kingdom",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frost_Wound/3540577681'>Frost Wound</a>", 
+			"Canada",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frost%2C_Pisse_%26_Elend/3540484730'>Frost, Pisse & Elend</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostagrath/3540354956'>Frostagrath</a>", 
+			"Egypt",
+			"Atmospheric Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostbane/3540318087'>Frostbane</a>", 
+			"Italy",
+			"Black Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostbeer/20369'>Frostbeer</a>", 
+			"Italy",
+			"Black/Thrash Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostbind/3540513514'>Frostbind</a>", 
+			"United States",
+			"Atmospheric Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/FrostBite/3540530564'>FrostBite</a>", 
+			"Portugal",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostbite/26263'>Frostbite</a>", 
+			"Netherlands",
+			"Black Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostbite/3540359836'>Frostbite</a>", 
+			"Canada",
+			"Melodic Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostbite/3540366252'>Frostbite</a>", 
+			"Japan",
+			"Death Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostbite/3540512495'>Frostbite</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostbite/3540396030'>Frostbite</a>", 
+			"Ukraine",
+			"Melodic Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostbite_Chasm/3540535822'>Frostbite Chasm</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostbite_Terror/3540553612'>Frostbite Terror</a>", 
+			"Finland",
+			"Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostbiten/3540510162'>Frostbiten</a>", 
+			"Sweden",
+			"Black/Doom Metal with Punk influences",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostbitten/3540323851'>Frostbitten</a>", 
+			"Germany",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostbitten/3540589607'>Frostbitten</a>", 
+			"Hungary",
+			"Depressive/Post-Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostbitten/3540351722'>Frostbitten</a>", 
+			"United Kingdom",
+			"Black Metal, Heavy/Doom Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostbitten/3540289006'>Frostbitten</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostbitten_Corpse/3540498923'>Frostbitten Corpse</a>", 
+			"United States",
+			"Raw Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostbitten_Kingdom/84877'>Frostbitten Kingdom</a>", 
+			"Finland",
+			"Black/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostbitten_Sabbath/3540349683'>Frostbitten Sabbath</a>", 
+			"United States",
+			"Black/Death Metal/Ambient",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostbitten_Thorns/3540531383'>Frostbitten Thorns</a>", 
+			"Sweden",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostblaze/3540375260'>Frostblaze</a>", 
+			"Croatia",
+			"Epic Viking Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostblock/3540454427'>Frostblock</a>", 
+			"Australia",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostblot/35225'>Frostblot</a>", 
+			"Sweden",
+			"Heavy/Thrash Metal with Folk influences",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostborg/3540294976'>Frostborg</a>", 
+			"Sweden",
+			"Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostborn/3540561116'>Frostborn</a>", 
+			"Iceland",
+			"Heavy/Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostborn/3540559848'>Frostborn</a>", 
+			"United Kingdom",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostborn/15097'>Frostborn</a>", 
+			"Finland",
+			"Melodic Power/Progressive Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostborne/3540559881'>Frostborne</a>", 
+			"Serbia",
+			"Folk Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostbound/3540269595'>Frostbound</a>", 
+			"Germany",
+			"Black/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostbourne/3540404629'>Frostbourne</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostburn/15433'>Frostburn</a>", 
+			"Finland",
+			"Gothic Metal/Rock",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostclad/3540459878'>Frostclad</a>", 
+			"United States",
+			"Black/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostcloud/3540479862'>Frostcloud</a>", 
+			"United States",
+			"Black Metal/Ambient",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostcrown/3540530787'>Frostcrown</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostdemonstorm/87682'>Frostdemonstorm</a>", 
+			"Greece",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostdemonstorm/96728'>Frostdemonstorm</a>", 
+			"Chile",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frosted_Decadence/3540308416'>Frosted Decadence</a>", 
+			"Mexico",
+			"Black Metal/Ambient",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frosted_Mind/3540493964'>Frosted Mind</a>", 
+			"Brazil",
+			"Symphonic Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frosted_Undergrowth/3540420376'>Frosted Undergrowth</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frosten/3540476196'>Frosten</a>", 
+			"United Kingdom",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostfall/3540437507'>Frostfall</a>", 
+			"United Kingdom",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostfall/3540539652'>Frostfall</a>", 
+			"Unknown",
+			"Raw Black Metal/Dark Ambient",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostfall/18015'>Frostfall</a>", 
+			"France",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostfall/3540564210'>Frostfall</a>", 
+			"Italy",
+			"Heavy/Gothic Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostfang/3540387108'>Frostfang</a>", 
+			"United States",
+			"Heavy/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostfinsternis/92235'>Frostfinsternis</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/FrostFire/3540292279'>FrostFire</a>", 
+			"United Kingdom",
+			"Progressive Melodic Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostflame/115355'>Frostflame</a>", 
+			"Hungary",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostfog/3540480883'>Frostfog</a>", 
+			"Spain",
+			"Atmospheric/Symphonic Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostgoroth/3540517094'>Frostgoroth</a>", 
+			"Norway",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostgrab/3540524721'>Frostgrab</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostgrave/127507'>Frostgrave</a>", 
+			"Israel",
+			"Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostgrim/104525'>Frostgrim</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostgripen/3540449412'>Frostgripen</a>", 
+			"Sweden",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frosthammer/3540296392'>Frosthammer</a>", 
+			"Canada",
+			"Symphonic Black Metal (early); Death/Black Metal (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frosthardr/8877'>Frosthardr</a>", 
+			"Norway",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/FrostHearth/3540482743'>FrostHearth</a>", 
+			"United States",
+			"Heavy/Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostheim/3540304353'>Frostheim</a>", 
+			"Sweden",
+			"Black Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frosthelm/3540355360'>Frosthelm</a>", 
+			"United States",
+			"Black/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frosthold/35340'>Frosthold</a>", 
+			"United Kingdom",
+			"Pagan/Viking Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frosthorn/124496'>Frosthorn</a>", 
+			"Spain",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frosthvalmirr/3540567145'>Frosthvalmirr</a>", 
+			"Croatia",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frosthymn/3540528545'>Frosthymn</a>", 
+			"Russia",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostillicus/3540572319'>Frostillicus</a>", 
+			"Canada",
+			"Avant-garde Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frosting_the_Doucheland/3540554334'>Frosting the Doucheland</a>", 
+			"United States",
+			"Death/Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostkommand/3540446294'>Frostkommand</a>", 
+			"Brazil",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostkorp/33889'>Frostkorp</a>", 
+			"Sweden",
+			"Viking Black Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostkrieg/17204'>Frostkrieg</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostlagte_M%C3%A5ne/3540379957'>Frostlagte Måne</a>", 
+			"Russia",
+			"Atmospheric Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostland/3540273705'>Frostland</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostland/19017'>Frostland</a>", 
+			"Sweden",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostland/3540311545'>Frostland</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostland_Darkness/3540310335'>Frostland Darkness</a>", 
+			"Finland",
+			"Black Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostland_Tales/3540386896'>Frostland Tales</a>", 
+			"Czechia",
+			"Black/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostmoon/4024'>Frostmoon</a>", 
+			"Norway",
+			"Viking/Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostmoon_Eclipse/14247'>Frostmoon Eclipse</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostmoon_Eclipse/3243'>Frostmoon Eclipse</a>", 
+			"Italy",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostmoor/3540575874'>Frostmoor</a>", 
+			"Switzerland",
+			"Death/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostmorner/3540490271'>Frostmorner</a>", 
+			"Italy",
+			"Death Metal (early); Blackened Death Metal (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostmourne/3540332326'>Frostmourne</a>", 
+			"Italy",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostmourne/3540398790'>Frostmourne</a>", 
+			"Mexico",
+			"Melodic Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostnacht/97244'>Frostnacht</a>", 
+			"Austria",
+			"Black/Folk Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostnatt/48491'>Frostnatt</a>", 
+			"Sweden",
+			"Viking Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostnatt/3540460537'>Frostnatt</a>", 
+			"Russia",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostnoise/3540569302'>Frostnoise</a>", 
+			"Norway",
+			"Experimental/Harsh Noise/Drone, Black Metal/Noise",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostnoisemetal/3540531448'>Frostnoisemetal</a>", 
+			"Norway",
+			"Raw Black Metal/Noise",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostreaper/3540528218'>Frostreaper</a>", 
+			"Brazil",
+			"Black/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostreich/3540366028'>Frostreich</a>", 
+			"Germany",
+			"Post-Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostrike/21863'>Frostrike</a>", 
+			"Sweden",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostrune/3540504484'>Frostrune</a>", 
+			"United States",
+			"Atmospheric Black Metal, Dungeon Synth",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostseele/3540304957'>Frostseele</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostseele/3540342093'>Frostseele</a>", 
+			"Germany",
+			"Atmospheric Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostshock/3540521074'>Frostshock</a>", 
+			"Germany",
+			"Melodic Death/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostskadet/3540498425'>Frostskadet</a>", 
+			"Australia",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Fr%C3%B6stsk%C3%B6g/32936'>Fröstskög</a>", 
+			"International",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostskogr/26251'>Frostskogr</a>", 
+			"Norway",
+			"Black Metal (early); Darkwave/Ambient (later)",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostspawn/3540438850'>Frostspawn</a>", 
+			"Russia",
+			"Folk/Viking Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Froststarr/3540334987'>Froststarr</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frosttaage/3540564399'>Frosttaage</a>", 
+			"Denmark",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostthron/3540257941'>Frostthron</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostthrone/74156'>Frostthrone</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frosttide/3540312723'>Frosttide</a>", 
+			"Finland",
+			"Melodic Death/Folk Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostvang/3540409203'>Frostvang</a>", 
+			"Sweden",
+			"Black/Folk Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostveil/3540390175'>Frostveil</a>", 
+			"Australia",
+			"Black Metal/Ambient",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostveil/3540572360'>Frostveil</a>", 
+			"Russia",
+			"Atmospheric/Depressive Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostvoid/3540515313'>Frostvoid</a>", 
+			"Japan",
+			"Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostvore/3540469513'>Frostvore</a>", 
+			"Japan",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostwald/47773'>Frostwald</a>", 
+			"Brazil",
+			"Raw Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostwalker/3540543692'>Frostwalker</a>", 
+			"Australia",
+			"Black/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostwhore/3540505423'>Frostwhore</a>", 
+			"Norway",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostwind/27384'>Frostwind</a>", 
+			"Germany",
+			"Raw Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frostwork/122062'>Frostwork</a>", 
+			"United Kingdom",
+			"Ambient/Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frosty_Emotion/40925'>Frosty Emotion</a>", 
+			"Hungary",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frosty_Eve/113255'>Frosty Eve</a>", 
+			"China",
+			"Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frosty_Torment/3540503831'>Frosty Torment</a>", 
+			"Poland",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frothing/3540559155'>Frothing</a>", 
+			"Germany",
+			"Brutal Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frothwrought/3540428889'>Frothwrought</a>", 
+			"United States",
+			"Raw Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frown/3540368967'>Frown</a>", 
+			"Australia",
+			"Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frown/12246'>Frown</a>", 
+			"Slovakia",
+			"Gothic Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frowning/3540378884'>Frowning</a>", 
+			"Germany",
+			"Funeral Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frowning_Relique/3540476950'>Frowning Relique</a>", 
+			"United Kingdom",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen/56079'>Frozen</a>", 
+			"Chile",
+			"Melodic Power Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen/13858'>Frozen</a>", 
+			"United States",
+			"Progressive Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen/13110'>Frozen</a>", 
+			"Canada",
+			"Progressive/Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen/63845'>Frozen</a>", 
+			"Italy",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen/26048'>Frozen</a>", 
+			"Spain",
+			"Black/Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen/123337'>Frozen</a>", 
+			"Romania",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen/3540268009'>Frozen</a>", 
+			"Mexico",
+			"Metalcore",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen/3540269040'>Frozen</a>", 
+			"Germany",
+			"Death/Doom Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen/121338'>Frozen</a>", 
+			"Russia",
+			"Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Abyss/3540287814'>Frozen Abyss</a>", 
+			"Germany",
+			"Gothic/Doom Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Aeon/3540285732'>Frozen Aeon</a>", 
+			"Brazil",
+			"Death/Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Affliction/3540494138'>Frozen Affliction</a>", 
+			"United Kingdom",
+			"Melodic Death Metal/Deathcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Alive/3540389799'>Frozen Alive</a>", 
+			"Argentina",
+			"Atmospheric Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Arch/3540511123'>Frozen Arch</a>", 
+			"France",
+			"Melodic Heavy Metal/Hard Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Blood/3540445862'>Frozen Blood</a>", 
+			"Slovakia",
+			"Blackened Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Blood/45749'>Frozen Blood</a>", 
+			"Hungary",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Blood/3540519399'>Frozen Blood</a>", 
+			"Chile",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Blood/37874'>Frozen Blood</a>", 
+			"Austria",
+			"Death/Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Burial/3540266375'>Frozen Burial</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Burial/3540478434'>Frozen Burial</a>", 
+			"United States",
+			"Raw Black Metal/Noise",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_by_Fire/130090'>Frozen by Fire</a>", 
+			"United States",
+			"Heavy Metal/Hard Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Cadaver/3540332697'>Frozen Cadaver</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Caress/3540322451'>Frozen Caress</a>", 
+			"Italy",
+			"Ambient/Gothic/Doom Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Circle/101271'>Frozen Circle</a>", 
+			"France",
+			"Death Metal/Hardcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Corpse_Supremacy/58202'>Frozen Corpse Supremacy</a>", 
+			"France",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Cries/5775'>Frozen Cries</a>", 
+			"Norway",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Crown/3540436490'>Frozen Crown</a>", 
+			"Italy",
+			"Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Cruelty/67063'>Frozen Cruelty</a>", 
+			"Portugal",
+			"Black Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Crystal/3540482186'>Frozen Crystal</a>", 
+			"Netherlands",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Dandylions/3540358903'>Frozen Dandylions</a>", 
+			"United Kingdom",
+			"Drone/Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Darkness/76288'>Frozen Darkness</a>", 
+			"France",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Darkness/3540292532'>Frozen Darkness</a>", 
+			"Colombia",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Dawn/3540306730'>Frozen Dawn</a>", 
+			"Spain",
+			"Melodic Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Death/5185'>Frozen Death</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Doberman/7601'>Frozen Doberman</a>", 
+			"Australia",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Dreams/3540434993'>Frozen Dreams</a>", 
+			"Sweden",
+			"Atmospheric Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Dusk/120617'>Frozen Dusk</a>", 
+			"Romania",
+			"Gothic Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Dust/3540480837'>Frozen Dust</a>", 
+			"Germany",
+			"Heavy Metal/Metalcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Eclipse/3540490506'>Frozen Eclipse</a>", 
+			"Unknown",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Embers/67941'>Frozen Embers</a>", 
+			"United States",
+			"Melodic Death Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Empire/3540283439'>Frozen Empire</a>", 
+			"Russia",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Empire/3540354165'>Frozen Empire</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Eternity/77774'>Frozen Eternity</a>", 
+			"United States",
+			"Melodic Death Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Eyes/9327'>Frozen Eyes</a>", 
+			"Sweden",
+			"Heavy/Speed Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Fields/58176'>Frozen Fields</a>", 
+			"Germany",
+			"Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Fire/16781'>Frozen Fire</a>", 
+			"Brazil",
+			"Heavy/Power Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Flame/34680'>Frozen Flame</a>", 
+			"Finland",
+			"Heavy Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Flesh/3540375160'>Frozen Flesh</a>", 
+			"Mexico",
+			"Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Flesh_Order/3540496061'>Frozen Flesh Order</a>", 
+			"Canada",
+			"Atmospheric/Experimental Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Forest/63880'>Frozen Forest</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Forest/91079'>Frozen Forest</a>", 
+			"Croatia",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Fortress/3540477919'>Frozen Fortress</a>", 
+			"Italy",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Frost/3540386938'>Frozen Frost</a>", 
+			"Brazil",
+			"Thrash/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Gate/3540414348'>Frozen Gate</a>", 
+			"Switzerland",
+			"Symphonic Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Glare/19887'>Frozen Glare</a>", 
+			"Greece",
+			"Ambient Black/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Grave/3540316380'>Frozen Grave</a>", 
+			"Canada",
+			"Death/Pagan Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Graves/3540403853'>Frozen Graves</a>", 
+			"International",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Hell/3540363892'>Frozen Hell</a>", 
+			"Italy",
+			"Melodic Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Hope/3540403136'>Frozen Hope</a>", 
+			"Poland",
+			"Progressive Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Horizon/3540383337'>Frozen Horizon</a>", 
+			"Colombia",
+			"Depressive Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Illusion/19945'>Frozen Illusion</a>", 
+			"Germany",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_Illusion/82930'>Frozen Illusion</a>", 
+			"Germany",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_in_Frost/3540364865'>Frozen in Frost</a>", 
+			"Spain",
+			"Melodic Death/Thrash Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Frozen_in_Shadows/3540444644'>Frozen in Shadows</a>", 
+			"United Kingdom",
+			"Melodic Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				]
+}

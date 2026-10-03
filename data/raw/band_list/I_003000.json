@@ -1,0 +1,3506 @@
+{ 
+	"iTotalRecords": 7371,
+	"iTotalDisplayRecords": 7371,
+	"sEcho": 1,
+	"aaData": [
+			[ 
+			"<a href='https://www.metal-archives.com/bands/Industrial_Estate/108286'>Industrial Estate</a>", 
+			"Sweden",
+			"Industrial Black/Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Industrial_Noise/77888'>Industrial Noise</a>", 
+			"Brazil",
+			"Grindcore/Death Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Industrial_Suicide/3540276139'>Industrial Suicide</a>", 
+			"Greece",
+			"Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Industry_of_Nightmares/3540413873'>Industry of Nightmares</a>", 
+			"Greece",
+			"Avant-garde Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Induxi%C3%B3n_Mental/3540368105'>Induxión Mental</a>", 
+			"Argentina",
+			"Thrash/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Indwelled/3540431452'>Indwelled</a>", 
+			"Norway",
+			"Death/Doom Metal/Deathcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Indwelling/6819'>Indwelling</a>", 
+			"United States",
+			"Technical Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Indykush/80360'>Indykush</a>", 
+			"France",
+			"Groove/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Indyus/107394'>Indyus</a>", 
+			"Austria",
+			"Death/Thrash Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inearthed/32429'>Inearthed</a>", 
+			"Finland",
+			"Melodic Death/Power Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inebrians/3540384953'>Inebrians</a>", 
+			"Colombia",
+			"Technical Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inebriated/3540429723'>Inebriated</a>", 
+			"United States",
+			"Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inebriated_Winds/3540557607'>Inebriated Winds</a>", 
+			"Australia",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inebriation/40196'>Inebriation</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inebriation/3540457524'>Inebriation</a>", 
+			"United States",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inebriator/3540353935'>Inebriator</a>", 
+			"United States",
+			"Death/Thrash Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inebriator/3540445689'>Inebriator</a>", 
+			"Australia",
+			"Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inebrious_Bastard/3540519720'>Inebrious Bastard</a>", 
+			"Australia",
+			"Crust Punk/Grindcore/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inebrious_Incarnate/3540449175'>Inebrious Incarnate</a>", 
+			"United Kingdom",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inefable/108498'>Inefable</a>", 
+			"Argentina",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inefable/3540542177'>Inefable</a>", 
+			"Argentina",
+			"Progressive Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Ineffabilis/3540550319'>Ineffabilis</a>", 
+			"Brazil",
+			"Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Ineffable_Act/3540494512'>Ineffable Act</a>", 
+			"Brazil",
+			"Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Ineffable_Demise/3540442961'>Ineffable Demise</a>", 
+			"United Kingdom",
+			"Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inepsy/100893'>Inepsy</a>", 
+			"France",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inepsy/3540338810'>Inepsy</a>", 
+			"Canada",
+			"Speed/Heavy Metal/Punk",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inepsys/3540276602'>Inepsys</a>", 
+			"France",
+			"Progressive Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inept_Madness/3540335394'>Inept Madness</a>", 
+			"Sweden",
+			"Heavy/Doom Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Ineptia/3540467104'>Ineptia</a>", 
+			"Canada",
+			"Symphonic/Gothic/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Ineptie_Luminescente/3540279841'>Ineptie Luminescente</a>", 
+			"France",
+			"Black/Funeral Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inequicia/60591'>Inequicia</a>", 
+			"Colombia",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inequity/3540401194'>Inequity</a>", 
+			"Finland",
+			"Heavy/Thrash Metal/Hard Rock (early); Melodic Death Metal (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inercia/128044'>Inercia</a>", 
+			"Spain",
+			"Heavy Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inercial/3540462916'>Inercial</a>", 
+			"Spain",
+			"Progressive Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inert/43591'>Inert</a>", 
+			"United Kingdom",
+			"Death Metal/Grindcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inert/3540469643'>Inert</a>", 
+			"Colombia",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inert/3540411595'>Inert</a>", 
+			"International",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inerte/3540489756'>Inerte</a>", 
+			"Mexico",
+			"Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inerte/3540525184'>Inerte</a>", 
+			"France",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inerter/3540490596'>Inerter</a>", 
+			"Mexico",
+			"Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inerth/3540459098'>Inerth</a>", 
+			"Spain",
+			"Death/Doom/Industrial/Sludge Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inerthe/3540260002'>Inerthe</a>", 
+			"Brazil",
+			"Black/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inertia/3540452380'>Inertia</a>", 
+			"United States",
+			"Doom/Gothic Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inertia/3540300596'>Inertia</a>", 
+			"Greece",
+			"Power Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inertia/3540285840'>Inertia</a>", 
+			"France",
+			"Death/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inertia/3540539543'>Inertia</a>", 
+			"New Zealand",
+			"Thrash/Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inertia/20940'>Inertia</a>", 
+			"Italy",
+			"Thrash Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inertia/31436'>Inertia</a>", 
+			"Spain",
+			"Gothic/Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inertia/3540321529'>Inertia</a>", 
+			"Italy",
+			"Thrash Metal/Crossover",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inertia_Island/3540471498'>Inertia Island</a>", 
+			"United States",
+			"Heavy/Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inertia_Kills/3540460346'>Inertia Kills</a>", 
+			"Canada",
+			"Grindcore/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inertial_Mass/52559'>Inertial Mass</a>", 
+			"Spain",
+			"Avant-garde Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inertial_Oblivion/3540376338'>Inertial Oblivion</a>", 
+			"Greece",
+			"Progressive Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inertzia/3540539564'>Inertzia</a>", 
+			"France",
+			"Groove Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inerzia/3540421416'>Inerzia</a>", 
+			"Spain",
+			"Heavy/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inerzia/3540263038'>Inerzia</a>", 
+			"Spain",
+			"Thrash Metal/Crossover",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/In%C3%A9s_Ch%C3%A1vez/3540451340'>Inés Chávez</a>", 
+			"Mexico",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/InEvident/3540566472'>InEvident</a>", 
+			"United States",
+			"Atmospheric Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inevitable_Decline%3F/3540510158'>Inevitable Decline?</a>", 
+			"Australia",
+			"Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inevitable_End/31536'>Inevitable End</a>", 
+			"Sweden",
+			"Thrash/Death Metal (early); Death Metal/Grindcore (later)",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inevitable_Plague/3540393245'>Inevitable Plague</a>", 
+			"United States",
+			"Death/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inexacta/100158'>Inexacta</a>", 
+			"Chile",
+			"Groove Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inexceso/3540459024'>Inexceso</a>", 
+			"Spain",
+			"Heavy Metal/Hard Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inexcrete/3540464265'>Inexcrete</a>", 
+			"International",
+			"Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inexihibit/3540389502'>Inexihibit</a>", 
+			"Italy",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inexile/79311'>Inexile</a>", 
+			"United Kingdom",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inexist/19593'>Inexist</a>", 
+			"Russia",
+			"Melodic Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inexistence/3540448079'>Inexistence</a>", 
+			"Brazil",
+			"Technical Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inexistence/3540547165'>Inexistence</a>", 
+			"United States",
+			"Progressive Heavy/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inexistence/3540318378'>Inexistence</a>", 
+			"Argentina",
+			"Atmospheric Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inexistence_of_Aeon/3540419066'>Inexistence of Aeon</a>", 
+			"Germany",
+			"Technical Death Metal, Mathcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inexist%C3%AAncia/3540465162'>Inexistência</a>", 
+			"Brazil",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inexistent/3540325204'>Inexistent</a>", 
+			"Germany",
+			"Melodic Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inexistente/3540556230'>Inexistente</a>", 
+			"Unknown",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inexistenz/3540324122'>Inexistenz</a>", 
+			"Slovenia",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inexorable/119386'>Inexorable</a>", 
+			"Germany",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inexorable/64099'>Inexorable</a>", 
+			"Germany",
+			"Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inexorable/3540498825'>Inexorable</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inexorable_Chaos/3540437686'>Inexorable Chaos</a>", 
+			"Spain",
+			"Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inexorable_End/3540387605'>Inexorable End</a>", 
+			"Spain",
+			"Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inexorable_Flesh/3540503251'>Inexorable Flesh</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inexorable_Suffering/48281'>Inexorable Suffering</a>", 
+			"Germany",
+			"Melodic Death Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/InExordium/3540262125'>InExordium</a>", 
+			"Australia",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inexorum/3540442645'>Inexorum</a>", 
+			"United States",
+			"Melodic Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inextalis/3540367213'>Inextalis</a>", 
+			"Canada",
+			"Progressive Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inextremis/55724'>Inextremis</a>", 
+			"United Kingdom",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inextremis/3540454136'>Inextremis</a>", 
+			"Peru",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inextremus/3540294875'>Inextremus</a>", 
+			"United States",
+			"Heavy/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infact/3540500815'>Infact</a>", 
+			"Luxembourg",
+			"Groove Metal/Metalcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infadus/3540442147'>Infadus</a>", 
+			"Georgia",
+			"Progressive/Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infailtration/3540376280'>Infailtration</a>", 
+			"Germany",
+			"Death/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infallible/3540437313'>Infallible</a>", 
+			"Russia",
+			"Symphonic Black/Gothic Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infam/3540571781'>Infam</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infame/3540331101'>Infame</a>", 
+			"Chile",
+			"Sludge/Doom Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infame/93622'>Infame</a>", 
+			"Italy",
+			"Thrash/Groove Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infame/26068'>Infame</a>", 
+			"Brazil",
+			"Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infame/104921'>Infame</a>", 
+			"Argentina",
+			"Thrash/Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infamia/3540566907'>Infamia</a>", 
+			"Colombia",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infamia/61102'>Infamia</a>", 
+			"Italy",
+			"Progressive Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infamia/93372'>Infamia</a>", 
+			"Spain",
+			"Power Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infamia/3540562668'>Infamia</a>", 
+			"France",
+			"Black/Death/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infamie/3540530409'>Infamie</a>", 
+			"France",
+			"Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infamis/21777'>Infamis</a>", 
+			"Poland",
+			"Pagan Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infamis/3540584903'>Infamis</a>", 
+			"Poland",
+			"Death/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infamous/3540334716'>Infamous</a>", 
+			"Brazil",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infamous/3540308976'>Infamous</a>", 
+			"Italy",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infamous_Demise/3540451671'>Infamous Demise</a>", 
+			"United States",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infamous_Evil/17559'>Infamous Evil</a>", 
+			"Sweden",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infamous_Glory/13381'>Infamous Glory</a>", 
+			"Brazil",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infamous_Goat/3540588055'>Infamous Goat</a>", 
+			"Spain",
+			"Black/Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infamous_Pariah/3540468754'>Infamous Pariah</a>", 
+			"United Kingdom",
+			"Black/Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infamous_Plague/37916'>Infamous Plague</a>", 
+			"United States",
+			"Heavy/Thrash Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infamous_Sinphony/11263'>Infamous Sinphony</a>", 
+			"United States",
+			"Thrash Metal/Crossover",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infamovs/3540403167'>Infamovs</a>", 
+			"Chile",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infamus/104496'>Infamus</a>", 
+			"Germany",
+			"Death/Thrash Metal with Doom influences",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infamus/3540319476'>Infamus</a>", 
+			"Chile",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infamy/3540505683'>Infamy</a>", 
+			"Brazil",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infamy/56237'>Infamy</a>", 
+			"United States",
+			"Death/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infamy/12228'>Infamy</a>", 
+			"United States",
+			"Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infamy/3540374212'>Infamy</a>", 
+			"France",
+			"Black/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infamy/3540436971'>Infamy</a>", 
+			"Poland",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infamy/3540455666'>Infamy</a>", 
+			"India",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infamy/3540322805'>Infamy</a>", 
+			"Indonesia",
+			"Melodic Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infandous/3540365472'>Infandous</a>", 
+			"Unknown",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infandous/93859'>Infandous</a>", 
+			"United States",
+			"Deathcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infandus/3540473817'>Infandus</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infandvm/3540575140'>Infandvm</a>", 
+			"Brazil",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infant_Annihilator/3540458000'>Infant Annihilator</a>", 
+			"International",
+			"Technical Deathcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infant_Bile/58251'>Infant Bile</a>", 
+			"United Kingdom",
+			"Brutal Death Metal/Goregrind",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infant_Death/3540358751'>Infant Death</a>", 
+			"Norway",
+			"Black/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infant_Meat_Shield/3540426611'>Infant Meat Shield</a>", 
+			"Netherlands",
+			"Death/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infant_Neckbreaker/3540584510'>Infant Neckbreaker</a>", 
+			"United States",
+			"Slam/Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infant_Sacrifice/24329'>Infant Sacrifice</a>", 
+			"United States",
+			"Black/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infant_Skull/118812'>Infant Skull</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infant_Slug/87524'>Infant Slug</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infant_Torso_Heap/25048'>Infant Torso Heap</a>", 
+			"United States",
+			"Brutal Death Metal/Grindcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infantectomy/3540443558'>Infantectomy</a>", 
+			"United States",
+			"Slam/Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infanteria/3540352491'>Infanteria</a>", 
+			"South Africa",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infanticide/120068'>Infanticide</a>", 
+			"Norway",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infanticide/104711'>Infanticide</a>", 
+			"Sweden",
+			"Death/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infanticide/3540578823'>Infanticide</a>", 
+			"Sweden",
+			"Thrash/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infanticide/3540369963'>Infanticide</a>", 
+			"Russia",
+			"Thrash/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infanticide/3540286062'>Infanticide</a>", 
+			"Germany",
+			"Death/Groove Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infanticide/28554'>Infanticide</a>", 
+			"Sweden",
+			"Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infanticide/3540568743'>Infanticide</a>", 
+			"United States",
+			"Death/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infanticide/3540559797'>Infanticide</a>", 
+			"Belgium",
+			"Crossover",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infanticide/3540493761'>Infanticide</a>", 
+			"Indonesia",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infanticide/28368'>Infanticide</a>", 
+			"Czechia",
+			"Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infanticide/114658'>Infanticide</a>", 
+			"United States",
+			"Brutal Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infanticide/45286'>Infanticide</a>", 
+			"Norway",
+			"Death Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infantile/3540419053'>Infantile</a>", 
+			"Belgium",
+			"Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infantile_Dissention/3540466960'>Infantile Dissention</a>", 
+			"Canada",
+			"Black Metal/Post-Punk/Deathrock",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infantiphagia/3540257000'>Infantiphagia</a>", 
+			"United States",
+			"Experimental Brutal Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infantricide/3540303579'>Infantricide</a>", 
+			"Brazil",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infantry/3540429111'>Infantry</a>", 
+			"Netherlands",
+			"Thrash/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infantry/101234'>Infantry</a>", 
+			"United States",
+			"Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infantry_of_Cain/100977'>Infantry of Cain</a>", 
+			"France",
+			"Sludge/Drone/Doom Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infantry_of_Doom/15568'>Infantry of Doom</a>", 
+			"Germany",
+			"Death/Thrash Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infants_of_the_Afterlife/3540470355'>Infants of the Afterlife</a>", 
+			"International",
+			"Avant-garde Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infants_of_the_Arcane/3540459062'>Infants of the Arcane</a>", 
+			"United States",
+			"Black/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infantum/3540484320'>Infantum</a>", 
+			"Poland",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infarct_Focus/29183'>Infarct Focus</a>", 
+			"Ukraine",
+			"Brutal Death Metal/Grindcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infarctus/3540479930'>Infarctus</a>", 
+			"France",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infarkt/129167'>Infarkt</a>", 
+			"North Macedonia",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infarkt_XIII/3540455031'>Infarkt XIII</a>", 
+			"Germany",
+			"Metalcore/Groove Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infatuation_of_Death/24888'>Infatuation of Death</a>", 
+			"Poland",
+			"Brutal Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infaust/3540263740'>Infaust</a>", 
+			"Germany",
+			"Industrial Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infaust/58056'>Infaust</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infaustes/3540449802'>Infaustes</a>", 
+			"Paraguay",
+			"Black/Death/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infausto/3540435382'>Infausto</a>", 
+			"Argentina",
+			"Melodic Death Metal/Metalcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infaustus/29145'>Infaustus</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infearior/6380'>Infearior</a>", 
+			"Germany",
+			"Power/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infearnite/3540448239'>Infearnite</a>", 
+			"Poland",
+			"Progressive Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infecated/3540456455'>Infecated</a>", 
+			"Vietnam",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infecci%C3%B3n/3540437306'>Infección</a>", 
+			"Argentina",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infeccion/3540440919'>Infeccion</a>", 
+			"Mexico",
+			"Death/Thrash/Groove Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infecci%C3%B3n/3540485349'>Infección</a>", 
+			"Canada",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infecci%C3%B3n_Cr%C3%B3nica/30667'>Infección Crónica</a>", 
+			"Argentina",
+			"Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infecci%C3%B3n_Zombie/3540305610'>Infección Zombie</a>", 
+			"El Salvador",
+			"Death Metal/Goregrind",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infecdead/16407'>Infecdead</a>", 
+			"Germany",
+			"Brutal Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infect/129810'>Infect</a>", 
+			"Luxembourg",
+			"Thrash Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infect/52279'>Infect</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infect/14430'>Infect</a>", 
+			"France",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infect/122763'>Infect</a>", 
+			"Switzerland",
+			"Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infect/76996'>Infect</a>", 
+			"United States",
+			"Death/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infect/104685'>Infect</a>", 
+			"Germany",
+			"Death Metal/Hardcore/Grindcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infecta/3540588678'>Infecta</a>", 
+			"Ecuador",
+			"Goregrind/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infectai/3540530936'>Infectai</a>", 
+			"Brazil",
+			"Speed/Thrash Metal/Crust",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infectation/3540584511'>Infectation</a>", 
+			"Italy",
+			"Slam/Brutal Death Metal/Goregrind",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infectdead/3540547484'>Infectdead</a>", 
+			"Canada",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected/20482'>Infected</a>", 
+			"Türkiye",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected/32518'>Infected</a>", 
+			"Latvia",
+			"Technical/Progressive Death Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected/66328'>Infected</a>", 
+			"Belgium",
+			"Death/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected/3540424737'>Infected</a>", 
+			"Belgium",
+			"Groove/Thrash/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected/3540329779'>Infected</a>", 
+			"Italy",
+			"Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected/5687'>Infected</a>", 
+			"Australia",
+			"Industrial Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected/109144'>Infected</a>", 
+			"Brazil",
+			"Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected/36720'>Infected</a>", 
+			"Switzerland",
+			"Death/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected/3540508033'>Infected</a>", 
+			"Puerto Rico",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected/3540319384'>Infected</a>", 
+			"Germany",
+			"Death Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected/90273'>Infected</a>", 
+			"Greece",
+			"Thrash/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected/3540556200'>Infected</a>", 
+			"United States",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected/33195'>Infected</a>", 
+			"Ukraine",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected/101038'>Infected</a>", 
+			"Germany",
+			"Melodic Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected/32951'>Infected</a>", 
+			"Brazil",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected/3540300232'>Infected</a>", 
+			"Colombia",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected/40930'>Infected</a>", 
+			"Hungary",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected/3540322789'>Infected</a>", 
+			"Germany",
+			"Death/Doom/Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected/55270'>Infected</a>", 
+			"Italy",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected/3540397550'>Infected</a>", 
+			"Italy",
+			"Death/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Alive/3540509425'>Infected Alive</a>", 
+			"Guatemala",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Angel/3540543274'>Infected Angel</a>", 
+			"Philippines",
+			"Thrash Metal/Metalcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Asshole/3540344068'>Infected Asshole</a>", 
+			"Mexico",
+			"Brutal Death Metal/Goregrind",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Authoritah/3540338299'>Infected Authoritah</a>", 
+			"Germany",
+			"Melodic Thrash/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Blood/3540330116'>Infected Blood</a>", 
+			"Greece",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Brain/19233'>Infected Brain</a>", 
+			"Germany",
+			"Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Cadaver/3540413836'>Infected Cadaver</a>", 
+			"Denmark",
+			"Brutal Death Metal/Goregrind",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Cells/3540447801'>Infected Cells</a>", 
+			"Brazil",
+			"Death/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Chaos/3540394398'>Infected Chaos</a>", 
+			"International",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Conscience/3540511029'>Infected Conscience</a>", 
+			"United States",
+			"Brutal Death Metal/Grindcore",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Dead/3540433948'>Infected Dead</a>", 
+			"United Kingdom",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Disarray/2557'>Infected Disarray</a>", 
+			"United Kingdom",
+			"Technical Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Dogmas/3540364090'>Infected Dogmas</a>", 
+			"Costa Rica",
+			"Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Dreams/3540377647'>Infected Dreams</a>", 
+			"Poland",
+			"Heavy/Thrash/Groove Metal/Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Entrails/39338'>Infected Entrails</a>", 
+			"Netherlands",
+			"Brutal Death Metal/Grindcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Flesh/3540444419'>Infected Flesh</a>", 
+			"Russia",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Flesh/1956'>Infected Flesh</a>", 
+			"Spain",
+			"Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_God/3540513687'>Infected God</a>", 
+			"United States",
+			"Brutal Death Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Guts/117354'>Infected Guts</a>", 
+			"Russia",
+			"Slam/Brutal Death Metal, Goregrind",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Humans/3540478370'>Infected Humans</a>", 
+			"Ecuador",
+			"Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Intestines/38917'>Infected Intestines</a>", 
+			"Finland",
+			"Death Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Laceration/3540455390'>Infected Laceration</a>", 
+			"United States",
+			"Slam/Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Load/3540491015'>Infected Load</a>", 
+			"United States",
+			"Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Malignancy/3540587083'>Infected Malignancy</a>", 
+			"United States",
+			"Slam/Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Malignity/33255'>Infected Malignity</a>", 
+			"Japan",
+			"Brutal Death Metal (early); Melodic Deathcore (later)",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Mankind/3540504549'>Infected Mankind</a>", 
+			"Belgium",
+			"Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Messiah/30324'>Infected Messiah</a>", 
+			"United States",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Mind/70960'>Infected Mind</a>", 
+			"Poland",
+			"Death/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Mind/78707'>Infected Mind</a>", 
+			"Brazil",
+			"Death/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Morals/3540453987'>Infected Morals</a>", 
+			"Greece",
+			"Thrash/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Morchirium/3540534989'>Infected Morchirium</a>", 
+			"Brazil",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Mortuary/3540569466'>Infected Mortuary</a>", 
+			"Italy",
+			"Slam/Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Noise/66634'>Infected Noise</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Noise/66260'>Infected Noise</a>", 
+			"Switzerland",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Noize/3540566598'>Infected Noize</a>", 
+			"Russia",
+			"Grindcore/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Omnipotence/3540351692'>Infected Omnipotence</a>", 
+			"Dominican Republic",
+			"Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Plague/3540488281'>Infected Plague</a>", 
+			"Spain",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Priest/3540393220'>Infected Priest</a>", 
+			"Finland",
+			"Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Religion/3540465491'>Infected Religion</a>", 
+			"United States",
+			"Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Scrotum/96363'>Infected Scrotum</a>", 
+			"France",
+			"Deathcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Shit/102035'>Infected Shit</a>", 
+			"Netherlands",
+			"Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Society/3540350016'>Infected Society</a>", 
+			"France",
+			"Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Sphere/3540428588'>Infected Sphere</a>", 
+			"Brazil",
+			"Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Stench/3540495668'>Infected Stench</a>", 
+			"United States",
+			"Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Stigmata/3540480889'>Infected Stigmata</a>", 
+			"United States",
+			"Death Metal/Grindcore",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Suppuration/96647'>Infected Suppuration</a>", 
+			"Austria",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Swarm/3540410763'>Infected Swarm</a>", 
+			"Russia",
+			"Brutal Deathcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Syren/3540493109'>Infected Syren</a>", 
+			"Cyprus",
+			"Groove/Thrash Metal/Thrash 'n' Roll",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Tendence/3284'>Infected Tendence</a>", 
+			"Indonesia",
+			"Grindcore",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Thoughts/3540549287'>Infected Thoughts</a>", 
+			"Russia",
+			"Depressive Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Transistor/3540417512'>Infected Transistor</a>", 
+			"Australia",
+			"Sludge Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Union/3540428522'>Infected Union</a>", 
+			"Germany",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Virulence/25008'>Infected Virulence</a>", 
+			"Germany",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Voice/3540435354'>Infected Voice</a>", 
+			"Indonesia",
+			"Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infected_Voice/3540268474'>Infected Voice</a>", 
+			"Poland",
+			"Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infecthead/128233'>Infecthead</a>", 
+			"Italy",
+			"Industrial/Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infecticide_Machine/3540539519'>Infecticide Machine</a>", 
+			"United States",
+			"Thrash/Sludge Metal/Crossover/Hardcore Punk",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infecting_Hate/112302'>Infecting Hate</a>", 
+			"Switzerland",
+			"Grindcore/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infecting_the_Soul/104343'>Infecting the Soul</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infecting_the_Swarm/3540380376'>Infecting the Swarm</a>", 
+			"Germany",
+			"Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infection/3540442380'>Infection</a>", 
+			"Germany",
+			"Speed Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infection/110876'>Infection</a>", 
+			"Brazil",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infection/3540321386'>Infection</a>", 
+			"Spain",
+			"Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infection/54644'>Infection</a>", 
+			"Germany",
+			"Brutal Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infection/3540472183'>Infection</a>", 
+			"Chile",
+			"Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infection/97249'>Infection</a>", 
+			"Peru",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infection/3540546537'>Infection</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infection/96492'>Infection</a>", 
+			"Greece",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infection/90865'>Infection</a>", 
+			"Hungary",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infection_After_Surgery/3540509010'>Infection After Surgery</a>", 
+			"International",
+			"Gorenoise (early); Goregrind (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infection_Attack/3540372608'>Infection Attack</a>", 
+			"Mexico",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infection_Bleeding/3540482573'>Infection Bleeding</a>", 
+			"Indonesia",
+			"Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infection_Code/4909'>Infection Code</a>", 
+			"Italy",
+			"Industrial/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infection_Corpses/3540300701'>Infection Corpses</a>", 
+			"Indonesia",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infection_Death/95692'>Infection Death</a>", 
+			"Czechia",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infection_of_Heaven/3540392631'>Infection of Heaven</a>", 
+			"Greece",
+			"Melodic Death Metal/Deathcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infection_Zero/42756'>Infection Zero</a>", 
+			"Germany",
+			"Melodic Death Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infectious/68098'>Infectious</a>", 
+			"Japan",
+			"Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infectious/3540583072'>Infectious</a>", 
+			"Canada",
+			"Stoner Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infectious_Algorithm/3540567219'>Infectious Algorithm</a>", 
+			"Argentina",
+			"Technical Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infectious_Catheter_Therapy/127265'>Infectious Catheter Therapy</a>", 
+			"Russia",
+			"Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infectious_Disease/3540445783'>Infectious Disease</a>", 
+			"Indonesia",
+			"Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infectious_Germs/96585'>Infectious Germs</a>", 
+			"Czechia",
+			"Death Metal/Grindcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infectious_Grooves/3540307320'>Infectious Grooves</a>", 
+			"United States",
+			"Funk Metal/Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infectious_Hate/3540374544'>Infectious Hate</a>", 
+			"France",
+			"Death/Groove Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infectious_Jelqing/3540518205'>Infectious Jelqing</a>", 
+			"United States",
+			"Slam/Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infectious_Maggots/38970'>Infectious Maggots</a>", 
+			"Malaysia",
+			"Industrial Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infectious_MG_42/4820'>Infectious MG 42</a>", 
+			"France",
+			"Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infectious_Offerings/3540345268'>Infectious Offerings</a>", 
+			"Brazil",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infectious_Outbreak/3540444690'>Infectious Outbreak</a>", 
+			"South Africa",
+			"Grindcore/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infectious_Passion/3540318497'>Infectious Passion</a>", 
+			"Germany",
+			"Heavy Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infectious_Pit/3540577633'>Infectious Pit</a>", 
+			"Hungary",
+			"Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infectious_Waste/3540493114'>Infectious Waste</a>", 
+			"United States",
+			"Death Metal/Crossover",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infectious_Waste/3540531382'>Infectious Waste</a>", 
+			"United States",
+			"Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infective_Decay/3540484580'>Infective Decay</a>", 
+			"Germany",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infective_Symphony/3540382247'>Infective Symphony</a>", 
+			"Mexico",
+			"Death Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infecto/3540390068'>Infecto</a>", 
+			"Mexico",
+			"Brutal Death Metal/Deathcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infecto_Cadaver/3540295501'>Infecto Cadaver</a>", 
+			"Spain",
+			"Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infectology/3540336915'>Infectology</a>", 
+			"Ecuador",
+			"Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infectonator/3540364369'>Infectonator</a>", 
+			"United States",
+			"Blackened Thrash/Speed Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infector/3540433980'>Infector</a>", 
+			"Chile",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infector/3540498611'>Infector</a>", 
+			"United States",
+			"Black/Speed Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infector/3540463311'>Infector</a>", 
+			"Cuba",
+			"Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infector/8167'>Infector</a>", 
+			"Brazil",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infector_Cell/3540379591'>Infector Cell</a>", 
+			"Brazil",
+			"Thrash/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infectoria/20976'>Infectoria</a>", 
+			"Puerto Rico",
+			"Metalcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infectorium/3540562085'>Infectorium</a>", 
+			"United States",
+			"Deathcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infectos/3540358656'>Infectos</a>", 
+			"Brazil",
+			"Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infectosis/3540360391'>Infectosis</a>", 
+			"Chile",
+			"Thrash/Death Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infectous_Arteries/3540297988'>Infectous Arteries</a>", 
+			"Indonesia",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infects_Humanity/12882'>Infects Humanity</a>", 
+			"Brazil",
+			"Heavy Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infecttos/3540309819'>Infecttos</a>", 
+			"Brazil",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infectus/3540485401'>Infectus</a>", 
+			"Chile",
+			"Heavy/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infectus/17439'>Infectus</a>", 
+			"United Kingdom",
+			"Death/Thrash Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infectus/3540325208'>Infectus</a>", 
+			"Brazil",
+			"Black/Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infectus/3540310249'>Infectus</a>", 
+			"Hungary",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infectus_Prepucius/3540545941'>Infectus Prepucius</a>", 
+			"Chile",
+			"Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infeksi/3540382245'>Infeksi</a>", 
+			"Indonesia",
+			"Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infekt/35353'>Infekt</a>", 
+			"Netherlands",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infekt/3540320864'>Infekt</a>", 
+			"United States",
+			"Metalcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infekted/3540433074'>Infekted</a>", 
+			"Chile",
+			"Heavy/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infekted/3540337129'>Infekted</a>", 
+			"France",
+			"Deathcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infektion/3540306512'>Infektion</a>", 
+			"Australia",
+			"Black/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infektion/3540397664'>Infektion</a>", 
+			"United States",
+			"Thrash Metal/Crossover",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infektion/3540312430'>Infektion</a>", 
+			"Netherlands",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infektomos/3540542165'>Infektomos</a>", 
+			"Germany",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infektor/3540340387'>Infektor</a>", 
+			"International",
+			"Black/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infektor/32757'>Infektor</a>", 
+			"Spain",
+			"Thrash Metal with Folk influences (early); Thrash Metal (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infektus/43592'>Infektus</a>", 
+			"Brazil",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infensus/41049'>Infensus</a>", 
+			"Norway",
+			"Black/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infensus_Inferi/3540310429'>Infensus Inferi</a>", 
+			"United States",
+			"Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infer/32535'>Infer</a>", 
+			"Slovakia",
+			"Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infera_Bruo/3540339780'>Infera Bruo</a>", 
+			"United States",
+			"Progressive Black Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferahl/3540423381'>Inferahl</a>", 
+			"Greece",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferal/54058'>Inferal</a>", 
+			"Finland",
+			"Heavy/Speed Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferator/3540574145'>Inferator</a>", 
+			"Colombia",
+			"Blackened Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferatus/3540370792'>Inferatus</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infercia/3540442623'>Infercia</a>", 
+			"Japan",
+			"Melodic Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inf%C3%A8ren/3540338150'>Infèren</a>", 
+			"Italy",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferi/25881'>Inferi</a>", 
+			"Finland",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferi/3540291105'>Inferi</a>", 
+			"Mexico",
+			"Speed Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferi/26436'>Inferi</a>", 
+			"Italy",
+			"Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferi/93823'>Inferi</a>", 
+			"United States",
+			"Melodic Death Metal (early); Technical/Melodic Death Metal (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferi/14464'>Inferi</a>", 
+			"Netherlands",
+			"Black Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferi/7598'>Inferi</a>", 
+			"Argentina",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferi/64206'>Inferi</a>", 
+			"Italy",
+			"Black Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferi_Gloria/108079'>Inferi Gloria</a>", 
+			"France",
+			"Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferi_Nebula_Mortuum/3540375698'>Inferi Nebula Mortuum</a>", 
+			"Germany",
+			"Pagan Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferia/2558'>Inferia</a>", 
+			"Finland",
+			"Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferiah/15390'>Inferiah</a>", 
+			"Sweden",
+			"Heavy Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferial/3540567822'>Inferial</a>", 
+			"Chile",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferial/3540556859'>Inferial</a>", 
+			"Finland",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferial/3540542392'>Inferial</a>", 
+			"Poland",
+			"Death/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferialis/108581'>Inferialis</a>", 
+			"Moldova",
+			"Gothic/Doom Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferion/84588'>Inferion</a>", 
+			"Finland",
+			"Thrash Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferion/42903'>Inferion</a>", 
+			"United States",
+			"Blackened Melodic Death Metal (early); Melodic Death Metal (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferior/3540561938'>Inferior</a>", 
+			"United States",
+			"Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferior/123942'>Inferior</a>", 
+			"Sweden",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferior/78378'>Inferior</a>", 
+			"Finland",
+			"Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferior/3540510396'>Inferior</a>", 
+			"Belgium",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferior/3540313547'>Inferior</a>", 
+			"Sweden",
+			"Melodic Death/Thrash Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferior/21990'>Inferior</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferior/3540476902'>Inferior</a>", 
+			"Germany",
+			"Progressive Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferior_Design/3540440695'>Inferior Design</a>", 
+			"United States",
+			"Heavy/Groove Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferior_Planet/3540459944'>Inferior Planet</a>", 
+			"United Kingdom",
+			"Heavy/Progressive Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferior_Wretch/3540469109'>Inferior Wretch</a>", 
+			"Japan",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferis/5392'>Inferis</a>", 
+			"Australia",
+			"Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferis/3540300897'>Inferis</a>", 
+			"Norway",
+			"Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferis/62594'>Inferis</a>", 
+			"Chile",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferis/16837'>Inferis</a>", 
+			"Chile",
+			"Heavy/Power Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferisium/3540525366'>Inferisium</a>", 
+			"United Kingdom",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferit/3540421810'>Inferit</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferitvm/3540402944'>Inferitvm</a>", 
+			"Spain",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferium/3540569982'>Inferium</a>", 
+			"Canada",
+			"Progressive Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferium/3540444322'>Inferium</a>", 
+			"Philippines",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferius/3540297933'>Inferius</a>", 
+			"Brazil",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferivm/122488'>Inferivm</a>", 
+			"Portugal",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferms/3540346465'>Inferms</a>", 
+			"Brazil",
+			"Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infern/3540489452'>Infern</a>", 
+			"France",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferna/3540433428'>Inferna</a>", 
+			"Russia",
+			"Heavy/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferna/3540323481'>Inferna</a>", 
+			"Mexico",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferna/39621'>Inferna</a>", 
+			"Norway",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Inferna_Ley/3540434522'>Inferna Ley</a>", 
+			"Bolivia",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernaculum/3540518372'>Infernaculum</a>", 
+			"Spain",
+			"Grindcore/Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernacy/3540502885'>Infernacy</a>", 
+			"Georgia",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernaeon/22566'>Infernaeon</a>", 
+			"United States",
+			"Melodic Death/Black/Thrash Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal/3540429073'>Infernal</a>", 
+			"Australia",
+			"Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal/3540546331'>Infernal</a>", 
+			"Slovakia",
+			"Doom/Gothic/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal/72754'>Infernal</a>", 
+			"Norway",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal/48466'>Infernal</a>", 
+			"Sweden",
+			"Black/Death Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal/19029'>Infernal</a>", 
+			"Germany",
+			"Black/Thrash Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal/3540333915'>Infernal</a>", 
+			"Sweden",
+			"Melodic Death Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal/7006'>Infernal</a>", 
+			"Sweden",
+			"Black/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal/3540500067'>Infernal</a>", 
+			"Greece",
+			"Death/Doom Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal/9596'>Infernal</a>", 
+			"Colombia",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal/2434'>Infernal</a>", 
+			"Brazil",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal/3540353462'>Infernal</a>", 
+			"Guatemala",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal/45763'>Infernal</a>", 
+			"Hungary",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal/15059'>Infernal</a>", 
+			"United States",
+			"Death/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal/3540340442'>Infernal</a>", 
+			"Sri Lanka",
+			"Heavy/Thrash Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal/3540262131'>Infernal</a>", 
+			"Greece",
+			"Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal/3540440318'>Infernal</a>", 
+			"Argentina",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Abomination/3540528312'>Infernal Abomination</a>", 
+			"Brazil",
+			"Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Abyss/3540318989'>Infernal Abyss</a>", 
+			"United States",
+			"Thrash Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Aggression/117867'>Infernal Aggression</a>", 
+			"United States",
+			"Thrash/Groove Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Alchemy/3540355127'>Infernal Alchemy</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Altar/3540391776'>Infernal Altar</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Angels/14662'>Infernal Angels</a>", 
+			"Italy",
+			"Melodic Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Antarctica/3540284273'>Infernal Antarctica</a>", 
+			"Hungary",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Apparition/3540477713'>Infernal Apparition</a>", 
+			"United States",
+			"Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Ascension/3540406947'>Infernal Ascension</a>", 
+			"Costa Rica",
+			"Blackened Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Assault/125020'>Infernal Assault</a>", 
+			"United States",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Assault/3540381534'>Infernal Assault</a>", 
+			"Germany",
+			"Black/Speed Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Atavism/30220'>Infernal Atavism</a>", 
+			"Japan",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Atrocity/3540306578'>Infernal Atrocity</a>", 
+			"Chile",
+			"Death/Thrash Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Atr%C3%B6z/3540541048'>Infernal Atröz</a>", 
+			"Brazil",
+			"Black/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Attack/3540414120'>Infernal Attack</a>", 
+			"Brazil",
+			"Black/Thrash/Speed Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Awakening/3540380481'>Infernal Awakening</a>", 
+			"United States",
+			"Black/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Backlash/3540408093'>Infernal Backlash</a>", 
+			"Chile",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Baptism/3540376924'>Infernal Baptism</a>", 
+			"Germany",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Barbaroth/3540488618'>Infernal Barbaroth</a>", 
+			"International",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Beauty/17870'>Infernal Beauty</a>", 
+			"Belgium",
+			"Melodic Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Bierschi%C3%9F/3540515967'>Infernal Bierschiß</a>", 
+			"Germany",
+			"Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Bizarre/3540394531'>Infernal Bizarre</a>", 
+			"Poland",
+			"Death/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Blasphemer/3540562504'>Infernal Blasphemer</a>", 
+			"United States",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Blasphemy/21870'>Infernal Blasphemy</a>", 
+			"Brazil",
+			"Death/Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Blasphemy/9122'>Infernal Blasphemy</a>", 
+			"Germany",
+			"Melodic Black/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Blast/3540433173'>Infernal Blast</a>", 
+			"France",
+			"Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Blaze/3540314646'>Infernal Blaze</a>", 
+			"Czechia",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Blaze/3540529560'>Infernal Blaze</a>", 
+			"Japan",
+			"Melodic Death Metal/Metalcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Bleeding/3540535133'>Infernal Bleeding</a>", 
+			"Iceland",
+			"Atmospheric/Depressive Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Blood/27643'>Infernal Blood</a>", 
+			"Brazil",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Bloodlust/3540341176'>Infernal Bloodlust</a>", 
+			"Mexico",
+			"Brutal Death Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Bloodshed/3540516485'>Infernal Bloodshed</a>", 
+			"Sweden",
+			"Black/Speed Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Body/3540423756'>Infernal Body</a>", 
+			"United Kingdom",
+			"Black Metal/Punk",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Boozer/3540318279'>Infernal Boozer</a>", 
+			"Germany",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Butchery/106786'>Infernal Butchery</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Cadaver/3540585032'>Infernal Cadaver</a>", 
+			"United States",
+			"Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Carnage/3540318281'>Infernal Carnage</a>", 
+			"Switzerland",
+			"Death Metal/Grindcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Carnage/3540465053'>Infernal Carnage</a>", 
+			"Türkiye",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Cathedral/3540469471'>Infernal Cathedral</a>", 
+			"United States",
+			"Raw/Depressive Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Cemetery/3540338689'>Infernal Cemetery</a>", 
+			"Ecuador",
+			"Black Metal (early); Black/Death Metal (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Ceremony/3540371095'>Infernal Ceremony</a>", 
+			"Ecuador",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Chaos/123924'>Infernal Chaos</a>", 
+			"Korea, South",
+			"Melodic Death/Power Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Chaos/121115'>Infernal Chaos</a>", 
+			"Taiwan",
+			"Melodic Death Metal/Metalcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Circle/3540537256'>Infernal Circle</a>", 
+			"France",
+			"Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Coil/3540413609'>Infernal Coil</a>", 
+			"United States",
+			"Black/Death Metal/Grindcore",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Command/21074'>Infernal Command</a>", 
+			"Paraguay",
+			"Thrash/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Conjuration/101944'>Infernal Conjuration</a>", 
+			"Mexico",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Conquest/3540364412'>Infernal Conquest</a>", 
+			"United States",
+			"Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Contract/3540284522'>Infernal Contract</a>", 
+			"United States",
+			"Neoclassical Progressive/Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Corpse/3540413199'>Infernal Corpse</a>", 
+			"Indonesia",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Course/34590'>Infernal Course</a>", 
+			"Brazil",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Creation/3540336920'>Infernal Creation</a>", 
+			"United Kingdom",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Cross/3540553180'>Infernal Cross</a>", 
+			"Sweden",
+			"Blackened Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Crown/3540517932'>Infernal Crown</a>", 
+			"Germany",
+			"Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Crucifixion/3540475289'>Infernal Crucifixion</a>", 
+			"Mexico",
+			"Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Cry/3540390798'>Infernal Cry</a>", 
+			"Russia",
+			"Gothic/Doom/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Cult/3540419847'>Infernal Cult</a>", 
+			"Czechia",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Cunt_Imploder/3540517742'>Infernal Cunt Imploder</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Curse/3540280960'>Infernal Curse</a>", 
+			"Argentina",
+			"Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Curse/103097'>Infernal Curse</a>", 
+			"Germany",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Damnation/92316'>Infernal Damnation</a>", 
+			"United States",
+			"Death/Thrash/Speed Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Darkness/3540402259'>Infernal Darkness</a>", 
+			"Finland",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Death/24100'>Infernal Death</a>", 
+			"United States",
+			"Black/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Death/54410'>Infernal Death</a>", 
+			"Poland",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infern%C3%A4l_Death/94886'>Infernäl Death</a>", 
+			"Germany",
+			"Black/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Death/3540277947'>Infernal Death</a>", 
+			"United Kingdom",
+			"Speed/Thrash/Power Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Death/3540484053'>Infernal Death</a>", 
+			"Ecuador",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Death/67824'>Infernal Death</a>", 
+			"Russia",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Death/36853'>Infernal Death</a>", 
+			"Denmark",
+			"Death Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Deathcrusher/3540310746'>Infernal Deathcrusher</a>", 
+			"Brazil",
+			"Death/Black Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Decay/5210'>Infernal Decay</a>", 
+			"Belgium",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Defilement/3540384844'>Infernal Defilement</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Deity/34804'>Infernal Deity</a>", 
+			"United States",
+			"Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Descent/3540539625'>Infernal Descent</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Desecration/3540261466'>Infernal Desecration</a>", 
+			"Czechia",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Desekration/3540590092'>Infernal Desekration</a>", 
+			"United States",
+			"Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Desire/118952'>Infernal Desire</a>", 
+			"Indonesia",
+			"Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Despair/3540533742'>Infernal Despair</a>", 
+			"United States",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Destruction/3540396477'>Infernal Destruction</a>", 
+			"Estonia",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Devastation/3540519356'>Infernal Devastation</a>", 
+			"Germany",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Devotion/27544'>Infernal Devotion</a>", 
+			"Brazil",
+			"Raw Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Diatribe/3540411515'>Infernal Diatribe</a>", 
+			"India",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Disdain/105807'>Infernal Disdain</a>", 
+			"Germany",
+			"Death/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Domain/3540535595'>Infernal Domain</a>", 
+			"Chile",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Dominion/3600'>Infernal Dominion</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Doom/87172'>Infernal Doom</a>", 
+			"Chile",
+			"Progressive Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Dream/3540546655'>Infernal Dream</a>", 
+			"Netherlands",
+			"Melodic Death Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Infernal_Dreamquest/3540300124'>Infernal Dreamquest</a>", 
+			"Greece",
+			"Melodic Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				]
+}

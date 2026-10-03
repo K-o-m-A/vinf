@@ -1,0 +1,839 @@
+{ 
+	"iTotalRecords": 5619,
+	"iTotalDisplayRecords": 5619,
+	"sEcho": 1,
+	"aaData": [
+			[ 
+			"<a href='https://www.metal-archives.com/bands/Wvrm/3540383732'>Wvrm</a>", 
+			"United States",
+			"Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/WWII/26059'>WWII</a>", 
+			"Canada",
+			"Black Metal/Dark Ambient",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/WWIII/5965'>WWIII</a>", 
+			"United States",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/WWJD/121467'>WWJD</a>", 
+			"United States",
+			"Black/Death Metal/Grindcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/WxCxM/3540483874'>WxCxM</a>", 
+			"Brazil",
+			"Thrash Metal/Crossover",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/WxIxDxB/3540404541'>WxIxDxB</a>", 
+			"Malaysia",
+			"Death Metal/Grindcore",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wxrldfxcker/3540581589'>Wxrldfxcker</a>", 
+			"Australia",
+			"Technical Death/Industrial Metal/Metalcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyatt_E./3540399604'>Wyatt E.</a>", 
+			"Belgium",
+			"Drone/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wycca/3540526925'>Wycca</a>", 
+			"France",
+			"Atmospheric Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wych/3540483508'>Wych</a>", 
+			"Canada",
+			"Metalcore/Deathcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wych_Elm/3540492181'>Wych Elm</a>", 
+			"France",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyche/3540507883'>Wyche</a>", 
+			"United Kingdom",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wychhound/3540398021'>Wychhound</a>", 
+			"United Kingdom",
+			"Heavy/Stoner Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wycked/112372'>Wycked</a>", 
+			"United States",
+			"Heavy/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wycked_Heart/3540494840'>Wycked Heart</a>", 
+			"United States",
+			"Heavy/Power Metal/Hard Rock",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wycked_Synn/10279'>Wycked Synn</a>", 
+			"United States",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wycliff/96056'>Wycliff</a>", 
+			"Italy",
+			"Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wydfara%27s_Prophecy/69914'>Wydfara's Prophecy</a>", 
+			"Austria",
+			"Melodic Death/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyer/3540441683'>Wyer</a>", 
+			"Italy",
+			"Post-Black Metal, Ambient",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wykan/3540439646'>Wykan</a>", 
+			"Canada",
+			"Black/Stoner/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wykked_Wytch/3968'>Wykked Wytch</a>", 
+			"United States",
+			"Black/Gothic Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyld_Ryde/3540473366'>Wyld Ryde</a>", 
+			"United States",
+			"Heavy Metal/Hard Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyld_Stallynz/3540261436'>Wyld Stallynz</a>", 
+			"Germany",
+			"Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyld_Timez/3540508440'>Wyld Timez</a>", 
+			"United States",
+			"Blackened Heavy/Speed Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyldefyre/3540495660'>Wyldefyre</a>", 
+			"United Kingdom",
+			"NWOBHM/Heavy Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyldhaus/3540475612'>Wyldhaus</a>", 
+			"Canada",
+			"Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wylk/3540584225'>Wylk</a>", 
+			"Germany",
+			"Atmospheric Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wylve/3540342177'>Wylve</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/WYM/3540434086'>WYM</a>", 
+			"Thailand",
+			"Heavy/Speed Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyman_Bros./3540571788'>Wyman Bros.</a>", 
+			"United States",
+			"Groove/Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wynch/100741'>Wynch</a>", 
+			"United States",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wynd/3540510558'>Wynd</a>", 
+			"Germany",
+			"Psychedelic Stoner/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/WyndRider/3540518909'>WyndRider</a>", 
+			"United States",
+			"Stoner/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyngs_ov_Despair/3540397684'>Wyngs ov Despair</a>", 
+			"United States",
+			"Atmospheric/Depressive Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wynjara/7107'>Wynjara</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wynken_Delirium/3540472204'>Wynken Delirium</a>", 
+			"International",
+			"Progressive Sludge Metal/Psychedelic Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wynter/3540584463'>Wynter</a>", 
+			"United States",
+			"Heavy Metal/Hard Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wynter_Kills/3540532042'>Wynter Kills</a>", 
+			"United States",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wynter_Myst/3540463687'>Wynter Myst</a>", 
+			"United Kingdom",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wynterborne/98054'>Wynterborne</a>", 
+			"United States",
+			"Melodic Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wynther/3540535403'>Wynther</a>", 
+			"Germany",
+			"Melodic Doom/Gothic Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyoming_Young_and_Strong/3540471170'>Wyoming Young and Strong</a>", 
+			"United States",
+			"Sludge Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyqm/3540274094'>Wyqm</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrblod/3540553604'>Wyrblod</a>", 
+			"United States",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrd/3563'>Wyrd</a>", 
+			"Finland",
+			"Black/Folk/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrd_from_Runa%27s_Stream/3540582444'>Wyrd from Runa's Stream</a>", 
+			"United States",
+			"Raw Pagan Black Metal, Ambient",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrden/44604'>Wyrden</a>", 
+			"Finland",
+			"Folk Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrdforge/3540377846'>Wyrdforge</a>", 
+			"United Kingdom",
+			"Black/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrdgew%C3%A6dera/3540573592'>Wyrdgewædera</a>", 
+			"United Kingdom",
+			"Black Metal/Dark Ambient",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrdst%C3%A6f/3540585367'>Wyrdstæf</a>", 
+			"United Kingdom",
+			"Black/Death Metal, Folk/Dark Ambient",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrdwood_Wraith/3540570012'>Wyrdwood Wraith</a>", 
+			"United Kingdom",
+			"Neoclassical/Epic Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrdwraak/3540580496'>Wyrdwraak</a>", 
+			"Netherlands",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyred/3540285313'>Wyred</a>", 
+			"United States",
+			"Progressive/Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrgan/3540393227'>Wyrgan</a>", 
+			"United States",
+			"Post-Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrgher/3540399696'>Wyrgher</a>", 
+			"Switzerland",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrm/13090'>Wyrm</a>", 
+			"Italy",
+			"Epic Power Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrm/20034'>Wyrm</a>", 
+			"Czechia",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrm_Burden/3540564630'>Wyrm Burden</a>", 
+			"United States",
+			"Epic Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrm_Chasm/3540398226'>Wyrm Chasm</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrm_Ryder/3540395872'>Wyrm Ryder</a>", 
+			"United States",
+			"Sludge Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrm_Sub_Terra/3540375317'>Wyrm Sub Terra</a>", 
+			"Estonia",
+			"Groove/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrm_Summon/3540483157'>Wyrm Summon</a>", 
+			"Spain",
+			"Power Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrmblood/3540562126'>Wyrmblood</a>", 
+			"United States",
+			"Blackened Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrmhaven/3540472606'>Wyrmhaven</a>", 
+			"United States",
+			"Melodic Death Metal/Deathcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrmling/3540474166'>Wyrmling</a>", 
+			"Canada",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrmoon/3540535067'>Wyrmoon</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrms/3540275318'>Wyrms</a>", 
+			"France",
+			"Black Metal/Ambient",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrmseer/3540580017'>Wyrmseer</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrmtongue/3540567060'>Wyrmtongue</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrmvold/3540543125'>Wyrmvold</a>", 
+			"United States",
+			"Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrmwoods/3540435596'>Wyrmwoods</a>", 
+			"Finland",
+			"Avant-garde/Atmospheric Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrocznia/3540317314'>Wyrocznia</a>", 
+			"Germany",
+			"Black/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrocznia/3540289462'>Wyrocznia</a>", 
+			"Poland",
+			"Death Metal/Grindcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrocznia/128992'>Wyrocznia</a>", 
+			"Poland",
+			"Death/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrok/3540266085'>Wyrok</a>", 
+			"Poland",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrrd/3540466581'>Wyrrd</a>", 
+			"Netherlands",
+			"Avant-garde/Progressive Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrre/3540468802'>Wyrre</a>", 
+			"United States",
+			"Death/Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrtgurn/3540526910'>Wyrtgurn</a>", 
+			"Unknown",
+			"Black/Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyruz/18525'>Wyruz</a>", 
+			"Norway",
+			"Death/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyrwyr/3540466388'>Wyrwyr</a>", 
+			"France",
+			"Psychedelic Black Metal/Dark Ambient",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wysdom/3540462146'>Wysdom</a>", 
+			"United States",
+			"Blackened Heavy Metal/Punk",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wysdom_Given/3540467350'>Wysdom Given</a>", 
+			"Sweden",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wysteria/3540535510'>Wysteria</a>", 
+			"United States",
+			"Deathcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wytch/3540488678'>Wytch</a>", 
+			"Sweden",
+			"Heavy/Doom Metal/Hard Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wytch_Goat/3540438025'>Wytch Goat</a>", 
+			"United States",
+			"Sludge/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wytch_Hazel/3540330702'>Wytch Hazel</a>", 
+			"United Kingdom",
+			"Hard Rock/Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wytchaus/3540514654'>Wytchaus</a>", 
+			"United States",
+			"Death/Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wytchburner/3540562289'>Wytchburner</a>", 
+			"United Kingdom",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wytchcraft/10930'>Wytchcraft</a>", 
+			"Germany",
+			"Epic Doom Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/WytchCrypt/3540499388'>WytchCrypt</a>", 
+			"United States",
+			"Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wytches_Moon/3540523520'>Wytches Moon</a>", 
+			"United States",
+			"Psychedelic Doom/Stoner Metal/Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wytchfilth/3540362132'>Wytchfilth</a>", 
+			"United Kingdom",
+			"Experimental/Industrial Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wytchfynde/8391'>Wytchfynde</a>", 
+			"United Kingdom",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wytchkraft/16512'>Wytchkraft</a>", 
+			"Brazil",
+			"Heavy Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wytchord/3540419009'>Wytchord</a>", 
+			"United States",
+			"Doom Metal/Psychedelic Hard Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wytchscythe/3540272469'>Wytchscythe</a>", 
+			"Germany",
+			"Heavy/Power Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wythermoon/3540354331'>Wythermoon</a>", 
+			"United Kingdom",
+			"Black/Thrash Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wythersake/3540450286'>Wythersake</a>", 
+			"United States",
+			"Symphonic Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wythir/3540519034'>Wythir</a>", 
+			"United States",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wythyn_Shadows/3540521828'>Wythyn Shadows</a>", 
+			"United Kingdom",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyv85/3540531009'>Wyv85</a>", 
+			"Italy",
+			"Heavy Metal/Hard Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyvern/3540312893'>Wyvern</a>", 
+			"Egypt",
+			"Power/Thrash Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyvern/3540293970'>Wyvern</a>", 
+			"Japan",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyvern/3540259170'>Wyvern</a>", 
+			"France",
+			"Groove/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyvern/3540509037'>Wyvern</a>", 
+			"Italy",
+			"Epic Heavy/Progressive Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyvern/2719'>Wyvern</a>", 
+			"Sweden",
+			"Power Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyvern/2722'>Wyvern</a>", 
+			"Italy",
+			"Power/Speed Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyvern/2723'>Wyvern</a>", 
+			"Türkiye",
+			"Heavy/Power Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyvern/3540454322'>Wyvern</a>", 
+			"Netherlands",
+			"Raw Black Metal/Dungeon Synth",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyvern_Altar/3540590224'>Wyvern Altar</a>", 
+			"Peru",
+			"Black 'n' Roll/Sludge Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyvern_Attack/3540270475'>Wyvern Attack</a>", 
+			"France",
+			"Heavy/Speed Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyvern%27s_Dust/3540452425'>Wyvern's Dust</a>", 
+			"Mexico",
+			"Progressive/Symphonic Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyverna/52393'>Wyverna</a>", 
+			"Russia",
+			"Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyxmer/2232'>Wyxmer</a>", 
+			"Italy",
+			"Epic Heavy/Progressive Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyzard/5974'>Wyzard</a>", 
+			"United States",
+			"Heavy/Power Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Wyzdom/3540424378'>Wyzdom</a>", 
+			"United States",
+			"Melodic Heavy Metal/Hard Rock",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/W%D0%94%D0%A1/3540533039'>WДС</a>", 
+			"Serbia",
+			"Thrash Metal/Crossover",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/W%D0%BE%D0%BB%D0%B0%D0%BD%D0%B4/129257'>Wоланд</a>", 
+			"Russia",
+			"Power Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/W%E1%9B%9Ftan/3540552542'>Wᛟtan</a>", 
+			"Mexico",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				]
+}

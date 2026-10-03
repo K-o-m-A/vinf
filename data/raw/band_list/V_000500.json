@@ -1,0 +1,3506 @@
+{ 
+	"iTotalRecords": 6000,
+	"iTotalDisplayRecords": 6000,
+	"sEcho": 1,
+	"aaData": [
+			[ 
+			"<a href='https://www.metal-archives.com/bands/Valemon/3540431219'>Valemon</a>", 
+			"Norway",
+			"Blackened Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/V%C3%A4len_Fr%C3%B6st/3540565040'>Välen Fröst</a>", 
+			"Brazil",
+			"Depressive Black Metal/Shoegaze",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valence/3540369173'>Valence</a>", 
+			"United States",
+			"Progressive Metal/Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valensorow/3540366432'>Valensorow</a>", 
+			"United States",
+			"Folk Metal/Metalcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valenta/47795'>Valenta</a>", 
+			"Czechia",
+			"Black/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valentin_Lezjenda%27s_Speed_of_Darkness/3540438239'>Valentin Lezjenda's Speed of Darkness</a>", 
+			"International",
+			"Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valentine/92617'>Valentine</a>", 
+			"Germany",
+			"Power/Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valentine_Suffering/3540579788'>Valentine Suffering</a>", 
+			"Brazil",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valentino_Francavilla/3540445317'>Valentino Francavilla</a>", 
+			"Italy",
+			"Heavy/Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valephor/3540432751'>Valephor</a>", 
+			"Spain",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valeria_Ghizzi/3540536661'>Valeria Ghizzi</a>", 
+			"Argentina",
+			"Stoner Metal/Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valerian/3540313772'>Valerian</a>", 
+			"Indonesia",
+			"Melodic Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valerio_Garavaglia/97625'>Valerio Garavaglia</a>", 
+			"Italy",
+			"Progressive Metal/Shred",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valermada/3540462566'>Valermada</a>", 
+			"Finland",
+			"Progressive Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valeskald/3540536391'>Valeskald</a>", 
+			"Denmark",
+			"Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valet_Parn/3540322131'>Valet Parn</a>", 
+			"Greece",
+			"Progressive/Groove Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valfader/3540363944'>Valfader</a>", 
+			"United Kingdom",
+			"Stoner/Post-Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valfar/3540301702'>Valfar</a>", 
+			"Colombia",
+			"Raw Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valfariss/3540539390'>Valfariss</a>", 
+			"Germany",
+			"Melodic Black/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valfeanor/100148'>Valfeanor</a>", 
+			"Austria",
+			"Atmospheric Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valfenda/3540399790'>Valfenda</a>", 
+			"Brazil",
+			"Pagan Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valfierno/3540296816'>Valfierno</a>", 
+			"Argentina",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valfodreich/3540316465'>Valfodreich</a>", 
+			"Argentina",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valfreya/3540319656'>Valfreya</a>", 
+			"Canada",
+			"Melodic Black/Folk Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valgaldar/26467'>Valgaldar</a>", 
+			"Germany",
+			"Pagan Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valgaldr/3540414333'>Valgaldr</a>", 
+			"Argentina",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valgaldr/3540404959'>Valgaldr</a>", 
+			"Norway",
+			"Black Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valgaldrar/5599'>Valgaldrar</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valgar/3540305999'>Valgar</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valgard/3540310435'>Valgard</a>", 
+			"Belgium",
+			"Black/Power/Folk Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valgrind/3540277598'>Valgrind</a>", 
+			"Spain",
+			"Melodic Power Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valgrind/43655'>Valgrind</a>", 
+			"Finland",
+			"Viking Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valgrind/14047'>Valgrind</a>", 
+			"Italy",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valgrinder_Rex_Iudaeorum/3540583051'>Valgrinder Rex Iudaeorum</a>", 
+			"Finland",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valgud/3540277729'>Valgud</a>", 
+			"United States",
+			"Thrash Metal (early); Symphonic Black Metal (later)",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhala/3540291651'>Valhala</a>", 
+			"Serbia",
+			"Heavy/Progressive Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhala/97872'>Valhala</a>", 
+			"Spain",
+			"Heavy Metal/Hard Rock",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhall/3532'>Valhall</a>", 
+			"Norway",
+			"Death/Black/Doom Metal (early); Stoner/Doom Metal (later)",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhalla/75533'>Valhalla</a>", 
+			"United States",
+			"Speed/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhalla/3540344871'>Valhalla</a>", 
+			"United States",
+			"Progressive Metal/Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhalla/12587'>Valhalla</a>", 
+			"Ukraine",
+			"Folk Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhalla/3540575026'>Valhalla</a>", 
+			"Germany",
+			"Doom Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhalla/3540452927'>Valhalla</a>", 
+			"United States",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhalla/103235'>Valhalla</a>", 
+			"United States",
+			"Heavy/Power Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhalla/3540314952'>Valhalla</a>", 
+			"Indonesia",
+			"Gothic Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhalla/3540502089'>Valhalla</a>", 
+			"Japan",
+			"Heavy/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhalla/30035'>Valhalla</a>", 
+			"Argentina",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhalla/87380'>Valhalla</a>", 
+			"Mexico",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhalla/8804'>Valhalla</a>", 
+			"Brazil",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhalla/5991'>Valhalla</a>", 
+			"United States",
+			"Progressive/Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhalla/3540578161'>Valhalla</a>", 
+			"Japan",
+			"Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhalla/3540298106'>Valhalla</a>", 
+			"Indonesia",
+			"Heavy Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhalla/16768'>Valhalla</a>", 
+			"Russia",
+			"Symphonic Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhalla/11158'>Valhalla</a>", 
+			"Spain",
+			"Power Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhalla/160'>Valhalla</a>", 
+			"Austria",
+			"Epic Power/Speed Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhalla/3540301989'>Valhalla</a>", 
+			"Estonia",
+			"Gothic/Doom Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhalla/9382'>Valhalla</a>", 
+			"Russia",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhalla/79277'>Valhalla</a>", 
+			"Germany",
+			"Speed/Heavy Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhalla/3540399278'>Valhalla</a>", 
+			"Mexico",
+			"Heavy/Progressive Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhalla/25272'>Valhalla</a>", 
+			"United Kingdom",
+			"NWOBHM/Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhalla/3540313274'>Valhalla</a>", 
+			"Poland",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhalla/3540414397'>Valhalla</a>", 
+			"United States",
+			"Heavy Metal/Hard Rock",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhalla/3540485062'>Valhalla</a>", 
+			"Germany",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhalla/3540524497'>Valhalla</a>", 
+			"United States",
+			"Heavy/Power Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhalla/3540480252'>Valhalla</a>", 
+			"Japan",
+			"Heavy/Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhalla/47359'>Valhalla</a>", 
+			"United States",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhalla_Bound/3540458407'>Valhalla Bound</a>", 
+			"Finland",
+			"Raw Black Metal/Noise",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhalla_Saints/20123'>Valhalla Saints</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhallian/20798'>Valhallian</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhalore/3540402196'>Valhalore</a>", 
+			"Australia",
+			"Epic Folk Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhalus/60722'>Valhalus</a>", 
+			"Mexico",
+			"Heavy Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valheron/23112'>Valheron</a>", 
+			"Brazil",
+			"Funeral Doom Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhexen/3540518005'>Valhexen</a>", 
+			"United Kingdom",
+			"Symphonic Blackened Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhkyr/3540450319'>Valhkyr</a>", 
+			"Chile",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valh%C3%B4ll/3540290778'>Valhôll</a>", 
+			"France",
+			"Pagan Black Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valh%C3%B6ll-D%C3%BBm/3540435953'>Valhöll-Dûm</a>", 
+			"Spain",
+			"Melodic Black/Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhom/8325'>Valhom</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhull/3540507228'>Valhull</a>", 
+			"Australia",
+			"Thrash/Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valhyrio/3540526121'>Valhyrio</a>", 
+			"Argentina",
+			"Power/Heavy Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/V%C3%A1li/3540270886'>Váli</a>", 
+			"United Kingdom",
+			"Drone/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valiance/6839'>Valiance</a>", 
+			"Italy",
+			"Heavy/Power Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valiant/3540408068'>Valiant</a>", 
+			"United States",
+			"Epic Atmospheric Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valiant/3540257562'>Valiant</a>", 
+			"Indonesia",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valiant_Bastards/3540418045'>Valiant Bastards</a>", 
+			"United States",
+			"Heavy/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valiant_Crusade/3540481735'>Valiant Crusade</a>", 
+			"United States",
+			"Progressive/Groove Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valiant_Reason/3540425230'>Valiant Reason</a>", 
+			"United States",
+			"Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valiant_Sentinel/3540498497'>Valiant Sentinel</a>", 
+			"Greece",
+			"Heavy/Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Validius/3540529779'>Validius</a>", 
+			"United States",
+			"Melodic Black/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Validor/3540335896'>Validor</a>", 
+			"Greece",
+			"Heavy/Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valient_Thorr/3540266264'>Valient Thorr</a>", 
+			"United States",
+			"Heavy/Southern Metal/Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valinemia/3540456436'>Valinemia</a>", 
+			"United Kingdom",
+			"Slam/Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valinor/25107'>Valinor</a>", 
+			"Poland",
+			"Melodic Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valinor/3540488573'>Valinor</a>", 
+			"Bolivia",
+			"Power Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valinor/3540262044'>Valinor</a>", 
+			"Greece",
+			"Epic Death/Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valinor/9888'>Valinor</a>", 
+			"Mexico",
+			"Melodic Power/Progressive Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/V%C3%A0linor/77472'>Vàlinor</a>", 
+			"Spain",
+			"Symphonic Power Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valinor/3540265898'>Valinor</a>", 
+			"Colombia",
+			"Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Val%C3%ADom%C3%ADerda/3540484118'>Valíomíerda</a>", 
+			"United States",
+			"Groove/Stoner Metal/Hardcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valium/107305'>Valium</a>", 
+			"Croatia",
+			"Power/Progressive Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valium/3540583777'>Valium</a>", 
+			"Colombia",
+			"Crossover/Thrash/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valium/76389'>Valium</a>", 
+			"Portugal",
+			"Heavy Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valium/58486'>Valium</a>", 
+			"Brazil",
+			"Black/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valium/77448'>Valium</a>", 
+			"Italy",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valium_Tremens/3540377985'>Valium Tremens</a>", 
+			"France",
+			"Doom/Sludge Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valjeta/3540427770'>Valjeta</a>", 
+			"Türkiye",
+			"Symphonic Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valk/3540526674'>Valk</a>", 
+			"Brazil",
+			"Power/Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkaryus/3540550883'>Valkaryus</a>", 
+			"United States",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkaya/3540507648'>Valkaya</a>", 
+			"Finland",
+			"Symphonic/Melodic Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkeat/3540422316'>Valkeat</a>", 
+			"Finland",
+			"Folk Metal/Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkeinen/3540542632'>Valkeinen</a>", 
+			"Finland",
+			"Melodic Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valken/3540482335'>Valken</a>", 
+			"Colombia",
+			"Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkeneva_Korppi/3540573557'>Valkeneva Korppi</a>", 
+			"Finland",
+			"Melodic Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkenrag/3540337198'>Valkenrag</a>", 
+			"Poland",
+			"Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkeryon/3540381871'>Valkeryon</a>", 
+			"Panama",
+			"Progressive/Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkija/28207'>Valkija</a>", 
+			"Italy",
+			"Heavy/Power Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkily/60910'>Valkily</a>", 
+			"Japan",
+			"Power Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkiria/2841'>Valkiria</a>", 
+			"Chile",
+			"Symphonic Power Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkiria/5344'>Valkiria</a>", 
+			"Italy",
+			"Black Metal (early); Epic Gothic Metal (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valknacht/3540276793'>Valknacht</a>", 
+			"Canada",
+			"Symphonic Pagan Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valknut/3540489032'>Valknut</a>", 
+			"Spain",
+			"Thrash/Groove Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valknut/3540385398'>Valknut</a>", 
+			"United States",
+			"Pagan Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkos/3540566747'>Valkos</a>", 
+			"Lithuania",
+			"Black Metal/Crust",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkyer/3540436306'>Valkyer</a>", 
+			"Finland",
+			"Melodic Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkylie/62494'>Valkylie</a>", 
+			"Japan",
+			"Heavy/Speed Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkynaz/3540308409'>Valkynaz</a>", 
+			"United States",
+			"Raw Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkyr/119681'>Valkyr</a>", 
+			"United Kingdom",
+			"Neoclassical Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkyr/3540397956'>Valkyr</a>", 
+			"Germany",
+			"Melodic Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkyr/67770'>Valkyr</a>", 
+			"Japan",
+			"Heavy/Power Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkyre/78631'>Valkyre</a>", 
+			"Belgium",
+			"Symphonic Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkyria/3540535378'>Valkyria</a>", 
+			"Russia",
+			"Progressive Thrash/Speed Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkyria/3540399202'>Valkyria</a>", 
+			"Argentina",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkyria/3540500850'>Valkyria</a>", 
+			"Argentina",
+			"Progressive Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkyria/3540263582'>Valkyria</a>", 
+			"Argentina",
+			"Heavy Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkyria/3540379065'>Valkyria</a>", 
+			"Italy",
+			"Doom/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkyria/3540411378'>Valkyria</a>", 
+			"Spain",
+			"Heavy/Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkyria/12539'>Valkyria</a>", 
+			"Sweden",
+			"Folk Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkyrian/70991'>Valkyrian</a>", 
+			"Italy",
+			"Death Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkyrie/3540346419'>Valkyrie</a>", 
+			"Japan",
+			"Black/Doom Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkyrie/62778'>Valkyrie</a>", 
+			"Japan",
+			"Melodic Progressive Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkyrie/42312'>Valkyrie</a>", 
+			"United States",
+			"Thrash/Speed/Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkyrie/107701'>Valkyrie</a>", 
+			"United States",
+			"Heavy/Power/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkyrie/24008'>Valkyrie</a>", 
+			"Netherlands",
+			"Epic Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkyrie/118224'>Valkyrie</a>", 
+			"United Kingdom",
+			"NWOBHM/Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkyrie/50395'>Valkyrie</a>", 
+			"United States",
+			"Heavy/Doom Metal/Hard Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkyrie/54495'>Valkyrie</a>", 
+			"United States",
+			"Power/Thrash Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkyrie/3540459003'>Valkyrie</a>", 
+			"United Kingdom",
+			"Melodic Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkyrie_A.D./3540451588'>Valkyrie A.D.</a>", 
+			"United States",
+			"Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkyrie_Zero/39938'>Valkyrie Zero</a>", 
+			"Japan",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkyrie%27s_Cry/51275'>Valkyrie's Cry</a>", 
+			"Canada",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkyrie%27s_Fire/3540551424'>Valkyrie's Fire</a>", 
+			"United States",
+			"Symphonic Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkyrium/3540423065'>Valkyrium</a>", 
+			"United States",
+			"Progressive Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkyrja/33164'>Valkyrja</a>", 
+			"Sweden",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valkyrja/3540526312'>Valkyrja</a>", 
+			"Mexico",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vallachia/39149'>Vallachia</a>", 
+			"Poland",
+			"Pagan Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vallananastaja/3540505044'>Vallananastaja</a>", 
+			"Finland",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valland/3540302435'>Valland</a>", 
+			"France",
+			"Pagan Black/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vallansgardh/78177'>Vallansgardh</a>", 
+			"Brazil",
+			"Epic Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vallay/3540551137'>Vallay</a>", 
+			"Germany",
+			"Symphonic Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valle_Crucis/3540409875'>Valle Crucis</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valle_Crucis/40241'>Valle Crucis</a>", 
+			"United Kingdom",
+			"Doom/Progressive Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valle_Crucis/3540566454'>Valle Crucis</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valle_de_la_Muerte/3540270659'>Valle de la Muerte</a>", 
+			"Mexico",
+			"Gothic Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valle_del_Diablo/3540436967'>Valle del Diablo</a>", 
+			"Argentina",
+			"Doom/Stoner/Sludge Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vallenbrosa/113868'>Vallenbrosa</a>", 
+			"United Kingdom",
+			"Stoner/Southern Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vallendusk/3540344899'>Vallendusk</a>", 
+			"Indonesia",
+			"Atmospheric Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vallenfyre/3540332709'>Vallenfyre</a>", 
+			"United Kingdom",
+			"Death Metal with Doom influences",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valletta/3540526827'>Valletta</a>", 
+			"United States",
+			"Black 'n' Roll",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valley/3540275620'>Valley</a>", 
+			"Sweden",
+			"Heavy Metal/Hard Rock",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valley_Dweller/3540575135'>Valley Dweller</a>", 
+			"United States",
+			"Stoner/Doom Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valley_of_Chrome/3540557052'>Valley of Chrome</a>", 
+			"Philippines",
+			"Melodic Metalcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valley_of_Despair/3540555135'>Valley of Despair</a>", 
+			"Canada",
+			"Melodic Heavy/Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valley_of_Hades/3540499236'>Valley of Hades</a>", 
+			"Denmark",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valley_of_Hinnom/3540378865'>Valley of Hinnom</a>", 
+			"United States",
+			"Atmospheric Black/Post-Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valley_of_Shadows/3540413459'>Valley of Shadows</a>", 
+			"United States",
+			"Stoner Metal/Rock",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valley_of_Sin/3540482670'>Valley of Sin</a>", 
+			"Indonesia",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valley_of_the_Dead/3540271330'>Valley of the Dead</a>", 
+			"Sweden",
+			"Death Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valley_of_the_Headless/3540451830'>Valley of the Headless</a>", 
+			"Korea, South",
+			"Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valley_of_the_Moon/3540450678'>Valley of the Moon</a>", 
+			"Russia",
+			"Symphonic/Folk Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valley_of_the_Sluts/3540539666'>Valley of the Sluts</a>", 
+			"Germany",
+			"Doom/Stoner Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valley%27s_Eve/1729'>Valley's Eve</a>", 
+			"Germany",
+			"Progressive Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vallgrav/3540567530'>Vallgrav</a>", 
+			"Sweden",
+			"Melodic Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vallh%C3%BCnd/3540473424'>Vallhünd</a>", 
+			"United States",
+			"Melodic Death/Thrash Metal (early); Heavy/Thrash Metal (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vallihauta/3540418867'>Vallihauta</a>", 
+			"Finland",
+			"Sludge/Doom Metal/Hardcore Punk",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vallis_Mortem/3540382519'>Vallis Mortem</a>", 
+			"Denmark",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vallisca_Axe/3540541338'>Vallisca Axe</a>", 
+			"Canada",
+			"Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vallon/3540326652'>Vallon</a>", 
+			"United States",
+			"Metalcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vallorch/3540347479'>Vallorch</a>", 
+			"Italy",
+			"Folk Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vallquar-%E3%83%AF%E3%83%AB%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%AC-/3540507227'>Vallquar-ワルキューレ-</a>", 
+			"Japan",
+			"Melodic Power Metal/Rock",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vallum/3540418505'>Vallum</a>", 
+			"Spain",
+			"Post-Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vallvuler/3540395020'>Vallvuler</a>", 
+			"Uruguay",
+			"Heavy Metal/Hard Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vallyz/3540261757'>Vallyz</a>", 
+			"Germany",
+			"Melodic Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valmayor/3540397405'>Valmayor</a>", 
+			"Spain",
+			"Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valmer_%26_Hook/71486'>Valmer & Hook</a>", 
+			"Sweden",
+			"Death/Black Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/V%C3%A5lnad/3540539633'>Vålnad</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valnorth/3540337468'>Valnorth</a>", 
+			"Italy",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valon_Vinter/3540489584'>Valon Vinter</a>", 
+			"Greece",
+			"Progressive Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valonkantaja/3540553219'>Valonkantaja</a>", 
+			"Finland",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valonkantajat/3540326068'>Valonkantajat</a>", 
+			"Finland",
+			"Melodic Heavy Metal/Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valonsurma/8938'>Valonsurma</a>", 
+			"Finland",
+			"Black Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valontuoja/3540549976'>Valontuoja</a>", 
+			"Finland",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valor/3540416354'>Valor</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valor/5989'>Valor</a>", 
+			"United States",
+			"Power/Speed Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valor/3540527818'>Valor</a>", 
+			"Czechia",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valor/20983'>Valor</a>", 
+			"Greece",
+			"Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valore/3540514873'>Valore</a>", 
+			"Colombia",
+			"Death/Thrash Metal/Metalcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valorheart/3540546897'>Valorheart</a>", 
+			"United States",
+			"Heavy/Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valorheart/3540578795'>Valorheart</a>", 
+			"Sweden",
+			"Heavy/Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valosta_Varjoon/3540423811'>Valosta Varjoon</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valoton/3540317221'>Valoton</a>", 
+			"Finland",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valour/85759'>Valour</a>", 
+			"Canada",
+			"Black/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valous/3540423418'>Valous</a>", 
+			"United Kingdom",
+			"Melodic Heavy Metal/Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valover/3540444747'>Valover</a>", 
+			"Brazil",
+			"Progressive Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valpur/3540542582'>Valpur</a>", 
+			"Finland",
+			"Melodic Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valpurga/5431'>Valpurga</a>", 
+			"Italy",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valpurgia/73595'>Valpurgia</a>", 
+			"Poland",
+			"Black/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valpurgis_Night/3540317399'>Valpurgis Night</a>", 
+			"United Kingdom",
+			"Heavy/Doom/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valpurgisnight/13204'>Valpurgisnight</a>", 
+			"Germany",
+			"Heavy/Power Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valpurgus/3540538590'>Valpurgus</a>", 
+			"Poland",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valpuri_Kyni/3540510417'>Valpuri Kyni</a>", 
+			"Finland",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valpurt/3540451412'>Valpurt</a>", 
+			"Czechia",
+			"Death/Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valquiria/3540342740'>Valquiria</a>", 
+			"Argentina",
+			"Melodic Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valr/3540528006'>Valr</a>", 
+			"United States",
+			"Progressive Metal with Black/Death influences",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valraukar/36082'>Valraukar</a>", 
+			"Czechia",
+			"Black Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valraven/3540273670'>Valraven</a>", 
+			"United States",
+			"Melodic Heavy/Power Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valravn/3540462690'>Valravn</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valravn/3540475030'>Valravn</a>", 
+			"Finland",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valravne/3540464966'>Valravne</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valrock/3540507298'>Valrock</a>", 
+			"Argentina",
+			"Melodic Heavy Metal/Hard Rock",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valrog/3540290481'>Valrog</a>", 
+			"United Kingdom",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valrogh/3540402118'>Valrogh</a>", 
+			"Mexico",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valsa_Pintura/3540530403'>Valsa Pintura</a>", 
+			"France",
+			"Technical Death Metal/Gypsy Jazz",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/ValSans/35715'>ValSans</a>", 
+			"Austria",
+			"Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valsblut/19683'>Valsblut</a>", 
+			"France",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valse_Hoop/3540584366'>Valse Hoop</a>", 
+			"Netherlands",
+			"Raw Depressive Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valse_Macabre/3540477993'>Valse Macabre</a>", 
+			"France",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valsgarde/38720'>Valsgarde</a>", 
+			"United States",
+			"Black/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valtagor/3540371363'>Valtagor</a>", 
+			"Argentina",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valtakunta/3540397797'>Valtakunta</a>", 
+			"Finland",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valtari/3540342599'>Valtari</a>", 
+			"Australia",
+			"Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valtchanov/3540531826'>Valtchanov</a>", 
+			"United Kingdom",
+			"Heavy Metal/Hard Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valth_Beake/54357'>Valth Beake</a>", 
+			"Mexico",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valtharim/3540564564'>Valtharim</a>", 
+			"Germany",
+			"Raw Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valthem/3540520745'>Valthem</a>", 
+			"Mexico",
+			"Thrash/Groove Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valthus/3540341652'>Valthus</a>", 
+			"Japan",
+			"Power Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valtias/104932'>Valtias</a>", 
+			"Canada",
+			"Thrash/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valtiel/3540406020'>Valtiel</a>", 
+			"United States",
+			"Doom Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valtiel/3540485142'>Valtiel</a>", 
+			"United States",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valtiel/3540571996'>Valtiel</a>", 
+			"Argentina",
+			"Atmospheric Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valtikan/3540412223'>Valtikan</a>", 
+			"Mexico",
+			"Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valturn/3540513967'>Valturn</a>", 
+			"Puerto Rico",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valtyr/3540339598'>Valtyr</a>", 
+			"Italy",
+			"Viking Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valu/107851'>Valu</a>", 
+			"Finland",
+			"Death/Doom Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valuatir/3540263075'>Valuatir</a>", 
+			"France",
+			"Folk/Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valueless/3540436755'>Valueless</a>", 
+			"Germany",
+			"Depressive Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valuk/3540421366'>Valuk</a>", 
+			"Slovenia",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Val%C3%BCme_Nob/73110'>Valüme Nob</a>", 
+			"United States",
+			"Thrash/Sludge Metal/Crossover",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valuri_Negre_Dezlegate/59663'>Valuri Negre Dezlegate</a>", 
+			"Romania",
+			"Black/Gothic Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valvadrach/95005'>Valvadrach</a>", 
+			"Austria",
+			"Thrash/Groove Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valve/3540342626'>Valve</a>", 
+			"France",
+			"Sludge/Doom Metal/Post-Hardcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valve_2.001/66067'>Valve 2.001</a>", 
+			"Finland",
+			"Gothic Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valveline/3540392153'>Valveline</a>", 
+			"Brazil",
+			"Groove/Stoner Metal/Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/V%C3%A1lvera/3540401652'>Válvera</a>", 
+			"Brazil",
+			"Thrash/Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valvet/67303'>Valvet</a>", 
+			"Finland",
+			"Progressive Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valyria/3540382740'>Valyria</a>", 
+			"Canada",
+			"Melodic Death/Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Valyria/3540498619'>Valyria</a>", 
+			"United Kingdom",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vama_Marg/40103'>Vama Marg</a>", 
+			"Finland",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/V%C4%81m%C4%81c%C4%81ra/3540426287'>Vāmācāra</a>", 
+			"Germany",
+			"Psychedelic Doom/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vamanekyia/3540552123'>Vamanekyia</a>", 
+			"United States",
+			"Atmospheric Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vambrace/3540506058'>Vambrace</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vamonos_Pest/3540466717'>Vamonos Pest</a>", 
+			"France",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vamp_Noire/3540587054'>Vamp Noire</a>", 
+			"Unknown",
+			"Raw Black/Gothic Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampa/112306'>Vampa</a>", 
+			"Sweden",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampahyuhr/3540423572'>Vampahyuhr</a>", 
+			"Australia",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampanera/3540491572'>Vampanera</a>", 
+			"Japan",
+			"Power/Speed Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampenstein/3540424595'>Vampenstein</a>", 
+			"United States",
+			"Black/Death Metal/Punk",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampiir/3540545344'>Vampiir</a>", 
+			"Unknown",
+			"Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampir/3540293866'>Vampir</a>", 
+			"Germany",
+			"Raw Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampir_bei_Kerzenlicht/3540521667'>Vampir bei Kerzenlicht</a>", 
+			"Romania",
+			"Black Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampira/29754'>Vampira</a>", 
+			"Argentina",
+			"Thrash Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vamp%C3%ADra/3540531839'>Vampíra</a>", 
+			"Iceland",
+			"Black Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampira/80015'>Vampira</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampirblut/3540490512'>Vampirblut</a>", 
+			"United States",
+			"Melodic Black Metal/Ambient",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampire/13618'>Vampire</a>", 
+			"Germany",
+			"Melodic Death/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/V%C3%A4mp%C3%AFre/3540390263'>Vämpïre</a>", 
+			"Norway",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampire/3540351959'>Vampire</a>", 
+			"Sweden",
+			"Black/Thrash/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampire_Demons_Crest/3540566354'>Vampire Demons Crest</a>", 
+			"Portugal",
+			"Blackened Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampire_Hall/11160'>Vampire Hall</a>", 
+			"Greece",
+			"Black Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampire_Knight/3540566910'>Vampire Knight</a>", 
+			"Portugal",
+			"Ambient/Raw Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampire_Lord/3540510128'>Vampire Lord</a>", 
+			"Brazil",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampire_Mooose/20989'>Vampire Mooose</a>", 
+			"United States",
+			"Groove Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampire_Pledge/3540318151'>Vampire Pledge</a>", 
+			"Japan",
+			"Melodic Power Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampire_Satan/3540515000'>Vampire Satan</a>", 
+			"United States",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampire_Squid/3540367127'>Vampire Squid</a>", 
+			"United States",
+			"Technical Death Metal/Mathcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampire_Vane/76770'>Vampire Vane</a>", 
+			"Canada",
+			"Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampire_Wail/3540579290'>Vampire Wail</a>", 
+			"Poland",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampire%27s_Castle/3540362346'>Vampire's Castle</a>", 
+			"International",
+			"Symphonic Epic Gothic/Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampirea/3540502539'>Vampirea</a>", 
+			"Brazil",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/VampireCunt/3540425369'>VampireCunt</a>", 
+			"United States",
+			"Slam/Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampiregaze/24485'>Vampiregaze</a>", 
+			"United States",
+			"Thrash/Viking Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampirella/3540258947'>Vampirella</a>", 
+			"United States",
+			"Heavy/Power Metal (early); Hard Rock (later)",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampires_and_Leeches/3540540639'>Vampires and Leeches</a>", 
+			"Canada",
+			"Progressive/Technical Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampires_of_Normandy/101757'>Vampires of Normandy</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampires_Razor/3540315696'>Vampires Razor</a>", 
+			"Austria",
+			"Melodic Death Metal/Metalcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampiria/3639'>Vampiria</a>", 
+			"Argentina",
+			"Melodic Black/Gothic Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampiric/3540451415'>Vampiric</a>", 
+			"United States",
+			"Thrash/Death Metal (early); Melodic Black Metal (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampiric_Baptism/3540556411'>Vampiric Baptism</a>", 
+			"United States",
+			"Black/Gothic/Industrial Metal/Deathrock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampiric_Coffin/3540514061'>Vampiric Coffin</a>", 
+			"United States",
+			"Black/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampiric_Crypt/3540574275'>Vampiric Crypt</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampiric_Dawn/3540435922'>Vampiric Dawn</a>", 
+			"Canada",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampiric_Dominium/16426'>Vampiric Dominium</a>", 
+			"Puerto Rico",
+			"Black Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampiric_Euphoria/22795'>Vampiric Euphoria</a>", 
+			"Australia",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampiric_Funeral/3540448582'>Vampiric Funeral</a>", 
+			"Mexico",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampiric_Motives/55450'>Vampiric Motives</a>", 
+			"Japan",
+			"Death Metal/Grindcore",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampiric_Oath/3540562655'>Vampiric Oath</a>", 
+			"International",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampiric_Solitude/3540511080'>Vampiric Solitude</a>", 
+			"United States",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampiric_Tyranny/3540486879'>Vampiric Tyranny</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampiric_Witchking/3540537976'>Vampiric Witchking</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampiris/69209'>Vampiris</a>", 
+			"United States",
+			"Gothic/Thrash Metal, Symphonic Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampiro/3540563503'>Vampiro</a>", 
+			"United Kingdom",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampiroteutis_Infernalis/3540430427'>Vampiroteutis Infernalis</a>", 
+			"Brazil",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampirska/3540467693'>Vampirska</a>", 
+			"United States",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vamps/3540288416'>Vamps</a>", 
+			"Greece",
+			"Thrash Metal/Crossover",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyr/2638'>Vampyr</a>", 
+			"Germany",
+			"Heavy/Speed Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyr/94600'>Vampyr</a>", 
+			"France",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyr_Domaine/122296'>Vampyr Domaine</a>", 
+			"Puerto Rico",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyre_Deth/3540488701'>Vampyre Deth</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyre_Erotyca/3540260385'>Vampyre Erotyca</a>", 
+			"Germany",
+			"Heavy  Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyreign/3540556120'>Vampyreign</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyress/3540580815'>Vampyress</a>", 
+			"United Kingdom",
+			"Psychedelic Heavy/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyria_Caedis_Mortis/3540576912'>Vampyria Caedis Mortis</a>", 
+			"Romania",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyric/3540470537'>Vampyric</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyric_Blood/3540337980'>Vampyric Blood</a>", 
+			"Finland",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyric_Bloodlust/3540546912'>Vampyric Bloodlust</a>", 
+			"United States",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyric_Bvrial/3540423497'>Vampyric Bvrial</a>", 
+			"United States",
+			"Raw Black Metal/Ambient",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyric_Castle_Fog/3540494672'>Vampyric Castle Fog</a>", 
+			"United Kingdom",
+			"Atmospheric Doom/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyric_Chapel/3540543021'>Vampyric Chapel</a>", 
+			"Czechia",
+			"Raw Black Metal/Ambient",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyric_Corridors/3540470323'>Vampyric Corridors</a>", 
+			"International",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyric_Count/3540572572'>Vampyric Count</a>", 
+			"United Kingdom",
+			"Raw Black Metal/Dungeon Synth",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyric_Draugr/3540530979'>Vampyric Draugr</a>", 
+			"Finland",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyric_Elegy/3540530895'>Vampyric Elegy</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyric_Grove/3540576687'>Vampyric Grove</a>", 
+			"Canada",
+			"Raw Atmospheric Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyric_J%C5%B3ju/3540542857'>Vampyric Jųju</a>", 
+			"United Kingdom",
+			"Raw Black Metal/Dungeon Synth",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyric_Kvrse/3540536377'>Vampyric Kvrse</a>", 
+			"Cuba",
+			"Raw Industrial Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyric_Levitation/3540482832'>Vampyric Levitation</a>", 
+			"United States",
+			"Atmospheric Black Metal/Dark Ambient",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyric_Mass/3540502758'>Vampyric Mass</a>", 
+			"Canada",
+			"Raw Black Metal/Dark Ambient",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyric_Shadows/3540559198'>Vampyric Shadows</a>", 
+			"France",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyric_Sorcery/3540574654'>Vampyric Sorcery</a>", 
+			"Finland",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyric_Sword/3540565142'>Vampyric Sword</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyric_Tyrant/3540480324'>Vampyric Tyrant</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyric_Winter/3540485240'>Vampyric Winter</a>", 
+			"Spain",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyriia/3540504686'>Vampyriia</a>", 
+			"Italy",
+			"Black Metal/Ambient/Drone",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyrmord/3540580300'>Vampyrmord</a>", 
+			"Mexico",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyro/61145'>Vampyro</a>", 
+			"Portugal",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyromorpha/3540402910'>Vampyromorpha</a>", 
+			"Germany",
+			"Heavy/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyroteuthis_Infernalis/3540515203'>Vampyroteuthis Infernalis</a>", 
+			"Unknown",
+			"Symphonic Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyrs/3540293041'>Vampyrs</a>", 
+			"United States",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyrsgard/3540404349'>Vampyrsgard</a>", 
+			"Spain",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vampyrskog/3540505990'>Vampyrskog</a>", 
+			"United States",
+			"Black Metal/Dungeon Synth",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/VAMT/3540411353'>VAMT</a>", 
+			"United States",
+			"Groove Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Van_Camp/24018'>Van Camp</a>", 
+			"Belgium",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Van_Canto/87185'>Van Canto</a>", 
+			"Germany",
+			"A Cappella/Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Van_Demon/3540316212'>Van Demon</a>", 
+			"Australia",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Van_Diemen/3540481055'>Van Diemen</a>", 
+			"Germany",
+			"Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Van_Ee/13908'>Van Ee</a>", 
+			"Netherlands",
+			"Progressive Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Van_Friscia/3540330624'>Van Friscia</a>", 
+			"United States",
+			"Progressive Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Van_Hellsing/3540561207'>Van Hellsing</a>", 
+			"Argentina",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Van_Helsing/3540408767'>Van Helsing</a>", 
+			"Argentina",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Van_Helsing%27s_Curse/37441'>Van Helsing's Curse</a>", 
+			"United States",
+			"Symphonic/Epic Heavy Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Van_Mardigain/3540478450'>Van Mardigain</a>", 
+			"Finland",
+			"Experimental Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Van_Oudsher/3540288777'>Van Oudsher</a>", 
+			"Belgium",
+			"Black/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Van_Proust/111494'>Van Proust</a>", 
+			"Italy",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Van_Stalin/3540422940'>Van Stalin</a>", 
+			"Russia",
+			"Heavy Metal/Hard Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Van_Stone/82350'>Van Stone</a>", 
+			"United States",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Van_Teel/3540414186'>Van Teel</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Van_Veen/117960'>Van Veen</a>", 
+			"Japan",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Van_War/3540538700'>Van War</a>", 
+			"United States",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Van.Hanson/3540555391'>Van.Hanson</a>", 
+			"United States",
+			"Psychedelic Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Van666/3540588076'>Van666</a>", 
+			"South Africa",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanad_Varjud/3540378062'>Vanad Varjud</a>", 
+			"Estonia",
+			"Ambient/Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanadis/3540275261'>Vanadis</a>", 
+			"Netherlands",
+			"Symphonic/Gothic Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanadium/1808'>Vanadium</a>", 
+			"Italy",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanadium/125997'>Vanadium</a>", 
+			"United Kingdom",
+			"Heavy/Thrash Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanadium/3540336972'>Vanadium</a>", 
+			"Australia",
+			"Thrash Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanadium/3540400472'>Vanadium</a>", 
+			"United States",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanadium/3797'>Vanadium</a>", 
+			"Germany",
+			"Heavy/Progressive Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanadium_B.C./99076'>Vanadium B.C.</a>", 
+			"Australia",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanadyum/16529'>Vanadyum</a>", 
+			"Portugal",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanagandr/3540489025'>Vanagandr</a>", 
+			"Chile",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanagandr/3540467581'>Vanagandr</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanagandr/3540471235'>Vanagandr</a>", 
+			"Indonesia",
+			"Stoner/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanagloria/72107'>Vanagloria</a>", 
+			"Spain",
+			"Epic Power Metal/Metalcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanaheim/40013'>Vanaheim</a>", 
+			"Poland",
+			"Death/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanaheim/3540425863'>Vanaheim</a>", 
+			"Netherlands",
+			"Epic Folk Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanaheim/102805'>Vanaheim</a>", 
+			"Mexico",
+			"Gothic Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanaheim/3540426946'>Vanaheim</a>", 
+			"Czechia",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanaheim/12542'>Vanaheim</a>", 
+			"Norway",
+			"Viking/Folk Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanaheimr/3540442508'>Vanaheimr</a>", 
+			"United Kingdom",
+			"Progressive Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vananidr/3540447504'>Vananidr</a>", 
+			"Sweden",
+			"Melodic Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/V%C4%81nar/3540496183'>Vānar</a>", 
+			"India",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanargand/3540505867'>Vanargand</a>", 
+			"Norway",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanatur/3540435405'>Vanatur</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanaxul/3540513172'>Vanaxul</a>", 
+			"Belgium",
+			"Melodic Death Metal/Metalcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vancool/62492'>Vancool</a>", 
+			"Japan",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vancouper/3540544385'>Vancouper</a>", 
+			"Indonesia",
+			"Metalcore/Groove Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vancouver/48346'>Vancouver</a>", 
+			"Switzerland",
+			"Sludge Metal/Metalcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vancyria/58090'>Vancyria</a>", 
+			"Finland",
+			"Melodic Heavy Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/V%C3%A5nda/3540444039'>Vånda</a>", 
+			"Sweden",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vandal/3540292460'>Vandal</a>", 
+			"Russia",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vandal/3540374391'>Vandal</a>", 
+			"Chile",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vandal/3540300975'>Vandal</a>", 
+			"North Macedonia",
+			"Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vandal/3540521199'>Vandal</a>", 
+			"Japan",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vandal_Killer/68510'>Vandal Killer</a>", 
+			"Japan",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vandal_X/3540538359'>Vandal X</a>", 
+			"Belgium",
+			"Noise Rock (early); Sludge/Doom Metal (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vandale/16087'>Vandale</a>", 
+			"Netherlands",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vandalis/68710'>Vandalis</a>", 
+			"Argentina",
+			"Power Metal (early); Symphonic Hard Rock/Metal (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vandallus/3540438285'>Vandallus</a>", 
+			"United States",
+			"Heavy Metal/Hard Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vandamne/3540424791'>Vandamne</a>", 
+			"United Kingdom",
+			"Melodic Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vandaud/3540516374'>Vandaud</a>", 
+			"Norway",
+			"Melodic Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vandel/3540431242'>Vandel</a>", 
+			"Netherlands",
+			"Gothic/Doom Metal, Post-Punk",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanden_Plas/1400'>Vanden Plas</a>", 
+			"Germany",
+			"Progressive Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vandenberg/3540469608'>Vandenberg</a>", 
+			"Netherlands",
+			"Heavy Metal/Hard Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vander_Foguel/3540457914'>Vander Foguel</a>", 
+			"Argentina",
+			"Heavy Metal/Hard Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanderbuyst/3540320508'>Vanderbuyst</a>", 
+			"Netherlands",
+			"Heavy Metal/Hard Rock",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanderhoof/12188'>Vanderhoof</a>", 
+			"United States",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanderlust/3540505249'>Vanderlust</a>", 
+			"Italy",
+			"Heavy/Power/Progressive Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vandhali/3540565291'>Vandhali</a>", 
+			"United States",
+			"Heavy/Doom Metal/Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vand%C3%B8d/3540314121'>Vandød</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vand%C3%B8d/3540270185'>Vandød</a>", 
+			"Norway",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vand%C3%B6d/60874'>Vandöd</a>", 
+			"Sweden",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vandor/3540449076'>Vandor</a>", 
+			"Sweden",
+			"Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/V%C3%A1ndr/3540485530'>Vándr</a>", 
+			"United Kingdom",
+			"Black/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vandrar/54173'>Vandrar</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vandrendulf/3540529389'>Vandrendulf</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vandrer/3540474126'>Vandrer</a>", 
+			"Norway",
+			"Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vandreren/3540545391'>Vandreren</a>", 
+			"Brazil",
+			"Avant-garde/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vandroya/76128'>Vandroya</a>", 
+			"Brazil",
+			"Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vane/3540435092'>Vane</a>", 
+			"Poland",
+			"Melodic Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vaneno/3540476323'>Vaneno</a>", 
+			"Portugal",
+			"Groove/Sludge Metal with Thrash Metal elements",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanes/3540549564'>Vanes</a>", 
+			"Netherlands",
+			"Various (early); Heavy/Speed Metal (mid); Melodic Death Metal (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanessa/41511'>Vanessa</a>", 
+			"Sweden",
+			"Melodic Heavy Metal/Hard Rock",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanessa_Funke/3540502819'>Vanessa Funke</a>", 
+			"Germany",
+			"Melodic Death/Gothic Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanexa/2637'>Vanexa</a>", 
+			"Italy",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanf%C3%B8r/3540545964'>Vanfør</a>", 
+			"Russia",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanfrejd/3540437627'>Vanfrejd</a>", 
+			"Åland Islands",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vangardion/3540533588'>Vangardion</a>", 
+			"Germany",
+			"Avant-garde Symphonic Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vangloria_Arcannus/3540448741'>Vangloria Arcannus</a>", 
+			"Brazil",
+			"Symphonic Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/VanGoth/3540275934'>VanGoth</a>", 
+			"Germany",
+			"Gothic Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vangough/3540278677'>Vangough</a>", 
+			"United States",
+			"Progressive Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanguard/75538'>Vanguard</a>", 
+			"United States",
+			"Heavy/Power Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanguard/38676'>Vanguard</a>", 
+			"Sweden",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanguard/3540336171'>Vanguard</a>", 
+			"United States",
+			"Power Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanguard/12615'>Vanguard</a>", 
+			"Austria",
+			"Symphonic Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanguard/22887'>Vanguard</a>", 
+			"United Kingdom",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanguard/3540261483'>Vanguard</a>", 
+			"Germany",
+			"Melodic Heavy Metal/Hard Rock",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanguard/88694'>Vanguard</a>", 
+			"United States",
+			"Epic/Melodic Death Metal/Deathcore (early); Deathcore/Metalcore (later)",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanguard/3540261508'>Vanguard</a>", 
+			"Germany",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanguard/3540261509'>Vanguard</a>", 
+			"Germany",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanguard/44241'>Vanguard</a>", 
+			"Germany",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanguard/8412'>Vanguard</a>", 
+			"Japan",
+			"Technical Power Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanguard/3540410852'>Vanguard</a>", 
+			"Czechia",
+			"Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanguard/30711'>Vanguard</a>", 
+			"Finland",
+			"Symphonic Gothic Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanguard/3540369656'>Vanguard</a>", 
+			"United States",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanguard_X_Mortem/3540366314'>Vanguard X Mortem</a>", 
+			"France",
+			"Symphonic/Atmospheric Extreme Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanguard%21/3540380052'>Vanguard!</a>", 
+			"United States",
+			"Speed Metal/Punk",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanguard%27s_Risk/3540255185'>Vanguard's Risk</a>", 
+			"Germany",
+			"Thrash Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanguarda/3540261409'>Vanguarda</a>", 
+			"Portugal",
+			"Progressive Metal/Rock",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanguarda_Metal_Revolucion%C3%A1ria/3540439406'>Vanguarda Metal Revolucionária</a>", 
+			"Brazil",
+			"Speed Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanguardia/77557'>Vanguardia</a>", 
+			"Argentina",
+			"Progressive Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanguardian/3540511870'>Vanguardian</a>", 
+			"Finland",
+			"Progressive Sludge Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanguardist/3540552692'>Vanguardist</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanha/3540421063'>Vanha</a>", 
+			"Sweden",
+			"Atmospheric Doom/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanha_Velho/3540589532'>Vanha Velho</a>", 
+			"United States",
+			"Progressive/Folk Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanh%C3%A4vd/3540442242'>Vanhävd</a>", 
+			"Sweden",
+			"Black/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanhelga/3540308022'>Vanhelga</a>", 
+			"Sweden",
+			"Depressive Black Metal/Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanhelgd/3540269135'>Vanhelgd</a>", 
+			"Sweden",
+			"Blackened Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanhelgun/3540466221'>Vanhelgun</a>", 
+			"Poland",
+			"Atmospheric Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanik/3540420635'>Vanik</a>", 
+			"United States",
+			"Heavy/Speed Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanilla/3540557372'>Vanilla</a>", 
+			"Japan",
+			"Power Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanilla_Rex/33288'>Vanilla Rex</a>", 
+			"Germany",
+			"Progressive Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanir/3540326149'>Vanir</a>", 
+			"Denmark",
+			"Viking/Folk Metal (early); Melodic Death Metal (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanir/122629'>Vanir</a>", 
+			"Netherlands",
+			"Folk/Viking Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanir/124561'>Vanir</a>", 
+			"Germany",
+			"Melodic Black/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanish/3540464134'>Vanish</a>", 
+			"Italy",
+			"Progressive Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanish/44381'>Vanish</a>", 
+			"Germany",
+			"Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanished/3540524376'>Vanished</a>", 
+			"Sweden",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanished/3540459096'>Vanished</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanished_Time/17940'>Vanished Time</a>", 
+			"Sweden",
+			"Power/Heavy/Thrash Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanisher/3540315003'>Vanisher</a>", 
+			"United States",
+			"Melodic Death Metal/Metalcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanishine/129576'>Vanishine</a>", 
+			"Spain",
+			"Symphonic Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanishing_Earth/3540565618'>Vanishing Earth</a>", 
+			"United States",
+			"Post-Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanishing_Grasp/3540582721'>Vanishing Grasp</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanishing_Kids/3540532530'>Vanishing Kids</a>", 
+			"United States",
+			"Psychedelic/Gothic Rock (early); Psychedelic Doom/Gothic Metal (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanishing_Point/62496'>Vanishing Point</a>", 
+			"Japan",
+			"Melodic Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanishing_Point/181'>Vanishing Point</a>", 
+			"Australia",
+			"Progressive/Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanishing_System/64073'>Vanishing System</a>", 
+			"Sweden",
+			"Death Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanishment/126308'>Vanishment</a>", 
+			"United States",
+			"Progressive Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanishment/3540497035'>Vanishment</a>", 
+			"United States",
+			"Heavy/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanitas/3540422943'>Vanitas</a>", 
+			"United States",
+			"Sludge/Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanitas/4913'>Vanitas</a>", 
+			"Austria",
+			"Melodic Death/Gothic Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Vanitas/106199'>Vanitas</a>", 
+			"Germany",
+			"Black/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				]
+}

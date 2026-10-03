@@ -1,0 +1,3506 @@
+{ 
+	"iTotalRecords": 12226,
+	"iTotalDisplayRecords": 12226,
+	"sEcho": 1,
+	"aaData": [
+			[ 
+			"<a href='https://www.metal-archives.com/bands/C_Average/21121'>C Average</a>", 
+			"United States",
+			"Heavy/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C-187/103671'>C-187</a>", 
+			"Netherlands",
+			"Groove Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C-300/3540318197'>C-300</a>", 
+			"Russia",
+			"Melodic Death/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C-4/3540379105'>C-4</a>", 
+			"Poland",
+			"Grindcore/Death 'n' Roll",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C-Fiction/113267'>C-Fiction</a>", 
+			"Germany",
+			"Progressive/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C-Force/3540448002'>C-Force</a>", 
+			"Finland",
+			"Power Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C-Nuke/3540468743'>C-Nuke</a>", 
+			"Chile",
+			"Thrash/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C-One/105310'>C-One</a>", 
+			"France",
+			"Heavy/Progressive  Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C-T_Prevail/83720'>C-T Prevail</a>", 
+			"Norway",
+			"Thrash Metal/Metalcore",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C-War/129656'>C-War</a>", 
+			"Canada",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C%3AR%3AA/3540565716'>C:R:A</a>", 
+			"International",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.A.D./3540567821'>C.A.D.</a>", 
+			"Finland",
+			"Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.A.D.G./3540586809'>C.A.D.G.</a>", 
+			"Poland",
+			"Thrash/Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.A.G.E./3540535813'>C.A.G.E.</a>", 
+			"United States",
+			"Groove Metal/Hardcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.A.I.N./8382'>C.A.I.N.</a>", 
+			"United States",
+			"Death/Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.A.Q.LL.E.D/3540535597'>C.A.Q.LL.E.D</a>", 
+			"Venezuela",
+			"Thrash/Groove/Nu-Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.A.R.N.E./28738'>C.A.R.N.E.</a>", 
+			"Mexico",
+			"Goregrind",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.A.S.H./10487'>C.A.S.H.</a>", 
+			"Romania",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.B_Murdoc/3540344290'>C.B Murdoc</a>", 
+			"Sweden",
+			"Technical Groove/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.C.C./37736'>C.C.C.</a>", 
+			"Estonia",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.C.H.B./3540279864'>C.C.H.B.</a>", 
+			"Sweden",
+			"Death Metal/Various",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.C.S./34832'>C.C.S.</a>", 
+			"United States",
+			"Thrash Metal/Crossover",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.D.O./3540347660'>C.D.O.</a>", 
+			"Colombia",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.F.C./3540309489'>C.F.C.</a>", 
+			"Brazil",
+			"Thrash Metal/Crossover",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.F.I./113855'>C.F.I.</a>", 
+			"United States",
+			"Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.F.T.C./109184'>C.F.T.C.</a>", 
+			"Croatia",
+			"Melodic Death/Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.H.C./3540555899'>C.H.C.</a>", 
+			"Unknown",
+			"Grindcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.H.R.O.M.E/3540401023'>C.H.R.O.M.E</a>", 
+			"Russia",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.H.U.D./3540376071'>C.H.U.D.</a>", 
+			"International",
+			"Goregrind",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.I.A./3540496752'>C.I.A.</a>", 
+			"United States",
+			"Heavy/Power/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.I.A./3540255882'>C.I.A.</a>", 
+			"United States",
+			"Heavy Metal/Hard Rock",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.I.A./8081'>C.I.A.</a>", 
+			"United States",
+			"Heavy/Thrash Metal with Hardcore influences",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.I.A._Hippie_Mind_Control/3540451016'>C.I.A. Hippie Mind Control</a>", 
+			"United States",
+			"Psychedelic Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.L._Anger/3540460249'>C.L. Anger</a>", 
+			"Germany",
+			"Melodic Power Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.L.G./18034'>C.L.G.</a>", 
+			"Italy",
+			"Brutal Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.N.D./3540449742'>C.N.D.</a>", 
+			"United States",
+			"Crossover/Hardcore Punk/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.N.K.S.S./3540523892'>C.N.K.S.S.</a>", 
+			"Germany",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.N.P./130011'>C.N.P.</a>", 
+			"Brazil",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.O.D./44677'>C.O.D.</a>", 
+			"Russia",
+			"Industrial Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.O.D./37805'>C.O.D.</a>", 
+			"France",
+			"Speed/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.O.D./21937'>C.O.D.</a>", 
+			"Finland",
+			"Doom/Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.O.D./3540539636'>C.O.D.</a>", 
+			"Romania",
+			"Stoner Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.O.D.E./24379'>C.O.D.E.</a>", 
+			"Brazil",
+			"Thrash Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.O.E/2343'>C.O.E</a>", 
+			"Germany",
+			"Heavy Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.O.L.D./114859'>C.O.L.D.</a>", 
+			"United Kingdom",
+			"Heavy Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.O.M.A./3540394636'>C.O.M.A.</a>", 
+			"Uruguay",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.O.M.A./3540378559'>C.O.M.A.</a>", 
+			"Switzerland",
+			"Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.O.M.A./3540503273'>C.O.M.A.</a>", 
+			"United States",
+			"Thrash Metal/Crossover",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.O.T.L.O.D./59845'>C.O.T.L.O.D.</a>", 
+			"France",
+			"Death/Thrash Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.P.G/3540552968'>C.P.G</a>", 
+			"Indonesia",
+			"Grindcore/Crust Punk",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.R.U.C.I.F.I.X.S./3540360982'>C.R.U.C.I.F.I.X.S.</a>", 
+			"Argentina",
+			"Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.R.U.E/3540492256'>C.R.U.E</a>", 
+			"Brazil",
+			"Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.R.Y./54920'>C.R.Y.</a>", 
+			"Ecuador",
+			"Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.U.L.T.O./3540476260'>C.U.L.T.O.</a>", 
+			"Argentina",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.U.N.T./3540415616'>C.U.N.T.</a>", 
+			"Sweden",
+			"Goregrind",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.V.I./2510'>C.V.I.</a>", 
+			"Brazil",
+			"Grindcore, Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.W.D./3540447864'>C.W.D.</a>", 
+			"Ukraine",
+			"Raw/Symphonic Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.X./3540389821'>C.X.</a>", 
+			"Russia",
+			"Sludge/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C%E2%80%8B.%E2%80%8BY%E2%80%8B.%E2%80%8BA%E2%80%8B.%E2%80%8BT%E2%80%8B.%E2%80%8BE%E2%80%8B.%E2%80%8BC./3540536398'>C​.​Y​.​A​.​T​.​E​.​C.</a>", 
+			"Spain",
+			"Death/Thrash Metal/Hardcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.Y.C.L.E./3540323991'>C.Y.C.L.E.</a>", 
+			"United States",
+			"Doom Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C.Y.T/49893'>C.Y.T</a>", 
+			"France",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C%27est_la_Guerre/3540318521'>C'est la Guerre</a>", 
+			"Japan",
+			"Doom/Death Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C-56/3540285492'>C/56</a>", 
+			"Brazil",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C2N2/3540484484'>C2N2</a>", 
+			"Poland",
+			"Sludge/Atmospheric Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C4/3540570625'>C4</a>", 
+			"United States",
+			"Hardcore Punk/Powerviolence (early); Crossover/Hardcore (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C4/3540446405'>C4</a>", 
+			"Argentina",
+			"Heavy/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C9H9N/3540532178'>C9H9N</a>", 
+			"Hong Kong",
+			"Goregrind",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Ca%24e_Closed/3540478453'>Ca$e Closed</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caacrinolaas/3540368479'>Caacrinolaas</a>", 
+			"Spain",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caacrinolas/76592'>Caacrinolas</a>", 
+			"Germany",
+			"Experimental Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caamos/61627'>Caamos</a>", 
+			"Finland",
+			"Melodic Heavy Metal/Hard Rock",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caarcrinolas/35727'>Caarcrinolas</a>", 
+			"France",
+			"Experimental Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caassimolar/3540453205'>Caassimolar</a>", 
+			"Japan",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cab/3540323661'>Cab</a>", 
+			"United States",
+			"Heavy/Doom Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cab_Ride_Home/3540277645'>Cab Ride Home</a>", 
+			"United States",
+			"Thrash/Groove Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabal/3540481071'>Cabal</a>", 
+			"Ecuador",
+			"Metalcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabal/35119'>Cabal</a>", 
+			"Sweden",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabal/4920'>Cabal</a>", 
+			"Germany",
+			"Heavy/Power Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabal/54597'>Cabal</a>", 
+			"France",
+			"Death Metal/Grindcore/Goregrind",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabal/4711'>Cabal</a>", 
+			"Finland",
+			"Groove Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabal/48499'>Cabal</a>", 
+			"Nicaragua",
+			"Death Metal/Grindcore",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabal/38123'>Cabal</a>", 
+			"Germany",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabal/8951'>Cabal</a>", 
+			"United States",
+			"Death/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabal_A.D./40348'>Cabal A.D.</a>", 
+			"Germany",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabal_Cripta/3540317481'>Cabal Cripta</a>", 
+			"Italy",
+			"Thrash Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabal666/3540523764'>Cabal666</a>", 
+			"France",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabala/22915'>Cabala</a>", 
+			"United Kingdom",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabalistic/37386'>Cabalistic</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabalistic/3540444683'>Cabalistic</a>", 
+			"Australia",
+			"Technical Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabalistic_Conjuration/3540450018'>Cabalistic Conjuration</a>", 
+			"Peru",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caballero/3540547573'>Caballero</a>", 
+			"Finland",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caballero_Desnudo/3540534780'>Caballero Desnudo</a>", 
+			"Colombia",
+			"Melodic Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caballero_Errante/3540540667'>Caballero Errante</a>", 
+			"Bolivia",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caballero_Negro/3540331649'>Caballero Negro</a>", 
+			"El Salvador",
+			"Heavy Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caballero_Negro/3540401341'>Caballero Negro</a>", 
+			"Guatemala",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caballeros/3540529898'>Caballeros</a>", 
+			"Argentina",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caballo_de_Hierro/3540489709'>Caballo de Hierro</a>", 
+			"Spain",
+			"Heavy/Speed Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caballo_de_Metal/3540487537'>Caballo de Metal</a>", 
+			"Argentina",
+			"Heavy Metal/Hard Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caballo_de_Plomo/3540307355'>Caballo de Plomo</a>", 
+			"Peru",
+			"Stoner/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caballo_Salvaje/3540440001'>Caballo Salvaje</a>", 
+			"Argentina",
+			"Heavy Metal/Hard Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabals_Brut/3540288019'>Cabals Brut</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caban/3540430740'>Caban</a>", 
+			"Chile",
+			"Death/Groove Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabaret_Aberrante/3540345655'>Cabaret Aberrante</a>", 
+			"Spain",
+			"Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabaret_for_Bereaved/31003'>Cabaret for Bereaved</a>", 
+			"Finland",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabestro/3540436443'>Cabestro</a>", 
+			"Spain",
+			"Grindcore/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabeza/3540481308'>Cabeza</a>", 
+			"Sweden",
+			"Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabeza_de_Caballo/3540297563'>Cabeza de Caballo</a>", 
+			"Spain",
+			"Stoner/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabeza_de_Martillo/34874'>Cabeza de Martillo</a>", 
+			"Panama",
+			"Death/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabez%C3%A4_de_Perro/3540467524'>Cabezä de Perro</a>", 
+			"Mexico",
+			"Thrash Metal/Crossover/Oi!",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabeza_Enclavada/3540498472'>Cabeza Enclavada</a>", 
+			"Spain",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabezas_Morbosas/3540519319'>Cabezas Morbosas</a>", 
+			"Panama",
+			"Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabinet/3540493458'>Cabinet</a>", 
+			"United States",
+			"Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cable/103929'>Cable</a>", 
+			"United States",
+			"Metalcore/Hardcore (early); Atmospheric Sludge Metal (later)",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cable_a_Tierra/3540424146'>Cable a Tierra</a>", 
+			"Chile",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabletow/3540567987'>Cabletow</a>", 
+			"United States",
+			"Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabo_de_Hornos/3540493999'>Cabo de Hornos</a>", 
+			"Argentina",
+			"Death Metal/Grindcore",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caboa%C3%B1o/3540538098'>Caboaño</a>", 
+			"Spain",
+			"Funeral Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabodano/3540456597'>Cabodano</a>", 
+			"Spain",
+			"Melodic Metalcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabra/3540440418'>Cabra</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabra_Infernal/3540461127'>Cabra Infernal</a>", 
+			"Ecuador",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabra_Negra/117089'>Cabra Negra</a>", 
+			"Colombia",
+			"Thrash/Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabracan/3540334052'>Cabracan</a>", 
+			"Mexico",
+			"Death/Folk Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabraka%C3%A4n/3540382600'>Cabrakaän</a>", 
+			"Mexico",
+			"Folk/Symphonic Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabral/3540441982'>Cabral</a>", 
+			"Argentina",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabrarium/3540580385'>Cabrarium</a>", 
+			"Colombia",
+			"Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabrero/43084'>Cabrero</a>", 
+			"Brazil",
+			"Death/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabrero/3540435307'>Cabrero</a>", 
+			"Argentina",
+			"Melodic Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabresto/3540356026'>Cabresto</a>", 
+			"Argentina",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabrio/3540439642'>Cabrio</a>", 
+			"Chile",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabrocordero/3540356036'>Cabrocordero</a>", 
+			"Argentina",
+			"Sludge/Stoner Metal/Experimental",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabron/3540340159'>Cabron</a>", 
+			"Russia",
+			"Black Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cabut_Nyawa/3540357647'>Cabut Nyawa</a>", 
+			"Indonesia",
+			"Death/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caca_de_Luna/3540558100'>Caca de Luna</a>", 
+			"Germany",
+			"Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Ca%C3%A7ador_de_Almas/3540349961'>Caçador de Almas</a>", 
+			"Brazil",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cacahuet/3540538468'>Cacahuet</a>", 
+			"Spain",
+			"Black/Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cacaodemon/3540534549'>Cacaodemon</a>", 
+			"United States",
+			"Pagan Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cacaorcass/3540481517'>Cacaorcass</a>", 
+			"United States",
+			"Goregrind",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cacator/3540457766'>Cacator</a>", 
+			"Netherlands",
+			"Death/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cacatory/3540516574'>Cacatory</a>", 
+			"Netherlands",
+			"Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caccamon/10528'>Caccamon</a>", 
+			"Italy",
+			"Death/Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cacealma/110629'>Cacealma</a>", 
+			"Romania",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cacer%C3%ADa/3540464795'>Cacería</a>", 
+			"Mexico",
+			"Heavy/Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cacer%C3%ADa/3540459172'>Cacería</a>", 
+			"Chile",
+			"Thrash Metal/Crossover",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cacer%C3%ADa/3540309224'>Cacería</a>", 
+			"Paraguay",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cacer%C3%ADa_y_Castigo/3540524328'>Cacería y Castigo</a>", 
+			"Argentina",
+			"Thrash/Groove Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cachalote/3540533270'>Cachalote</a>", 
+			"Mexico",
+			"Death 'n' Roll",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cachexia/3540276396'>Cachexia</a>", 
+			"Australia",
+			"Death Metal/Grindcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cachexic/104351'>Cachexic</a>", 
+			"United Kingdom",
+			"Death/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cachorro_da_Duen%C3%A7a/3540388334'>Cachorro da Duença</a>", 
+			"Brazil",
+			"Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cachot_d%27Effroi/3540519648'>Cachot d'Effroi</a>", 
+			"France",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cachtice/19926'>Cachtice</a>", 
+			"Sweden",
+			"Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cacodaemon/4877'>Cacodaemon</a>", 
+			"Finland",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cacodaemonic/3540404862'>Cacodaemonic</a>", 
+			"United Kingdom",
+			"Blackened Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cacodemon/3540347414'>Cacodemon</a>", 
+			"Ireland",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cacodemon/3540556695'>Cacodemon</a>", 
+			"United States",
+			"Blackened Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cacofonia/3540454055'>Cacofonia</a>", 
+			"Chile",
+			"Black/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cacofonia/3540463340'>Cacofonia</a>", 
+			"Mexico",
+			"Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cacophonia/3540493216'>Cacophonia</a>", 
+			"United States",
+			"Experimental Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cacophonic_Disharmony/3540548592'>Cacophonic Disharmony</a>", 
+			"Norway",
+			"Black Metal/Experimental/Noise",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cacophonous_Death/3540425243'>Cacophonous Death</a>", 
+			"United States",
+			"Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cacophonous_Incantation/3540451385'>Cacophonous Incantation</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cacophony/3540507271'>Cacophony</a>", 
+			"United States",
+			"Raw Black Metal, Dark Ambient",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cacophony/3540349585'>Cacophony</a>", 
+			"Denmark",
+			"Progressive Melodic Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cacophony/691'>Cacophony</a>", 
+			"United States",
+			"Neoclassical Speed Metal/Shred",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cacophony_of_Wailing/3540333830'>Cacophony of Wailing</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cacophony_Propulsion/3540568861'>Cacophony Propulsion</a>", 
+			"International",
+			"Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cacotopia/49240'>Cacotopia</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cactek/3540530879'>Cactek</a>", 
+			"Brazil",
+			"Technical Thrash/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cactus_Cathedral/3540461431'>Cactus Cathedral</a>", 
+			"United States",
+			"Stoner/Doom Metal/Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cactus_Chainsaw/3540334944'>Cactus Chainsaw</a>", 
+			"United States",
+			"Stoner Metal/Rock",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cactus_Hag/3540389705'>Cactus Hag</a>", 
+			"United States",
+			"Sludge/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cactus_Jumper/3540254982'>Cactus Jumper</a>", 
+			"Russia",
+			"Stoner/Doom Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cactus_Rojo/3540499573'>Cactus Rojo</a>", 
+			"Mexico",
+			"Stoner/Sludge Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cactus_Stoner_Club_1984/108763'>Cactus Stoner Club 1984</a>", 
+			"Italy",
+			"Stoner/Doom Metal with Psychedelic influences",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cacumen/16024'>Cacumen</a>", 
+			"Germany",
+			"Heavy Metal/Hard Rock",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cacus/3540449094'>Cacus</a>", 
+			"United States",
+			"Stoner/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cacus/3540501636'>Cacus</a>", 
+			"Denmark",
+			"Sludge/Stoner Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadacross/5203'>Cadacross</a>", 
+			"Finland",
+			"Death Metal (early); Melodic Death/Folk/Power Metal (later)",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadacus/3540447253'>Cadacus</a>", 
+			"United Kingdom",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadafalso/74844'>Cadafalso</a>", 
+			"Brazil",
+			"Thrash/Death/Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadalso/3540462225'>Cadalso</a>", 
+			"Chile",
+			"Progressive Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadalso/80036'>Cadalso</a>", 
+			"Spain",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadavalanche/3540405881'>Cadavalanche</a>", 
+			"Australia",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadavarice/3540418820'>Cadavarice</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver/3540345684'>Cadaver</a>", 
+			"Spain",
+			"Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver/3540391520'>Cadaver</a>", 
+			"Peru",
+			"Death/Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver/3540275820'>Cadaver</a>", 
+			"Mexico",
+			"Grindcore/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cad%C3%A1ver/3540346222'>Cadáver</a>", 
+			"Spain",
+			"Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver/3540439424'>Cadaver</a>", 
+			"Chile",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver/3540351881'>Cadaver</a>", 
+			"Indonesia",
+			"Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver/3540262306'>Cadaver</a>", 
+			"Greece",
+			"Thrash/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver/692'>Cadaver</a>", 
+			"Norway",
+			"Death Metal (early/later); Black/Death/Thrash Metal (mid)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver/3540438730'>Cadaver</a>", 
+			"Colombia",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver/3540355544'>Cadaver</a>", 
+			"Hong Kong",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver/3540550904'>Cadaver</a>", 
+			"Colombia",
+			"Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver_322/3540482132'>Cadaver 322</a>", 
+			"Argentina",
+			"Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver_Carnivore/3540507966'>Cadaver Carnivore</a>", 
+			"Russia",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver_Coils/3540506822'>Cadaver Coils</a>", 
+			"Greece",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver_Corps./3540265962'>Cadaver Corps.</a>", 
+			"United States",
+			"Death/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver_Corpse/30560'>Cadaver Corpse</a>", 
+			"Germany",
+			"Grindcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver_Cum/3540386389'>Cadaver Cum</a>", 
+			"Italy",
+			"Goregrind",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver_Cunt/3540483441'>Cadaver Cunt</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cad%C3%A1ver_de_Cabra/3540589084'>Cadáver de Cabra</a>", 
+			"Spain",
+			"Sludge/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver_Descompuesto/3540549569'>Cadaver Descompuesto</a>", 
+			"Colombia",
+			"Goregrind",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver_Desmembrado/3540578836'>Cadaver Desmembrado</a>", 
+			"Mexico",
+			"Death/Thrash Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver_Disposal/3540367352'>Cadaver Disposal</a>", 
+			"Germany",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver_Ecogenics/45130'>Cadaver Ecogenics</a>", 
+			"United States",
+			"Grindcore/Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cad%C3%A1ver_Eterno/3540554823'>Cadáver Eterno</a>", 
+			"Portugal",
+			"Doom/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver_Goretority/3540428714'>Cadaver Goretority</a>", 
+			"Indonesia",
+			"Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver_Incubador/8980'>Cadaver Incubador</a>", 
+			"Peru",
+			"Death Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver_Insemination/3540509288'>Cadaver Insemination</a>", 
+			"Romania",
+			"Slam/Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver_Larvae/3540581609'>Cadaver Larvae</a>", 
+			"Mexico",
+			"Technical Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver_Macerandum/117021'>Cadaver Macerandum</a>", 
+			"Russia",
+			"Death Metal/Grindcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver_Mutilator/58448'>Cadaver Mutilator</a>", 
+			"Italy",
+			"Death Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver_Mutilator/126422'>Cadaver Mutilator</a>", 
+			"Italy",
+			"Brutal Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver_Not_Talk/3540486722'>Cadaver Not Talk</a>", 
+			"Thailand",
+			"Deathcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver_Puke_Bag/3540465725'>Cadaver Puke Bag</a>", 
+			"Ecuador",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver_Putrefacto/3540416606'>Cadaver Putrefacto</a>", 
+			"Argentina",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver_Race/3540314126'>Cadaver Race</a>", 
+			"Austria",
+			"Thrash Metal/Metalcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver_Rite/3540469104'>Cadaver Rite</a>", 
+			"United States",
+			"Raw Black Metal/Dark Ambient",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver_Shrine/3540514548'>Cadaver Shrine</a>", 
+			"Netherlands",
+			"Death/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver_Soiree/3540442157'>Cadaver Soiree</a>", 
+			"United Kingdom",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver_Symposium/3540337976'>Cadaver Symposium</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver_Vampire/3540456001'>Cadaver Vampire</a>", 
+			"Finland",
+			"Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaver_Zombie/3540420183'>Cadaver Zombie</a>", 
+			"Chile",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadavera/37806'>Cadavera</a>", 
+			"France",
+			"Thrash/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadavera/3540577513'>Cadavera</a>", 
+			"France",
+			"Death/Groove/Nu-Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadavered/3540572039'>Cadavered</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveres_de_Tortugas/3540518266'>Cadaveres de Tortugas</a>", 
+			"Hungary",
+			"Thrash Metal/Crossover/Hardcore (early); Nu-Metal/Hardcore (later)",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveri_Ridenti/3540578516'>Cadaveri Ridenti</a>", 
+			"Australia",
+			"Black/Thrash/Speed Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveria/115501'>Cadaveria</a>", 
+			"Colombia",
+			"Thrash/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveria/3045'>Cadaveria</a>", 
+			"Italy",
+			"Black/Gothic Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveribus/3540463643'>Cadaveribus</a>", 
+			"Japan",
+			"Death/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveric/30958'>Cadaveric</a>", 
+			"Chile",
+			"Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveric/3540530676'>Cadaveric</a>", 
+			"Sweden",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveric_Asphyxiation/3540397790'>Cadaveric Asphyxiation</a>", 
+			"Puerto Rico",
+			"Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveric_Crematorium/17078'>Cadaveric Crematorium</a>", 
+			"Italy",
+			"Brutal Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveric_Cult/3540482000'>Cadaveric Cult</a>", 
+			"Chile",
+			"Death/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveric_Curse/3540412831'>Cadaveric Curse</a>", 
+			"Brazil",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveric_Depravity/3540498546'>Cadaveric Depravity</a>", 
+			"United States",
+			"Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveric_Desecration/3540503000'>Cadaveric Desecration</a>", 
+			"Mexico",
+			"Technical Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveric_Donation/3540522640'>Cadaveric Donation</a>", 
+			"Russia",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveric_Engorgement/44831'>Cadaveric Engorgement</a>", 
+			"United States",
+			"Death Metal/Deathcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveric_Fumes/3540353031'>Cadaveric Fumes</a>", 
+			"France",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveric_Hunter/51793'>Cadaveric Hunter</a>", 
+			"France",
+			"Death Metal/Grindcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveric_Incest/78780'>Cadaveric Incest</a>", 
+			"Finland",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveric_Incubator/46559'>Cadaveric Incubator</a>", 
+			"Finland",
+			"Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveric_Infection/3540308139'>Cadaveric Infection</a>", 
+			"Brazil",
+			"Brutal Death Metal (early); Black/Death Metal (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveric_Lake/3540555636'>Cadaveric Lake</a>", 
+			"Australia",
+			"Deathcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveric_Lividity/3540444907'>Cadaveric Lividity</a>", 
+			"Canada",
+			"Brutal Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveric_Mass/3540289053'>Cadaveric Mass</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveric_Messiah/3540552573'>Cadaveric Messiah</a>", 
+			"Colombia",
+			"Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveric_Mutation/3540540602'>Cadaveric Mutation</a>", 
+			"Brazil",
+			"Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveric_Perversions/3540556967'>Cadaveric Perversions</a>", 
+			"United Kingdom",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveric_Poison/3540378019'>Cadaveric Poison</a>", 
+			"International",
+			"Death/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveric_Possession/3540433855'>Cadaveric Possession</a>", 
+			"Poland",
+			"Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveric_Remains/3540559502'>Cadaveric Remains</a>", 
+			"Brazil",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveric_Resin/3540562778'>Cadaveric Resin</a>", 
+			"Chile",
+			"Slam/Brutal Death Metal/Goregrind",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveric_Spasm/3540322938'>Cadaveric Spasm</a>", 
+			"United States",
+			"Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveric_Spasm/3540307340'>Cadaveric Spasm</a>", 
+			"United Kingdom",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveric_Stench/77246'>Cadaveric Stench</a>", 
+			"France",
+			"Death Metal/Grindcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadavericmutilator/27503'>Cadavericmutilator</a>", 
+			"Finland",
+			"Death Metal/Grindcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaverina/3540531355'>Cadaverina</a>", 
+			"Brazil",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaverina/3540291533'>Cadaverina</a>", 
+			"Brazil",
+			"Heavy/Power Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaverine/3540342046'>Cadaverine</a>", 
+			"Bulgaria",
+			"Death Metal/Goregrind",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaverine/3540543533'>Cadaverine</a>", 
+			"Finland",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaverine/3540273393'>Cadaverine</a>", 
+			"Australia",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveris/3540422121'>Cadaveris</a>", 
+			"Russia",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaverise/3540368681'>Cadaverise</a>", 
+			"Brazil",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaverist/3540388359'>Cadaverist</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaverity/3540490280'>Cadaverity</a>", 
+			"United Kingdom",
+			"Goregrind",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaverize/3540377050'>Cadaverize</a>", 
+			"Sweden",
+			"Death Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaverizer/3540376851'>Cadaverizer</a>", 
+			"Brazil",
+			"Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaverment/4319'>Cadaverment</a>", 
+			"United States",
+			"Brutal Death Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadavermis/3540541575'>Cadavermis</a>", 
+			"Chile",
+			"Technical Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaverno/3540566944'>Cadaverno</a>", 
+			"Chile",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaverosa/3540536367'>Cadaverosa</a>", 
+			"Sweden",
+			"Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaverous/5376'>Cadaverous</a>", 
+			"Türkiye",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaverous/52027'>Cadaverous</a>", 
+			"United Kingdom",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaverous/3540499029'>Cadaverous</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaverous/3540386258'>Cadaverous</a>", 
+			"Ecuador",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaverous/3540444909'>Cadaverous</a>", 
+			"Netherlands",
+			"Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaverous_Condition/3381'>Cadaverous Condition</a>", 
+			"Austria",
+			"Goregrind (early); Death Metal/Neofolk (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaverous_Contingency/3540400888'>Cadaverous Contingency</a>", 
+			"United States",
+			"Brutal Deathcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaverous_Incarnate/55436'>Cadaverous Incarnate</a>", 
+			"Chile",
+			"Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaverous_Infest/3540451468'>Cadaverous Infest</a>", 
+			"Mexico",
+			"Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaverous_Night/3540484297'>Cadaverous Night</a>", 
+			"Finland",
+			"Black/Speed Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaverous_Odour/3540545994'>Cadaverous Odour</a>", 
+			"United States",
+			"Brutal Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaverous_Onslaught/3540353750'>Cadaverous Onslaught</a>", 
+			"Mexico",
+			"Death/Thrash Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaverous_Putrescence/53775'>Cadaverous Putrescence</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaverous_Quartet/51507'>Cadaverous Quartet</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaverous_State/3540291434'>Cadaverous State</a>", 
+			"New Zealand",
+			"Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaverous_Stench/3540526688'>Cadaverous Stench</a>", 
+			"Germany",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaverous_Suppuration/111160'>Cadaverous Suppuration</a>", 
+			"Germany",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadavers_for_Supper/3540477474'>Cadavers for Supper</a>", 
+			"United States",
+			"Brutal Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadaveryne/60007'>Cadaveryne</a>", 
+			"United States",
+			"Progressive Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadavoracity/3540353992'>Cadavoracity</a>", 
+			"Indonesia",
+			"Brutal Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadavorus/3540580397'>Cadavorus</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadavra/3540579491'>Cadavra</a>", 
+			"Poland",
+			"Black/Thrash Metal, Punk",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadavre/3540542007'>Cadavre</a>", 
+			"Netherlands",
+			"Death/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadavris/3540581273'>Cadavris</a>", 
+			"Canada",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadavrosity/23539'>Cadavrosity</a>", 
+			"Canada",
+			"Death Metal (early); Death/Groove Metal (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadavrul/63236'>Cadavrul</a>", 
+			"Romania",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caddis/3540407095'>Caddis</a>", 
+			"United States",
+			"Progressive Groove/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadebrio/3540340012'>Cadebrio</a>", 
+			"Chile",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadejo/3540469079'>Cadejo</a>", 
+			"Honduras",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadejo_Negro/3540518553'>Cadejo Negro</a>", 
+			"Panama",
+			"Death/Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadela_Maldita/3540258374'>Cadela Maldita</a>", 
+			"Brazil",
+			"Thrash Metal/Crossover",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadena_Perpetua/111958'>Cadena Perpetua</a>", 
+			"Chile",
+			"Heavy Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadena_Perpetua/40801'>Cadena Perpetua</a>", 
+			"Spain",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadense/3540274604'>Cadense</a>", 
+			"United States",
+			"Thrash/Groove Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadenz_in_Black/128436'>Cadenz in Black</a>", 
+			"Bolivia",
+			"Progressive/Gothic Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cades/3540462550'>Cades</a>", 
+			"Spain",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadmium/3540324482'>Cadmium</a>", 
+			"France",
+			"Symphonic Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadons/3540511099'>Cadons</a>", 
+			"Italy",
+			"Blackened Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cadothus/3540406120'>Cadothus</a>", 
+			"Finland",
+			"Progressive/Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caduceus/3540578126'>Caduceus</a>", 
+			"United States",
+			"Doom/Stoner Metal/Rock",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caduceus/3540590296'>Caduceus</a>", 
+			"Italy",
+			"Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caducity/3556'>Caducity</a>", 
+			"Belgium",
+			"Epic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caecus/3540405032'>Caecus</a>", 
+			"United Kingdom",
+			"Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caecus/3540522041'>Caecus</a>", 
+			"Italy",
+			"Depressive Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caecus/3540403556'>Caecus</a>", 
+			"United States",
+			"Progressive/Technical Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caed_Dhu/65211'>Caed Dhu</a>", 
+			"Poland",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caedeath/57325'>Caedeath</a>", 
+			"France",
+			"Death/Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caedem/3540473188'>Caedem</a>", 
+			"Sweden",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caedem_Inferni/3540487637'>Caedem Inferni</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caedeous/3540437458'>Caedeous</a>", 
+			"Portugal",
+			"Symphonic Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caedere/10900'>Caedere</a>", 
+			"Netherlands",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caedes/3540500487'>Caedes</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caedes/84768'>Caedes</a>", 
+			"Germany",
+			"Death/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caedes/16675'>Caedes</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caedes/3540533349'>Caedes</a>", 
+			"United States",
+			"Grindcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caedes/39037'>Caedes</a>", 
+			"Sweden",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caedes/39334'>Caedes</a>", 
+			"Germany",
+			"Death Metal/Metalcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caedes/87794'>Caedes</a>", 
+			"Austria",
+			"Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caedes/110844'>Caedes</a>", 
+			"Netherlands",
+			"Death/Thrash Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caedes_Castus/3540279836'>Caedes Castus</a>", 
+			"International",
+			"Melodic Black Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caedes_Cruenta/3540288883'>Caedes Cruenta</a>", 
+			"Greece",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caedes_in_Absolom/3540559515'>Caedes in Absolom</a>", 
+			"Germany",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caedes_Vocum/56144'>Caedes Vocum</a>", 
+			"France",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caedescult/3540579639'>Caedescult</a>", 
+			"Latvia",
+			"Raw Black Metal/Ambient",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caedis/3540475655'>Caedis</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caedis/3540539524'>Caedis</a>", 
+			"Spain",
+			"Melodic Death/Groove Metal/Metalcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caedo/3540270963'>Caedo</a>", 
+			"Slovakia",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caedus/3540582423'>Caedus</a>", 
+			"United States",
+			"Melodic Metalcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caelesteus/3540539781'>Caelesteus</a>", 
+			"Israel",
+			"Progressive Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caelestia/3540392501'>Caelestia</a>", 
+			"Greece",
+			"Symphonic Gothic/Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caelestis/3540262788'>Caelestis</a>", 
+			"Hungary",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caelestra/3540478521'>Caelestra</a>", 
+			"United Kingdom",
+			"Progressive/Post-Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caeli/3540507951'>Caeli</a>", 
+			"Sweden",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caeli_Metallum/3540451024'>Caeli Metallum</a>", 
+			"United States",
+			"Melodic Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C%C3%A6libatus/3540505107'>Cælibatus</a>", 
+			"Russia",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caelid/3540518221'>Caelid</a>", 
+			"Canada",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caelo_et_Inferno/3540365124'>Caelo et Inferno</a>", 
+			"El Salvador",
+			"Funeral Doom Metal (early); Doom/Death Metal (later)",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caelum/3540510347'>Caelum</a>", 
+			"Puerto Rico",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caelum/3540406755'>Caelum</a>", 
+			"United States",
+			"Thrash Metal/Metalcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caelum_Adustum/25242'>Caelum Adustum</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caelum_Nocte/3540479114'>Caelum Nocte</a>", 
+			"Finland",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caelum_Sanctimoniae/3540572838'>Caelum Sanctimoniae</a>", 
+			"Finland",
+			"Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caelumsun/3540513756'>Caelumsun</a>", 
+			"Indonesia",
+			"Melodic Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caelus/3540377032'>Caelus</a>", 
+			"Spain",
+			"Melodic Death/Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caelvm/33227'>Caelvm</a>", 
+			"Mexico",
+			"Melodic Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caer/3540381505'>Caer</a>", 
+			"Chile",
+			"Drone/Doom/Sludge Metal/Crust",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caer_Gwydyon/26172'>Caer Gwydyon</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caer_Ibormeith/23910'>Caer Ibormeith</a>", 
+			"France",
+			"Symphonic Gothic/Black Metal (early); Death Metal with Progressive Rock influences (later)",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caerimonium/37843'>Caerimonium</a>", 
+			"Norway",
+			"Melodic Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C%C3%A6rrian/3540585134'>Cærrian</a>", 
+			"Canada",
+			"Progressive Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caerus/3540454361'>Caerus</a>", 
+			"Netherlands",
+			"Groove Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C%C3%A3es_de_Guarda/3540557588'>Cães de Guarda</a>", 
+			"Brazil",
+			"Thrash/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C%C3%A3es_de_Guerra/3540473447'>Cães de Guerra</a>", 
+			"Portugal",
+			"Speed/Black/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caesar/3540496504'>Caesar</a>", 
+			"Poland",
+			"Black/Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caesarean/3540546891'>Caesarean</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caesarean/3540472794'>Caesarean</a>", 
+			"United States",
+			"Psychedelic Doom/Stoner Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caesarean_Section/25554'>Caesarean Section</a>", 
+			"Canada",
+			"Jazz/Death Metal/Grindcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caesarius/3540439142'>Caesarius</a>", 
+			"Russia",
+			"Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caesarum/3540303194'>Caesarum</a>", 
+			"France",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caesius/3540417159'>Caesius</a>", 
+			"Czechia",
+			"Atmospheric Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caesivei_Ante/3540572296'>Caesivei Ante</a>", 
+			"Honduras",
+			"Atmospheric Black Metal/Dark Ambient/Drone",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caestus/3540481133'>Caestus</a>", 
+			"Finland",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caesura/3540474648'>Caesura</a>", 
+			"Ireland",
+			"Death/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caetera/3540372604'>Caetera</a>", 
+			"Australia",
+			"Melodic Death/Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cafagiem/93879'>Cafagiem</a>", 
+			"Germany",
+			"Black Metal/Ambient",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cafergot/3540272454'>Cafergot</a>", 
+			"Malaysia",
+			"Grindcore/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cafeterasub/106883'>Cafeterasub</a>", 
+			"Ecuador",
+			"Death/Thrash/Groove Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caffa/3540368026'>Caffa</a>", 
+			"United States",
+			"Death/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caffas_Rain/3540414620'>Caffas Rain</a>", 
+			"Netherlands",
+			"Death/Groove Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caffeine/3540549558'>Caffeine</a>", 
+			"Germany",
+			"Progressive Metal/Rock (early); Progressive Sludge/Groove Metal (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cafileric_Mort%C5%AFra/3540549936'>Cafileric Mortůra</a>", 
+			"Czechia",
+			"Death Metal/Grindcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cafrunes/3540515575'>Cafrunes</a>", 
+			"Argentina",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cagadera/104052'>Cagadera</a>", 
+			"Chile",
+			"Thrash Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cage/417'>Cage</a>", 
+			"United States",
+			"Heavy/Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cage_Fight/3540583900'>Cage Fight</a>", 
+			"United Kingdom",
+			"Metalcore/Hardcore/Crossover",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cage_of_Creation/3540399905'>Cage of Creation</a>", 
+			"Russia",
+			"Experimental Black Metal (early); Experimental Rock (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cage_of_Serenity/42496'>Cage of Serenity</a>", 
+			"Australia",
+			"Melodic Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cage_of_Torment/3540337464'>Cage of Torment</a>", 
+			"Norway",
+			"Deathcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cage_the_Hate/3540566844'>Cage the Hate</a>", 
+			"Australia",
+			"Groove Metal/Metalcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caged/3540472184'>Caged</a>", 
+			"United States",
+			"Doom/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caged/3540461250'>Caged</a>", 
+			"Italy",
+			"Metalcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caged_Animal/3540481454'>Caged Animal</a>", 
+			"Australia",
+			"Black Metal/Crust",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caged_Bastard/3540455444'>Caged Bastard</a>", 
+			"Tunisia",
+			"Black/Sludge Metal, Drone/Noise",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cageheart/3540525082'>Cageheart</a>", 
+			"Croatia",
+			"Heavy/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cageless/3540510054'>Cageless</a>", 
+			"Finland",
+			"Metalcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cageyseetkaah/3540529672'>Cageyseetkaah</a>", 
+			"Russia",
+			"Avant-garde Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cahnalet/3540480581'>Cahnalet</a>", 
+			"Argentina",
+			"Death Metal/Crust",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cai_Cai_Vil%C3%BA/3540449678'>Cai Cai Vilú</a>", 
+			"Chile",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caiania/3540522676'>Caiania</a>", 
+			"Finland",
+			"Melodic Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caiaphas/3540582984'>Caiaphas</a>", 
+			"United Kingdom",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caiaphas/3540279966'>Caiaphas</a>", 
+			"United Kingdom",
+			"Death Metal/Metalcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caiatus/3540453466'>Caiatus</a>", 
+			"United States",
+			"Doom/Death/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caibalion/23013'>Caibalion</a>", 
+			"Brazil",
+			"Black Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caid_Deceit/32299'>Caid Deceit</a>", 
+			"Spain",
+			"Melodic Heavy/Power Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caifaz/8029'>Caifaz</a>", 
+			"Brazil",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caillassage/3540517229'>Caillassage</a>", 
+			"France",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cailleach/3540359021'>Cailleach</a>", 
+			"New Zealand",
+			"Progressive Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cailleach_Bheur/3540546568'>Cailleach Bheur</a>", 
+			"United Kingdom",
+			"Epic Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cailleach_Calling/3540500869'>Cailleach Calling</a>", 
+			"United States",
+			"Progressive/Post-Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caillech/57664'>Caillech</a>", 
+			"Australia",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cailn/3540515181'>Cailn</a>", 
+			"Japan",
+			"Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caiman/90681'>Caiman</a>", 
+			"Germany",
+			"Heavy Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cain/88101'>Cain</a>", 
+			"Greece",
+			"Heavy/Groove Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cain/3540341572'>Cain</a>", 
+			"United States",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cain/3540339030'>Cain</a>", 
+			"United Kingdom",
+			"Industrial/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cain/3540583812'>Cain</a>", 
+			"United States",
+			"Death/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Ca%C3%ADn/3540489653'>Caín</a>", 
+			"Argentina",
+			"Heavy/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cain/90050'>Cain</a>", 
+			"Italy",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cain/3540430047'>Cain</a>", 
+			"Sweden",
+			"Progressive/Power Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cain/3540399595'>Cain</a>", 
+			"Israel",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cain_%26_Abel_90210/3540475086'>Cain & Abel 90210</a>", 
+			"Israel",
+			"Progressive Metal/Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cain_Corso/3540460042'>Cain Corso</a>", 
+			"United States",
+			"Crossover/Grindcore/Powerviolence",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cain_the_Whaler/3540454509'>Cain the Whaler</a>", 
+			"Russia",
+			"Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cain_Will_Rise/3540444470'>Cain Will Rise</a>", 
+			"Russia",
+			"Melodic Doom/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cain%27s_Alibi/13901'>Cain's Alibi</a>", 
+			"United States",
+			"Heavy Metal/Hard Rock",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cain%27s_Bloodline/3540532664'>Cain's Bloodline</a>", 
+			"Finland",
+			"Stoner/Groove Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cain%27s_Dinasty/121457'>Cain's Dinasty</a>", 
+			"Spain",
+			"Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cain%27s_Offering/3540286624'>Cain's Offering</a>", 
+			"Finland",
+			"Melodic Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Ca%C3%AFna/47997'>Caïna</a>", 
+			"United Kingdom",
+			"Raw Black Metal (early); Post-Black Metal (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caina/3540484223'>Caina</a>", 
+			"Colombia",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Ca%C3%AFnan_Dawn/103313'>Caïnan Dawn</a>", 
+			"France",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cainhurst/3540483273'>Cainhurst</a>", 
+			"United Kingdom",
+			"Raw Black Metal/Dark Ambient",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cainian_Legion/3540330247'>Cainian Legion</a>", 
+			"Chile",
+			"Pagan Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cainites/3540545101'>Cainites</a>", 
+			"Italy",
+			"Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cainomen/3540319532'>Cainomen</a>", 
+			"Indonesia",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cains_Rage/3540509605'>Cains Rage</a>", 
+			"United States",
+			"Heavy/Power/Thrash Metal, Stoner Rock/Grunge",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cair_Paravel/3540587549'>Cair Paravel</a>", 
+			"United Kingdom",
+			"NWOBHM/Heavy Metal/Hard Rock",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cair_Rigor/56439'>Cair Rigor</a>", 
+			"Russia",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C%C3%A0irdeas_Fala/3540480019'>Càirdeas Fala</a>", 
+			"Australia",
+			"Atmospheric Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cairiss/3540411058'>Cairiss</a>", 
+			"United Kingdom",
+			"Atmospheric Black Metal/Shoegaze",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cairn/3540413980'>Cairn</a>", 
+			"France",
+			"Atmospheric Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cairn/3540332750'>Cairn</a>", 
+			"United States",
+			"Black Metal, Neofolk",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cairn_Temple/3540526795'>Cairn Temple</a>", 
+			"United States",
+			"Black/Death/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cairns/3540506182'>Cairns</a>", 
+			"United Kingdom",
+			"Atmospheric/Post-Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cairns/3540469089'>Cairns</a>", 
+			"France",
+			"Sludge/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cairo666/3540551348'>Cairo666</a>", 
+			"Indonesia",
+			"Gothic/Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caitiff/21716'>Caitiff</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caix%C3%A3o/3540484933'>Caixão</a>", 
+			"Portugal",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caix%C3%A3o/3540459339'>Caixão</a>", 
+			"Brazil",
+			"Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caix%C3%A3o_Podre/3540527163'>Caixão Podre</a>", 
+			"Brazil",
+			"Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caja_Met%C3%A1lica/3540504269'>Caja Metálica</a>", 
+			"Mexico",
+			"Heavy Metal/Hard Rock",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cajan/3540419274'>Cajan</a>", 
+			"Ecuador",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caje/66377'>Caje</a>", 
+			"United States",
+			"Thrash/Speed Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caji/3540534548'>Caji</a>", 
+			"Finland",
+			"Progressive Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cajun_Mutation/3540549620'>Cajun Mutation</a>", 
+			"United States",
+			"Death Metal/Hardcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cajun_Wolf/3540476217'>Cajun Wolf</a>", 
+			"United Kingdom",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cakerawala/3540376252'>Cakerawala</a>", 
+			"Malaysia",
+			"Progressive Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cakewet/42653'>Cakewet</a>", 
+			"Switzerland",
+			"Brutal Death Metal/Grindcore/Goregrind",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Cakrawala/3540584902'>Cakrawala</a>", 
+			"Malaysia",
+			"Heavy Metal/Hard Rock",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Calabou%C3%A7o/3540571182'>Calabouço</a>", 
+			"Brazil",
+			"Raw Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Calabou%C3%A7o/3540315564'>Calabouço</a>", 
+			"Brazil",
+			"Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Calaca/3540514345'>Calaca</a>", 
+			"Mexico",
+			"Heavy/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Calacas/3540468177'>Calacas</a>", 
+			"United States",
+			"Experimental Death/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Calacorm/3540450729'>Calacorm</a>", 
+			"Australia",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Calacras/3540386385'>Calacras</a>", 
+			"Mexico",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caladan_Brood/3540359903'>Caladan Brood</a>", 
+			"United States",
+			"Epic/Atmospheric Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caladbolg/13530'>Caladbolg</a>", 
+			"Italy",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caladmor/3540310923'>Caladmor</a>", 
+			"Switzerland",
+			"Folk/Gothic Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Caladria/3540530995'>Caladria</a>", 
+			"Poland",
+			"Melodic Doom/Gothic Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Calamari_Hightrip/3540569995'>Calamari Hightrip</a>", 
+			"Brazil",
+			"Stoner Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Calamitous/3540267057'>Calamitous</a>", 
+			"Thailand",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Calamitous_Intent/3540381048'>Calamitous Intent</a>", 
+			"United States",
+			"Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Calamitous_Skies/3540520697'>Calamitous Skies</a>", 
+			"United States",
+			"Progressive/Technical Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Calamitus/3540541184'>Calamitus</a>", 
+			"Mexico",
+			"Death/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Calamity/3540426241'>Calamity</a>", 
+			"United States",
+			"Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Calamity/3540513144'>Calamity</a>", 
+			"Indonesia",
+			"Death/Groove Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Calamity/3540386462'>Calamity</a>", 
+			"Puerto Rico",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Calamity_Islet/3540345518'>Calamity Islet</a>", 
+			"Portugal",
+			"Melodic Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Calamity_Vessel/3540590787'>Calamity Vessel</a>", 
+			"United States",
+			"Atmospheric Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Calarook/3540463089'>Calarook</a>", 
+			"Switzerland",
+			"Folk Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Calaspia/3540460177'>Calaspia</a>", 
+			"Netherlands",
+			"Symphonic Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Calatrilloz/3540322607'>Calatrilloz</a>", 
+			"United Kingdom",
+			"Gothic Metal/Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/C%C4%83l%C4%83u/3540558922'>Călău</a>", 
+			"Romania",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Calavera/3540557059'>Calavera</a>", 
+			"United States",
+			"Thrash/Death/Groove Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Calavera/3540381540'>Calavera</a>", 
+			"Argentina",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Calavera/3540441755'>Calavera</a>", 
+			"Chile",
+			"Heavy Metal/Hard Rock",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Calavera/3540588784'>Calavera</a>", 
+			"Argentina",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Calaverno/3540420402'>Calaverno</a>", 
+			"Chile",
+			"Heavy/Stoner Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Calb_O%27Roth/52189'>Calb O'Roth</a>", 
+			"Spain",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Calben/3540511044'>Calben</a>", 
+			"Finland",
+			"Black Metal/Ambient",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Calcaire/3540470618'>Calcaire</a>", 
+			"United States",
+			"Progressive Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Calcarata/3540550987'>Calcarata</a>", 
+			"Germany",
+			"Atmospheric Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Calcemia/3540434304'>Calcemia</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				]
+}

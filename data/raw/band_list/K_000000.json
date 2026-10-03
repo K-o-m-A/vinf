@@ -1,0 +1,3506 @@
+{ 
+	"iTotalRecords": 5073,
+	"iTotalDisplayRecords": 5073,
+	"sEcho": 1,
+	"aaData": [
+			[ 
+			"<a href='https://www.metal-archives.com/bands/K_Amon_K/3540498159'>K Amon K</a>", 
+			"France",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K_L_P_S/3540481561'>K L P S</a>", 
+			"Sweden",
+			"Sludge/Post-Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K_Prouty/3540489528'>K Prouty</a>", 
+			"United States",
+			"Progressive Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K-fir/3540435601'>K-fir</a>", 
+			"Ecuador",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K-Lomny/7397'>K-Lomny</a>", 
+			"France",
+			"Brutal Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K-Octave/6550'>K-Octave</a>", 
+			"United States",
+			"Heavy Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K-%C3%98S/4145'>K-ØS</a>", 
+			"Spain",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K-Tion/3540542966'>K-Tion</a>", 
+			"Argentina",
+			"Thrash/Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K-usura/3540512611'>K-usura</a>", 
+			"Italy",
+			"Progressive/Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K-XX/3540317241'>K-XX</a>", 
+			"Spain",
+			"Heavy Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K.A./23589'>K.A.</a>", 
+			"France",
+			"Thrash Metal/Crossover (early); Brutal Death Metal (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K.A.D/3540513628'>K.A.D</a>", 
+			"Mexico",
+			"Thrash/Speed Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K.A.D.A.L/3540482981'>K.A.D.A.L</a>", 
+			"Indonesia",
+			"Stoner/Doom Metal/Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K.A.IN/3540331289'>K.A.IN</a>", 
+			"Belarus",
+			"Melodic Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K.A.S.K./3540333840'>K.A.S.K.</a>", 
+			"Poland",
+			"Deathcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K.D.T./3540259856'>K.D.T.</a>", 
+			"Chile",
+			"Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K.F.R./3540378332'>K.F.R.</a>", 
+			"France",
+			"Black Metal/Dark Ambient",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K.G.B./73053'>K.G.B.</a>", 
+			"Canada",
+			"Experimental Thrash Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K.I.N/6883'>K.I.N</a>", 
+			"Australia",
+			"Heavy/Thrash/Groove Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K.I.P.U./3540498061'>K.I.P.U.</a>", 
+			"Finland",
+			"Depressive Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K.I.R./3540466043'>K.I.R.</a>", 
+			"Ukraine",
+			"Progressive Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K.I.S.S./3540534432'>K.I.S.S.</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K.I.T./3540357760'>K.I.T.</a>", 
+			"Germany",
+			"Heavy Metal/Crossover",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K.L.L.K./3540344475'>K.L.L.K.</a>", 
+			"France",
+			"Black/Doom Metal (early); Atmospheric Black Metal (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K.M./3540396007'>K.M.</a>", 
+			"Russia",
+			"Atmospheric Black/Gothic Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K.O.C/3540332825'>K.O.C</a>", 
+			"Germany",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K.O.D./40219'>K.O.D.</a>", 
+			"United States",
+			"Death/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K.S/3540414853'>K.S</a>", 
+			"Sweden",
+			"Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K.S.S.K/3540506099'>K.S.S.K</a>", 
+			"Brazil",
+			"Thrash/Speed/Death Metal/Crossover",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K.T.C.M./3540330437'>K.T.C.M.</a>", 
+			"United States",
+			"Thrash Metal/Crossover (early); Death/Thrash Metal (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K.T.N./3540445144'>K.T.N.</a>", 
+			"Thailand",
+			"Thrash Metal/Crossover",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K.T.S./3540481719'>K.T.S.</a>", 
+			"Italy",
+			"Industrial Death/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K.U.D.E.T.A./3540510741'>K.U.D.E.T.A.</a>", 
+			"Indonesia",
+			"Melodic Death Metal/Metalcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K.Y.M./3540491885'>K.Y.M.</a>", 
+			"United Kingdom",
+			"Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K.Y.M.I./3540547928'>K.Y.M.I.</a>", 
+			"Finland",
+			"Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K%27aux/3540408721'>K'aux</a>", 
+			"Chile",
+			"Progressive Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K%27hara/3540428921'>K'hara</a>", 
+			"Russia",
+			"Pagan Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K%27hult/3540414302'>K'hult</a>", 
+			"Germany",
+			"Sludge/Black/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K%27Jadpa_Nozhd/3540553464'>K'Jadpa Nozhd</a>", 
+			"Ukraine",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K%27taagar/3540401478'>K'taagar</a>", 
+			"Brazil",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K%27Thouga/3540590702'>K'Thouga</a>", 
+			"Mexico",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K%27vor/3540424315'>K'vor</a>", 
+			"United Kingdom",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K28/3540350480'>K28</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K3/102688'>K3</a>", 
+			"Hungary",
+			"Progressive Metal/Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K626/82330'>K626</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K88/3540461121'>K88</a>", 
+			"Argentina",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/KA/122440'>KA</a>", 
+			"United States",
+			"Progressive Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Ka_Gaia_An/3540419260'>Ka Gaia An</a>", 
+			"Romania",
+			"Pagan/Folk Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Ka_Mmen/3540365949'>Ka Mmen</a>", 
+			"Ukraine",
+			"Psychedelic Progressive Gothic/Doom Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Ka-tet/3540372703'>Ka-tet</a>", 
+			"Germany",
+			"Black/Doom/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Ka%27ai/3540531090'>Ka'ai</a>", 
+			"United States",
+			"Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Ka%27aper/3540558996'>Ka'aper</a>", 
+			"Cyprus",
+			"Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Ka%27Bandha/3540518645'>Ka'Bandha</a>", 
+			"United States",
+			"Blackened Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Ka%27ili/3540559683'>Ka'ili</a>", 
+			"Germany",
+			"Heavy Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Ka%27rah/3540555286'>Ka'rah</a>", 
+			"Croatia",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K%C3%A5abalh/3540445276'>Kåabalh</a>", 
+			"France",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaaboos/3540506515'>Kaaboos</a>", 
+			"Norway",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaagorah/3540541195'>Kaagorah</a>", 
+			"France",
+			"Southern/Stoner Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaak/3540396286'>Kaak</a>", 
+			"Austria",
+			"Industrial/Electronic Groove Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaal/3540413178'>Kaal</a>", 
+			"Nepal",
+			"Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaal_Akuma/3540459416'>Kaal Akuma</a>", 
+			"Bangladesh",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaal_Nagini/3540523389'>Kaal Nagini</a>", 
+			"India",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaala/124001'>Kaala</a>", 
+			"Colombia",
+			"Groove/Thrash Metal (early); Metalcore (later)",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaalba%C3%A5r/3540552820'>Kaalbaår</a>", 
+			"France",
+			"Doom/Sludge Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaamora/3540286501'>Kaamora</a>", 
+			"Australia",
+			"Death/Black/Groove Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaamos/3409'>Kaamos</a>", 
+			"Sweden",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaamos/3540261201'>Kaamos</a>", 
+			"Finland",
+			"Doom/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaamos/3540412287'>Kaamos</a>", 
+			"Finland",
+			"Death Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaamos_Warriors/3540450029'>Kaamos Warriors</a>", 
+			"Finland",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaamosmasennus/3540531695'>Kaamosmasennus</a>", 
+			"France",
+			"Atmospheric Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaanek/3540535696'>Kaanek</a>", 
+			"Guatemala",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaaosteoria/113801'>Kaaosteoria</a>", 
+			"Finland",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaapora/3540356963'>Kaapora</a>", 
+			"Germany",
+			"Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaar/3540320240'>Kaar</a>", 
+			"Czechia",
+			"Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaarkema/3540439017'>Kaarkema</a>", 
+			"Russia",
+			"Atmospheric Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K%C3%A4%C3%A4rmekristus/3540308702'>Käärmekristus</a>", 
+			"Finland",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaarne/3540507098'>Kaarne</a>", 
+			"Finland",
+			"Atmospheric Post-Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaarnekorpi/55118'>Kaarnekorpi</a>", 
+			"Finland",
+			"Viking/Folk Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaash/3540484284'>Kaash</a>", 
+			"Argentina",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaashnak/3540301685'>Kaashnak</a>", 
+			"Germany",
+			"Depressive Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaasibal/3540417221'>Kaasibal</a>", 
+			"Mexico",
+			"Stoner/Sludge/Doom Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaasschaaf/3540392565'>Kaasschaaf</a>", 
+			"Netherlands",
+			"Death Metal/Grindcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaat/3540356111'>Kaat</a>", 
+			"Belarus",
+			"Black Metal/Ambient",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaatarakt/3540416865'>Kaatarakt</a>", 
+			"Switzerland",
+			"Melodic Death/Folk Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaatayra/3540451474'>Kaatayra</a>", 
+			"Brazil",
+			"Atmospheric Folk/Black Metal, Experimental Folk",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaatorituaali/3540481034'>Kaatorituaali</a>", 
+			"Finland",
+			"Groove/Alternative/Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaat%C3%B6rsnik/52268'>Kaatörsnik</a>", 
+			"Finland",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kab-Yah/3540589600'>Kab-Yah</a>", 
+			"Greece",
+			"Crossover/Hardcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kab%27rakan/3540439953'>Kab'rakan</a>", 
+			"El Salvador",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaba%C3%A1l/3540527565'>Kabaál</a>", 
+			"Mexico",
+			"Groove/Death/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kabak/3683'>Kabak</a>", 
+			"El Salvador",
+			"Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kabal/3540333482'>Kabal</a>", 
+			"Spain",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kabal/3540282603'>Kabal</a>", 
+			"Italy",
+			"Heavy Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kabala/38953'>Kabala</a>", 
+			"El Salvador",
+			"Heavy/Speed Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kabalah/3540298464'>Kabalah</a>", 
+			"Russia",
+			"Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaban/3540437818'>Kaban</a>", 
+			"Russia",
+			"Thrash Metal/Crossover",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kabaong_ni_Kamatayan/3540532398'>Kabaong ni Kamatayan</a>", 
+			"Philippines",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kabarah/7042'>Kabarah</a>", 
+			"Brazil",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kabarett/3540455594'>Kabarett</a>", 
+			"Honduras",
+			"Melodic Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kab%C3%A1t/50962'>Kabát</a>", 
+			"Czechia",
+			"Thrash Metal (early); Melodic Heavy Metal/Hard Rock (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kabbal/9238'>Kabbal</a>", 
+			"International",
+			"Death Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kabbalah/3540481435'>Kabbalah</a>", 
+			"Spain",
+			"Doom Metal/Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kabexnuv/3540392273'>Kabexnuv</a>", 
+			"Canada",
+			"Atmospheric Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kabil/3540580892'>Kabil</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kabina/3540520507'>Kabina</a>", 
+			"Ukraine",
+			"Sludge/Stoner/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kablo/3540369971'>Kablo</a>", 
+			"Spain",
+			"Black/Melodic Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kabra/3540557094'>Kabra</a>", 
+			"Argentina",
+			"Depressive Post-Black/Doom Metal/Shoegaze",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kabra_Makabra/3540407065'>Kabra Makabra</a>", 
+			"Argentina",
+			"Thrash/Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kabukidrop/3540554600'>Kabukidrop</a>", 
+			"Finland",
+			"Crossover/Punk (early); Thrash Metal/Punk (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kabul/41246'>Kabul</a>", 
+			"Mexico",
+			"Melodic Death/Thrash Metal with Gothic influences",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaburimoja/3540583213'>Kaburimoja</a>", 
+			"Netherlands",
+			"Deathcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K%C3%A2bus/3540537428'>Kâbus</a>", 
+			"Türkiye",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kachana/1426'>Kachana</a>", 
+			"United Kingdom",
+			"Speed/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadabeer/3540462794'>Kadabeer</a>", 
+			"Chile",
+			"Thrash Metal/Crossover",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadabra/3540438065'>Kadabra</a>", 
+			"Brazil",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadabra/3540575570'>Kadabra</a>", 
+			"United States",
+			"Psychedelic Doom/Stoner Metal/Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadakus/98988'>Kadakus</a>", 
+			"Canada",
+			"Power/Thrash Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadar/3540382965'>Kadar</a>", 
+			"Kazakhstan",
+			"Progressive Death/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadaras/3540516335'>Kadaras</a>", 
+			"United States",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadarma/3540256123'>Kadarma</a>", 
+			"Spain",
+			"Progressive Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadastath/89118'>Kadastath</a>", 
+			"Brazil",
+			"Death/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadath/3845'>Kadath</a>", 
+			"Germany",
+			"Brutal Death Metal/Grindcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadath/41001'>Kadath</a>", 
+			"Mexico",
+			"Atmospheric Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadath/3540270159'>Kadath</a>", 
+			"United States",
+			"Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadath/3540561488'>Kadath</a>", 
+			"United States",
+			"Funeral Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadath/40802'>Kadath</a>", 
+			"Russia",
+			"Pagan Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadath/3540402379'>Kadath</a>", 
+			"Colombia",
+			"Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadath/3540447213'>Kadath</a>", 
+			"United States",
+			"Funeral Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadath_the_Lost_City/24866'>Kadath the Lost City</a>", 
+			"Poland",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadatheron/3540345148'>Kadatheron</a>", 
+			"Finland",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadathorn/4215'>Kadathorn</a>", 
+			"Germany",
+			"Black/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadavar/100171'>Kadavar</a>", 
+			"Italy",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadaver/3540266283'>Kadaver</a>", 
+			"Sweden",
+			"Black/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadaver/3540477423'>Kadaver</a>", 
+			"Bolivia",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadaver_Cult/3540441743'>Kadaver Cult</a>", 
+			"Chile",
+			"Death/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadaver_de_Kaibil/3540556506'>Kadaver de Kaibil</a>", 
+			"Guatemala",
+			"Thrash/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadaver_Dolls/3540529973'>Kadaver Dolls</a>", 
+			"United States",
+			"Death/Groove Metal/Metalcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadaverdisciplin/3540431560'>Kadaverdisciplin</a>", 
+			"Sweden",
+			"Melodic Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadavered/3540551416'>Kadavered</a>", 
+			"United States",
+			"Goregrind",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadavereich/3540499228'>Kadavereich</a>", 
+			"Russia",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadaverficker/13719'>Kadaverficker</a>", 
+			"Germany",
+			"Sludge/Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadaverica/3540328808'>Kadaverica</a>", 
+			"Italy",
+			"Black Metal (early); Black/Death Metal (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K%C3%A4daverico/3540535392'>Kädaverico</a>", 
+			"Spain",
+			"Grindcore/Crust Punk",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadaverin/3540258798'>Kadaverin</a>", 
+			"Hungary",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadaverkult/3540418933'>Kadaverkult</a>", 
+			"Sweden",
+			"Death/Doom Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadavermarch/3540506334'>Kadavermarch</a>", 
+			"Denmark",
+			"Stoner Metal/Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadavre/3540517583'>Kadavre</a>", 
+			"France",
+			"Raw Black Metal/Noise",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadavrik/52853'>Kadavrik</a>", 
+			"Germany",
+			"Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadavro/3540485260'>Kadavro</a>", 
+			"Argentina",
+			"Death/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadawer_Dialoog/3540423150'>Kadawer Dialoog</a>", 
+			"South Africa",
+			"Groove Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kade_Storm/3540390190'>Kade Storm</a>", 
+			"United Kingdom",
+			"Blackened Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadens/3540401590'>Kadens</a>", 
+			"United States",
+			"Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadenzza/15280'>Kadenzza</a>", 
+			"Japan",
+			"Symphonic Black Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadian_Injection/3540282970'>Kadian Injection</a>", 
+			"Australia",
+			"Thrash Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadmiok/3540479590'>Kadmiok</a>", 
+			"Chile",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K%C3%A1dmos/3540499577'>Kádmos</a>", 
+			"Unknown",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadotettu/3540415473'>Kadotettu</a>", 
+			"Finland",
+			"Ambient Black/Funeral Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadotuksen_Portti/3540443407'>Kadotuksen Portti</a>", 
+			"Finland",
+			"Atmospheric Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadotus/12557'>Kadotus</a>", 
+			"Finland",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadotus/3540454451'>Kadotus</a>", 
+			"Finland",
+			"Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kadub_Kult/3540469704'>Kadub Kult</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaduk/58543'>Kaduk</a>", 
+			"Belarus",
+			"Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kae/3540522359'>Kae</a>", 
+			"Poland",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaeck/3540400251'>Kaeck</a>", 
+			"Netherlands",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaede/3540438345'>Kaede</a>", 
+			"Japan",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaelis/3540496350'>Kaelis</a>", 
+			"Spain",
+			"Symphonic Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K%C3%A6ltetod/18628'>Kæltetod</a>", 
+			"Austria",
+			"Black Metal/Dark Ambient",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaemon/3540287066'>Kaemon</a>", 
+			"United States",
+			"Southern/Stoner Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaemorph/29866'>Kaemorph</a>", 
+			"France",
+			"Brutal Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaeos/3540269474'>Kaeos</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaeper/3540463090'>Kaeper</a>", 
+			"Belgium",
+			"Epic Folk Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaer_Morhen/39966'>Kaer Morhen</a>", 
+			"Poland",
+			"Heavy Metal/Hard Rock",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaer_Morhen/3540391249'>Kaer Morhen</a>", 
+			"Italy",
+			"Epic Symphonic Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaer_Morhen/3540296541'>Kaer Morhen</a>", 
+			"Germany",
+			"Epic Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaer_Morhen/3540429524'>Kaer Morhen</a>", 
+			"Argentina",
+			"Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaera/3540487672'>Kaera</a>", 
+			"Finland",
+			"Melodic Death/Groove Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaerulean/3540401879'>Kaerulean</a>", 
+			"Australia",
+			"Melodic Death/Black Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaets/3540401180'>Kaets</a>", 
+			"France",
+			"Death/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaevum/3540269450'>Kaevum</a>", 
+			"Norway",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kafan/20556'>Kafan</a>", 
+			"Lebanon",
+			"Raw Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K%C3%A4ff/3540539288'>Käff</a>", 
+			"United States",
+			"Brutal Death Metal/Goregrind",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaffaljidhma/3540409238'>Kaffaljidhma</a>", 
+			"Netherlands",
+			"Atmospheric/Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaffeine/3540294619'>Kaffeine</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kafilah/3540586972'>Kafilah</a>", 
+			"Malaysia",
+			"Heavy Metal/Hard Rock",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kafir/3540525798'>Kafir</a>", 
+			"Unknown",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kafirun/3540393933'>Kafirun</a>", 
+			"Canada",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kafka_Rex/3540398146'>Kafka Rex</a>", 
+			"United States",
+			"Stoner/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kafkian/3540447655'>Kafkian</a>", 
+			"Honduras",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kafkuh/3540467396'>Kafkuh</a>", 
+			"Spain",
+			"Sludge/Post-Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kafoth/44474'>Kafoth</a>", 
+			"Ecuador",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kafros_Lord/3540411435'>Kafros Lord</a>", 
+			"Cyprus",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kafziel/3540412453'>Kafziel</a>", 
+			"Argentina",
+			"Progressive Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kafziel/95597'>Kafziel</a>", 
+			"Sweden",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kagan/97650'>Kagan</a>", 
+			"Serbia",
+			"Pagan Black Metal/Dungeon Synth",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kagaos_de_la_Kaeza/3540537447'>Kagaos de la Kaeza</a>", 
+			"Chile",
+			"Thrash/Nu-Metal/Crossover/Hardcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kage/46529'>Kage</a>", 
+			"United States",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kageneko/3540532330'>Kageneko</a>", 
+			"United States",
+			"Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kagno/3540486341'>Kagno</a>", 
+			"Chile",
+			"Melodic Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kagrenak/3540453754'>Kagrenak</a>", 
+			"Russia",
+			"Funeral Doom Metal, Dark Ambient",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kagutaba_Method/3540511963'>Kagutaba Method</a>", 
+			"Unknown",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kahanka/3540448576'>Kahanka</a>", 
+			"Brazil",
+			"Groove Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K%C3%A2hin/3540566980'>Kâhin</a>", 
+			"Türkiye",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K%C3%A2hld/3540388504'>Kâhld</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kahlkopf/3540375484'>Kahlkopf</a>", 
+			"Germany",
+			"Punk Rock/RAC (early); Crossover/Thrash/Heavy Metal (later)",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kahn/3540394697'>Kahn</a>", 
+			"Sweden",
+			"Grindcore/Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kahtahdhen/92003'>Kahtahdhen</a>", 
+			"Mexico",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kahtmayan/11845'>Kahtmayan</a>", 
+			"Iran",
+			"Progressive Metal (early); Progressive/Thrash Metal (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kai_Flood/3540349752'>Kai Flood</a>", 
+			"Mexico",
+			"Thrash/Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kai-Hendrik_Henk/3540556369'>Kai-Hendrik Henk</a>", 
+			"Germany",
+			"Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaiadas/7538'>Kaiadas</a>", 
+			"Greece",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaiage/3540442453'>Kaiage</a>", 
+			"Sweden",
+			"Heavy/Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaiaphas/69743'>Kaiaphas</a>", 
+			"Canada",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaideka/3540393851'>Kaideka</a>", 
+			"United Kingdom",
+			"Groove Metal/Metalcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaifeck/3540489159'>Kaifeck</a>", 
+			"Germany",
+			"Progressive Metalcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaiha/3540507490'>Kaiha</a>", 
+			"Finland",
+			"Doom/Stoner Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaiho/3540547256'>Kaiho</a>", 
+			"Finland",
+			"Melodic Death Metal/Hardcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaihon/3540465223'>Kaihon</a>", 
+			"International",
+			"Progressive Metalcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaihon_Lapset/3540528956'>Kaihon Lapset</a>", 
+			"Finland",
+			"Stoner/Doom Metal/Grunge",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaihoro/30208'>Kaihoro</a>", 
+			"Finland",
+			"Stoner Metal/Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaihorro/117937'>Kaihorro</a>", 
+			"United Kingdom",
+			"Thrash Metal/Metalcore",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaiju/3540479382'>Kaiju</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaiju/3540288499'>Kaiju</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaikkivaltias/3540527853'>Kaikkivaltias</a>", 
+			"Finland",
+			"Melodic Black/Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kail/3540531543'>Kail</a>", 
+			"Spain",
+			"Crossover/Metalcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kailash/75315'>Kailash</a>", 
+			"Italy",
+			"Avant-garde/Black Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kailess/3540431648'>Kailess</a>", 
+			"Russia",
+			"Sludge/Post-Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaiman/3540541202'>Kaiman</a>", 
+			"Germany",
+			"Sludge/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaimbrak/3540528142'>Kaimbrak</a>", 
+			"Brazil",
+			"Blackened Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kain/34857'>Kain</a>", 
+			"Spain",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kain/24115'>Kain</a>", 
+			"Moldova",
+			"Melodic Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kain/57669'>Kain</a>", 
+			"Croatia",
+			"Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kain/3540588941'>Kain</a>", 
+			"United States",
+			"Thrash/Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kain/3540285419'>Kain</a>", 
+			"Germany",
+			"Melodic Death/Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kain/3540400367'>Kain</a>", 
+			"Spain",
+			"Heavy Metal/Punk",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kain_Bairn/3540557563'>Kain Bairn</a>", 
+			"Germany",
+			"Slam/Brutal Death Metal/Deathcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kainabel/30574'>Kainabel</a>", 
+			"Chile",
+			"Progressive Death/Thrash Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaine/3540323772'>Kaine</a>", 
+			"United Kingdom",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kainin_Lapset/54244'>Kainin Lapset</a>", 
+			"Finland",
+			"Black/Thrash Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kainsmal/3540530095'>Kainsmal</a>", 
+			"France",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaintorment/3540290805'>Kaintorment</a>", 
+			"Costa Rica",
+			"Black Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaiowas/3540338143'>Kaiowas</a>", 
+			"Argentina",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaiphos/78223'>Kaiphos</a>", 
+			"United Kingdom",
+			"Black/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaipirau/3540466070'>Kaipirau</a>", 
+			"New Zealand",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaira/3540546616'>Kaira</a>", 
+			"Finland",
+			"Black/Folk Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaira/3540517310'>Kaira</a>", 
+			"Finland",
+			"Progressive/Death/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaira/69611'>Kaira</a>", 
+			"Belarus",
+			"Symphonic Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kairhia/31856'>Kairhia</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kairi/46784'>Kairi</a>", 
+			"United Kingdom",
+			"Funeral Doom Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kairos/3540362328'>Kairos</a>", 
+			"Sweden",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kairos/3540459401'>Kairos</a>", 
+			"Switzerland",
+			"Melodic Death Metal/Metalcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kairos_Augur/3540445792'>Kairos Augur</a>", 
+			"United States",
+			"Symphonic Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kairos./3540419205'>Kairos.</a>", 
+			"United States",
+			"Progressive Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kairosphere/3540405581'>Kairosphere</a>", 
+			"United States",
+			"Progressive Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaisar/3540558755'>Kaisar</a>", 
+			"Italy",
+			"Thrash Metal/Hardcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaisas/3540452940'>Kaisas</a>", 
+			"Greece",
+			"Heavy Metal/Hard Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaiseki/3540453640'>Kaiseki</a>", 
+			"Bolivia",
+			"Doom/Gothic Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaiser/3540581133'>Kaiser</a>", 
+			"Uruguay",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaiser/3540284224'>Kaiser</a>", 
+			"Switzerland",
+			"Gothic/Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaiser/3540508235'>Kaiser</a>", 
+			"Japan",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaiser/3540395388'>Kaiser</a>", 
+			"Finland",
+			"Stoner Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaiser/3540273113'>Kaiser</a>", 
+			"Argentina",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaiser/90356'>Kaiser</a>", 
+			"Sweden",
+			"Black Metal/Ambient",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaiser_and_the_Machines_of_Creation/3540275316'>Kaiser and the Machines of Creation</a>", 
+			"Australia",
+			"Progressive Metal/Rock, Shred",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaiser_Slaughter/3540570716'>Kaiser Slaughter</a>", 
+			"Canada",
+			"Blackened Death Metal/Grindcore",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaiser_Slaughter/3540465917'>Kaiser Slaughter</a>", 
+			"United States",
+			"Doom/Stoner Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaiserfaust/3540450056'>Kaiserfaust</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaiserkorps/11199'>Kaiserkorps</a>", 
+			"France",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaiserreich/109361'>Kaiserreich</a>", 
+			"Italy",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaisers_Bart/3540437594'>Kaisers Bart</a>", 
+			"Germany",
+			"Progressive Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaistenfall/3540550020'>Kaistenfall</a>", 
+			"Belarus",
+			"Raw Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaitem/96378'>Kaitem</a>", 
+			"Chile",
+			"Heavy Metal/Hard Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaiten/3540555408'>Kaiten</a>", 
+			"Brazil",
+			"Thrash/Death Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaivs/3540519744'>Kaivs</a>", 
+			"Italy",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaixton/3540470091'>Kaixton</a>", 
+			"Spain",
+			"Thrash/Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaizen/3540540681'>Kaizen</a>", 
+			"Bangladesh",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaizen/15481'>Kaizen</a>", 
+			"France",
+			"Death Metal with Groove influences",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaizer/43810'>Kaizer</a>", 
+			"Japan",
+			"Melodic Power Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaizer_Nuckle/3540562370'>Kaizer Nuckle</a>", 
+			"Japan",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kajaja_Force-tek/3540258415'>Kajaja Force-tek</a>", 
+			"United States",
+			"Thrash/Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaka_Campolongo/3540503431'>Kaka Campolongo</a>", 
+			"Brazil",
+			"Power/Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kakaradeath/3540443582'>Kakaradeath</a>", 
+			"Indonesia",
+			"Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kakarotabafatada/3540518163'>Kakarotabafatada</a>", 
+			"United States",
+			"Death Metal/Deathcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kakaroth/62224'>Kakaroth</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kakasbal/3540423511'>Kakasbal</a>", 
+			"Mexico",
+			"Ambient Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kakia/3540588576'>Kakia</a>", 
+			"Australia",
+			"Black Metal/Metalcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kakihara/110729'>Kakihara</a>", 
+			"Netherlands",
+			"Thrash/Death/Groove Metal with Industrial influences",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kako_Daimon/3540329719'>Kako Daimon</a>", 
+			"Sweden",
+			"Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kakodaimonia/3540508876'>Kakodaimonia</a>", 
+			"United States",
+			"Drone/Doom Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kakoranger/3540382699'>Kakoranger</a>", 
+			"Greece",
+			"Experimental Progressive Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kakorrhaph/3540585644'>Kakorrhaph</a>", 
+			"Australia",
+			"Atmospheric/Depressive Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kakorrhaphia/3540586564'>Kakorrhaphia</a>", 
+			"United Kingdom",
+			"Atmospheric Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kakothanasy/3540389255'>Kakothanasy</a>", 
+			"Switzerland",
+			"Technical Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaksonen/98338'>Kaksonen</a>", 
+			"Finland",
+			"Thrash/Death Metal (early); Progressive Thrash/Sludge Metal (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kakta/3540589699'>Kakta</a>", 
+			"Finland",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaktus/3540524694'>Kaktus</a>", 
+			"Finland",
+			"Melodic Death Metal/Metalcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kal/3540482563'>Kal</a>", 
+			"Czechia",
+			"Thrash/Death Metal/Metalcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K%C3%A2l/3540455028'>Kâl</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kal-El/3540416246'>Kal-El</a>", 
+			"Norway",
+			"Doom/Stoner Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kala/3540429628'>Kala</a>", 
+			"Indonesia",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K%C4%81la/3540436914'>Kāla</a>", 
+			"International",
+			"Black Metal/Ambient",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kala_Azar/3540513415'>Kala Azar</a>", 
+			"Switzerland",
+			"Sludge/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kala_Mani_Karm/3540278629'>Kala Mani Karm</a>", 
+			"Japan",
+			"Melodic Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kala_Sumeriah/3540442373'>Kala Sumeriah</a>", 
+			"Argentina",
+			"Stoner/Groove Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalaallit_Nunaat/3540431223'>Kalaallit Nunaat</a>", 
+			"Italy",
+			"Atmospheric Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalaazar/50625'>Kalaazar</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalabanganz/3540348862'>Kalabanganz</a>", 
+			"Malaysia",
+			"Black 'n' Roll",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalabira/3540412042'>Kalabira</a>", 
+			"Philippines",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalabou%C3%A7o/3540315558'>Kalabouço</a>", 
+			"Brazil",
+			"Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalacread/3540460778'>Kalacread</a>", 
+			"Japan",
+			"Progressive Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalah/3540485706'>Kalah</a>", 
+			"Italy",
+			"Electronic Progressive Metalcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalahari/3540444420'>Kalahari</a>", 
+			"Italy",
+			"Death/Groove Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalakai/3540275054'>Kalakai</a>", 
+			"United States",
+			"Melodic Death Metal/Metalcore",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalakuta/3540498721'>Kalakuta</a>", 
+			"United States",
+			"Doom/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalamalam/3540402292'>Kalamalam</a>", 
+			"Malaysia",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalameet/3540469702'>Kalameet</a>", 
+			"Russia",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalamiti/3540385800'>Kalamiti</a>", 
+			"Denmark",
+			"Experimental Progressive Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalangkang/3540418542'>Kalangkang</a>", 
+			"Indonesia",
+			"Brutal Death Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalanthes/3540446647'>Kalanthes</a>", 
+			"United States",
+			"Melodic Death/Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalap%C3%A1cs/1884'>Kalapács</a>", 
+			"Hungary",
+			"Heavy/Speed Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalargon/3540585920'>Kalargon</a>", 
+			"Russia",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalas/64408'>Kalas</a>", 
+			"United States",
+			"Stoner/Doom Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalasag/97359'>Kalasag</a>", 
+			"Philippines",
+			"Death/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalaschnikov/128780'>Kalaschnikov</a>", 
+			"Germany",
+			"Heavy/Speed Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalashnikov/3540556933'>Kalashnikov</a>", 
+			"Mexico",
+			"Post-Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalashnikov/3540264164'>Kalashnikov</a>", 
+			"Portugal",
+			"Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalashnikov/3540404209'>Kalashnikov</a>", 
+			"Italy",
+			"Power/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalashnikov_Khaos/3540424907'>Kalashnikov Khaos</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalaveraztekah/3540466128'>Kalaveraztekah</a>", 
+			"Mexico",
+			"Folk/Progressive Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalavero/3540430674'>Kalavero</a>", 
+			"Argentina",
+			"Groove Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kald/3540367959'>Kald</a>", 
+			"Russia",
+			"Black Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kald/3540475495'>Kald</a>", 
+			"Germany",
+			"Atmospheric Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kald_Kriger/3540421299'>Kald Kriger</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaldariach/3540390668'>Kaldariach</a>", 
+			"Canada",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaldeira/3540570453'>Kaldeira</a>", 
+			"Reunion",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaldeket/3540494953'>Kaldeket</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaldera/3540484162'>Kaldera</a>", 
+			"United Kingdom",
+			"Groove/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaldera/3540455320'>Kaldera</a>", 
+			"Poland",
+			"Sludge/Post-Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaldevind/3540561683'>Kaldevind</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaldr/3540555768'>Kaldr</a>", 
+			"Venezuela",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaldr_Sumar/3540567645'>Kaldr Sumar</a>", 
+			"Finland",
+			"Melodic Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaldrfenrir/30258'>Kaldrfenrir</a>", 
+			"Brazil",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaldt/3540354241'>Kaldt</a>", 
+			"Estonia",
+			"Melodic Black Metal (early); Raw Black Metal/Ambient (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaldt/3540269041'>Kaldt</a>", 
+			"Belgium",
+			"Black/Funeral Doom Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaldt_Helvete/3540387622'>Kaldt Helvete</a>", 
+			"France",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaldt_Rike/3540412231'>Kaldt Rike</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaldur/3540281107'>Kaldur</a>", 
+			"Russia",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaldur/33531'>Kaldur</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaldvard/3540446488'>Kaldvard</a>", 
+			"Norway",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaleb/114856'>Kaleb</a>", 
+			"United Kingdom",
+			"Heavy/Thrash Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaledon/2779'>Kaledon</a>", 
+			"Italy",
+			"Power Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaleidoscope_Autistic_Blood/3540549033'>Kaleidoscope Autistic Blood</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaleikr/3540450438'>Kaleikr</a>", 
+			"Iceland",
+			"Progressive Death/Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalendae/3540346551'>Kalendae</a>", 
+			"Russia",
+			"Atmospheric Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaleuche/3540465302'>Kaleuche</a>", 
+			"Chile",
+			"Groove Metal/Hard Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaleva/3540567900'>Kaleva</a>", 
+			"Argentina",
+			"Symphonic Folk Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalevala/9760'>Kalevala</a>", 
+			"Brazil",
+			"Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalevala/3540283173'>Kalevala</a>", 
+			"Italy",
+			"Folk Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalevan_Soturit/3540437698'>Kalevan Soturit</a>", 
+			"Finland",
+			"Heavy Metal/Viking Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kale%C5%BE/3540568953'>Kalež</a>", 
+			"Croatia",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalgon/3540542726'>Kalgon</a>", 
+			"United States",
+			"Stoner/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalhalla/3540280731'>Kalhalla</a>", 
+			"United States",
+			"Heavy Metal (early); Heavy Metal/Hard Rock with Industrial elements (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalhaut/3540580353'>Kalhaut</a>", 
+			"Finland",
+			"Folk/Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kali/3540381263'>Kali</a>", 
+			"Germany",
+			"Progressive/Stoner Metal/Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kali/3540504942'>Kali</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kali/108271'>Kali</a>", 
+			"Germany",
+			"Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kali_Ma/3540379255'>Kali Ma</a>", 
+			"United States",
+			"Technical Progressive Groove Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kali_Yuga/42299'>Kali Yuga</a>", 
+			"France",
+			"Experimental Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kali_Yuga/3540301205'>Kali Yuga</a>", 
+			"Germany",
+			"Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kali_Yuga/58068'>Kali Yuga</a>", 
+			"United States",
+			"Experimental Black Metal/Ambient/Electronica",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kali_Yvga/3540587402'>Kali Yvga</a>", 
+			"Germany",
+			"Melodic Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kali-Yuga/29096'>Kali-Yuga</a>", 
+			"Russia",
+			"Black/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalibak/3540492339'>Kalibak</a>", 
+			"Brazil",
+			"Heavy Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaliban/3540280973'>Kaliban</a>", 
+			"Brazil",
+			"Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaliban/7166'>Kaliban</a>", 
+			"Finland",
+			"Melodic Death/Folk/Power Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalibas/1145'>Kalibas</a>", 
+			"United States",
+			"Brutal Death Metal/Grindcore (early); Black/Death Metal/Grindcore (later)",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaliber/78396'>Kaliber</a>", 
+			"Sweden",
+			"Thrash Metal/Grindcore/Hardcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalibos/12463'>Kalibos</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalibos/3540397051'>Kalibos</a>", 
+			"Germany",
+			"Doom/Sludge Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalibur/3540451460'>Kalibur</a>", 
+			"Brazil",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalidia/3540354560'>Kalidia</a>", 
+			"Italy",
+			"Symphonic/Power Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalighula/3540501669'>Kalighula</a>", 
+			"Mexico",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaligoh/3540367447'>Kaligoh</a>", 
+			"Netherlands",
+			"Stoner/Sludge Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaligula/3540363347'>Kaligula</a>", 
+			"Indonesia",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaligulaa/3540455477'>Kaligulaa</a>", 
+			"France",
+			"Blackened Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaliira/3540387964'>Kaliira</a>", 
+			"Germany",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalijuge/51918'>Kalijuge</a>", 
+			"Slovakia",
+			"Progressive Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalikethir/3540556819'>Kalikethir</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalindih/3540503900'>Kalindih</a>", 
+			"Indonesia",
+			"Technical Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalion/71394'>Kalion</a>", 
+			"Spain",
+			"Symphonic Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalisia/4985'>Kalisia</a>", 
+			"France",
+			"Progressive Death Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalistik/3540461682'>Kalistik</a>", 
+			"United States",
+			"Stoner Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaliwulf/3540551698'>Kaliwulf</a>", 
+			"Brazil",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaliya/3540391540'>Kaliya</a>", 
+			"United States",
+			"Death Metal/Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaliyuga/3540394138'>Kaliyuga</a>", 
+			"France",
+			"Black Metal/Crust Punk",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaliyuga/12477'>Kaliyuga</a>", 
+			"Singapore",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalki/3540483896'>Kalki</a>", 
+			"Peru",
+			"Stoner Metal/Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalki/3540459628'>Kalki</a>", 
+			"United States",
+			"Grindcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalki_Avatara/116228'>Kalki Avatara</a>", 
+			"Italy",
+			"Experimental Folk/Symphonic Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalk%C3%BC/3540449149'>Kalkü</a>", 
+			"Chile",
+			"Black Metal/Punk",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalku/3540348400'>Kalku</a>", 
+			"Chile",
+			"Raw Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalkumaku%C3%B1/3540378882'>Kalkumakuñ</a>", 
+			"Chile",
+			"Black/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalkutun/3540429331'>Kalkutun</a>", 
+			"Chile",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalkydra/3540548440'>Kalkydra</a>", 
+			"United States",
+			"Symphonic Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kall/3540388072'>Kall</a>", 
+			"Sweden",
+			"Depressive Black Metal/Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kall_Aska/3540589832'>Kall Aska</a>", 
+			"Italy",
+			"Atmospheric/Depressive Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kall_Ensamhet/3540347578'>Kall Ensamhet</a>", 
+			"Germany",
+			"Depressive Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kallaikoi/3540307896'>Kallaikoi</a>", 
+			"Portugal",
+			"Pagan/Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kallampa_Muerta/3540496994'>Kallampa Muerta</a>", 
+			"Chile",
+			"Crossover/Thrash Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kallastir/79478'>Kallastir</a>", 
+			"Sweden",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kallathon/3540309061'>Kallathon</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kallbrand/47127'>Kallbrand</a>", 
+			"Sweden",
+			"Black Metal/Dark Ambient",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kallbrand/3540584588'>Kallbrand</a>", 
+			"Sweden",
+			"Metalcore/Groove Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kallbrand/3540584187'>Kallbrand</a>", 
+			"Sweden",
+			"Blackened Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kallgrift/3540580044'>Kallgrift</a>", 
+			"Sweden",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kallias/3540476031'>Kallias</a>", 
+			"United States",
+			"Extreme Progressive Metal/Metalcore/Djent",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kallice_of_Iluyanka/3540460832'>Kallice of Iluyanka</a>", 
+			"Portugal",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kallimah/3540516784'>Kallimah</a>", 
+			"Brazil",
+			"Progressive/Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kallisa/3540444943'>Kallisa</a>", 
+			"Russia",
+			"Melodic Heavy Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalliste/3540518713'>Kalliste</a>", 
+			"United States",
+			"Depressive/Ambient Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kallocain/3540545485'>Kallocain</a>", 
+			"Sweden",
+			"Heavy/Black Metal/Punk",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kallom%C3%A4ki/3540445348'>Kallomäki</a>", 
+			"Finland",
+			"Pagan/Folk Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kallon/3540529599'>Kallon</a>", 
+			"Denmark",
+			"Progressive Sludge/Post-Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalloused/3540412015'>Kalloused</a>", 
+			"United Kingdom",
+			"Blackened Doom/Sludge Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kallus/103275'>Kallus</a>", 
+			"United States",
+			"Groove/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kallussed/3540300193'>Kallussed</a>", 
+			"United States",
+			"Thrash/Death/Groove Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kallvinter/3540513129'>Kallvinter</a>", 
+			"Chile",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalm/11321'>Kalm</a>", 
+			"Estonia",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalma/3540450223'>Kalma</a>", 
+			"Finland",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalmah/702'>Kalmah</a>", 
+			"Finland",
+			"Melodic Death/Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalman_Varjot/41899'>Kalman Varjot</a>", 
+			"Finland",
+			"Extreme Gothic Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalmankantaja/3540342889'>Kalmankantaja</a>", 
+			"Finland",
+			"Depressive Black Metal (early); Atmospheric Black Metal (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalmannos/110386'>Kalmannos</a>", 
+			"Finland",
+			"Doom Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalmansurma/3540581633'>Kalmansurma</a>", 
+			"Finland",
+			"Black/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalmantach/3540288020'>Kalmantach</a>", 
+			"Finland",
+			"Death/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalmanv%E2%80%8B%C3%A4%E2%80%8Bki/3540544322'>Kalmanv​ä​ki</a>", 
+			"International",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalmar/3540483338'>Kalmar</a>", 
+			"Austria",
+			"Progressive Sludge/Post-Metal/Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalmen/3540325933'>Kalmen</a>", 
+			"Germany",
+			"Psychedelic Doom/Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalmex_and_the_Riffmerchants/106319'>Kalmex and the Riffmerchants</a>", 
+			"United States",
+			"Experimental/Progressive Sludge Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalmhain/3540469243'>Kalmhain</a>", 
+			"Belgium",
+			"Blackened Death/Post-Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalmismua/3540500751'>Kalmismua</a>", 
+			"Russia",
+			"Post-Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalmisto/3540288926'>Kalmisto</a>", 
+			"Finland",
+			"Melodic Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalmo/3540454008'>Kalmo</a>", 
+			"Finland",
+			"Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalodin/3540312063'>Kalodin</a>", 
+			"International",
+			"Symphonic Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kal%C3%B6gena/91442'>Kalögena</a>", 
+			"Germany",
+			"Death/Thrash Metal with Gothic influences (early); Thrash Metal/Punk (later)",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalona/3540329171'>Kalona</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalopsia/15963'>Kalopsia</a>", 
+			"United States",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalopsya/3540527913'>Kalopsya</a>", 
+			"United States",
+			"Melodic Death Metal/Metalcore",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalos_Kagathos/3540454321'>Kalos Kagathos</a>", 
+			"Poland",
+			"Death/Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalot_Enbolot/82690'>Kalot Enbolot</a>", 
+			"Poland",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalpa/3540391726'>Kalpa</a>", 
+			"Greece",
+			"Sludge/Post-Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalpa/8879'>Kalpa</a>", 
+			"Korea, South",
+			"Black Metal",
+			"<span class=\"unknown\">Unknown</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalpas/3540279790'>Kalpas</a>", 
+			"Argentina",
+			"Power Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalrog_Naar/3540497636'>Kalrog Naar</a>", 
+			"Italy",
+			"Heavy/Power Metal (early); Heavy/Gothic/Folk Metal (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalselopera/3540588358'>Kalselopera</a>", 
+			"Indonesia",
+			"Progressive/Power Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalseroth/3540462479'>Kalseroth</a>", 
+			"Canada",
+			"Black/Death Metal",
+			"<span class=\"on_hold\">On hold</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalt/3540509451'>Kalt</a>", 
+			"Germany",
+			"Post-Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalt/3540439628'>Kalt</a>", 
+			"France",
+			"Raw Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalt/3540456868'>Kalt</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalt/25577'>Kalt</a>", 
+			"Germany",
+			"Industrial/Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalt_%7C%7C_Weiss/3540458366'>Kalt || Weiss</a>", 
+			"Austria",
+			"Avant-garde Black Metal (early); Digital Hardcore/Industrial (later)",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalt_Vindur/3540433076'>Kalt Vindur</a>", 
+			"Poland",
+			"Progressive Black/Doom Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaltakustik/47162'>Kaltakustik</a>", 
+			"Germany",
+			"Pagan Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/KaltBl%C3%B6d/3540583335'>KaltBlöd</a>", 
+			"United Kingdom",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K%C3%A4lte/10733'>Kälte</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalte_Nacht/3540534475'>Kalte Nacht</a>", 
+			"Chile",
+			"Atmospheric Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalte_Seet%C3%BCrme/3540566162'>Kalte Seetürme</a>", 
+			"Brazil",
+			"Black Metal, Ambient",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalte_Sonne/3540377179'>Kalte Sonne</a>", 
+			"Spain",
+			"Post-Metal/Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalteblut/3540449515'>Kalteblut</a>", 
+			"Germany",
+			"Depressive Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K%C3%A4ltemond/3540336700'>Kältemond</a>", 
+			"Hungary",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalten_Himmel/3540510173'>Kalten Himmel</a>", 
+			"Canada",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K%C3%A4lter/128292'>Kälter</a>", 
+			"Canada",
+			"Progressive Melodic Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K%C3%A4lter/3540442725'>Kälter</a>", 
+			"Germany",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalterit/3540421718'>Kalterit</a>", 
+			"Finland",
+			"Black/Thrash Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaltes/26459'>Kaltes</a>", 
+			"Hungary",
+			"Pagan Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaltesblut/3540470858'>Kaltesblut</a>", 
+			"United States",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaltesgrab/3540487225'>Kaltesgrab</a>", 
+			"Germany",
+			"Raw Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K%C3%A4ltetod/21348'>Kältetod</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K%C3%A4ltetot/50175'>Kältetot</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"changed_name\">Changed name</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaltfront/3540437647'>Kaltfront</a>", 
+			"Germany",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaltgraum/3540572117'>Kaltgraum</a>", 
+			"Romania",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaltschl%C3%A4chter/3540551906'>Kaltschlächter</a>", 
+			"Germany",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaltsog/3540514122'>Kaltsog</a>", 
+			"Brazil",
+			"Black Metal, Dungeon Synth",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalts%C3%B8rg/3540546856'>Kaltsørg</a>", 
+			"United States",
+			"Funeral Doom/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalttod/3540483018'>Kalttod</a>", 
+			"United States",
+			"Black Metal/Ambient/Noise",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaluman/3540356552'>Kaluman</a>", 
+			"Indonesia",
+			"Brutal Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kaluza/3540460987'>Kaluza</a>", 
+			"Canada",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalvaria/3540293321'>Kalvaria</a>", 
+			"International",
+			"Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalvario/3540431047'>Kalvario</a>", 
+			"Argentina",
+			"Death/Thrash Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalvarius/49122'>Kalvarius</a>", 
+			"Brazil",
+			"Melodic Heavy Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalvarju/3540512241'>Kalvarju</a>", 
+			"Malta",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalvath/3540455409'>Kalvath</a>", 
+			"Australia",
+			"Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalvslakt/3540541680'>Kalvslakt</a>", 
+			"Sweden",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalyas/3540501849'>Kalyas</a>", 
+			"Brunei",
+			"Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalyot/3540448843'>Kalyot</a>", 
+			"Poland",
+			"Experimental Black/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kalysto/3540256582'>Kalysto</a>", 
+			"France",
+			"Progressive Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kam_Lee/3540419077'>Kam Lee</a>", 
+			"United States",
+			"Horror Punk/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kam_Talium/119868'>Kam Talium</a>", 
+			"France",
+			"Thrash/Death Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/K%C3%A4m%C3%A4_Simmons/3540485254'>Kämä Simmons</a>", 
+			"Finland",
+			"Heavy Metal/Hard Rock",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kama-Mara/3540318469'>Kama-Mara</a>", 
+			"United States",
+			"Experimental Death/Black Metal",
+			"<span class=\"active\">Active</span>"
+		]
+				,
+					[ 
+			"<a href='https://www.metal-archives.com/bands/Kam%C3%A1-Mer%C3%BA/25017'>Kamá-Merú</a>", 
+			"Venezuela",
+			"Melodic Thrash/Death Metal",
+			"<span class=\"split_up\">Split-up</span>"
+		]
+				]
+}
