@@ -2,9 +2,9 @@
 
 ## Zmena zdroja dát: last.fm → Metal Archives
 
-Pôvodný plán bol crawlovať www.last.fm. Začiatkom októbra 2026 však last.fm nasadil anti-bot ochranu (Fastly „Client Challenge"). Každá stránka interpreta, albumu aj `+similar` teraz pre klienta bez JavaScriptu vráti HTTP 200 s 3 KB stránkou, ktorá obsahuje iba JavaScriptovú výzvu, nie dáta. Overili sme to z dvoch rôznych sietí s rôznymi User-Agentmi. Obchádzať túto ochranu (headless prehliadač, riešenie výzvy) nechceme, preto sme zdroj zmenili.
+Pôvodný plán bol crawlovať www.last.fm. Začiatkom októbra 2026 však last.fm nasadil anti-bot ochranu (Fastly „Client Challenge"). Každá stránka interpreta, albumu aj `+similar` teraz pre klienta bez JavaScriptu vráti stránku, ktorá obsahuje iba JavaScriptovú výzvu, nie dáta. Obchádzať túto ochranu (headless prehliadač, riešenie výzvy) nechceme, preto sme zdroj zmenili.
 
-Z ďalších hudobných databáz (MusicBrainz, Discogs, AllMusic, RateYourMusic, AlbumOfTheYear, WhoSampled) blokujú obyčajné HTTP požiadavky všetky. **Encyclopaedia Metallum (www.metal-archives.com)** vracia serverom renderované HTML, robots.txt povoľuje stránky kapiel aj albumov a obsahuje takmer všetky polia z pôvodného návrhu:
+**Encyclopaedia Metallum (www.metal-archives.com)** vracia serverom renderované HTML, robots.txt povoľuje stránky kapiel aj albumov a obsahuje takmer všetky polia z pôvodného návrhu:
 
 | Údaj | Stránka | Príklad (Down) |
 |------|---------|----------------|
@@ -17,7 +17,7 @@ Z ďalších hudobných databáz (MusicBrainz, Discogs, AllMusic, RateYourMusic,
 | Album: presný dátum, label, zoznam skladieb | `/albums/{kapela}/{album}/{id}` | NOLA, 19. 9. 1995 |
 | Podobní interpreti (s hodnotením používateľov) | `/band/ajax-recommendations/id/{id}?showMoreSimilar=1` | Crowbar, Corrosion of Conformity, Pantera |
 
-Oproti last.fm prichádzame o počty poslucháčov a scrobblov. Získavame však presnejšie faktografické polia a hodnotenia albumov z recenzií. Obmedzenie: databáza obsahuje len metalové kapely. Druhá fáza (obohatenie z Wikipédie) zostáva rovnaká, párovanie prebieha cez meno kapely a krajinu.
+Oproti last.fm prichádzame o počty poslucháčov. Získavame však presnejšie faktografické polia a hodnotenia albumov z recenzií. Obmedzenie: databáza obsahuje len metalové kapely čo je pre nás ale vlastne preferované. Druhá fáza (obohatenie z Wikipédie) zostáva rovnaká, párovanie prebieha cez meno kapely a krajinu.
 
 ## 1. Aké frameworky chceme používať?
 
@@ -41,26 +41,52 @@ Pre každú kapelu sa zatiaľ sťahujú dve stránky: hlavná stránka kapely a 
 
 Crawler beží v dvoch krokoch. Keďže poradie stránok je vopred dané (zoznam → kapela → jej diskografia), nepotrebuje všeobecný front URL adries.
 
+**Návrh na vysokej úrovni:**
+
 ```mermaid
 flowchart LR
-    R[robots.txt<br/>Disallow + Crawl-delay] --> FE
-    subgraph K1[Krok 1: zoznam kapiel]
-        L[28 písmen<br/>A–Z, NBR, ~] --> S1[strany po 500 kapelách<br/>kým nie je dosiahnutý iTotalRecords]
+    subgraph SYS["python -m crawler"]
+        Q["Front URL<br/>kapely zo zoznamu, ktoré<br/>ešte nie sú vo visited.txt"]
+        C["Crawler<br/>- stiahni stránku (HTTP/2, pauza 3 s)<br/>- ulož surové HTML / JSON<br/>- vytiahni URL (regex)"]
+        D[("data/raw/<br/>HTML + JSON")]
+        V[("visited.txt")]
+        Q --> C
+        C --> D
+        C --> V
+        C -. "vytiahnuté URL späť do frontu:<br/>kapely zo zoznamu,<br/>diskografia zo stránky kapely" .-> Q
     end
-    subgraph K2[Krok 2: kapely]
-        U[URL kapiel<br/>zo stiahnutých zoznamov] --> C{je vo<br/>visited.txt?}
-        C -->|nie| B[stránka kapely]
-        B -->|id z odkazu<br/>na diskografiu| D[diskografia]
-        D --> V[pripíš URL<br/>do visited.txt]
+    C <--> DNS(["DNS"])
+    C <--> WEB(["metal-archives.com"])
+    style SYS stroke-dasharray: 6 6
+```
+
+**Presný priebeh oboch krokov:**
+
+```mermaid
+flowchart TD
+    START(["python -m crawler --max-bands N"]) --> R["načítaj robots.txt<br/>(zakázané adresy, Crawl-delay: 3)"]
+    R --> L0
+    subgraph K1["Krok 1: abecedný zoznam kapiel"]
+        L0["ďalšie písmeno A–Z, NBR, ~<br/>start = 0"] --> E1{"band_list/{písmeno}_{start}.json<br/>už existuje?"}
+        E1 -->|nie| DL["stiahni a ulož JSON<br/>so 500 kapelami"]
+        E1 -->|áno, prečítaj z disku| T
+        DL --> T["start += 500"]
+        T --> M1{"start < iTotalRecords?"}
+        M1 -->|áno| E1
     end
-    S1 --> FE
-    B --> FE
-    D --> FE
-    FE[Fetcher<br/>hlavičky, pauza ≥ 3 s,<br/>timeout, retry, detekcia blokovania] -->|HTTP/2 GET| MA((metal-archives.com))
-    S1 --> J[data/raw/band_list/A_000000.json …]
-    J --> U
-    B --> H1[data/raw/band/id.html]
-    D --> H2[data/raw/band_disc/id.html]
+    M1 -->|nie, ďalšie písmeno| L0
+    DL -->|chyba, preskoč písmeno| L0
+    M1 -->|nie, všetky písmená hotové| B1
+    subgraph K2["Krok 2: kapely"]
+        B1{"ďalšia kapela zo zoznamu,<br/>ktorá nie je vo visited.txt?"} -->|áno| BP["stiahni stránku kapely<br/>→ band/{id}.html"]
+        BP -->|OK| DP["nájdi id diskografie (regex)<br/>stiahni diskografiu → band_disc/{id}.html"]
+        DP --> AP["pripíš URL kapely do visited.txt"]
+        AP --> MX{"už N kapiel<br/>v tomto behu?"}
+        MX -->|nie| B1
+        BP -->|chyba: preskoč, skúsi sa<br/>pri ďalšom behu| B1
+    end
+    MX -->|áno| END(["koniec"])
+    B1 -->|nie, všetko stiahnuté| END
 ```
 
 - **Krok 1, zoznam kapiel:** pre každé písmeno sa sťahujú strany zoznamu (`iDisplayStart` = 0, 500, 1000, …), kým nie je dosiahnutý počet kapiel `iTotalRecords` z prvej odpovede. Každá strana sa uloží ako JSON. Strany, ktoré už na disku sú, sa znova nesťahujú. Celý zoznam má 419 strán (~25 minút).
@@ -84,6 +110,24 @@ flowchart LR
 | 404 a iné chyby | zalogujú sa a crawler pokračuje ďalšou kapelou; kapela sa nezapíše do `visited.txt`, takže sa pri ďalšom behu skúsi znova |
 | robots.txt | pred každou URL `can_fetch()`; zakázané sú `/affiliate/`, `/history/`, `/report/`, `/forum/`, `/users/` |
 
+**Stiahnutie jednej stránky:**
+
+```mermaid
+flowchart TD
+    A(["stiahni URL"]) --> RB{"povolená<br/>v robots.txt?"}
+    RB -->|nie| NONE(["preskoč, zapíš do výpisu"])
+    RB -->|áno| W["počkaj, kým od začiatku poslednej požiadavky<br/>neuplynú 3 s + náhodne 0–1 s"]
+    W --> G["HTTP/2 GET s hlavičkami<br/>timeout: 10 s spojenie, 30 s odpoveď"]
+    G -->|chyba spojenia,<br/>timeout, 429, 5xx| RT{"zostáva opakovanie?<br/>(max. 3)"}
+    RT -->|áno| BO["čakaj 10 → 20 → 40 s<br/>alebo podľa Retry-After"] --> W
+    RT -->|nie| NONE
+    G -->|odpoveď| BL{"nadpis Client Challenge /<br/>Just a moment / Attention Required?"}
+    BL -->|áno| STOP(["BlockedError: celý crawl sa zastaví,<br/>stránka sa neuloží"])
+    BL -->|nie| ST{"status 200?"}
+    ST -->|áno| OK(["vráť HTML / JSON"])
+    ST -->|nie, napr. 404| NONE
+```
+
 Pri pauze ~3,5 s to vychádza na približne 1 000 stránok za hodinu. Na jednu kapelu pripadajú 2 stránky, čiže ~500 kapiel za hodinu. Celý register (201 787 kapiel) je ~400 000 stránok, teda približne 16 dní nepretržitého sťahovania.
 
 ## 4. Implementácia a stiahnuté stránky
@@ -104,12 +148,5 @@ pip install -r requirements.txt
 python -m crawler --max-bands 1000   # kapely z data/visited.txt preskočí
 ```
 
-Doterajší crawl je v [`data/raw/`](../data/raw):
-
-| Priečinok | Počet súborov | Veľkosť | Obsah |
-|-----------|---------------|---------|-------|
-| `band_list/` | 419 | 39 MB | celý abecedný zoznam: 201 787 kapiel s krajinou, žánrom a stavom |
-| `band/` | 53 | 1,2 MB | hlavné stránky prvých kapiel podľa abecedy (A // Solution … A Constant Knowledge of Death) |
-| `band_disc/` | 53 | 0,2 MB | ich diskografie |
 
 Stiahnuté kapely sú v [`data/visited.txt`](../data/visited.txt).

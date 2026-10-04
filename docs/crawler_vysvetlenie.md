@@ -11,26 +11,50 @@ Tento dokument vysvetľuje, čo crawler robí od spustenia až po uloženie posl
 
 ## Celkový prehľad
 
+```mermaid
+flowchart LR
+    subgraph SYS["python -m crawler"]
+        Q["Front URL<br/>kapely zo zoznamu, ktoré<br/>ešte nie sú vo visited.txt"]
+        C["Crawler<br/>- stiahni stránku (HTTP/2, pauza 3 s)<br/>- ulož surové HTML / JSON<br/>- vytiahni URL (regex)"]
+        D[("data/raw/<br/>HTML + JSON")]
+        V[("visited.txt")]
+        Q --> C
+        C --> D
+        C --> V
+        C -. "vytiahnuté URL späť do frontu:<br/>kapely zo zoznamu,<br/>diskografia zo stránky kapely" .-> Q
+    end
+    C <--> DNS(["DNS"])
+    C <--> WEB(["metal-archives.com<br/>(za Cloudflare)"])
+    style SYS stroke-dasharray: 6 6
 ```
-python -m crawler --max-bands 1000
-        │
-        ▼
- načítaj robots.txt (zakázané adresy, Crawl-delay)
-        │
-        ▼
- KROK 1: abecedný zoznam kapiel
-   pre každé písmeno A … Z, NBR, ~
-     stiahni strany zoznamu po 500 kapelách  ──►  data/raw/band_list/A_000000.json …
-        │
-        ▼
- KROK 2: kapely
-   pre každú kapelu zo zoznamu, ktorá ešte nie je v visited.txt
-     stiahni stránku kapely                  ──►  data/raw/band/{id}.html
-     stiahni jej diskografiu                 ──►  data/raw/band_disc/{id}.html
-     zapíš URL kapely do visited.txt         ──►  data/visited.txt
-        │
-        ▼
- koniec po --max-bands kapelách (alebo Ctrl+C, alebo pri zablokovaní)
+
+Presný priebeh, vrátane všetkých rozhodnutí a chybových vetiev:
+
+```mermaid
+flowchart TD
+    START(["python -m crawler --max-bands N"]) --> R["načítaj robots.txt<br/>(zakázané adresy, Crawl-delay: 3)"]
+    R --> L0
+    subgraph K1["Krok 1: abecedný zoznam kapiel"]
+        L0["ďalšie písmeno A–Z, NBR, ~<br/>start = 0"] --> E1{"band_list/{písmeno}_{start}.json<br/>už existuje?"}
+        E1 -->|nie| DL["stiahni a ulož JSON<br/>so 500 kapelami"]
+        E1 -->|áno, prečítaj z disku| T
+        DL --> T["start += 500"]
+        T --> M1{"start < iTotalRecords?"}
+        M1 -->|áno| E1
+    end
+    M1 -->|nie, ďalšie písmeno| L0
+    DL -->|chyba, preskoč písmeno| L0
+    M1 -->|nie, všetky písmená hotové| B1
+    subgraph K2["Krok 2: kapely"]
+        B1{"ďalšia kapela zo zoznamu,<br/>ktorá nie je vo visited.txt?"} -->|áno| BP["stiahni stránku kapely<br/>→ band/{id}.html"]
+        BP -->|OK| DP["nájdi id diskografie (regex)<br/>stiahni diskografiu → band_disc/{id}.html"]
+        DP --> AP["pripíš URL kapely do visited.txt"]
+        AP --> MX{"už N kapiel<br/>v tomto behu?"}
+        MX -->|nie| B1
+        BP -->|chyba: preskoč, skúsi sa<br/>pri ďalšom behu| B1
+    end
+    MX -->|áno| END(["koniec"])
+    B1 -->|nie, všetko stiahnuté| END
 ```
 
 Každé jedno stiahnutie (v kroku 1 aj 2) ide cez ten istý `Fetcher`, ktorý dodržiava pauzu, robots.txt a opakovanie pri chybách.
@@ -174,16 +198,20 @@ Toto sa deje pri **každej** požiadavke, v kroku 1 aj 2. Najprv funkcia [`downl
 5. **Kontrola blokovania:** v prvých 5 000 znakoch odpovede sa hľadá nadpis anti-bot stránky (`Client Challenge`, `Just a moment`, `Attention Required`). Ak sa nájde, vyhodí sa `BlockedError` a **celý crawl sa zastaví**. Takáto stránka sa neuloží, aby sa v dátach neocitli kontrolné stránky namiesto skutočného obsahu.
 6. **Inak sa odpoveď vráti.** `download()` skontroluje kód: 200 znamená úspech a vráti sa text stránky. Iný kód (napr. 404) sa zapíše do výpisu a vráti sa `None`.
 
-```
-           ┌──────────── pauza ≥ 3 s ────────────┐
-           ▼                                     │
-   HTTP/2 GET ──► chyba spojenia / 429 / 5xx ──► čakaj 10, 20, 40 s ──┘ (max. 3 opakovania)
-           │
-           ├──► anti-bot stránka ──► BlockedError ──► koniec crawlu
-           │
-           ├──► 404 a iné ──► zapíš do výpisu, pokračuj ďalej
-           │
-           └──► 200 ──► vráť HTML / JSON
+```mermaid
+flowchart TD
+    A(["stiahni URL"]) --> RB{"povolená<br/>v robots.txt?"}
+    RB -->|nie| NONE(["preskoč, zapíš do výpisu"])
+    RB -->|áno| W["počkaj, kým od začiatku poslednej požiadavky<br/>neuplynú 3 s + náhodne 0–1 s"]
+    W --> G["HTTP/2 GET s hlavičkami<br/>timeout: 10 s spojenie, 30 s odpoveď"]
+    G -->|chyba spojenia,<br/>timeout, 429, 5xx| RT{"zostáva opakovanie?<br/>(max. 3)"}
+    RT -->|áno| BO["čakaj 10 → 20 → 40 s<br/>alebo podľa Retry-After"] --> W
+    RT -->|nie| NONE
+    G -->|odpoveď| BL{"nadpis Client Challenge /<br/>Just a moment / Attention Required?"}
+    BL -->|áno| STOP(["BlockedError: celý crawl sa zastaví,<br/>stránka sa neuloží"])
+    BL -->|nie| ST{"status 200?"}
+    ST -->|áno| OK(["vráť HTML / JSON"])
+    ST -->|nie, napr. 404| NONE
 ```
 
 ---

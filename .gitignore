@@ -2,3 +2,5 @@
 __pycache__/
 graphify-out/
 crawl.log
+data/raw/band/
+data/raw/band_disc/
