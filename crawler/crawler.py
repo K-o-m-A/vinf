@@ -1,9 +1,7 @@
 """Crawler v dvoch krokoch.
 
-1. Abecedny zoznam kapiel: pre kazde pismeno sa stiahnu vsetky strany zoznamu
-   (500 kapiel na stranu) do data/raw/band_list/. Uz stiahnute strany sa preskocia.
-2. Kapely: pre kazdu kapelu zo zoznamu, ktora este nie je v data/visited.txt,
-   sa stiahne hlavna stranka a diskografia a URL kapely sa pripise do visited.txt.
+1. Abecedny zoznam kapiel (JSON, 500 kapiel na stranu) do data/raw/band_list/.
+2. Pre kazdu kapelu, ktora este nie je v data/visited.txt, stranka kapely a diskografia.
 """
 import html
 import json
@@ -42,7 +40,6 @@ def save(path, text):
 
 
 def download(fetcher, url):
-    """Vrati text stranky, alebo None pri chybe (zaloguje sa a pokracuje sa dalej)."""
     if not fetcher.allowed(url):
         log.warning("robots.txt zakazuje %s", url)
         return None
@@ -75,7 +72,6 @@ def crawl_band_list(fetcher):
 
 
 def band_urls():
-    """URL vsetkych kapiel zo stiahnutych stran zoznamu."""
     for path in sorted((config.RAW_DIR / "band_list").glob("*.json")):
         for row in json.loads(path.read_text(encoding="utf-8"))["aaData"]:
             link = BAND_LINK.search(row[0])

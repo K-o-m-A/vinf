@@ -14,7 +14,6 @@ class BlockedError(Exception):
 
 class Fetcher:
     def __init__(self):
-        # HTTP/2: Cloudflare pred strankou vracia challenge kazdemu HTTP/1.1 klientovi
         self.session = httpx.Client(
             http2=True,
             headers=config.HEADERS,

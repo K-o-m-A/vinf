@@ -1,0 +1,34 @@
+{
+  "encoding": "o200k_base",
+  "raw": {
+    "band_list": {
+      "files": 419,
+      "bytes": 39359818,
+      "disk_bytes": 40112128,
+      "tokens": 14194030
+    },
+    "band": {
+      "files": 198326,
+      "bytes": 4269782277,
+      "disk_bytes": 4718768128,
+      "tokens": 1227433471
+    },
+    "band_disc": {
+      "files": 198356,
+      "bytes": 286861120,
+      "disk_bytes": 858755072,
+      "tokens": 89349038
+    }
+  },
+  "extracted": {
+    "bands": 198309,
+    "relevant": 197727,
+    "with_releases": 194456,
+    "with_members": 188011,
+    "metal_genre": 194143,
+    "releases": 721581,
+    "members": 1014893,
+    "bytes": 425436262,
+    "text_tokens": 15907425
+  }
+}

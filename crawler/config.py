@@ -4,7 +4,6 @@ from pathlib import Path
 
 BASE_URL = "https://www.metal-archives.com"
 
-# Identifikujeme sa poctivo ako crawler; kontakt sa da doplnit cez premennu prostredia.
 CONTACT = os.environ.get("VINF_CONTACT", "FIIT STU VINF school project")
 USER_AGENT = f"vinf-crawler/0.1 (+{CONTACT})"
 

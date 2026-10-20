@@ -64,7 +64,7 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-    START(["python -m crawler --max-bands N"]) --> R["načítaj robots.txt<br/>(zakázané adresy, Crawl-delay: 3)"]
+    START(["python -m crawler --max-bands N"]) --> R["načítaj robots.txt"]
     R --> L0
     subgraph K1["Krok 1: abecedný zoznam kapiel"]
         L0["ďalšie písmeno A–Z, NBR, ~<br/>start = 0"] --> E1{"band_list/{písmeno}_{start}.json<br/>už existuje?"}
@@ -103,12 +103,12 @@ flowchart TD
 | `Accept` | `text/html,application/xhtml+xml;q=0.9,*/*;q=0.8` |
 | `Accept-Language` | `en-US,en;q=0.8` |
 | `Accept-Encoding` | `gzip, deflate` |
-| Protokol | HTTP/2, jedno spojenie pre celý crawl (`httpx.Client`) |
+| Protokol | HTTP/2 |
 | Timeout | 10 s na pripojenie, 30 s na čítanie odpovede |
 | Pauza medzi požiadavkami | 3 s (`Crawl-delay: 3` z robots.txt) + náhodne 0–1 s |
-| Opakovanie | max. 3× pri chybe spojenia, timeoute, 429 a 5xx; čakanie 10 s → 20 s → 40 s, prípadne podľa hlavičky `Retry-After` |
+| Opakovanie | max. 3× pri chybe spojenia, timeoute, 429 a 5xx; čakanie 10 s → 20 s → 40 s |
 | 404 a iné chyby | zalogujú sa a crawler pokračuje ďalšou kapelou; kapela sa nezapíše do `visited.txt`, takže sa pri ďalšom behu skúsi znova |
-| robots.txt | pred každou URL `can_fetch()`; zakázané sú `/affiliate/`, `/history/`, `/report/`, `/forum/`, `/users/` |
+
 
 **Stiahnutie jednej stránky:**
 
