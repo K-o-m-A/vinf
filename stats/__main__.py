@@ -1,7 +1,7 @@
 """Spustenie: python -m stats [--no-tokens]
 
 Statistika stiahnutych dokumentov: pocet, velkost na disku, pocet relevantnych kapiel
-a pocet tokenov (tiktoken, kodovanie o200k_base) v surovom HTML aj v extrahovanom texte.
+a pocet tokenov v surovom HTML aj v extrahovanom texte.
 Vysledok sa vypise ako markdown tabulka a ulozi do data/stats.json.
 """
 import argparse

@@ -48,12 +48,19 @@ def idf_smooth(df, n):
     return math.log10((1 + n) / (1 + df)) + 1.0
 
 
-def idf_squared(df, n):
-    # ako Lucene ClassicSimilarity, kde sa IDF uplatni na strane dopytu aj dokumentu
-    return math.log10(n / df) ** 2
+IDF_METHODS = {"classic": idf_classic, "smooth": idf_smooth}
 
 
-IDF_METHODS = {"classic": idf_classic, "smooth": idf_smooth, "squared": idf_squared}
+def format_roles(roles):
+    """[["Bass", "1982-1986"], ["Vocals", ""]] -> "Bass (1982-1986), Vocals"."""
+    return ", ".join(f"{r} ({y})" if y else r for r, y in roles)
+
+
+def indexed_releases(band):
+    """Vydania, ktorych nazvy idu do full-textu. Live albumy nie: su to hlavne bootlegy
+    "Live at <miesto> <datum>", Metallica ich ma 834 a ich datumy by jej dokument natiahli
+    tak, ze by ju kosinus pri dopyte "hetfield ulrich" odsunul na 102. miesto."""
+    return [r for r in band["releases"] if r["type"] != "Live album"]
 
 
 def band_text(band):
@@ -62,7 +69,7 @@ def band_text(band):
         band["name"], band.get("country") or "", band.get("location") or "",
         " ".join(band["genres"]), " ".join(band["themes"]), band.get("label") or "",
         band.get("status") or "", " ".join(members),
-        " ".join(r["name"] for r in band["releases"]), band["comment"],
+        " ".join(r["name"] for r in indexed_releases(band)), band["comment"],
     ]
     return " ".join(parts)
 
@@ -148,10 +155,15 @@ class Index:
         return {t: tf_weight(tf) * self.idf(t, method) for t, tf in Counter(self.analyzer(query)).items()}
 
     def rank(self, query, method="classic"):
-        """Kosinusova podobnost dopytu a dokumentov, [(skore, doc_id)] od najlepsieho."""
-        scores = {}
+        """Kosinusova podobnost dopytu a dokumentov krat coord, [(skore, doc_id)] od najlepsieho.
+
+        coord = podiel termov dopytu, ktore dokument obsahuje (ako v Lucene ClassicSimilarity).
+        Kapela s oboma slovami "hetfield ulrich" tak predbehne kratky dokument s jednym z nich.
+        """
+        weights = self.query_weights(query, method)
+        scores, matched = {}, {}
         q_norm = 0.0
-        for term, w_q in self.query_weights(query, method).items():
+        for term, w_q in weights.items():
             p = self.postings.get(term)
             if not p:
                 continue
@@ -159,15 +171,18 @@ class Index:
             idf = self.idf(term, method)
             for i in range(0, len(p), 2):
                 scores[p[i]] = scores.get(p[i], 0.0) + w_q * tf_weight(p[i + 1]) * idf
+                matched[p[i]] = matched.get(p[i], 0) + 1
         norms = self.norms[method]
         q_norm = math.sqrt(q_norm) or 1.0
-        return sorted(((s / (norms[d] * q_norm), d) for d, s in scores.items() if norms[d] > 0), reverse=True)
+        n_terms = len(weights)
+        return sorted(((s / (norms[d] * q_norm) * matched[d] / n_terms, d)
+                       for d, s in scores.items() if norms[d] > 0), reverse=True)
 
     def search(self, query, method="classic", k=10):
         return [(score, self.docs[d]) for score, d in self.rank(query, method)[:k]]
 
     def explain(self, query, doc_id, method):
-        """[(term, tf, df, idf, prispevok ku skore)] a norma dokumentu."""
+        """[(term, tf, df, idf, prispevok ku kosinusu)], norma dokumentu a coord."""
         weights = self.query_weights(query, method)
         q_norm = math.sqrt(sum(w ** 2 for w in weights.values())) or 1.0
         d_norm = self.norms[method][doc_id] or 1.0
@@ -177,7 +192,8 @@ class Index:
             idf = self.idf(term, method)
             w_d = tf_weight(tf) * idf if tf else 0.0
             rows.append((term, tf, self.df(term), idf, w_q * w_d / (q_norm * d_norm)))
-        return rows, d_norm
+        coord = sum(1 for r in rows if r[1]) / (len(rows) or 1)
+        return rows, d_norm, coord
 
     def docs_with_all(self, terms):
         """Prienik postingov, od najkratsieho zoznamu."""
@@ -237,7 +253,6 @@ def build_members(bands_file):
             band = json.loads(line)
             for group, people in band["members"].items():
                 for m in people:
-                    roles = ", ".join(f"{r} ({y})" if y else r for r, y in m["roles"])
                     key = " ".join(fold(m["name"]).split())
-                    members.setdefault(key, []).append((m["id"], m["name"], doc_id, group, roles))
+                    members.setdefault(key, []).append((m["id"], m["name"], doc_id, group, format_roles(m["roles"])))
     return members

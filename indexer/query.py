@@ -197,11 +197,26 @@ INTENTS = [
     ("person", re.compile(r"^(?:bands\s+(?:of|with)|bands\s+featuring)\s+(?P<person>.+)", re.I)),
     ("best", re.compile(r"\b(?:best|top|highest)(?:[\s-]+rated)?\s+(?:albums?|releases?|records?)\s+(?:of|by|from)\s+"
                         r"(?P<band>.+)", re.I)),
+    # "best rated Opeth full-length album": meno kapely pred slovom album
+    ("best", re.compile(r"\b(?:best|top|highest)(?:[\s-]+rated)?\s+(?P<band>.+?)\s+(?:full[\s-]?length\s+)?"
+                        r"(?:albums?|releases?|records?)\b", re.I)),
     ("discography", re.compile(r"\b(?:discography|albums|releases|records)\s+(?:of|by|from)\s+(?P<band>.+)", re.I)),
     ("fact", re.compile(r"^where\s+(?:is|are|was|were)\s+(?P<band>.+?)\s+from\b", re.I)),
     ("fact", re.compile(r"^when\s+(?:was|were|did)\s+(?P<band>.+?)\s+(?:formed|founded|start(?:ed)?|form)\b", re.I)),
     ("who", re.compile(r"^(?:who|what)\s+(?:is|are|was|were)\s+(?P<name>.+)", re.I)),
 ]
+
+
+MEMBER_GROUP = re.compile(r"\b(?P<group>current|present|past|former|ex|live)[\s-]+(?:members?|line[\s-]?up|musicians)\b",
+                          re.I)
+GROUP_NAMES = {"current": "current", "present": "current", "past": "past", "former": "past", "ex": "past",
+               "live": "live"}
+
+
+def member_group(line):
+    """"current members of Metallica" -> "current"; bez privlastku None (vsetky skupiny)."""
+    m = MEMBER_GROUP.search(line)
+    return GROUP_NAMES[m.group("group").lower()] if m else None
 
 
 def detect_intent(line):
@@ -210,6 +225,9 @@ def detect_intent(line):
         m = pattern.search(line.strip())
         if m:
             name = _strip(next(v for v in m.groupdict().values() if v))
+            # "best rated black metal albums" je zaner, nie kapela
+            if kind == "best" and set(WORD.findall(fold(name))) <= GENRE_WORDS:
+                continue
             if name:
                 return kind, name
     return None, None

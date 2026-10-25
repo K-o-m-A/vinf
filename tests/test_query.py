@@ -5,7 +5,7 @@ Spustenie: python -m unittest discover -s tests -t . -v
 import unittest
 
 from indexer.index import fold, profile_tokenize, tokenize
-from indexer.query import Filters, country_lookup, detect_intent, parse_filters
+from indexer.query import Filters, country_lookup, detect_intent, member_group, parse_filters
 
 COUNTRIES = country_lookup(["United States", "Brazil", "Sweden", "Slovakia", "Norway", "Korea, South",
                             "Türkiye", "Czechia", "United Kingdom", "Armenia", "Germany"])
@@ -60,11 +60,22 @@ class TestFilters(unittest.TestCase):
         f, rest = parse("Black Sabbath")
         self.assertFalse(f)
         self.assertEqual(rest, "black sabbath")
+        f, rest = parse("Kanonenfieber")
+        self.assertFalse(f)
+        self.assertEqual(rest, "kanonenfieber")
 
     def test_metal_alone_is_no_filter(self):
         f, _ = parse("metal band from Armenia")
         self.assertEqual(f.countries, {"Armenia"})
         self.assertEqual(f.genre_words, set())
+
+    def test_slovakian_metal_bands(self):
+        for line in ("slovakian metal bands", "slovak metal bands", "metal bands from Slovakia"):
+            with self.subTest(line=line):
+                f, _ = parse(line)
+                self.assertEqual(f.countries, {"Slovakia"})
+                self.assertEqual(f.genre_words, set())
+        self.assertEqual(parse("slovakian black metal bands")[0].genre_words, {"black"})
 
     def test_match(self):
         f, _ = parse("norwegian black metal before 1995")
@@ -84,16 +95,28 @@ class TestIntents(unittest.TestCase):
             "who played in Phantom Lord": ("members", "Phantom Lord"),
             "Which bands did Dave Mustaine play in?": ("person", "Dave Mustaine"),
             "What is the best rated album of Opeth?": ("best", "Opeth"),
+            "What is the best rated Opeth full-length album?": ("best", "Opeth"),
+            "best rated black metal albums": (None, None),
             "albums by Opeth": ("discography", "Opeth"),
             "Where is Burzum from?": ("fact", "Burzum"),
             "When was Slayer formed?": ("fact", "Slayer"),
             "Who is Dave Mustaine?": ("who", "Dave Mustaine"),
+            "Who are the members of Kanonenfieber?": ("members", "Kanonenfieber"),
+            "Where is Kanonenfieber from?": ("fact", "Kanonenfieber"),
+            "When was Kanonenfieber formed?": ("fact", "Kanonenfieber"),
             "swedish death metal": (None, None),
             "Which band has an album named Besnota": (None, None),
         }
         for line, expected in cases.items():
             with self.subTest(line=line):
                 self.assertEqual(detect_intent(line), expected)
+
+
+    def test_member_group(self):
+        self.assertEqual(member_group("Who are the current members of Metallica?"), "current")
+        self.assertEqual(member_group("former members of Metallica"), "past")
+        self.assertEqual(member_group("live musicians of Opeth"), "live")
+        self.assertIsNone(member_group("members of Metallica"))
 
 
 class TestNormalization(unittest.TestCase):

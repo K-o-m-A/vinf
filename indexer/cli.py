@@ -11,8 +11,9 @@ import re
 import sys
 import time
 
-from .index import IDF_METHODS, POPULARITY, Index, fold, profile_text, profile_tokenize, tokenize
-from .query import country_lookup, detect_intent, parse_filters
+from .index import (IDF_METHODS, POPULARITY, Index, fold, format_roles, indexed_releases, profile_text,
+                    profile_tokenize, tokenize)
+from .query import country_lookup, detect_intent, member_group, parse_filters
 
 try:
     import readline  # noqa: F401  historia a sipky v input()
@@ -57,14 +58,17 @@ HELP = f"""
 
 {bold('Direct answers')}
   Who are the members of <band>?          lineup of the band
+  current / former / live members of <band>   only that part of the lineup
   Which bands did <person> play in?       bands of a musician, with roles and years
   What is the best rated album of <band>? albums sorted by rating
+  best rated <band> album                 the same
   discography of <band> / albums by <band>
   Where is <band> from? / When was <band> formed?
 
 {bold('Band by release title')}
   which band has an album named <title>    e.g.  Which band has an album named Besnota
   who released <title>                     e.g.  Who released Master of Puppets?
+  when was <title> released                e.g.  When was Master of Puppets released?
 
 {bold('Similar bands')}
   similar bands to <name>      e.g.  Similar bands to Kanonenfieber
@@ -72,9 +76,8 @@ HELP = f"""
   :similar <number>            bands similar to a result from the last list
 
 {bold('Settings')}
-  :idf classic|smooth|squared   IDF method (now: {{method}})
+  :idf classic|smooth  IDF method (now: {{method}})
   :k <n>               results per page (now: {{k}})
-  :compare [query]     top results of all IDF methods side by side
 
 {bold('Other')}
   :help                this help
@@ -84,8 +87,9 @@ HELP = f"""
   Every band is one document made of its name, country, location, genres, lyrical
   themes, label, status, member names, release titles and description. A band is a
   result if any query word occurs anywhere in that document. A band whose name equals
-  the query is shown first; the rest is ranked by TF-IDF cosine similarity, so short
-  documents where the query words make up a big part of the text rank high.
+  the query is shown first; the rest is ranked by TF-IDF cosine similarity times the
+  share of query words the band has, so bands with all the words rank above bands with
+  some of them. Titles of live albums are not part of the document.
   Words are compared without diacritics and plural "s" (Sarcofago = Sarcófago,
   vikings = viking). If no band has the typed name, a band with a similar name is
   suggested ("did you mean").
@@ -104,6 +108,8 @@ RELEASE_QUESTIONS = [
     re.compile(r"^(?:who|which bands?|what bands?)\s+(?:released|recorded|made|wrote)\s+(?:the\s+)?"
                rf"(?:{RELEASE_KINDS}\s+)?(?P<title>.+)", re.I),
     re.compile(rf"\bthe\s+{RELEASE_KINDS}\s+(?P<title>.+)", re.I),
+    re.compile(rf"^when\s+(?:was|were|did)\s+(?:the\s+)?(?:{RELEASE_KINDS}\s+)?(?P<title>.+?)\s+"
+               r"(?:released|come\s+out|out)\b", re.I),
 ]
 TITLE_TAIL = re.compile(r"(?:\s+(?:released|come out|out|by whom|from))?[\s\"”'?!.]*$", re.I)
 
@@ -147,6 +153,21 @@ def release_line(r):
     return f"{r['year']}  {r['name']}  ({r['type']}{rating})"
 
 
+def by_rating(releases):
+    return sorted(releases, key=lambda r: (-r["rating"], -r["reviews"]))
+
+
+def best_release(band):
+    """Najlepsi album s aspon 3 recenziami (z 1-2 recenzii je hodnotenie nespolahlive),
+    inak najlepsi album, inak najlepsie vydanie. None, ak nema ziadne recenzie."""
+    rated = [r for r in band["releases"] if r["reviews"]]
+    albums = [r for r in rated if r["type"] == "Full-length"]
+    for candidates in ([r for r in albums if r["reviews"] >= 3], albums, rated):
+        if candidates:
+            return by_rating(candidates)[0]
+    return None
+
+
 def same_title(a, b):
     return re.findall(r"\w+", a.lower()) == re.findall(r"\w+", b.lower())
 
@@ -161,7 +182,7 @@ def band_fields(band):
         ("label", [band["label"]] if band.get("label") else []),
         ("status", [band["status"]] if band.get("status") else []),
         ("member", members),
-        ("release title", [r["name"] for r in band["releases"]]),
+        ("release title", [r["name"] for r in indexed_releases(band)]),
         ("description", [band["comment"]] if band["comment"] else []),
     ]
 
@@ -195,7 +216,6 @@ class Shell:
         self.release_hits = {}    # doc_id -> vydania s hladanym nazvom
         self.exact_release = set()
         self.term_share = {}      # term profilu -> podiel na vahe (podobne kapely)
-        self.coverage = {}        # doc_id -> pokrytie profilu
         self.names = {}           # normalizovane meno -> [doc_id]
         for doc_id, doc in enumerate(index.docs):
             self.names.setdefault(normalize_name(doc["name"]), []).append(doc_id)
@@ -292,8 +312,7 @@ class Shell:
             elif self.by_popularity:
                 mark = dim(reviews(d["reviews"]))
             elif self.similar_to is not None:
-                mark = dim(f"score {score:.2f} = covers {self.coverage[doc_id]:.0%} of the profile, "
-                           f"{reviews(d['reviews'])}")
+                mark = dim(f"score {score:.2f}, {reviews(d['reviews'])}")
             else:
                 mark = dim(f"score {score:.3f}")
             print(f"{bold(f'{i:3}.')} {cyan(d['name'])} {dim(where)}  {d['genre']}  {mark}")
@@ -353,7 +372,6 @@ class Shell:
         # pod 5 % pokrytia maju spolocne uz len "metal" a pod.
         results = [r for r in self.profile.similar(text, self.method) if r[2] != doc_id and r[1] >= 0.05]
         self.ranked = [(score, d) for score, _, d in results]
-        self.coverage = {d: c for _, c, d in results}
         took = (time.time() - start) * 1000
         print(f"Bands similar to {cyan(band['name'])} {dim('(' + (band.get('country') or '?') + ')')}"
               f", compared by genre and lyrical themes:")
@@ -402,7 +420,7 @@ class Shell:
             print(f"  is from {place}, {formed}, status: {b.get('status')}"
                   + (f", active {b['years_active']}" if b.get("years_active") not in (None, "", "N/A") else ""))
         elif kind == "members":
-            self.print_members(b)
+            self.print_members(b, member_group(line))
         elif kind == "discography":
             self.print_discography(b)
         elif kind == "best":
@@ -416,13 +434,9 @@ class Shell:
             print(dim("  None of its releases has a review on the site."))
             return
 
-        def by_rating(releases):
-            return sorted(releases, key=lambda r: (-r["rating"], -r["reviews"]))
-
-        # hodnotenie z 1-2 recenzii je nespolahlive, preto zvlast
         albums = [r for r in rated if r["type"] == "Full-length"]
         solid = by_rating(r for r in albums if r["reviews"] >= 3)
-        best = (solid or by_rating(albums) or by_rating(rated))[0]
+        best = best_release(b)
         print(f"  Best rated {'album' if best['type'] == 'Full-length' else 'release'}: {green(best['name'])} "
               f"({best['type']}, {best['year']}, {best['rating']}% from {reviews(best['reviews'])})")
         sections = [
@@ -559,17 +573,20 @@ class Shell:
             print(f"  {b['comment']}")
         print()
 
-    def print_members(self, b):
+    def print_members(self, b, only=None):
         if not any(b["members"].values()):
             print(dim("\n  No lineup is listed for this band."))
+        elif only and not b["members"][only]:
+            print(dim(f"\n  No {MEMBER_GROUPS[only].lower()} listed for this band."))
         for group, title in MEMBER_GROUPS.items():
+            if only and group != only:
+                continue
             members = b["members"][group]
             if not members:
                 continue
             print(f"\n  {bold(title)} ({len(members)})")
             for m in members:
-                roles = ", ".join(f"{r} ({y})" if y else r for r, y in m["roles"])
-                print(f"    {m['name']:28} {dim(roles)}")
+                print(f"    {m['name']:28} {dim(format_roles(m['roles']))}")
 
     def print_discography(self, b):
         releases = b["releases"]
@@ -583,11 +600,10 @@ class Shell:
             rating = green(f"{r['rating']}% from {reviews(r['reviews'])}") if r["reviews"] else ""
             rtype = f"{r['type']:{type_width}}"
             print(f"    {r['year']}  {r['name']:{name_width}}  {dim(rtype)}  {rating}")
-        rated = [r for r in releases if r["type"] == "Full-length" and r["reviews"] >= 3]
-        if rated:
-            best = max(rated, key=lambda r: (r["rating"], r["reviews"]))
-            print(f"  {dim('Best rated full-length:')} {best['name']} "
-                  f"({best['year']}, {best['rating']}% from {reviews(best['reviews'])})")
+        best = best_release(b)
+        if best:
+            print(f"  {dim('Best rated:')} {best['name']} "
+                  f"({best['type']}, {best['year']}, {best['rating']}% from {reviews(best['reviews'])})")
 
     # --- :why ------------------------------------------------------------------
 
@@ -610,7 +626,7 @@ class Shell:
         if self.query is None:
             print(dim("This is a direct answer from the extracted fields, not a ranked search."))
             return
-        rows, d_norm = self.index.explain(self.query, doc_id, self.method)
+        rows, d_norm, coord = self.index.explain(self.query, doc_id, self.method)
         print(f"\n{cyan(band['name'])}  query: {self.query!r}")
 
         matches = find_matches(band, [r[0] for r in rows])
@@ -628,10 +644,15 @@ class Shell:
         for term, tf, df, idf, contrib in rows:
             line = f"    {term:16} {tf:>4} {df:>8,} {idf:>7.3f} {contrib:>13.4f}"
             print(line if tf else dim(line))
-        print(f"    {'score (cosine)':39} {bold(f'{sum(r[4] for r in rows):>13.4f}')}")
+        cosine = sum(r[4] for r in rows)
+        found = sum(1 for r in rows if r[1])
+        print(f"    {'cosine':39} {cosine:>13.4f}")
+        print(f"    {f'coord ({found} of {len(rows)} query words)':39} {coord:>13.4f}")
+        print(f"    {'score = cosine * coord':39} {bold(f'{cosine * coord:>13.4f}')}")
         print(dim("    tf = occurrences in this band's document, df = number of bands containing the word,\n"
-                  "    rare words (low df) get a high idf. The score is divided by the document length,\n"
-                  "    so a short document that mentions the word ranks above a long one."))
+                  "    rare words (low df) get a high idf. The cosine is divided by the document length,\n"
+                  "    so a short document that mentions the word ranks above a long one. coord is the share\n"
+                  "    of query words the band has, so a band with all of them ranks above one with a few."))
         print()
 
     def why_similar(self, band, doc_id):
@@ -660,17 +681,6 @@ class Shell:
                   "    profile's squared weight that the band also has. Extra themes of the band do not lower\n"
                   "    it. Popular bands (more reviews on the site) get a small boost."))
         print()
-
-    def compare(self, query):
-        query = clean_query(query)
-        cols = {m: self.index.search(query, m, self.k) for m in IDF_METHODS}
-        cells = {m: [f"{d['name']} {s:.2f}" for s, d in r] for m, r in cols.items()}
-        width = max(len(x) for col in cells.values() for x in col + [""]) + 3
-        print(dim(f"query: {query}"))
-        print("    " + "".join(bold(f"{m:{width}}") for m in cols))
-        for i in range(self.k):
-            row = "".join(f"{(cells[m][i] if i < len(cells[m]) else ''):{width}}" for m in cols)
-            print(f"{i + 1:3} {row}")
 
     # --- slucka ---------------------------------------------------------------
 
@@ -702,8 +712,6 @@ class Shell:
                 self.similar(doc_id)
         elif cmd == "why" and arg.isdigit():
             self.why(int(arg))
-        elif cmd == "compare" and (arg or self.query):
-            self.compare(arg or self.query)
         else:
             print(yellow(f"Unknown command {line!r}.") + " Type :help for the list of commands.")
         return True

@@ -1,8 +1,7 @@
 """Extrakcia entit zo stiahnutych stranok Metal Archives pomocou regularnych vyrazov.
 
-Stranka kapely (band/{id}.html):  meno, krajina, lokalita, stav, rok vzniku, zaner,
-                                  temy, label, roky aktivity, popis, clenovia.
-Diskografia (band_disc/{id}.html): nazov, typ, rok, pocet recenzii a priemerne hodnotenie.
+Stranka kapely (band/{id}.html):  meno, krajina, lokalita, stav, rok vzniku, zaner, temy, label, roky aktivity, popis, clenovia.
+Diskografia (band_disc/{id}.html): nazov, typ, rok, pocet recenzii a priemerne hodnoAtenie.
 """
 import html
 import re
@@ -22,7 +21,7 @@ RELEASE_ROW = re.compile(
     r'\s*<td[^>]*>(.*?)</td>\s*<td[^>]*>(\d{4})</td>(.*?)</tr>', re.S)
 REVIEWS = re.compile(r">(\d+) \((\d+)%\)</a>")
 YEAR_RANGE = re.compile(r"(\d{4}|\?)\s*-\s*(\d{4}|present|\?)")
-# "Bass&nbsp;(1975-present), Keyboards&nbsp;(1997-present)": roky su za &nbsp; (\xa0),
+# "Bass&nbsp;(1975-present), Keyboards&nbsp;(1997-present)": roky su za &nbsp
 # zatvorky v nastroji ("Vocals (lead)") maju obycajnu medzeru
 ROLE_PART = re.compile(r"\s*(.+?)\xa0\(([^)]*)\)\s*,?")
 PERIOD = re.compile(r"\s*\([^)]*\)")  # "(early)", "(later)" pri zanri

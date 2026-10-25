@@ -8,27 +8,27 @@
       "tokens": 14194030
     },
     "band": {
-      "files": 198326,
-      "bytes": 4269782277,
-      "disk_bytes": 4718768128,
-      "tokens": 1227433471
+      "files": 201403,
+      "bytes": 4337415347,
+      "disk_bytes": 4793368576,
+      "tokens": 1247184664
     },
     "band_disc": {
-      "files": 198356,
-      "bytes": 286861120,
-      "disk_bytes": 858755072,
-      "tokens": 89349038
+      "files": 201400,
+      "bytes": 293001967,
+      "disk_bytes": 873029632,
+      "tokens": 91746389
     }
   },
   "extracted": {
-    "bands": 198309,
-    "relevant": 197727,
-    "with_releases": 194456,
-    "with_members": 188011,
-    "metal_genre": 194143,
-    "releases": 721581,
-    "members": 1014893,
-    "bytes": 425436262,
-    "text_tokens": 15907425
+    "bands": 198653,
+    "relevant": 198071,
+    "with_releases": 194793,
+    "with_members": 188332,
+    "metal_genre": 194483,
+    "releases": 722894,
+    "members": 1016450,
+    "bytes": 426211110,
+    "text_tokens": 15945174
   }
 }

@@ -1,7 +1,7 @@
 """Spustenie:
   python -m indexer                               # interaktivne vyhladavanie
   python -m indexer build                         # index z data/extracted/bands.jsonl
-  python -m indexer search "swedish death metal"  # --idf classic|smooth|squared, -k 10
+  python -m indexer search "swedish death metal"  # --idf classic|smooth, -k 10
   python -m indexer compare "q1" "q2" "q3"        # porovnanie metod IDF
 """
 import argparse
