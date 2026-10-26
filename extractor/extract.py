@@ -50,17 +50,19 @@ Progressive Raw Sludge Southern Speed Stoner Symphonic Technical Thrash Traditio
 
 
 def clean(fragment):
-    """HTML fragment -> obycajny text (bez tagov, entit a nadbytocnych medzier)."""
+    # Z HTML fragmentu urobi obycajny text: odstrani tagy, HTML komentare, entity a nadbytocne medzery.
     text = TAG.sub(" ", COMMENTS_HTML.sub("", fragment))
     return SPACE.sub(" ", html.unescape(text)).strip()
 
 
 def split_list(value, sep=","):
+    # Rozdeli text podla oddelovaca (regex): "a, b; c" s sep="[,;]" -> ["a", "b", "c"].
+    # Medzery okolo casti oreze a prazdne casti vynecha.
     return [part.strip() for part in re.split(sep, value) if part.strip()]
 
 
 def split_genres(genre):
-    """"Black/Death Metal (early); Doom Metal" -> ["Black Metal", "Death Metal", "Doom Metal"]."""
+    # Rozdeli zanre na samostatne: "Black/Death Metal (early); Doom Metal" -> Black Metal, Death Metal, Doom Metal.
     genres = []
     for part in split_list(PERIOD.sub("", genre), r"[;,]"):
         pieces = split_list(part, "/")
@@ -76,6 +78,9 @@ def split_genres(genre):
 
 
 def parse_members(page, section):
+    # Jedna sekcia zostavy (section = "current", "past" alebo "live") -> zoznam clenov.
+    # Pre kazdeho clena vytiahne id a URL umelca, meno a nastroje s rokmi, napr.
+    # [["Guitars", "1990-present"], ["Vocals (lead)", "1992-present"]].
     m = re.search(LINEUP_SECTION.format(section), page, re.S)
     if not m:
         return []
@@ -94,7 +99,7 @@ def parse_members(page, section):
 
 
 def extract_band(page):
-    """Stranka kapely -> dict s entitami. Ak to nie je stranka kapely, vrati None."""
+    # Zo stranky kapely vytiahne vsetky udaje do slovnika. Ak to nie je stranka kapely, vrati None.
     m = BAND_NAME.search(page)
     if not m:
         return None
@@ -123,7 +128,7 @@ def extract_band(page):
 
 
 def extract_discography(page):
-    """Diskografia -> zoznam vydani (nazov, typ, rok, recenzie, hodnotenie v %)."""
+    # Zo stranky diskografie vytiahne zoznam vydani: nazov, typ, rok, pocet recenzii a hodnotenie v %.
     releases = []
     for url, album_id, name, rtype, year, rest in RELEASE_ROW.findall(page):
         r = REVIEWS.search(rest)

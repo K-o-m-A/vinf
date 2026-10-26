@@ -234,6 +234,8 @@ class Shell:
     # --- vyhladavanie ---------------------------------------------------------
 
     def search(self, line):
+        # Bezny dopyt: z otazky sa vyberu filtre (krajina, rok, stav, zaner), vyhodia sa
+        # opytovacie a vyplnove slova a zvysne slova sa hladaju full-textom (TF-IDF).
         start = time.time()
         filters, rest = parse_filters(line, self.countries)
         query = clean_query(rest)
@@ -248,6 +250,8 @@ class Shell:
 
         if filters:
             print(dim(f"filters: {filters.describe()}" + (f"   words: {query}" if query else "")))
+            # S filtrami: kapely, ktore filtre nesplnaju, sa vyradia. Ak zostali slova, zvysok sa
+            # zoradi podla TF-IDF; ak nezostali, alebo ich ziadna kapela nema, podla poctu recenzii.
             allowed = {d for d, doc in enumerate(self.index.docs) if filters.match(doc)}
             ranked = [(s, d) for s, d in self.index.rank(query, self.method) if d in allowed] if query else []
             if query and not ranked and allowed:
@@ -397,6 +401,9 @@ class Shell:
     # --- priame odpovede z extrahovanych poli -------------------------------
 
     def answer(self, line):
+        # Otazky o konkretnej kapele alebo osobe ("Who are the members of X?") sa nehladaju
+        # full-textom. Kapela sa najde podla mena a odpoved sa vypise priamo z jej poli.
+        # Ak kapela s takym menom neexistuje, vrati False a otazka ide dalej (do vyhladavania).
         kind, name = detect_intent(line)
         if kind is None:
             return False
@@ -626,6 +633,8 @@ class Shell:
         if self.query is None:
             print(dim("This is a direct answer from the extracted fields, not a ranked search."))
             return
+        # :why pri beznom vyhladavani: kde v dokumente sa slova dopytu nachadzaju a z coho je skore
+        # (tf, df, idf a prispevok kazdeho termu ku kosinusu, potom coord a vysledne skore).
         rows, d_norm, coord = self.index.explain(self.query, doc_id, self.method)
         print(f"\n{cyan(band['name'])}  query: {self.query!r}")
 
@@ -731,6 +740,9 @@ class Shell:
             return True
         if line.rstrip("?").lower() in ("quit", "exit"):
             return False
+        # Kaskada: kazdy krok vrati True, ak otazku vybavil. Najprv priama odpoved o kapele
+        # alebo osobe, potom otazka na nazov vydania, potom podobne kapely. Ak nesedi nic,
+        # otazka sa spracuje ako bezny dopyt (filtre + full-text).
         if not (self.answer(line) or self.release_query(line) or self.similar_query(line)):
             self.search(line)
         return True

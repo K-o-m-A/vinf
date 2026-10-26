@@ -21,21 +21,26 @@ POPULARITY = 0.15  # vaha poctu recenzii pri podobnych kapelach
 
 
 def fold(text):
-    """"Sarcófago" -> "sarcofago"."""
+    # Odstrani diakritiku a zmeni text na male pismena: "Sarcófago" -> "sarcofago".
     text = unicodedata.normalize("NFKD", text)
     return "".join(ch for ch in text if not unicodedata.combining(ch)).lower()
 
 
 def stem(t):
-    """Jednoduche mnozne cislo: "vikings" -> "viking", ale "bass", "virus", "genesis" ostanu."""
+    # Odstrani jednoduche mnozne cislo: "vikings" -> "viking", ale "bass", "virus", "genesis" ostanu.
     return t[:-1] if len(t) > 3 and t.endswith("s") and not t.endswith(("ss", "us", "is")) else t
 
 
 def tokenize(text):
+    # Ten isty tokenizer sa pouziva pre dokumenty aj dopyty, inak by sa termy nezhodovali.
+    # Kroky: male pismena bez diakritiky (fold), slova podla \w+, vyhodi stop slova
+    # a jednopismenove slova, odstrani jednoduche mnozne cislo (stem).
     return [stem(t) for t in TOKEN.findall(fold(text)) if t not in STOPWORDS and not (len(t) == 1 and t.isalpha())]
 
 
 def tf_weight(tf):
+    # Logaritmicka vaha poctu vyskytov: 1 vyskyt -> 1, 10 vyskytov -> 2, 100 vyskytov -> 3.
+    # Opakovanie slova v dokumente pomaha, ale coraz menej.
     return 1.0 + math.log10(tf)
 
 
@@ -52,7 +57,7 @@ IDF_METHODS = {"classic": idf_classic, "smooth": idf_smooth}
 
 
 def format_roles(roles):
-    """[["Bass", "1982-1986"], ["Vocals", ""]] -> "Bass (1982-1986), Vocals"."""
+    # Nastroje s rokmi spoji do jedneho textu na vypis: [["Bass", "1982-1986"], ["Vocals", ""]] -> "Bass (1982-1986), Vocals".
     return ", ".join(f"{r} ({y})" if y else r for r, y in roles)
 
 
@@ -82,8 +87,8 @@ def profile_text(band):
 
 
 def profile_tokenize(text):
-    """Slova + dvojice slov v ramci frazy: "World War I" -> world, war, world_war, war_i.
-    Vdaka dvojiciam nie je "World War I" podobne "New World Order"."""
+    # Termy profilu su slova aj dvojice slov v ramci jednej frazy: "World War I" -> world, war, world_war, war_i.
+    # Vdaka dvojiciam nie je "World War I" podobne "New World Order", ktore ma spolocne iba "world".
     terms = []
     for phrase in text.split("|"):
         words = [stem(t) for t in TOKEN.findall(fold(phrase))]
@@ -108,6 +113,8 @@ class Index:
         return len(self.postings.get(term, ())) // 2
 
     def add(self, doc_id, tokens):
+        # Spocita, kolkokrat je kazdy term v dokumente (tf), a dvojicu (doc_id, tf) pripise na
+        # koniec postingov termu. Dokumenty idu po poradi, takze postingy su zoradene podla doc_id.
         for term, tf in Counter(tokens).items():
             p = self.postings.get(term)
             if p is None:
@@ -124,13 +131,16 @@ class Index:
                     "genre": band.get("genre", ""), "genres": band["genres"],
                     "formed": band.get("formed"), "status": band.get("status"),
                     "reviews": sum(r["reviews"] for r in band["releases"]),
-                    "offset": offset,  # pozicia riadku v bands.jsonl
+                    "offset": offset,  # pozicia riadku v bands.jsonl, detail kapely sa nacita cez seek
                 })
                 self.add(len(self.docs) - 1, self.analyzer(self.text_fn(band)))
                 offset += len(line)
         self.compute_norms()
 
     def compute_norms(self):
+        # Dlzka (norma) vektora kazdeho dokumentu, osobitne pre kazdu metodu IDF.
+        # Kosinus ju potrebuje pri kazdom dopyte a zavisi od vsetkych termov dokumentu,
+        # preto sa spocita raz pri stavbe indexu: sqrt(sum(((1 + log10 tf) * idf)^2)).
         for name, idf_fn in IDF_METHODS.items():
             sq = [0.0] * self.n
             for p in self.postings.values():
@@ -152,6 +162,8 @@ class Index:
         return p[2 * i + 1] if i < len(docs) and docs[i] == doc_id else 0
 
     def query_weights(self, query, method):
+        # Vaha kazdeho termu dopytu, rovnaky vzorec ako pre dokument: (1 + log10 tf) * idf.
+        # Zriedkavy term (vysoke idf) tak v dopyte vazi viac ako casty.
         return {t: tf_weight(tf) * self.idf(t, method) for t, tf in Counter(self.analyzer(query)).items()}
 
     def rank(self, query, method="classic"):
@@ -169,12 +181,14 @@ class Index:
                 continue
             q_norm += w_q ** 2
             idf = self.idf(term, method)
-            for i in range(0, len(p), 2):
+            for i in range(0, len(p), 2):  # p = [doc_id, tf, doc_id, tf, ...]
                 scores[p[i]] = scores.get(p[i], 0.0) + w_q * tf_weight(p[i + 1]) * idf
-                matched[p[i]] = matched.get(p[i], 0) + 1
+                matched[p[i]] = matched.get(p[i], 0) + 1  # pocet najdenych termov pre coord
         norms = self.norms[method]
         q_norm = math.sqrt(q_norm) or 1.0
         n_terms = len(weights)
+        # Skore = kosinus * coord. Kosinus je sucet vyssie vydeleny dlzkou dopytu a dokumentu,
+        # coord je podiel termov dopytu, ktore dokument obsahuje (matched / pocet termov).
         return sorted(((s / (norms[d] * q_norm) * matched[d] / n_terms, d)
                        for d, s in scores.items() if norms[d] > 0), reverse=True)
 
@@ -222,6 +236,9 @@ class Index:
         results = []
         for d, c in cover.items():
             c /= total
+            # Skore = pokrytie * bonus za popularitu. Bonus rastie logaritmicky s poctom recenzii
+            # (0 recenzii -> 1,0; 38 -> 1,24; 1000 -> 1,45), takze pri rovnakom pokryti
+            # vyhra znamejsia kapela, ale kapela s malym prekryvom blizku zhodu nepredbehne.
             results.append((c * (1 + POPULARITY * math.log10(1 + self.docs[d]["reviews"])), c, d))
         return sorted(results, reverse=True)
 
@@ -246,7 +263,7 @@ class Index:
 
 
 def build_members(bands_file):
-    """Meno bez diakritiky -> [(id umelca, meno, doc_id, zostava, nastroje)]."""
+    # Index clenov: meno bez diakritiky -> zoznam (id umelca, meno, doc_id kapely, zostava, nastroje).
     members = {}
     with open(bands_file, "rb") as f:
         for doc_id, line in enumerate(f):

@@ -1,8 +1,8 @@
-"""Rozbor otazky na filtre a typ otazky.
-
-"thrash metal bands from Brazil formed in the 1980s" ->
-    Filters(countries={"Brazil"}, formed=(1980, 1989), genre_words={"thrash"}), zvysny text ""
-"""
+# Rozbor otazky na filtre a typ otazky.
+#
+# Napr. z "thrash metal bands from Brazil formed in the 1980s" vzniknu filtre
+#   krajina Brazil, rok vzniku 1980-1989, zaner thrash a na full-text nezostane nic.
+#
 import re
 from dataclasses import dataclass, field
 
@@ -138,12 +138,19 @@ def parse_filters(line, countries):
     text = " " + fold(line).replace("/", " ").replace("-", " ") + " "
     f = Filters()
 
+    # Filtre sa hladaju regexmi v poradi krajina, rok, stav, zaner. Kazdy najdeny filter
+    # sa z textu vystrihne, takze zvysok otazky (napr. "satanism") ide do full-textu.
+
+    # 1. krajina: nazvy krajin z dat aj pridavne mena a skratky (swedish, usa, korean, ...)
+
     for phrase, country in countries.items():
         m = re.search(rf"(?<![\w']){re.escape(phrase)}(?![\w'])", text)
         if m:
             f.countries.add(country)
             text = _cut(text, m)
 
+    # 2. rok vzniku: "between 1985 and 1990", "before 1995", "since 2010",
+    #    dekada ("in the 1980s", "late 90s") alebo presny rok ("formed in 1991")
     if m := BETWEEN.search(text):
         f.formed, text = (int(m["a"]), int(m["b"])), _cut(text, m)
     elif m := BEFORE.search(text):
@@ -160,11 +167,15 @@ def parse_filters(line, countries):
     elif m := EXACT_YEAR.search(text):
         f.formed, text = (int(m["y"]), int(m["y"])), _cut(text, m)
 
+    # 3. stav kapely: active, split-up / disbanded, on hold, changed name
     for pattern, status in STATUS_PATTERNS:
         if m := pattern.search(text):
             f.status, text = status, _cut(text, m)
             break
 
+    # 4. zaner: postupnost zanrovych slov, ktora konci na metal/rock/punk ("melodic death metal")
+    #    alebo obsahuje samostatny zaner ("grindcore"). Slovo za "about" je tema, nie zaner:
+    #    v "bands that sing about death" sa "death" hlada full-textom.
     words = WORD.findall(text)
     keep, i = [], 0
     while i < len(words):
@@ -214,7 +225,7 @@ GROUP_NAMES = {"current": "current", "present": "current", "past": "past", "form
 
 
 def member_group(line):
-    """"current members of Metallica" -> "current"; bez privlastku None (vsetky skupiny)."""
+    # Zisti, ktoru cast zostavy otazka chce: "current members of Metallica" -> "current"; bez privlastku None (vsetky).
     m = MEMBER_GROUP.search(line)
     return GROUP_NAMES[m.group("group").lower()] if m else None
 

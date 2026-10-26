@@ -40,6 +40,10 @@ def save(path, text):
 
 
 def download(fetcher, url):
+    # Stiahne jednu URL a vrati jej text (HTML alebo JSON).
+    # None vrati, ak URL zakazuje robots.txt, ak zlyhalo spojenie aj po opakovaniach
+    # alebo ak server vratil iny status ako 200 (napr. 404). Chyba sa iba zaloguje,
+    # takze jedna zla kapela nezastavi cely crawl.
     if not fetcher.allowed(url):
         log.warning("robots.txt zakazuje %s", url)
         return None
@@ -55,11 +59,14 @@ def download(fetcher, url):
 
 
 def crawl_band_list(fetcher):
+    # Krok 1: abecedny register kapiel.
+    # Pre kazde pismeno (A-Z, NBR = cisla, ~ = ostatne znaky) stahuje JSON po 500 kapelach.
+    # Prvy JSON povie v iTotalRecords, kolko kapiel pismeno ma, a podla toho sa posuva start.
     for letter in LETTERS:
         start, total = 0, 1
         while start < total:
             path = list_path(letter, start)
-            if path.exists():
+            if path.exists():  # strana registra uz je na disku z minuleho behu, netreba ju stahovat znova
                 text = path.read_text(encoding="utf-8")
             else:
                 text = download(fetcher, list_url(letter, start))
@@ -80,6 +87,9 @@ def band_urls():
 
 
 def crawl_bands(fetcher, max_bands):
+    # Krok 2: pre kazdu kapelu z registra stiahne jej stranku a diskografiu.
+    # visited.txt obsahuje URL uz stiahnutych kapiel, tie sa preskocia, takze crawl
+    # pokracuje tam, kde minule skoncil. max_bands obmedzuje pocet kapiel v jednom behu.
     visited = set()
     if config.VISITED_FILE.exists():
         visited = set(config.VISITED_FILE.read_text(encoding="utf-8").split())
@@ -103,6 +113,8 @@ def crawl_bands(fetcher, max_bands):
             if disc is not None:
                 save(config.RAW_DIR / "band_disc" / f"{band_id}.html", disc)
 
+        # Kapelu zapiseme do visited.txt hned po stiahnuti (append), nie az na konci behu.
+        # Ked sa crawl prerusi (Ctrl+C, vypadok), nic stiahnute sa nestrati.
         visited.add(url)
         with config.VISITED_FILE.open("a", encoding="utf-8") as f:
             f.write(url + "\n")

@@ -1,0 +1,708 @@
+====== Odovzdanie 1: crawler, extraktor, index ======
+
+Repozitár: https://github.com/K-o-m-A/vinf
+
+===== 1. Opis projektu =====
+
+Cielom projektu vyhľadávač metalových kapiel. Dáta berieme z Encyclopaedia Metallum ([[http://www.metal-archives.com|www.metal-archives.com]]), datab8zy metalov7ch kapiel. Pôvodne sme chceli využiť stránku last.fm, ale ten začiatkom októbra 2026 nasadila anti-bot ochranu. V tejto fáze máme hotové:
+
+  - Crawler, ktorý stiahol celý abecedný register a ku každej kapele jej stránku a diskografiu.
+  - Extraktor, ktorý regulárnymi výrazmi vytiahne z HTML 13 polí kapely, zostavu (aktuálni, bývalí, live) a diskografiu.
+  - Vlastný invertovaný index (TF) s dvoma metódami výpočtu IDF. Kapely radí podľa kosínusovej podobnosti, ktorú násobí podielom nájdených slov dopytu (coord). Nad ním beží interaktívna CLI aplikácia. Rozpozná v otázke filtre (krajina, rok vzniku, stav, žáner), na otázky o zostave, kapelách hudobníka alebo najlepšom albume odpovedá priamo a vie nájsť podobné kapely.
+  - Štatistiku dokumentov: počet, veľkosť, relevantnosť a počet tokenov (tiktoken).
+  - Unit testy REGEX extraktorov na 20 reálnych stránkach a testy rozboru otázok v CLI.
+
+^Súbor                          ^Úloha                                                                ^
+|''%%crawler/config.py%%''      |hlavičky, timeouty, pauzy, cesty                                     |
+|''%%crawler/fetcher.py%%''     |HTTP klient, robots.txt, rate limiting, retry, detekcia blokovania   |
+|''%%crawler/crawler.py%%''     |krok 1 a 2, extrakcia URL regexom                                    |
+|''%%extractor/extract.py%%''   |REGEX extrakcia entít                                                |
+|''%%indexer/index.py%%''       |invertovaný index, metódy IDF, vyhľadávanie                          |
+|''%%indexer/query.py%%''       |rozbor otázky: filtre (krajina, rok vzniku, stav, žáner) a typ otázky|
+|''%%indexer/cli.py%%''         |interaktívna CLI aplikácia                                           |
+|''%%stats/__main__.py%%''      |štatistika a tokeny                                                  |
+|''%%tests/test_extractor.py%%''|unit testy extraktorov                                               |
+|''%%tests/test_query.py%%''    |unit testy rozboru otázok a tokenizácie                              |
+
+===== 2. Scrapované stránky a extrahované dáta =====
+
+^Stránka                 ^URL                                                                                           ^Čo z nej berieme                                                                                                         ^
+|Abecedný register (JSON)|''%%https://www.metal-archives.com/browse/ajax-letter/l/{A-Z,NBR,~}/json/1?iDisplayStart=…%%''|URL kapely, meno, krajina, žáner, stav                                                                                   |
+|Stránka kapely          |napr. https://www.metal-archives.com/bands/Opeth/38                                           |meno, krajina, lokalita, stav, rok vzniku, roky aktivity, žáner, témy textov, label, popis, zostava (meno, nástroj, roky)|
+|Diskografia             |napr. https://www.metal-archives.com/band/discography/id/38/tab/all                           |názov vydania, typ, rok, počet recenzií, priemerné hodnotenie                                                            |
+
+Päť ukážok extrahovaných dát (skrátené, z ''%%data/extracted/bands.jsonl%%''):
+
+^Kapela                                                                 ^Krajina / lokalita                                              ^Vznik / stav   ^Žánre (normalizované)                            ^Témy                               ^Label                 ^Členovia (akt./bývalí/live)                                                     ^Vydania (prvé)                                           ^
+|[[https://www.metal-archives.com/bands/Metallica/125|Metallica]]       |United States / Los Angeles/San Francisco, California           |1981 / Active  |Thrash Metal, Hard Rock, Heavy Metal             |Introspection, Anger, Corruption, …|Blackened Recordings  |4 / 4 / 4 (Lars Ulrich - Drums 1981-present)                                    |941 (No Life 'til Leather, Demo, 1982, 10 recenzií, 87 %)|
+|[[https://www.metal-archives.com/bands/Opeth/38|Opeth]]                |Sweden / Sörskogen, Stockholm                                   |1990 / Active  |Progressive Death Metal, Progressive Rock        |Nature, Death, Love, …             |Reigning Phoenix Music|5 / 16 / 6 (Mikael Åkerfeldt - Guitars 1990-present, Vocals (lead) 1992-present)|47 (Orchid, Full-length, 1995, 28, 84 %)                 |
+|[[https://www.metal-archives.com/bands/Burzum/88|Burzum]]              |Norway / Bergen, Vestland (early); …                            |1991 / Active  |Black Metal, Ambient                             |Mythology, Folklore, Odalism       |Byelobog Productions  |1 / 0 / 0 (Varg Vikernes - Everything)                                          |35 (Demo I, Demo, 1991, 9, 75 %)                         |
+|[[https://www.metal-archives.com/bands/Sepultura/78|Sepultura]]        |Brazil / Belo Horizonte, Minas Gerais (early); São Paulo (later)|1984 / Active  |Death Metal, Thrash Metal, Nu-Metal, Groove Metal|Satanism, Death, Evil (early), …   |Nuclear Blast Records |4 / 11 / 7                                                                      |85 (Bestial Devastation / Século XX, Split, 1985)        |
+|[[https://www.metal-archives.com/bands/Black_Sabbath/99|Black Sabbath]]|United Kingdom / Birmingham, West Midlands, England             |1969 / Split-up|Heavy Metal, Doom Metal                          |Doom, Drugs, Life, …               |Vertigo Records       |4 / 21 / 8                                                                      |166 (Evil Woman, Single, 1970, 2, 88 %)                  |
+
+Jeden celý záznam :
+
+<code json>
+{
+  "url": "https://www.metal-archives.com/bands/Opeth/38",
+  "name": "Opeth", "id": 38, "country": "Sweden", "location": "Sörskogen, Stockholm",
+  "status": "Active", "formed": 1990, "years": [["1990", "present"]],
+  "genre": "Progressive Death Metal, Progressive Rock",
+  "genres": ["Progressive Death Metal", "Progressive Rock"],
+  "themes": ["Nature", "Death", "Love", "Heartbreak", "Sorrow", "Seasons", "Occultism"],
+  "label": "Reigning Phoenix Music",
+  "comment": "Opeth is a name taken from the novel Sunbird by author Wilbur Smith ...",
+  "members": {
+    "current": [{"id": 144, "name": "Mikael Åkerfeldt", "role": "Guitars, Vocals (lead)",
+                 "roles": [["Guitars", "1990-present"], ["Vocals (lead)", "1992-present"]],
+                 "url": "https://www.metal-archives.com/artists/Mikael_%C3%85kerfeldt/144"}],
+    "past": [{"id": 180, "name": "Nick Döring", "role": "Bass", "roles": [["Bass", "1990-1991"]]}],
+    "live": [{"id": 685, "name": "Gene Hoglan", "role": "Drums", "roles": [["Drums", "2004"]]}]
+  },
+  "releases": [
+    {"id": 138, "name": "Orchid", "type": "Full-length", "year": 1995, "reviews": 28, "rating": 84},
+    {"id": 137, "name": "Morningrise", "type": "Full-length", "year": 1996, "reviews": 23, "rating": 72}
+  ]
+}
+</code>
+
+===== 3. Otázky a odpovede, ktoré má systém zvládnuť =====
+
+Odpovede sú z našich vycrawlovaných dát.
+
+Stĺpec „Reálne" je výstup aktuálnej verzie CLI (metóda classic), prvé výsledky. Stĺpec „Čo testuje" hovorí, akú schopnosť systému otázka overuje.
+
+^#^Otázka                                                  ^Očakávaná odpoveď                                           ^Reálne                                                                                                                       ^Čo testuje                                                                                   ^
+|1|Who are the current members of Metallica?               |Lars Ulrich, James Hetfield, Kirk Hammett, Robert Trujillo  |Lars Ulrich (Drums), James Hetfield (Vocals, Guitars), Kirk Hammett (Guitars), Robert Trujillo (Bass), iba aktuálna zostava ✓|typ otázky „zostava" a slovo //current//, odpoveď z poľa ''%%members.current%%''             |
+|2|When was Master of Puppets released and how is it rated?|1986, full-length, 45 recenzií, priemer 81 %                |1. Metallica: 1986, Full-length, 81 % zo 45 recenzií; ďalej 10 kapiel s rovnomenným singlom alebo coverom ✓                  |otázka na názov vydania: prienik postingov slov názvu a kontrola názvov vydaní               |
+|3|Which metal bands are from Armenia?                     |53 kapiel, najrecenzovanejšie Ildaruni, Sworn, Rampant Beast|53 kapiel: Ildaruni, Sworn, Rampant Beast, Blood Covenant ✓                                                                  |filter krajiny namiesto full-textu, kolumbijské kapely z mesta Armenia sa nevrátia           |
+|4|Brazilian thrash metal bands formed in the 1980s?       |Sepultura, Sarcófago, Vulcano                               |305 kapiel: Sepultura (1984), Sarcófago (1985), Vulcano (1981) ✓                                                             |tri filtre naraz: krajina z prídavného mena, dekáda, žáner                                   |
+|5|What is the best rated Opeth full-length album?         |Still Life (1999, 86 %)                                     |Still Life (1999, 86 % z 26 recenzií), potom Deliverance a Orchid ✓                                                          |typ otázky „najlepší album" s menom kapely pred slovom album, hodnotenie s aspoň 3 recenziami|
+|6|Norwegian black metal bands that sing about satanism?   |nórske black metalové kapely s témou satanizmus             |100 kapiel: A.A.N, Balthamel, Nocturnal Ritual ✓                                                                             |filtre + full-text zvyšku; „that sing about" sa vyhodí, hľadá sa iba „satanism"              |
+|7|Which bands did Dave Mustaine play in?                  |Megadeth, Metallica a jeho ďalšie projekty                  |Megadeth, MD.45, DeuxMonkey, Metallica (past member, 1982-1983), Red Lamb ✓                                                  |index členov, ľudí s rovnakým menom rozlíši id umelca                                        |
+|8|Similar bands to Kanonenfieber?                         |kapely, ktoré spievajú o 1. svetovej vojne                  |God Dethroned, Neige et Noirceur, 1914, Torchbearer, Minenwerfer ✓                                                           |profilový index žánrov a tém, pokrytie namiesto kosínusu (kap. 13)                           |
+
+===== 4. Frameworky a knižnice =====
+
+^Časť                 ^Nástroj                                                             ^Prečo                                                                                                                                                    ^
+|Jazyk                |Python 3.12                                                         |regexy, ''%%multiprocessing%%'', ''%%pickle%%'' aj ''%%unittest%%'' sú v štandardnej knižnici, takže sme okrem HTTP klienta a tiktokenu nič nepotrebovali|
+|HTTP                 |''%%httpx[http2]%%''                                                |Cloudflare pred Metal Archives vracia challenge každému HTTP/1.1 klientovi (aj ''%%requests%%'', ''%%curl --http1.1%%''), cez HTTP/2 stránky prechádzajú |
+|robots.txt           |''%%urllib.robotparser%%'' (štandardná knižnica)                    |kontrola ''%%Disallow%%'' a ''%%Crawl-delay%%''                                                                                                          |
+|Extrakcia URL a entít|''%%re%%'' (štandardná knižnica)                                    |zadanie vyžaduje vlastné regexy                                                                                                                          |
+|Paralelizácia        |''%%multiprocessing%%'' (štandardná knižnica)                       |zrýchlenie systému                                                                                                                                       |
+|Index                |vlastná implementácia (''%%dict%%'' + ''%%array%%'', ''%%pickle%%'')|zadanie vyžaduje vlastný indexer                                                                                                                         |
+|Tokeny               |''%%tiktoken%%'' (kódovanie ''%%o200k_base%%'')                     |bonus: počet tokenov v štatistike                                                                                                                        |
+|Testy                |''%%unittest%%'' (štandardná knižnica)                              |-                                                                                                                                                        |
+
+===== 5. Architektúra systému =====
+
+{{odovzdanie1_architektura.png?900&nolink|}}
+
+Crawler beží v dvoch krokoch. Poradie stránok je dané (register -> kapela -> jej diskografia), takže nepotrebuje všeobecný front URL:
+
+{{odovzdanie1_crawler.png?390&nolink|}}
+
+Celý stav crawlera je v ''%%data/visited.txt%%'', jedna URL na riadok. Crawl sa dá kedykoľvek prerušiť a pri ďalšom spustení pokračuje tam, kde skončil.
+
+Id kapely berieme zo stránky (z odkazu na diskografiu), nie z URL. Metal Archives zobrazí kapelu aj podľa mena, keď je id v URL nesprávne, ale diskografia s takým id vráti 404.
+
+===== 6. Metadáta ukladané pri crawlovaní =====
+
+HTTP metadáta (hlavičky, status, čas odpovede) si zvlášť neukladáme. Nemalo by to zmysel:
+
+  * ukladáme iba odpovede so statusom 200 a všetky majú rovnaký ''%%Content-Type%%'' (''%%text/html; charset=UTF-8%%'', pri registri JSON),
+  * čas stiahnutia je čas úpravy súboru,
+  * chyby (404, timeouty) sa len zalogujú. Keď zlyhá stránka kapely, kapela sa nezapíše do ''%%visited.txt%%'' a ďalší beh ju skúsi znova. Keď zlyhá iba diskografia, kapela sa zapíše a diskografia jej chýba.
+
+Ako metadáta kapiel slúžia riadky abecedného registra (meno, URL, krajina, žáner, stav), ktoré máme ako JSON ešte pred stiahnutím stránok. K tomu ''%%visited.txt%%'' a mená, veľkosti a časy uložených súborov:
+
+^Meno           ^URL (''%%visited.txt%%'')                                      ^Krajina      ^Žáner (z registra)                                               ^Stav  ^Súbor registra^Stránka kapely                ^Diskografia                       ^Stiahnuté       ^
+|Metallica      |https://www.metal-archives.com/bands/Metallica/125             |United States|Thrash Metal (early); Hard Rock (mid); Heavy/Thrash Metal (later)|Active|M_006000.json |band/125.html (34.9 KB)       |band_disc/125.html (326.6 KB)     |2026-10-13 17:15|
+|Opeth          |https://www.metal-archives.com/bands/Opeth/38                  |Sweden       |Progressive Death Metal, Progressive Rock                        |Active|O_002500.json |band/38.html (65.8 KB)        |band_disc/38.html (16.2 KB)       |2026-10-15 06:24|
+|Burzum         |https://www.metal-archives.com/bands/Burzum/88                 |Norway       |Black Metal, Ambient                                             |Active|B_011000.json |band/88.html (15.8 KB)        |band_disc/88.html (12.0 KB)       |2026-10-06 05:51|
+|Sepultura      |https://www.metal-archives.com/bands/Sepultura/78              |Brazil       |Death/Thrash Metal (early); Nu-Metal, Groove/Thrash Metal (later)|Active|S_006000.json |band/78.html (55.3 KB)        |band_disc/78.html (27.5 KB)       |2026-10-17 04:49|
+|Black Eucharist|https://www.metal-archives.com/bands/Black_Eucharist/3540453125|United States|Black Metal                                                      |Active|B_004000.json |band/3540453125.html (19.0 KB)|band_disc/3540453125.html (0.7 KB)|2026-10-05 16:12|
+
+===== 7. Hlavičky, timeouty, pauzy =====
+
+^Nastavenie             ^Hodnota                                                                                                  ^Prečo                                                                                                                           ^
+|''%%User-Agent%%''     |''%%vinf-crawler/0.1 (+FIIT STU VINF school project)%%''                                                 |poctivo sa identifikujeme ako crawler                                                                                           |
+|''%%Accept%%''         |''%%text/html,application/xhtml+xml;q=0.9,*/*;q=0.8%%''                                                  |HTML                                                                                                                            |
+|''%%Accept-Language%%''|''%%en-US,en;q=0.8%%''                                                                                   |stránky sú po anglicky, dopyty budú tiež                                                                                        |
+|''%%Accept-Encoding%%''|''%%gzip, deflate%%''                                                                                    |menší prenos                                                                                                                    |
+|Protokol               |HTTP/2                                                                                                   |Cloudflare blokuje HTTP/1.1 klientov                                                                                            |
+|Timeout                |10 s pripojenie, 30 s čítanie                                                                            |pripojenie trvá bežne < 1 s; register s 500 riadkami alebo diskografia Metallicy (326 KB) sa generuje na serveri niekoľko sekúnd|
+|Pauza                  |3 s + náhodne 0-1 s od začiatku poslednej požiadavky                                                     |''%%Crawl-delay: 3%%'' v robots.txt + náhodná zložka, aby požiadavky nechodili v presnom rytme                                  |
+|Opakovanie             |max. 3× pri chybe spojenia, timeoute, 429 a 5xx; čakanie 10 -> 20 -> 40 s alebo podľa ''%%Retry-After%%''|exponenciálny backoff                                                                                                           |
+|404 a iné chyby        |zalogujú sa, crawler pokračuje                                                                           |jedna chybná kapela nezastaví crawl                                                                                             |
+
+Čo sa deje s jednou URL :
+
+{{odovzdanie1_spracovanie_url.png?728&nolink|}}
+
+===== 8. Kód: extrakcia URL z HTML =====
+
+''%%crawler/crawler.py#L22-L24%%'', použitie v ''%%band_urls()%%'' a ''%%crawl_bands()%%'':
+
+<code python>
+BAND_LINK = re.compile(r"href='(https://www\.metal-archives\.com/bands/[^']+/\d+)'")
+# id v URL nemusi sediet (stranka sa najde aj podla mena), skutocne id je v odkaze na diskografiu
+BAND_ID_IN_PAGE = re.compile(r"/band/discography/id/(\d+)/tab/all")
+
+
+def band_urls():
+    for path in sorted((config.RAW_DIR / "band_list").glob("*.json")):
+        for row in json.loads(path.read_text(encoding="utf-8"))["aaData"]:
+            link = BAND_LINK.search(row[0])
+            if link:
+                yield html.unescape(link.group(1))
+
+# v crawl_bands():
+        m = BAND_ID_IN_PAGE.search(page)
+        if m:
+            disc = download(fetcher, f"{config.BASE_URL}/band/discography/id/{m.group(1)}/tab/all")
+</code>
+
+''%%BAND_LINK%%'' vytiahne URL kapely z HTML fragmentu v riadku registra (''%%<a href='https://www.metal-archives.com/bands/Metallica/125'>Metallica</a>%%''). ''%%html.unescape%%'' opraví entity v menách (''%%Guns_N&#039;_Roses%%''). ''%%BAND_ID_IN_PAGE%%'' nájde na stránke kapely odkaz na kompletnú diskografiu a z neho skutočné id.
+
+===== 9. Kód: extrakcia entít z HTML =====
+
+Extraktor spracuje každú kapelu nezávisle, preto beží paralelne:
+
+{{odovzdanie1_extraktor.png?900&nolink|}}
+
+''%%extractor/extract.py%%'', regulárne výrazy ''%%#L9-L30%%'':
+
+<code python>
+BAND_NAME = re.compile(r'<h1 class="band_name[^"]*">\s*<a href="([^"]+)">(.*?)</a>', re.S)
+BAND_ID = re.compile(r"/band/discography/id/(\d+)/tab/all")
+# <dt>Genre:</dt> <dd>...</dd>; obsah dd moze obsahovat odkazy, preto .*? s re.S
+STAT = re.compile(r"<dt>([^<]+?):</dt>\s*<dd[^>]*>(.*?)</dd>", re.S)
+COMMENT = re.compile(r'<div class="band_comment[^"]*">(.*?)(?:<div class="tool_strip|</div>)', re.S)
+# sekcia jednej zostavy: od jej <div id=...> po koniec tabulky, dalsiu sekciu alebo "(None)"
+LINEUP_SECTION = r'<div id="band_tab_members_{}">(.*?)(?:</table>|<div id="band_tab_members_|<em>\(None\)</em>)'
+LINEUP_ROW = re.compile(
+    r'<tr class="lineupRow">.*?<a href="(https://www\.metal-archives\.com/artists/[^"]+/(\d+))"[^>]*>(.*?)</a>'
+    r".*?<td>\s*(.*?)\s*</td>", re.S)
+RELEASE_ROW = re.compile(
+    r'<tr>\s*<td><a href="(https://www\.metal-archives\.com/albums/[^"]+/(\d+))"[^>]*>(.*?)</a></td>'
+    r'\s*<td[^>]*>(.*?)</td>\s*<td[^>]*>(\d{4})</td>(.*?)</tr>', re.S)
+REVIEWS = re.compile(r">(\d+) \((\d+)%\)</a>")
+YEAR_RANGE = re.compile(r"(\d{4}|\?)\s*-\s*(\d{4}|present|\?)")
+# "Bass&nbsp;(1975-present), Keyboards&nbsp;(1997-present)": roky su za &nbsp
+# zatvorky v nastroji ("Vocals (lead)") maju obycajnu medzeru
+ROLE_PART = re.compile(r"\s*(.+?)\xa0\(([^)]*)\)\s*,?")
+</code>
+
+Hlavná funkcia ''%%extract_band()%%'':
+
+<code python>
+def extract_band(page):
+    # Zo stranky kapely vytiahne vsetky udaje do slovnika. Ak to nie je stranka kapely, vrati None.
+    m = BAND_NAME.search(page)
+    if not m:
+        return None
+    band = {"url": m.group(1), "name": clean(m.group(2))}
+    id_match = BAND_ID.search(page)
+    band["id"] = int(id_match.group(1)) if id_match else int(band["url"].rsplit("/", 1)[1])
+
+    for key, value in STAT.findall(page):
+        field = FIELDS.get(key.strip())
+        if field and field not in band:
+            band[field] = clean(value)
+
+    formed = band.get("formed", "")
+    band["formed"] = int(formed) if formed.isdigit() else None
+    band["genres"] = split_genres(band.get("genre", ""))
+    band["themes"] = [] if band.get("themes", "N/A") in EMPTY else split_list(band["themes"], r"[,;]")
+    band["years"] = [list(r) for r in YEAR_RANGE.findall(band.get("years_active", ""))]
+    ...
+    band["members"] = {s: parse_members(page, s) for s in ("current", "past", "live")}
+    return band
+</code>
+
+Pri extrakcii sme narazili na pár zákerností:
+
+  * Žánre ako ''%%Black/Death Metal (early); Doom Metal%%'' rozkladáme na ''%%["Black Metal", "Death Metal", "Doom Metal"]%%'' (''%%split_genres()%%''). Príponu „Metal" doplníme iba známym prívlastkom (Black, Death, Heavy…), inak by z ''%%Metalcore/Alternative Rock%%'' vzniklo „Metalcore Rock".
+  * Roky členov: v HTML je ''%%Bass&nbsp;(1975-present), Keyboards&nbsp;(1997-present)%%'', ale aj ''%%Vocals (lead), Guitars (rhythm)&nbsp;(1981-present)%%''. Roky od upresnenia nástroja rozoznáme podľa ''%%&nbsp;%%'' pred zátvorkou.
+  * Roky aktivity s pôvodným menom kapely: ''%%2018-2021 (as <a href=…>Black Widow</a>), 2021-present%%''.
+
+===== 10. Indexer a index (TF) =====
+
+''%%indexer/index.py%%''
+
+Jeden dokument je jedna kapela. Jeho text (''%%band_text()%%'') tvorí meno, krajina, lokalita, žánre, témy, label, stav, mená všetkých členov, názvy vydaní a popis kapely. Názvy live albumov do textu nedávame (''%%indexed_releases()%%''). Sú to hlavne bootlegy typu //Live at … June 2004//: Metallica ich má 834 z 941 vydaní a ich dátumy a mestá tvorili 6 324 zo 6 420 tokenov jej dokumentu. Takto natiahnutý dokument by kosínus odsunul dozadu pri každom dopyte. Live albumy ostávajú v diskografii a v detaile kapely, len sa podľa ich názvu nedá hľadať (12 156 zo 722 894 vydaní, 1,7 %).
+
+Tokenizácia je jednoduchá: malé písmená a regex ''%%\w+%%''. Potom odstránime diakritiku (''%%Sarcófago%%'' -> ''%%sarcofago%%''), jednoduché množné číslo (''%%vikings%%'' -> ''%%viking%%'', okrem koncoviek -ss/-us/-is), krátky zoznam anglických stop slov a jednopísmenové slová.
+
+Invertovaný index je ''%%term -> array('I')%%'' so striedajúcimi sa hodnotami ''%%[doc_id, tf, doc_id, tf, …]%%''. V postingoch je len TF, teda koľkokrát sa term v dokumente vyskytuje. ''%%df%%'' je dĺžka zoznamu postingov.
+
+IDF neukladáme, počíta sa až pri dopyte z ''%%df%%'' a ''%%N%%'', takže jeden index slúži obom metódam IDF. Pri vytváraní sa pre každú metódu predpočíta iba norma (dĺžka) vektora každého dokumentu, ktorú potrebuje kosínus. Váha termu je ''%%w(t,d) = (1 + log10 tf) · idf(t)%%'', rovnako pre dopyt.
+
+Skóre kapely je kosínus medzi vektorom dopytu a dokumentu, vynásobený faktorom coord, teda podielom slov dopytu, ktoré kapela obsahuje (rovnaký faktor má Lucene ''%%ClassicSimilarity%%''). Kosínus sám zvýhodňuje krátke dokumenty: kapela, ktorá má v krátkom popise jedno zo slov dopytu, by predbehla kapelu, ktorá má všetky. Coord jej skóre pri dvojslovnom dopyte vydelí dvoma.
+
+Index vytvárame raz, dávkovo (''%%python -m indexer build%%''), z ''%%bands.jsonl%%'' do ''%%data/index/index.pkl%%''. Vyhľadávanie ho už iba načíta. Znovu ho staviame len po novom behu extraktora, napr. keď docrawlujeme ďalšie kapely.
+
+''%%python -m indexer build%%'' prečíta ''%%bands.jsonl%%'' trikrát a postaví tri indexy:
+
+{{odovzdanie1_stavba_indexu.png?568&nolink|}}
+
+^                                ^Hodnota                                                                                                          ^
+|Dokumentov (N)                  |198 653                                                                                                          |
+|Unikátnych termov               |498 758                                                                                                          |
+|Postingov (dvojíc term-dokument)|7 211 717                                                                                                        |
+|Čas vytvorenia                  |~35 s (1 proces); s profilovým indexom (14 s) a indexom členov (13 s) spolu ~65 s                                |
+|Veľkosť na disku                |109 MB (''%%index.pkl%%''), 47 MB (''%%profile.pkl%%'', 24 045 termov), 60 MB (''%%members.pkl%%'', 593 727 mien)|
+
+==== Ako index vyzerá naozaj ====
+
+''%%index.pkl%%'' je pickle objektu ''%%Index%%'' s tromi časťami: ''%%docs%%'' (zoznam metadát, poradie v zozname je doc_id), ''%%postings%%'' (slovník term -> ''%%array('I')%%'') a ''%%norms%%'' (pre ''%%classic%%'' aj ''%%smooth%%'' jedno ''%%array('d')%%'' s dĺžkou vektora každého dokumentu). Skutočný záznam v ''%%docs%%'' pre Kanonenfieber:
+
+<code python>
+docs[113276] = {"name": "Kanonenfieber", "url": "https://www.metal-archives.com/bands/Kanonenfieber/3540483079",
+                "country": "Germany", "genre": "Melodic Black/Death Metal",
+                "genres": ["Melodic Black Metal", "Death Metal"], "formed": 2020, "status": "Active",
+                "reviews": 21, "offset": 257008134}
+</code>
+
+Z metadát sa vypisujú výsledky a vyhodnocujú filtre, celý záznam kapely sa pri detaile načíta z ''%%bands.jsonl%%'' cez ''%%seek(257008134)%%''. Postingy termu ''%%kanonenfieber%%'', tak ako sú v pamäti:
+
+<code python>
+postings["kanonenfieber"] = array('I', [10551, 1, 108648, 1, 113276, 2])   # [doc_id, tf, doc_id, tf, ...]
+</code>
+
+^  doc_id^  tf^Kapela                 ^  ‖d‖ (classic)^         skóre pre dopyt „kanonenfieber"^
+|   10551|   1|Nesaia (Germany)       |         20,459|                  4,821 / 20,459 = 0,236|
+|  113276|   2|Kanonenfieber (Germany)|         27,916|  (1 + log10 2) · 4,821 / 27,916 = 0,225|
+|  108648|   1|Unwesen (Germany)      |         26,933|                  4,821 / 26,933 = 0,179|
+
+df = 3 (dĺžka zoznamu / 2), idf = log10(198 653 / 3) = 4,821. Pri jednoslovnom dopyte sa ‖q‖ a w(t,q) vykrátia a skóre je ''%%w(t,d) / ‖d‖%%''. Samotný ranking by dal na prvé miesto Nesaiu, ktorej kratší dokument Kanonenfieber spomína. CLI však kapelu, ktorej meno sa presne zhoduje s dopytom, dá navrch (''%%exact name match%%''), takže Kanonenfieber je prvá.
+
+==== Príklad: ako sa vyhodnotí dopyt ====
+
+Dopyt //hetfield ulrich//, metóda classic, N = 198 653 kapiel. Porovnávame Metallicu (1. miesto) a Death Battery (2. miesto):
+
+<code>
+score(q, d) = cos(q, d) · coord(q, d)
+
+cos(q, d)   = Σ_t  w(t,q) · w(t,d)  /  (‖q‖ · ‖d‖)           w(t,x) = (1 + log10 tf) · idf(t)
+coord(q, d) = počet termov dopytu, ktoré d obsahuje / počet termov dopytu
+</code>
+
+  - Dopyt sa tokenizuje rovnako ako dokumenty: ''%%hetfield%%'', ''%%ulrich%%''.
+  - Pre každý term sa zo slovníka vezme zoznam postingov. Jeho dĺžka je df a z nej ''%%idf = log10(N / df)%%'': hetfield 15 kapiel -> 4,122, ulrich 106 kapiel -> 3,273.
+  - Každý term je v dopyte raz, takže ''%%w(t,q) = idf(t)%%'' a ‖q‖ = √(4,122² + 3,273²) = 5,263.
+  - Z postingov sa vezme tf v každej kapele. Metallica má „hetfield" 4× a „ulrich" 5×, Death Battery má iba „hetfield" 1×.
+  - Dĺžka dokumentu ‖d‖ je predpočítaná pri stavbe indexu zo všetkých termov kapely: Metallica 50,08, Death Battery 13,27.
+
+^term     ^    idf^  tf Metallica^                         w(t,d)^                                príspevok^  tf Death Battery^  w(t,d)^                                príspevok^
+|hetfield |  4,122|             4|  (1 + log10 4) · 4,122 = 6,604|  4,122 · 6,604 / (5,263 · 50,08) = 0,103|                 1|   4,122|  4,122 · 4,122 / (5,263 · 13,27) = 0,243|
+|ulrich   |  3,273|             5|  (1 + log10 5) · 3,273 = 5,560|  3,273 · 5,560 / (5,263 · 50,08) = 0,069|                 0|       0|                                        0|
+|kosínus  |       |              |                               |                                    0,172|                  |        |                                    0,243|
+|coord    |       |              |                               |                                  2/2 = 1|                  |        |                                1/2 = 0,5|
+|**skóre**|       |              |                               |                                **0,172**|                  |        |                                **0,122**|
+
+Podľa samotného kosínusu by vyhrala Death Battery, ktorá má jedno slovo v krátkom dokumente. Coord jej skóre zníži na polovicu a prvá je Metallica, kde hrajú obaja. Rovnakú tabuľku vypíše CLI príkazom ''%%:why 1%%'', resp. ''%%:why 2%%''.
+
+===== 11. Metódy výpočtu IDF =====
+
+Máme dve metódy (''%%index.py#L47-L56%%''). Obe sa počítajú až pri dopyte z ''%%N%%'' a ''%%df%%'', index sa pri prepnutí metódy nemení:
+
+<code python>
+def idf_classic(df, n):
+    return math.log10(n / df)
+
+
+def idf_smooth(df, n):
+    return math.log10((1 + n) / (1 + df)) + 1.0
+</code>
+
+  * **classic** ''%%log10(N / df)%%'': pôvodný vzorec. Term, ktorý je vo všetkých dokumentoch, má váhu 0, zriedkavý term vysokú.
+  * **smooth** ''%%log10((1 + N) / (1 + df)) + 1%%'': vyhladené IDF. Jednotky v zlomku sa správajú, akoby v kolekcii bol ešte jeden dokument so všetkými termami. Jednotka na konci znamená, že žiadny term neklesne pod váhu 1.
+
+IDF vybraných termov, od najzriedkavejšieho po najčastejší (N = 198 653). Sú to váhy slov, nie skóre kapiel:
+
+^term         ^       df^  classic^  smooth^
+|kanonenfieber|        3|    4,821|   5,696|
+|powerslave   |        9|    4,344|   5,298|
+|hetfield     |       15|    4,122|   5,094|
+|blackwater   |       23|    3,936|   4,918|
+|ulrich       |      106|    3,273|   4,269|
+|armenia      |      133|    3,174|   4,171|
+|number       |      360|    2,742|   3,741|
+|park         |      583|    2,532|   3,532|
+|still        |    1 197|    2,220|   3,220|
+|beast        |    1 732|    2,060|   3,059|
+|abyss        |    1 906|    2,018|   3,018|
+|satanism     |    5 837|    1,532|   2,532|
+|blood        |    8 224|    1,383|   2,383|
+|life         |   10 449|    1,279|   2,279|
+|band         |   27 260|    0,863|   1,863|
+|thrash       |   40 233|    0,694|   1,694|
+|black        |   64 048|    0,492|   1,492|
+|death        |   83 696|    0,375|   1,375|
+|metal        |  192 914|    0,013|   1,013|
+
+Smooth je takmer presne classic + 1. Rozhoduje však pomer medzi termami. V classic má „metal" 0,013 a „armenia" 3,174, teda 244-krát menej. V smooth má „metal" 1,013 a „armenia" 4,171, už len 4-krát menej. Classic tak časté žánrové slová v dopyte takmer vypne, smooth ich nechá spolurozhodovať. Ako sa to prejaví na výsledkoch, ukazuje kap. 12.
+
+===== 12. Porovnanie metód IDF na dopytoch =====
+
+Tabuľky sú výstupom ''%%python -m indexer compare "…" -k 10%%''. Pri každom dopyte je najprv df a IDF jednotlivých termov, potom top 10 pre obe metódy (meno, krajina, skóre).
+
+Dopyty sú vybrané tak, aby neobsahovali krajinu, rok, stav ani žáner. CLI z nich preto nevyberie žiadny filter, nič nevyhodí a rankuje ich rovnako ako ''%%compare%%'', takže rovnaké poradie dostanete aj v aplikácii po ''%%:idf classic%%'' alebo ''%%:idf smooth%%''. Dopyt ako //metal band from Armenia// by CLI spracovalo filtrom krajiny a zoradilo podľa recenzií, IDF by sa vôbec nepoužilo (kap. 13).
+
+Každý dopyt sú slová z názvov albumov jednej známej kapely, takže správna odpoveď je jasná a dá sa skontrolovať.
+
+==== Dopyt: blackwater park still life ====
+
+Očakávanie: Opeth, ktorý má albumy //Blackwater Park// a //Still Life//. „blackwater" je zriedkavé (df 23), „life" je v 10 449 kapelách.
+
+^term      ^df   ^idf classic^idf smooth^
+|blackwater|23   |3.936      |4.918     |
+|park      |583  |2.532      |3.532     |
+|still     |1197 |2.220      |3.220     |
+|life      |10449|1.279      |2.279     |
+
+^# ^classic                                ^smooth                                 ^
+|1 |Opeth (Sweden) 0.166                   |Opeth (Sweden) 0.170                   |
+|2 |Blackwater (United States) 0.127       |Blackwater (United States) 0.116       |
+|3 |The Broken Circle (United States) 0.104|Life (United States) 0.105             |
+|4 |Blackwater (United States) 0.091       |The Broken Circle (United States) 0.096|
+|5 |Life (United States) 0.087             |Left Alone... (United States) 0.082    |
+|6 |BlackWater (United States) 0.080       |Still Life (United Kingdom) 0.077      |
+|7 |Left Alone... (United States) 0.078    |Blackwater (United States) 0.077       |
+|8 |The Ritual Aura (Australia) 0.076      |Sun Empress (Sweden) 0.074             |
+|9 |Blackwater Cove (United States) 0.072  |Life & Death (United States) 0.074     |
+|10|Burning Desire (United States) 0.070   |Bloodstain (Italy) 0.073               |
+
+Spoločných v top 10: 6. Opeth je pri oboch metódach prvý, ako jediný má všetky štyri slová (coord 1). Najviac sa posunula kapela Life (5. -> 3.), ktorá „blackwater" nemá, ale „life" má trikrát:
+
+^                                   ^   Opeth classic^    Opeth smooth^    Life classic^     Life smooth^  The Broken Circle classic^  The Broken Circle smooth^
+|tf blackwater / park / still / life|   2 / 2 / 2 / 1|                |   0 / 1 / 2 / 3|                |              1 / 0 / 0 / 1|                          |
+|blackwater                         |           0,091|           0,081|               0|               0|                      0,188|                     0,159|
+|park                               |           0,038|           0,042|           0,049|           0,052|                          0|                         0|
+|still                              |           0,029|           0,035|           0,049|           0,056|                          0|                         0|
+|life                               |           0,007|           0,013|           0,018|           0,032|                      0,020|                     0,034|
+|kosínus                            |           0,166|           0,170|           0,116|           0,140|                      0,208|                     0,193|
+|coord                              |               1|               1|            0,75|            0,75|                        0,5|                       0,5|
+|**skóre**                          |  **0,166** (1.)|  **0,170** (1.)|  **0,087** (5.)|  **0,105** (3.)|             **0,104** (3.)|            **0,096** (4.)|
+
+Pri smooth majú častejšie slová „still" a „life" relatívne väčšiu váhu. Life, ktorá stavia na nich, stúpne, The Broken Circle, ktorá stavia na zriedkavom „blackwater", klesne. Opeth vyhráva pri oboch, lebo má všetky slová dopytu.
+
+==== Dopyt: number beast powerslave ====
+
+Očakávanie: Iron Maiden, albumy //The Number of the Beast// a //Powerslave//. „of" a „the" sú stop slová, z dopytu zostanú tri termy.
+
+^term      ^df  ^idf classic^idf smooth^
+|number    |360 |2.742      |3.741     |
+|beast     |1732|2.060      |3.059     |
+|powerslave|9   |4.344      |5.298     |
+
+^# ^classic                              ^smooth                               ^
+|1 |Iron Maiden (United Kingdom) 0.138   |Iron Maiden (United Kingdom) 0.138   |
+|2 |Powerslaves (Poland) 0.133           |DCLXVI (Sweden) 0.116                |
+|3 |Powerslave (Germany) 0.109           |Powerslaves (Poland) 0.113           |
+|4 |DCLXVI (Sweden) 0.106                |Alpha Viper (United States) 0.097    |
+|5 |Alpha Viper (United States) 0.084    |Cadaveric Spasm (United States) 0.096|
+|6 |Civilis (Venezuela) 0.084            |Powerslave (Germany) 0.096           |
+|7 |Cadaveric Spasm (United States) 0.083|DCLXVI (Russia) 0.089                |
+|8 |Beyondition (Germany) 0.079          |DCLXVI (Russia) 0.080                |
+|9 |DCLXVI (Russia) 0.078                |Evil Beast (Japan) 0.074             |
+|10|Evil Beast (Japan) 0.070             |Civilis (Venezuela) 0.070            |
+
+Spoločných v top 10: 9. Iron Maiden je pri oboch metódach prvý. Tesne za ním sú tribute kapely pomenované podľa albumu:
+
+^                              ^  Iron Maiden classic^  Iron Maiden smooth^  Powerslaves classic^  Powerslaves smooth^  DCLXVI (Sweden) classic^  DCLXVI (Sweden) smooth^
+|tf number / beast / powerslave|            4 / 8 / 1|                    |            0 / 0 / 3|                    |                1 / 1 / 0|                        |
+|number                        |                0,043|               0,045|                    0|                   0|                    0,102|                   0,104|
+|beast                         |                0,029|               0,036|                    0|                   0|                    0,057|                   0,070|
+|powerslave                    |                0,067|               0,057|                0,398|               0,338|                        0|                       0|
+|kosínus                       |                0,138|               0,138|                0,398|               0,338|                    0,159|                   0,174|
+|coord                         |                    1|                   1|                 0,33|                0,33|                     0,67|                    0,67|
+|**skóre**                     |       **0,138** (1.)|      **0,138** (1.)|       **0,133** (2.)|      **0,113** (3.)|           **0,106** (4.)|          **0,116** (2.)|
+
+Bez coordu by vyhrala kapela Powerslaves s kosínusom 0,398: krátky dokument, v ktorom je „powerslave" trikrát. Coord ju vydelí tromi, lebo má iba jedno z troch slov. Pri smooth má najzriedkavejší term „powerslave" relatívne menšiu váhu, Powerslaves klesne na 3. miesto a DCLXVI (666, číslo šelmy) s „number" a „beast" stúpne na 2.
+
+==== Dopyt: reign blood seasons abyss ====
+
+Očakávanie: Slayer, albumy //Reign in Blood// a //Seasons in the Abyss//. Jednoduché odstránenie množného čísla urobí zo „seasons" term ''%%season%%''.
+
+^term  ^df  ^idf classic^idf smooth^
+|reign |1107|2.254      |3.254     |
+|blood |8224|1.383      |2.383     |
+|season|1099|2.257      |3.257     |
+|abyss |1906|2.018      |3.018     |
+
+^# ^classic                             ^smooth                              ^
+|1 |Slayer (United States) 0.137        |Slayer (United States) 0.152        |
+|2 |Sauron (United States) 0.137        |Norđ (Denmark) 0.136                |
+|3 |Norđ (Denmark) 0.115                |Sauron (United States) 0.130        |
+|4 |Azotic Reign (Sweden) 0.114         |Azotic Reign (Sweden) 0.129         |
+|5 |Ignispace (Brazil) 0.112            |Ignispace (Brazil) 0.127            |
+|6 |Black Wolf (Argentina) 0.106        |Mazikeen (Australia) 0.118          |
+|7 |Reviled (United States) 0.106       |Led by Demons (United States) 0.115 |
+|8 |Led by Demons (United States) 0.105 |Spectral Blood (United States) 0.113|
+|9 |Spectral Blood (United States) 0.104|Cryptik Reign (Finland) 0.110       |
+|10|Cryptik Reign (Finland) 0.102       |Reviled (United States) 0.110       |
+
+Spoločných v top 10: 9. Slayer je pri oboch metódach prvý. Všetky štyri termy majú podobné df (1 099 až 8 224), takže metódy sa líšia len v poradí na miestach 2 až 10.
+
+==== Čo z toho vyplýva ====
+
+Pri všetkých troch dopytoch dali obe metódy správnu kapelu na prvé miesto. Rozhoduje coord: Opeth, Iron Maiden aj Slayer sú v celom indexe jediné kapely, ktoré majú všetky slová svojho dopytu, ostatné majú len niektoré.
+
+Metódy sa líšia v tom, ako vážia častejšie slová. Smooth pripočíta ku každému IDF jednotku a pomer medzi zriedkavým a častým termom sa zmenší („blackwater" : „life" z 3,1 na 2,2, „powerslave" : „beast" z 2,1 na 1,7). Classic preto viac verí najzriedkavejšiemu slovu (The Broken Circle, Powerslaves), smooth dá väčší hlas aj kapelám s viacerými častejšími slovami (Life, DCLXVI).
+
+Ako predvolenú sme nechali classic. V aplikácii sa krajiny, roky a žánre spracujú filtrom, takže full-textom sa hľadajú hlavne zriedkavé slová (mená, témy, názvy). Pri nich rozhoduje najmä najvzácnejšie slovo, čo classic robí lepšie. Ak by v dopyte zostali časté slová ako „metal" alebo „death", smooth by im dal váhu aspoň 1 a krátke dokumenty plné týchto slov by sa dostali vyššie.
+
+===== 13. Interaktívna CLI aplikácia =====
+
+''%%python -m indexer%%'' spustí interaktívne vyhľadávanie (''%%indexer/cli.py%%''). Otázky aj kľúčové slová sa píšu po anglicky a aj výstup je po anglicky:
+
+^Vstup                                                                               ^Čo urobí                                                                                                                                                                                                                                                                                              ^
+|''%%<otázka / dopyt>%%''                                                            |Z otázky odstráni opytovacie a výplňové slová („which", „bands", „sing about"…), vypíše, čo naozaj hľadá, a zobrazí top k kapiel. Kapela, ktorej meno sa presne zhoduje s dopytom, je navrchu s označením ''%%exact name match%%''. Zvyšok je zoradený podľa kosínusu × coord (kap. 10).              |
+|''%%<číslo>%%''                                                                     |Úplný detail kapely bez skracovania: krajina, stav, roky, žánre, témy, label, všetci členovia s nástrojmi a rokmi, celá diskografia s hodnoteniami, najlepšie hodnotený album, popis. Načíta sa z ''%%bands.jsonl%%'' cez offset uložený v indexe.                                                    |
+|Enter / ''%%:more%%''                                                               |ďalšia strana výsledkov                                                                                                                                                                                                                                                                               |
+|''%%:why <číslo>%%''                                                                |prečo je kapela vo výsledkoch: celý text polí, kde sa slová dopytu nachádzajú (zvýraznené), a tf, df, idf a príspevok každého termu ku kosínusu, coord a výsledné skóre                                                                                                                               |
+|''%%:idf classic|smooth%%''                                                         |prepne metódu IDF a zopakuje posledný dopyt                                                                                                                                                                                                                                                           |
+|''%%which band has an album named <názov>%%'', ''%%who released <názov>%%''         |kapely s vydaním daného názvu. Kandidáti sú prienik postingov všetkých slov názvu, potom sa overia názvy ich vydaní. Presná zhoda názvu je prvá. Bez toho by full-text na otázku //„Which band has an album named Besnota"// dal na prvé miesto kapelu, ktorej popis obsahuje slová „album" a „named".|
+|''%%similar bands to <meno>%%'', ''%%bands like <meno>%%'', ''%%:similar <číslo>%%''|podobné kapely podľa žánru a lyrických tém (pozri nižšie)                                                                                                                                                                                                                                             |
+|''%%:k <n>%%'', ''%%:help%%'', ''%%:quit%%''                                        |počet výsledkov na stranu, nápoveda, koniec                                                                                                                                                                                                                                                           |
+
+Každý vstup prejde rovnakou kaskádou. Vybaví ho prvý krok, ktorý sedí (''%%Shell.handle()%%''):
+
+{{odovzdanie1_cli_kaskada.png?900&nolink|}}
+
+Z otázky sa najprv vyberú filtre a vyhodia sa opytovacie a výplňové slová, full-textom sa hľadá iba to, čo zostane. Pri //„Which black metal bands from Norway sing about satanism?"// sú Norway a black filtre a hľadá sa iba „satanism". Výsledok je 100 nórskych black metalových kapiel, ktoré spievajú o satanizme.
+
+<code>
+[classic] > Which black metal bands from Norway sing about satanism?
+filters: country = Norway, genre has black   words: satanism
+100 results in 85 ms, idf=classic
+  1. A.A.N (Norway, formed 2025)  Black Metal  score 0.307
+       matched in: themes (satanism)
+  2. Balthamel (Norway, formed ?)  Black Metal  score 0.201
+       matched in: themes (satanism)
+  ...
+[classic] > :why 1
+A.A.N  query: 'satanism'
+  Where the query words occur
+    satanism in themes (once):
+      Satanism
+  Score  (idf=classic, document length |d| = 4.99)
+    term               tf       df     idf  contribution
+    satanism            1    5,837   1.532        0.3070
+    cosine                                         0.3070
+    coord (1 of 1 query words)                     1.0000
+    score = cosine * coord                         0.3070
+
+[classic] > metallica
+255 results in 7 ms, idf=classic
+  1. Metallica (United States, formed 1981)  Thrash Metal (early); ...  exact name match
+       matched in: name (metallica); release title (metallica 7x); description (metallica)
+  2. Terminal Velocity (United States, formed ?)  Thrash Metal  score 0.310
+       matched in: description (metallica)
+  3. Castle of Pain (Canada, formed ?)  Doom/Thrash Metal  score 0.251
+       matched in: description (metallica 4x)
+</code>
+
+Pri každom výsledku CLI vypíše, v ktorom poli sa slová dopytu našli. //Castle of Pain// je pri dopyte „metallica" tretia, lebo jej popis štyrikrát spomína Metallicu (cover „King Nothing" na dvoch tribute albumoch). Krátky dokument s vysokým tf dostane vysoké kosínusové skóre.
+
+==== Filtre a priame odpovede ====
+
+Samotný full-text na otázky s podmienkami nestačí:
+
+  * pri //„thrash metal bands from Brazil formed in the 1980s"// by našiel kapely, ktoré majú v popise slovo „1980s", bez ohľadu na rok vzniku,
+  * pri //„swedish death metal"// by hľadal „swedish" v popisoch, nie v poli krajiny,
+  * pri //„metal band from Armenia"// by medzi prvými desiatimi našiel aj kolumbijské kapely Beyond I Die, Utur a Horror z mesta Armenia v departemente Quindío. Filter krajiny vráti iba 53 arménskych kapiel,
+  * pri //„Which bands did Dave Mustaine play in?"// by našiel aj iných ľudí s priezviskom Mustaine.
+
+Rozbor otázky je preto v samostatnom module ''%%indexer/query.py%%'' s vlastnými testami (''%%tests/test_query.py%%'').
+
+Filtre sa z otázky rozpoznajú regulárnymi výrazmi a uplatnia sa natvrdo na extrahované polia. Zvyšné slová sa rankujú cez TF-IDF. Ak nezostane žiadne, výsledky sa zoradia podľa popularity (počtu recenzií).
+
+Bežný dopyt (''%%Shell.search()%%''):
+
+{{odovzdanie1_vyhladavanie.png?519&nolink|}}
+
+^Filter    ^Príklady v otázke                                                                                                                                                       ^Pole           ^
+|krajina   |//from Brazil//, //swedish//, //norwegian//, //USA//, //korean// (tabuľka prídavných mien a skratiek -> názov krajiny v Metal Archives)                                  |''%%country%%''|
+|rok vzniku|//formed in 1991//, //in the 1980s//, //late 90s//, //before 1995//, //since 2010//, //between 1985 and 1990//                                                          |''%%formed%%'' |
+|stav      |//active//, //split-up//, //disbanded//, //on hold//, //changed name//                                                                                                  |''%%status%%'' |
+|žáner     |postupnosť žánrových slov končiaca na //metal/rock/punk// alebo samostatný žáner (//grindcore//, //thrash//…). Nie za „about": v //„sing about death"// je „death" téma.|''%%genres%%'' |
+
+^Otázka                                            ^Výsledok                                                                                                                ^
+|thrash metal bands from Brazil formed in the 1980s|filters: country = Brazil, formed 1980-1989, genre has thrash -> 305 kapiel: Sepultura, Sarcófago, Vulcano, Holocausto, …|
+|swedish death metal                               |country = Sweden, genre has death -> Opeth, In Flames, Katatonia, Amon Amarth, …                                         |
+|norwegian black metal before 1995                 |Darkthrone, Mayhem, Dimmu Borgir, Burzum, Immortal, …                                                                   |
+|active black metal bands from Slovakia            |Malokarpatan, Death Karma, Krolok, Aeon Winds, …                                                                        |
+
+Otázky o konkrétnej kapele alebo osobe sa full-textom nehľadajú vôbec. CLI na ne odpovedá priamo z extrahovaných polí:
+
+^Otázka                                                                                  ^Odpoveď                                                                                                                                                                                                                                                             ^
+|Who are the members of Metallica?                                                       |aktuálna, bývalá a live zostava s nástrojmi a rokmi                                                                                                                                                                                                                 |
+|Who are the current members of Metallica? / former members of … / live musicians of …   |iba daná časť zostavy (//current/present//, //past/former/ex//, //live//)                                                                                                                                                                                           |
+|Which bands did Dave Mustaine play in?                                                  |Megadeth, MD.45, DeuxMonkey, Metallica (past member: Guitars (lead) 1982-1983), Red Lamb. Odpoveď ide z indexu členov (''%%data/index/members.pkl%%'': meno bez diakritiky -> id umelca, kapela, zostava, nástroje). Rôznych ľudí s rovnakým menom rozlíši id umelca.|
+|What is the best rated album of Opeth? / What is the best rated Opeth full-length album?|Still Life (1999, 86 % z 26 recenzií), za ním ostatné albumy podľa hodnotenia. Albumy s 1-2 recenziami sú v samostatnom zozname, ich hodnotenie je menej spoľahlivé.                                                                                                |
+|Where is Burzum from? / When was Slayer formed?                                         |lokalita, krajina, rok vzniku, stav, roky aktivity                                                                                                                                                                                                                  |
+|discography of X / albums by X                                                          |celá diskografia                                                                                                                                                                                                                                                    |
+|When was Master of Puppets released? / album named Besnota                              |kapely s vydaním s týmto názvom (presná zhoda navrchu), pri každom rok, typ a hodnotenie: Metallica - 1986, Full-length, 81 % zo 45 recenzií                                                                                                                        |
+
+Keď sa používateľ preklepne a žiadna kapela nemá napísané meno, CLI ponúkne kapely s podobným menom (''%%difflib%%'', rovnaké prvé písmeno, dĺžka ±2): //„Metalica"// -> //Did you mean: Metallica, Metalia, Metabolica?//
+
+==== Podobné kapely ====
+
+Otázky typu //„Similar bands to Kanonenfieber"//, //„bands like 1914"// alebo príkaz ''%%:similar <číslo>%%'' full-text nepoužívajú. Ten by našiel kapely s albumom „Kanonenfieber" alebo so slovom „similar" v popise. ''%%python -m indexer build%%'' preto stavia aj druhý, malý profilový index (''%%data/index/profile.pkl%%'') iba zo žánrov a lyrických tém:
+
+  * Termy sú slová a dvojice slov v rámci jednej frázy („World War I" -> ''%%world%%'', ''%%war%%'', ''%%world_war%%'', ''%%war_i%%''). Vďaka dvojiciam sa „World War I" nepomýli s „New World Order" alebo „World hunger", ktoré majú spoločné iba slovo „world". Témy majú v profile dvojnásobnú váhu, lebo o podobnosti hovoria viac než žáner. Odstraňuje sa aj jednoduché množné číslo (''%%wars%%'' -> ''%%war%%'').
+  * Namiesto kosínusu počítame pokrytie. Profil pôvodnej kapely je dopyt s váhami ''%%(1 + log10 tf) · idf%%'' a pokrytie je podiel jeho váhy (súčtu ''%%w²%%''), ktorý má aj kandidát. Kosínus by kandidáta trestal za témy navyše. Napríklad kapela 1914 (témy //World War I, Trench warfare, Gas attacks, Violence, Shell shock//) by s ním bola až 6 778., lebo jej ďalšie zriedkavé témy predlžujú vektor a predbehli by ju stovky kapiel s jedinou témou „World War I". Pokrytie témy navyše netrestá.
+  * Skóre je ''%%pokrytie · (1 + 0,15 · log10(1 + počet recenzií))%%''. Pri rovnakom pokrytí tak známa kapela mierne predbehne kapelu s jedným demom. Skóre preto môže byť aj nad 1.
+
+{{odovzdanie1_podobne_kapely.png?900&nolink|}}
+
+^#^Podobné ku **Kanonenfieber** (Melodic Black/Death Metal; World War I)^Pokrytie^Spoločné                         ^
+|1|God Dethroned (Netherlands)                                          |91 %    |World War I                      |
+|2|Neige et Noirceur (Canada)                                           |91 %    |World War I history              |
+|3|**1914** (Ukraine)                                                   |91 %    |World War I                      |
+|4|Torchbearer (Sweden)                                                 |94 %    |Melodic Thrash Metal; World War I|
+|5|Minenwerfer (United States)                                          |91 %    |World War I                      |
+
+=== Príklad: ako vzniklo skóre pre Kanonenfieber ===
+
+Kanonenfieber má žánre //Melodic Black Metal, Death Metal// a tému //World War I//. Téma je v profile dvakrát, preto majú jej termy tf 2. Váha termu je ''%%w = (1 + log10 tf) · idf%%'' (classic, N = 198 653) a podiel termu je ''%%w² / Σ w²%%'', kde Σ w² = 58,56:
+
+^term         ^  tf^       df^    idf^      w^     w²^  podiel^
+|war_i        |   2|       48|  3,617|  4,706|  22,14|  37,8 %|
+|world_war    |   2|      134|  3,171|  4,126|  17,02|  29,1 %|
+|world        |   2|      635|  2,495|  3,246|  10,54|  18,0 %|
+|melodic_black|   1|    2 297|  1,937|  1,937|   3,75|   6,4 %|
+|war          |   2|    9 670|  1,313|  1,708|   2,92|   5,0 %|
+|melodic      |   1|   16 910|  1,070|  1,070|   1,15|   2,0 %|
+|black_metal  |   1|   54 679|  0,560|  0,560|   0,31|   0,5 %|
+|black        |   1|   55 682|  0,552|  0,552|   0,31|   0,5 %|
+|death_metal  |   1|   64 077|  0,491|  0,491|   0,24|   0,4 %|
+|death        |   1|   74 438|  0,426|  0,426|   0,18|   0,3 %|
+|metal        |   2|  192 300|  0,014|  0,018|   0,00|   0,0 %|
+
+Téma „World War I" (''%%war_i%%'', ''%%world_war%%'', ''%%world%%'', ''%%war%%'') tvorí 90 % váhy profilu, žánre zvyšok. Pokrytie kandidáta je súčet podielov termov, ktoré má aj on. Bonus za popularitu je ''%%1 + 0,15 · log10(1 + recenzie)%%'':
+
+^Kapela       ^Chýbajúce termy profilu                   ^           Pokrytie^  Recenzie^                         Bonus^                  Skóre^  Poradie^
+|God Dethroned|melodic_black, melodic, black_metal, black|  1 − 0,094 = 0,906|        38|  1 + 0,15 · log10(39) = 1,239|  0,906 · 1,239 = 1,122|       1.|
+|1914         |tie isté                                  |              0,906|        15|                         1,181|                  1,069|       3.|
+|Torchbearer  |melodic_black                             |              0,936|         7|                         1,135|                  1,063|       4.|
+|FT-17        |žiadne                                    |              1,000|         0|                         1,000|                  1,000|       9.|
+
+God Dethroned a 1914 majú rovnakú tému aj rovnaké pokrytie, poradie medzi nimi rozhodli recenzie. FT-17 má presne rovnaké žánre aj tému ako Kanonenfieber, ale žiadnu recenziu, a tak skončila deviata. Tento výpočet vypíše CLI pre každý výsledok príkazom ''%%:why <číslo>%%''.
+
+==== Rýchlosť odpovedí ====
+
+Merané v CLI na notebooku (AMD Ryzen 7 3700U, 8 vlákien), medián zo 7 behov vrátane výpisu prvej strany výsledkov. Načítanie indexu pri štarte trvá 1,3 s. Profilový index a index členov sa načítajú až pri prvej otázke, ktorá ich potrebuje (1,8 s a 1,3 s).
+
+^Typ otázky                ^Príklad                                              ^     Čas^
+|hudobník                  |Which bands did Dave Mustaine play in?               |  < 1 ms|
+|zostava                   |Who are the members of Metallica?                    |    3 ms|
+|presné meno               |metallica                                            |    6 ms|
+|full-text, zriedkavé slová|hetfield ulrich                                      |   13 ms|
+|názov vydania             |When was Master of Puppets released?                 |   16 ms|
+|filtre                    |Brazilian thrash metal bands formed in the 1980s     |   48 ms|
+|filtre + full-text        |Norwegian black metal bands that sing about satanism?|   66 ms|
+|full-text, časté slová    |black metal satanism norway                          |   66 ms|
+|podobné kapely            |Similar bands to Kanonenfieber?                      |  416 ms|
+
+Čas závisí hlavne od dĺžky postingov. Priame odpovede sú iba vyhľadanie v slovníku. Dopyt so slovom „metal" prejde 192 914 postingov, takže je päťkrát pomalší ako //hetfield ulrich//. Najpomalšie sú podobné kapely: profil Kanonenfieber obsahuje termy ako ''%%metal%%'' a ''%%death%%'', a tak sa pokrytie počíta pre 193 149 kapiel, hoci zobrazíme iba tie nad 5 %.
+
+===== 14. Štatistika vycrawlovaných dokumentov =====
+
+Výstup ''%%python -m stats%%'' (tokeny: tiktoken, kódovanie ''%%o200k_base%%''), stav k 25. 10. 2026.
+
+^Typ dokumentu                              ^           Počet^  Veľkosť (obsah)^  Na disku (bloky)^                    Tokeny (tiktoken)^
+|abecedný register (JSON, 500 kapiel/stranu)|             419|          37,5 MB|           38,3 MB|                           14 194 030|
+|stránka kapely (HTML)                      |         201 403|           4,0 GB|            4,5 GB|                        1 247 184 664|
+|diskografia kapely (HTML)                  |         201 400|         279,4 MB|          832,6 MB|                           91 746 389|
+|**spolu**                                  |     **403 222**|       **4,3 GB**|        **5,3 GB**|                    **1 353 125 083**|
+|extrahované dáta (''%%bands.jsonl%%'')     |  198 653 kapiel|         406,5 MB|                  |  15 855 218 (text dokumentov indexu)|
+
+^Relevantnosť                                                                     ^                Počet^                    Podiel^
+|kapiel v registri Metal Archives                                                 |              201 787|                     100 %|
+|stiahnutých kapiel                                                               |              201 403|           99,8 % registra|
+|extrahovaných a zaindexovaných kapiel                                            |              198 653|           98,4 % registra|
+|**relevantné** (majú diskografiu alebo zostavu, teda je čo vyhľadávať a zobraziť)|          **198 071**|  **99,7 %** extrahovaných|
+|s aspoň jedným vydaním                                                           |              194 793|                    98,1 %|
+|so známou zostavou                                                               |              188 332|                    94,8 %|
+|vydaní spolu / členov spolu (záznamov v zostavách)                               |  722 894 / 1 016 450|                          |
+
+Relevantné sú takmer všetky dokumenty. Zdroj obsahuje iba metalové kapely a my sťahujeme len ich stránky. Nerelevantných je 582 kapiel, ktoré nemajú diskografiu ani zostavu, iba meno a žáner.
+
+Diskografie majú 279 MB obsahu, ale na disku zaberajú 833 MB. Väčšina z nich má pod 4 KB a každý súbor zaberie aspoň jeden 4 KB blok.
+
+Na tokenoch je vidno, koľko z HTML je balast: surové stránky majú 1,35 mld. tokenov, extrahovaný text dokumentov 15,9 mil., teda asi 1,2 %.
+
+===== 15. Čo je v dátach =====
+
+Prehľad extrahovaných kapiel (''%%bands.jsonl%%'', 198 653 kapiel). Niektoré čísla vysvetľujú rozhodnutia, ktoré sme v projekte urobili.
+
+|Krajiny           |159; najviac kapiel má USA (46 215), Nemecko (14 802), Brazília (9 127) a Taliansko (8 577). Slovensko má 803.|
+|Najčastejšie žánre|Death Metal 42 118, Black Metal 39 298, Thrash Metal 34 285, Heavy Metal 24 907                               |
+|Najčastejšie témy |death 18 690, war 8 927, darkness 7 062, gore 5 838, satanism 5 513                                           |
+|Stav              |Active 109 838, Split-up 59 850, Unknown 17 101, Changed name 7 717, On hold 4 115, Disputed 32               |
+|Najviac recenzií  |Iron Maiden 772, Metallica 639, Megadeth 632, Black Sabbath 535                                               |
+
+Mená kapiel sa často opakujú. 14 689 mien nosí viac ako jedna kapela, spolu 48 755 kapiel. Najčastejšie je Nemesis (51 kapiel), potom Requiem, Legion a Abaddon (po 42). Preto CLI pri otázke na konkrétnu kapelu vyberie tú s najviac recenziami a napíše, koľko kapiel má rovnaké meno („3 bands are called 'Slayer'"). Z rovnakého dôvodu index členov rozlišuje ľudí podľa id umelca, nie podľa mena.
+
+===== 16. Unit testy REGEX extraktorov (bonus) =====
+
+Spúšťanie ''%%python -m unittest discover -s tests -t .%%'', výsledok **35 testov OK za 0,07 s**:
+
+^Súbor                          ^  Testov^Čo pokrýva                                                                                                                                                  ^
+|''%%tests/test_extractor.py%%''|      20|regexy extraktora na 20 reálnych stránkach (3 testy nad všetkými stránkami, 12 okrajových prípadov, 1 normalizácia žánrov) a 4 testy regexov crawlera na URL|
+|''%%tests/test_query.py%%''    |      15|regexy rozboru otázok v CLI: 10 testov filtrov (krajina, rok, stav, žáner), 2 testy typov otázok, 3 testy tokenizácie                                       |
+
+Testy nepotrebujú stiahnuté dáta ani index, bežia iba nad súbormi v ''%%tests/fixtures/%%''.
+
+Testy slúžia ako regresná kontrola: zachytávajú špeciálne prípady v HTML, na ktoré sme narazili pri písaní extraktora. Sú to trieda ''%%noCaps%%'' pri menách s gréckymi písmenami, roky členov za ''%%&nbsp;%%'' (''%%Vocals (lead), Guitars (rhythm)&nbsp;(1981-present)%%''), roky aktivity pod pôvodným menom („(as …)") a normalizácia žánrov (''%%Metalcore/Alternative Rock%%'' nesmie skončiť ako „Metalcore Rock"). Podrobnosti:
+
+''%%tests/test_extractor.py%%'' testuje extraktory na 20 reálnych stiahnutých stránkach (stránka kapely + diskografia) uložených v ''%%tests/fixtures/%%''. Stránky sme vybrali tak, aby pokryli známe kapely aj okrajové prípady: všetky stavy (Active, Split-up, On hold, Changed name, Unknown), grécke a diakritické mená, kapelu bez zostavy, prázdnu diskografiu, viac období aktivity a roky aktivity pod iným menom. Očakávané hodnoty (počty členov a vydaní) sme overili nezávisle, ''%%grep%%''-om priamo v HTML.
+
+^Test                                    ^Čo overuje                                                                                                ^
+|''%%test_band_pages%%''                 |20 stránok × meno, id, krajina, stav, rok vzniku, žánre, label, počty členov (akt./bývalí/live)           |
+|''%%test_discographies%%''              |20 diskografií × počet vydaní, prvé vydanie (názov, typ, rok, recenzie, %), tvar URL                      |
+|''%%test_no_html_left_in_text_fields%%''|v textových poliach neostali HTML tagy ani entity                                                         |
+|''%%TestEdgeCases%%'' (12 testov)       |roly s rokmi, ''%%noCaps%%'', Unicode, chýbajúce hodnoty, „(as …)", prázdna diskografia, ne-stránka kapely|
+|''%%TestGenres%%''                      |normalizácia žánrov                                                                                       |
+|''%%TestCrawlerUrlRegex%%'' (4 testy)   |regexy crawlera na extrakciu URL kapiel a id diskografie                                                  |
+
+Druhý súbor, ''%%tests/test_query.py%%'', testuje regexy, ktoré v CLI rozoberajú otázky: krajiny a prídavné mená, roky a dekády, stav, rozdiel medzi žánrom a témou a typy otázok (zostava, len aktuálni alebo bývalí členovia, kapely hudobníka, najlepší album…). Testuje aj odstránenie diakritiky a množného čísla v tokenizácii.
+
+<code>
+$ python -m unittest discover -s tests -t . -v
+...
+Ran 35 tests in 0.070s
+
+OK
+</code>
+
+===== 17. Počet tokenov (bonus) =====
+
+V tabuľke v kap. 14: surové stránky majú 1 353 125 083 tokenov tiktoken ''%%o200k_base%%'' (tokenizér GPT-4o). Text dokumentov indexu (výstup ''%%band_text()%%'' pre 198 653 kapiel) má 15 855 218 tokenov, medián 62 na kapelu. Z HTML teda po extrakcii zostane asi 1,2 % tokenov.
+
+Na jedno slovo pripadá 1,7 LLM tokenu (9 239 253 slov oddelených medzerou, medián 36 na kapelu). Mená kapiel, hudobníkov a albumov sú z mnohých jazykov (//Sarcófago//, //Åkerfeldt//, //3η Εποχή//) a s rokmi sa delia na viac kúskov ako bežné anglické slová. Pre porovnanie náš IR tokenizér dá 8 115 100 tokenov (medián 33 na kapelu), lebo vyhodí stop slová, jednopísmenové slová a interpunkciu.
+
+^                                                   ^  Tokenov spolu^  Medián na kapelu^
+|surové HTML (register, stránky kapiel, diskografie)|  1 353 125 083|                  |
+|tiktoken ''%%o200k_base%%'', text dokumentov       |     15 855 218|                62|
+|slová oddelené medzerou                            |      9 239 253|                36|
+|náš tokenizér (''%%tokenize()%%'')                 |      8 115 100|                33|
+
+===== 18. Spustenie =====
+
+<code bash>
+pip install -r requirements.txt
+python -m crawler --max-bands 1000          # sťahovanie (pokračuje podľa visited.txt)
+python -m extractor                         # data/raw -> data/extracted/bands.jsonl
+python -m indexer build                     # -> data/index/index.pkl, profile.pkl, members.pkl
+python -m indexer                           # interaktívna CLI aplikácia
+python -m indexer search "black metal satanism norway" --idf classic
+python -m indexer compare "blackwater park still life" "number beast powerslave"
+python -m stats                             # štatistika + tokeny
+python -m unittest discover -s tests -t .   # testy
+</code>

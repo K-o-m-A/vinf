@@ -204,7 +204,7 @@ flowchart TD
 
 ## 8. Kód: extrakcia URL z HTML
 
-[`crawler/crawler.py#L22-L24`](https://github.com/K-o-m-A/vinf/blob/main/crawler/crawler.py#L22-L24), použitie v [`band_urls()`](https://github.com/K-o-m-A/vinf/blob/main/crawler/crawler.py#L74-L79) a [`crawl_bands()`](https://github.com/K-o-m-A/vinf/blob/main/crawler/crawler.py#L100-L104):
+[`crawler/crawler.py#L22-L24`](https://github.com/K-o-m-A/vinf/blob/main/crawler/crawler.py#L22-L24), použitie v [`band_urls()`](https://github.com/K-o-m-A/vinf/blob/main/crawler/crawler.py#L81-L86) a [`crawl_bands()`](https://github.com/K-o-m-A/vinf/blob/main/crawler/crawler.py#L110-L114):
 
 ```python
 BAND_LINK = re.compile(r"href='(https://www\.metal-archives\.com/bands/[^']+/\d+)'")
@@ -271,11 +271,11 @@ YEAR_RANGE = re.compile(r"(\d{4}|\?)\s*-\s*(\d{4}|present|\?)")
 ROLE_PART = re.compile(r"\s*(.+?)\xa0\(([^)]*)\)\s*,?")
 ```
 
-Hlavná funkcia [`extract_band()`](https://github.com/K-o-m-A/vinf/blob/main/extractor/extract.py#L96-L122):
+Hlavná funkcia [`extract_band()`](https://github.com/K-o-m-A/vinf/blob/main/extractor/extract.py#L101-L127):
 
 ```python
 def extract_band(page):
-    """Stranka kapely -> dict s entitami. Ak to nie je stranka kapely, vrati None."""
+    # Zo stranky kapely vytiahne vsetky udaje do slovnika. Ak to nie je stranka kapely, vrati None.
     m = BAND_NAME.search(page)
     if not m:
         return None
@@ -300,7 +300,7 @@ def extract_band(page):
 
 Pri extrakcii sme narazili na pár zákerností:
 
-- Žánre ako `Black/Death Metal (early); Doom Metal` rozkladáme na `["Black Metal", "Death Metal", "Doom Metal"]` ([`split_genres()`](https://github.com/K-o-m-A/vinf/blob/main/extractor/extract.py#L62-L75)). Príponu „Metal" doplníme iba známym prívlastkom (Black, Death, Heavy…), inak by z `Metalcore/Alternative Rock` vzniklo „Metalcore Rock".
+- Žánre ako `Black/Death Metal (early); Doom Metal` rozkladáme na `["Black Metal", "Death Metal", "Doom Metal"]` ([`split_genres()`](https://github.com/K-o-m-A/vinf/blob/main/extractor/extract.py#L64-L77)). Príponu „Metal" doplníme iba známym prívlastkom (Black, Death, Heavy…), inak by z `Metalcore/Alternative Rock` vzniklo „Metalcore Rock".
 - Roky členov: v HTML je `Bass&nbsp;(1975-present), Keyboards&nbsp;(1997-present)`, ale aj `Vocals (lead), Guitars (rhythm)&nbsp;(1981-present)`. Roky od upresnenia nástroja rozoznáme podľa `&nbsp;` pred zátvorkou.
 - Roky aktivity s pôvodným menom kapely: `2018-2021 (as <a href=…>Black Widow</a>), 2021-present`.
 
@@ -309,7 +309,7 @@ Pri extrakcii sme narazili na pár zákerností:
 
 [`indexer/index.py`](https://github.com/K-o-m-A/vinf/blob/main/indexer/index.py)
 
-Jeden dokument je jedna kapela. Jeho text ([`band_text()`](https://github.com/K-o-m-A/vinf/blob/main/indexer/index.py#L66-L74)) tvorí meno, krajina, lokalita, žánre, témy, label, stav, mená všetkých členov, názvy vydaní a popis kapely. Názvy live albumov do textu nedávame ([`indexed_releases()`](https://github.com/K-o-m-A/vinf/blob/main/indexer/index.py#L59-L63)). Sú to hlavne bootlegy typu *Live at … June 2004*: Metallica ich má 834 z 941 vydaní a ich dátumy a mestá tvorili 6 324 zo 6 420 tokenov jej dokumentu. Takto natiahnutý dokument by kosínus odsunul dozadu pri každom dopyte. Live albumy ostávajú v diskografii a v detaile kapely, len sa podľa ich názvu nedá hľadať (12 156 zo 722 894 vydaní, 1,7 %).
+Jeden dokument je jedna kapela. Jeho text ([`band_text()`](https://github.com/K-o-m-A/vinf/blob/main/indexer/index.py#L71-L79)) tvorí meno, krajina, lokalita, žánre, témy, label, stav, mená všetkých členov, názvy vydaní a popis kapely. Názvy live albumov do textu nedávame ([`indexed_releases()`](https://github.com/K-o-m-A/vinf/blob/main/indexer/index.py#L64-L68)). Sú to hlavne bootlegy typu *Live at … June 2004*: Metallica ich má 834 z 941 vydaní a ich dátumy a mestá tvorili 6 324 zo 6 420 tokenov jej dokumentu. Takto natiahnutý dokument by kosínus odsunul dozadu pri každom dopyte. Live albumy ostávajú v diskografii a v detaile kapely, len sa podľa ich názvu nedá hľadať (12 156 zo 722 894 vydaní, 1,7 %).
 
 Tokenizácia je jednoduchá: malé písmená a regex `\w+`. Potom odstránime diakritiku (`Sarcófago` -> `sarcofago`), jednoduché množné číslo (`vikings` -> `viking`, okrem koncoviek -ss/-us/-is), krátky zoznam anglických stop slov a jednopísmenové slová.
 
@@ -400,7 +400,7 @@ Podľa samotného kosínusu by vyhrala Death Battery, ktorá má jedno slovo v k
 
 ## 11. Metódy výpočtu IDF
 
-Máme dve metódy ([`index.py#L42-L51`](https://github.com/K-o-m-A/vinf/blob/main/indexer/index.py#L42-L51)). Obe sa počítajú až pri dopyte z `N` a `df`, index sa pri prepnutí metódy nemení:
+Máme dve metódy ([`index.py#L47-L56`](https://github.com/K-o-m-A/vinf/blob/main/indexer/index.py#L47-L56)). Obe sa počítajú až pri dopyte z `N` a `df`, index sa pri prepnutí metódy nemení:
 
 ```python
 def idf_classic(df, n):
