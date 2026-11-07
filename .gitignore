@@ -7,3 +7,6 @@ data/raw/band_disc/
 data/extracted/
 data/index/
 *.zip
+data/wiki/
+data/spark/
+data/wikidata/

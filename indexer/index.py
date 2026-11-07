@@ -167,11 +167,7 @@ class Index:
         return {t: tf_weight(tf) * self.idf(t, method) for t, tf in Counter(self.analyzer(query)).items()}
 
     def rank(self, query, method="classic"):
-        """Kosinusova podobnost dopytu a dokumentov krat coord, [(skore, doc_id)] od najlepsieho.
 
-        coord = podiel termov dopytu, ktore dokument obsahuje (ako v Lucene ClassicSimilarity).
-        Kapela s oboma slovami "hetfield ulrich" tak predbehne kratky dokument s jednym z nich.
-        """
         weights = self.query_weights(query, method)
         scores, matched = {}, {}
         q_norm = 0.0

@@ -4,19 +4,16 @@ Repozitár: <https://github.com/K-o-m-A/vinf>
 
 ## 1. Prehľad
 
-- Spracovanie dát beží v **Apache Spark** (PySpark): extrakcia kapiel z Metal Archives (MA), parsovanie wiki dumpu aj join.
-- Wiki dump (anglická Wikipédia, 24 GB) spracúvame **regulárnymi výrazmi**, bez XML parsera.
-- Kapely z MA sme spojili s článkami na Wikipédii: **3 905 unikátnych wiki stránok**.
-- Join sme overili voči Wikidatám: 99,4 % pripojených párov je správnych.
+Od prvého odovzdania sme spracovanie dát presunuli do Apache Spark (PySpark). V Sparku teraz beží extrakcia kapiel z Metal Archives (ďalej MA), parsovanie anglického wiki dumpu aj join medzi nimi. Dump má 24 GB a čítame ho len regulárnymi výrazmi, XML parser nepoužívame. Výsledok: 3 905 kapiel z MA má pripojený článok z Wikipédie.
 
-| Súbor | Čo robí |
-|---|---|
-| [`sparkjobs/jobs.py`](https://github.com/K-o-m-A/vinf/blob/main/sparkjobs/jobs.py) | Spark joby: kapely, wiki dump, join |
-| [`sparkjobs/wiki.py`](https://github.com/K-o-m-A/vinf/blob/main/sparkjobs/wiki.py) | regexy na parsovanie wiki stránky |
-| [`sparkjobs/matching.py`](https://github.com/K-o-m-A/vinf/blob/main/sparkjobs/matching.py) | skóre páru kapela × článok |
-| [`sparkjobs/evaluate.py`](https://github.com/K-o-m-A/vinf/blob/main/sparkjobs/evaluate.py) | overenie joinu voči Wikidatám |
-| [`docker-compose.yml`](https://github.com/K-o-m-A/vinf/blob/main/docker-compose.yml) | Spark klaster: master + 2 workery |
-| [`tests/test_wiki.py`](https://github.com/K-o-m-A/vinf/blob/main/tests/test_wiki.py) | testy regexov a joinu na reálnych článkoch |
+Kód je v priečinku `sparkjobs/`:
+
+- [`jobs.py`](https://github.com/K-o-m-A/vinf/blob/main/sparkjobs/jobs.py): samotné Spark joby (kapely, wiki, join)
+- [`wiki.py`](https://github.com/K-o-m-A/vinf/blob/main/sparkjobs/wiki.py): regexy, ktoré z wiki stránky vytiahnu infobox, členov, kategórie a úvodný odsek
+- [`matching.py`](https://github.com/K-o-m-A/vinf/blob/main/sparkjobs/matching.py): bodovanie dvojice kapela × článok
+- [`evaluate.py`](https://github.com/K-o-m-A/vinf/blob/main/sparkjobs/evaluate.py): kontrola joinu voči Wikidatám
+
+Klaster je opísaný v [`docker-compose.yml`](https://github.com/K-o-m-A/vinf/blob/main/docker-compose.yml) a testy na reálnych článkoch sú v [`tests/test_wiki.py`](https://github.com/K-o-m-A/vinf/blob/main/tests/test_wiki.py).
 
 ## 2. Spracovanie v Sparku
 
@@ -33,47 +30,46 @@ flowchart LR
     J --> OUT[("kapela + wiki")]
 ```
 
-1. **bands**: ~201 tisíc HTML stránok z MA spracuje extraktor z 1. odovzdania, teraz paralelne v Sparku.
-2. **wiki**: dump čítame po stránkach (oddeľovač `</page>`). Formát bz2 sa dá deliť na bloky, takže Spark spracúva 24 GB súbor paralelne bez rozbalenia. Ponecháme články o hudobníkoch a skupinách a všetky presmerovania (alternatívne mená, napr. *Burn the Priest* → *Lamb of God*).
-3. **join**: kapitola 4.
+Prvý krok je extraktor z 1. odovzdania, len namiesto `multiprocessing.Pool` ho teraz paralelne púšťa Spark nad ~201 tisíc HTML stránkami z MA.
 
-### Klaster
+Druhý krok číta wiki dump. Ten je jeden obrovský XML súbor, ale Hadoop ho vie čítať po záznamoch s vlastným oddeľovačom. Nastavili sme ho na `</page>`, takže jeden záznam je jedna wiki stránka. Formát bz2 je komprimovaný po blokoch, preto ho Spark rozdelí na 769 častí a spracuje paralelne bez rozbaľovania. Z dumpu si necháme články o hudobníkoch a skupinách a všetky presmerovania. Presmerovania sa hodia, lebo obsahujú staré a alternatívne mená kapiel, napríklad *Burn the Priest* vedie na *Lamb of God*.
 
-Rovnaký kód beží aj na Spark klastri v Dockeri (master + 2 workery po 4 jadrách). Join na klastri dáva rovnaký výsledok ako lokálny beh.
+Tretí krok je join (kapitola 4).
 
-| Krok | Čas |
-|---|---|
-| bands | 93 min (lokálne) |
-| wiki | 51 min (lokálne) |
-| join | 4,3 min lokálne, 5,6 min na klastri |
+Rovnaký kód sme pustili aj na Spark klastri v Dockeri (master a dva workery po 4 jadrách) a join tam vyšiel presne rovnako ako lokálne. Rýchlejšie to nebolo: oba workery bežia na tom istom notebooku, takže klaster pridá len réžiu. Ide skôr o to, že kód beží distribuovane bez úprav.
 
-Klaster beží na jednom počítači, preto nie je rýchlejší.
+| Krok | Lokálne (8 jadier) | Klaster |
+|---|---|---|
+| bands | 93 min | |
+| wiki | 51 min | |
+| join | 4,3 min | 5,6 min |
 
-![Spark master: 2 workery, dokončený join](img/spark_master.png)
+![Spark master s dvoma workermi po dokončení joinu](img/spark_master.png)
 
-![Úlohy rozdelené medzi 2 workery](img/spark_executors.png)
+![Executory počas joinu, úlohy sú rozdelené medzi oba workery](img/spark_executors.png)
 
 ## 3. Práca s wiki dátami (REGEX)
 
-Všetky regexy sú v [`sparkjobs/wiki.py`](https://github.com/K-o-m-A/vinf/blob/main/sparkjobs/wiki.py). Najdôležitejšie:
+Regexy sú v [`sparkjobs/wiki.py`](https://github.com/K-o-m-A/vinf/blob/main/sparkjobs/wiki.py). Tie hlavné:
 
-| Regex | Čo nájde |
+| Regex | Na čo |
 |---|---|
 | `<title>(.*?)</title>`, `<redirect title="([^"]*)"` | titulok stránky, presmerovanie |
-| `\{\{\s*Infobox[ _]+(?:musical[ _]+artist\|band\|musician)` | infobox hudobníka alebo skupiny |
-| `^\s*\|\s*([A-Za-z_ ]+?)\s*=(.*?)(?=^\s*\|…=\|\Z)` | polia infoboxu (`\| origin = Oslo, Norway`) |
-| `\[\[(?:[^\|\]]*\|)?([^\]]*)\]\]` | odkaz → text (`[[Euronymous\|Øystein Aarseth]]` → *Øystein Aarseth*) |
+| `\{\{\s*Infobox[ _]+(?:musical[ _]+artist\|band\|musician)` | začiatok infoboxu |
+| `^\s*\|\s*([A-Za-z_ ]+?)\s*=(.*?)(?=^\s*\|…=\|\Z)` | polia infoboxu, napr. `\| origin = Oslo, Norway` |
+| `\[\[(?:[^\|\]]*\|)?([^\]]*)\]\]` | odkaz na text: `[[Euronymous\|Øystein Aarseth]]` dá *Øystein Aarseth* |
 | `\[\[\s*Category\s*:\s*([^\|\]]+?)…\]\]` | kategórie |
-| `\{\{\s*Short description\s*\|([^}\|]*)` | krátky popis (*Norwegian black metal band*) |
-| `^==\s*(?:band\s+)?members\s*==` | sekcia so zoznamom členov, keď ho infobox nemá |
-| `\s+[–—-]\s*\|\s*[(,:;]` | meno člena bez nástroja: *Chuck Schuldiner – guitars (1995)* → *Chuck Schuldiner* |
-| `\b(?:band\|musical group\|…)\b` | článok bez infoboxu je o skupine (*Italian metal band*) |
+| `\{\{\s*Short description\s*\|([^}\|]*)` | krátky popis, napr. *Norwegian black metal band* |
+| `^==\s*(?:band\s+)?members\s*==` | sekcia so členmi v tele článku |
+| `\s+[–—-]\s*\|\s*[(,:;]` | odreže nástroj a roky z mena člena: *Chuck Schuldiner – guitars (1995)* |
+| `\b(?:band\|musical group\|…)\b` | pozná článok o skupine aj bez infoboxu (*Italian metal band*) |
 | `established in (\d{4})` | rok vzniku z kategórie |
-| `^==` + odstránenie `\{\{…\}\}`, `<ref>`, `[[File:…]]` | úvodný odsek článku ako čistý text |
 
-Šablóny môžu byť vnorené (`{{Infobox … {{hlist|…}} }}`), čo jeden regex nespáruje. Preto ich odstraňujeme opakovane od najvnútornejšej, alebo počítame `{{` a `}}`.
+Najviac práce dali vnorené šablóny. Infobox často obsahuje ďalšie šablóny (`{{hlist|…}}`, citácie) a jeden regex nevie nájsť správnu koncovú `}}`. Koniec infoboxu preto hľadáme počítaním `{{` a `}}`. Pri úvodnom odseku zase opakovane mažeme najvnútornejšie šablóny, kým nejaké zostávajú.
 
-Príklad výstupu pre *Mayhem (band)* (skrátené):
+Členov sme pôvodne brali len z infoboxu. Ukázalo sa však, že veľa článkov ho má bez členov (napr. *Control Denied*) a zoznam je až v sekcii *Members*. Odtiaľ ich teraz čítame tiež.
+
+Takto vyzerá výstup pre *Mayhem (band)* (skrátené):
 
 ```json
 {"title": "Mayhem (band)", "short_description": "Norwegian black metal band",
@@ -84,81 +80,77 @@ Príklad výstupu pre *Mayhem (band)* (skrátené):
  "past_members": ["Euronymous", "Dead", "Count Grishnackh", "…"]}
 ```
 
-## 4. Join Metal Archives ↔ Wikipédia
+## 4. Join Metal Archives a Wikipédie
 
-### Prečo
+MA a Wikipédia nemajú spoločný identifikátor, takže spájame cez meno kapely. Meno najprv normalizujeme: bez diakritiky, medzier, interpunkcie a úvodného *The* (*Mötley Crüe* sa zmení na `motleycrue`). Článok môže mať viac mien: titulok, meno z infoboxu a všetky presmerovania. Kandidátov potom nájde obyčajný equi-join v Sparku.
 
-MA má presné zostavy a diskografie, ale nemá popularitu, dlhší popis ani vzťahy medzi kapelami. Wikipédia to dopĺňa. Článok na Wikipédii má necelé 2 % kapiel z MA a sú to práve tie známe, preto je samotný článok dobrý signál popularity.
+Samotné meno nestačí. Len kapiel s menom *Mayhem* je na MA pätnásť. Každú dvojicu kapela × článok preto obodujeme podľa toho, čo sa zhoduje:
 
-### Ako
+| Zhoda | Body |
+|---|---|
+| spoločný člen | 3 za každého, najviac 9 |
+| krajina | 2 |
+| rok vzniku (± 1 rok) | 2 |
+| mesto | 1 |
+| článok je o metale | 1 |
 
-MA a Wikipédia nemajú spoločné id, preto spájame cez meno:
+Dvojicu prijmeme pri skóre aspoň 7, alebo ak má kapela s článkom spoločného člena a sedí krajina. Pre články bez členov a pre sólo projekty je v [`matching.py`](https://github.com/K-o-m-A/vinf/blob/main/sparkjobs/matching.py) zopár výnimiek. Prah sme na začiatku mali 4, ale pri ručnej kontrole bola asi tretina dvojíc so skóre 4 až 6 zlá. Pripájali sa napríklad rapperi s rovnakým menom (*Bones* → *Bones (rapper)*). Nakoniec každý článok dostane najviac jednu kapelu a každá kapela najviac jeden článok.
 
-1. **Normalizované meno**: bez diakritiky, medzier, interpunkcie a úvodného *The*. *Mötley Crüe* → `motleycrue`.
-2. **Kandidáti**: Spark equi-join mena kapely s menami článku (titulok, meno z infoboxu, presmerovania).
-3. **Skóre**: rovnakých mien je veľa (na MA je 15 kapiel *Mayhem*), preto každý pár obodujeme:
-
-   | Zhoda | Body |
-   |---|---|
-   | spoločný člen | 3 za každého (max. 9) |
-   | krajina | 2 |
-   | rok vzniku (± 1) | 2 |
-   | mesto | 1 |
-   | článok je o metale | 1 |
-
-4. **Prijatie**: pár berieme pri skóre ≥ 7, alebo pri spoločnom členovi a zhodnej krajine. Výnimky pre články bez členov a pre sólo projekty sú v [`matching.py`](https://github.com/K-o-m-A/vinf/blob/main/sparkjobs/matching.py).
-5. **Výber**: každý článok dostane najviac jednu kapelu a naopak (najvyššie skóre).
-
-Príklad pre článok *Mayhem (band)*:
+Pre článok *Mayhem (band)* to vyzerá takto:
 
 | Kapela na MA | Krajina | Vznik | Spoloční členovia | Skóre |
 |---|---|---|---|---|
-| Mayhem (id 67) | Norway | 1984 | 14 | **15** → pripojená |
-| Mayhem (id 7406) | United States | 1983 | 0 | 3 → zamietnutá |
-| Mayhem (id 54480) | Finland | 1983 | 0 | 3 → zamietnutá |
+| Mayhem (id 67) | Norway | 1984 | 14 | 15, pripojená |
+| Mayhem (id 7406) | United States | 1983 | 0 | 3 |
+| Mayhem (id 54480) | Finland | 1983 | 0 | 3 |
 
-### Výsledok
+Čísla z celého behu:
 
 | | Počet |
 |---|---|
 | kapiel z MA | 201 389 |
 | článkov z Wikipédie | 125 182 |
-| kandidátnych párov (rovnaké meno) | 45 493 |
-| **pripojených unikátnych wiki stránok** | **3 905** |
+| kandidátnych dvojíc (rovnaké meno) | 45 493 |
+| pripojených unikátnych wiki stránok | 3 905 |
 
-### Overenie
+Ako zistiť, či je join dobrý? Pri časti kapiel to vedia Wikidata: majú vlastnosť P1952, ktorá je id kapely na MA. Pre 3 409 našich kapiel tak poznáme správny článok. Join tieto údaje nepoužíva, slúžia len na kontrolu. Zhoda vyšla na 99,4 % našich dvojíc a join našiel 91,4 % dvojíc z Wikidát.
 
-Wikidata pri 3 409 našich kapelách uvádzajú, ktorý článok k nim patrí. Join tieto údaje nepoužíva, slúžia len na kontrolu:
+Najčastejšie join vynechá kapelu, pri ktorej sa zhoduje príliš málo (článok bez členov, iný rok vzniku), alebo kapelu zapísanú iným písmom (*唐朝* je na Wikipédii *Tang Dynasty*). Niektoré „chyby“ ani nie sú chyby. MA má pre kapely po premenovaní dva záznamy (*Idle Hands* a *Unto Others*) a Wikidata niekedy odkazujú na starý, zatiaľ čo my na nový.
 
-- **99,4 %** našich párov sa s Wikidatami zhoduje,
-- **91,4 %** párov z Wikidát join našiel.
+## 5. Čo pridáva Wikipédia oproti Metal Archives
 
-Join vynechá najmä kapely, pri ktorých sa zhoduje málo údajov (článok bez členov, iný rok vzniku), a kapely zapísané inak (*唐朝* → *Tang Dynasty*). Časť „nesprávnych“ párov je tá istá kapela, ktorá má na MA aj záznam pod starým menom (*Idle Hands* / *Unto Others*).
+MA je v metale podrobnejšia: má celé zostavy s rokmi a nástrojmi, diskografiu, témy textov a stav kapely. V tom Wikipédia nič nové neprinesie a jej členov používame hlavne na overenie joinu. Pri 3 905 pripojených kapelách však pridáva veci, ktoré na MA vôbec nie sú.
 
-## 5. Atribúty z Wikipédie, ktoré nás zaujímajú
+Najdôležitejšia je popularita. Z MA sa nedá zistiť, že nórsky *Mayhem* je známejší ako jeho štrnásti menovci z Nemecka, Talianska či USA. Článok na Wikipédii má necelé 2 % kapiel z MA a sú to práve tie známe. Medzi nimi pomôže dĺžka článku: medián je 8 300 znakov, desatina najdlhších má cez 26 000.
 
-Pokrytie = koľko z 3 905 pripojených článkov atribút má.
+Druhá vec je text. Úvodný odsek článku máme pri 99,7 % kapiel a je to súvislý popis kapely, vhodný do fulltextu aj ako popis vo výsledkoch. Poznámka pri kapele na MA má v priemere podobnú dĺžku (~320 znakov), no často je to len zoznam kompilácií alebo informácia o zmene mena.
 
-| Atribút | Pokrytie | Prečo |
+Potom sú tu údaje, ktoré MA vedie len čiastočne. Vydavateľstvo má MA iba aktuálne alebo posledné, Wikipédia ich uvádza v priemere 2,3 a pri 2 686 kapelách je medzi nimi aspoň jedno, ktoré na MA nie je. Žánre MA eviduje len metalové, takže pri 2 411 kapelách Wikipédia pridá žáner navyše, najčastejšie *hard rock* (175 kapiel), *progressive rock* (63) a *stoner rock* (53).
+
+Úplne nové sú vzťahy medzi kapelami. Polia *associated acts* a *spinoffs* má 786 kapiel (*Metallica* → *Megadeth*). Z 1 946 takých odkazov vedie 1 064 na inú kapelu, ktorú máme tiež pripojenú, takže sa z nich dá postaviť graf. K tomu oficiálny web pri 2 193 kapelách (v našej extrakcii z MA nie je) a kategórie, ktoré sú faktami v pevnom tvare: *Musical groups established in 1984*, *Roadrunner Records artists*, pri 76 kapelách aj ocenenia ako *Grammy Award winners*.
+
+## 6. Atribúty z Wikipédie, ktoré nás zaujímajú
+
+Pokrytie je podiel z 3 905 pripojených článkov, ktoré daný atribút majú.
+
+| Atribút | Pokrytie | Na čo ho použijeme |
 |---|---|---|
-| článok a jeho dĺžka | 100 % | popularita, ktorú MA nemá |
-| úvodný odsek (`lead`) | 99,7 % | text na fulltextové vyhľadávanie a popis vo výsledkoch; MA má len krátky komentár |
-| kategórie | 100 % | fakty: rok vzniku, vydavateľstvá, ocenenia (*Grammy Award winners*) |
-| žánre | 97,5 % | aj nemetalové žánre (*hard rock*, *progressive rock*), ktoré MA nemá |
-| krátky popis | 94,9 % | jedna veta do výsledkov vyhľadávania |
-| pôvod (`origin`) | 92,8 % | mesto vzniku |
-| vydavateľstvá | 87,5 % | celá história; MA má len posledné |
-| členovia | 82,6 % | kontrola joinu, mená používané na Wikipédii (*Euronymous*) |
-| web | 56,2 % | oficiálna stránka |
-| súvisiace kapely | 11,8 % | vzťahy medzi kapelami (*Metallica* → *Megadeth*) |
+| článok a jeho dĺžka | 100 % | popularita pri zoraďovaní výsledkov |
+| úvodný odsek | 99,7 % | fulltext, popis vo výsledkoch |
+| kategórie | 100 % | rok vzniku, vydavateľstvá, ocenenia |
+| žánre | 97,5 % | vyhľadávanie aj podľa nemetalových žánrov |
+| krátky popis | 94,9 % | jedna veta k výsledku |
+| pôvod (`origin`) | 92,8 % | mesto vzniku; na MA býva aktuálne sídlo |
+| vydavateľstvá | 87,5 % | celá história vydavateľstiev |
+| členovia | 82,6 % | overenie joinu, mená z Wikipédie (*Euronymous*) |
+| web | 56,2 % | odkaz na oficiálnu stránku |
+| súvisiace kapely | 11,8 % | podobné kapely, „kapely, ktoré vznikli z …“ |
 
-## 6. Ďalej
+## 7. Ďalej
 
-Pre 4. odovzdanie: index v PyLucene nad kapelami s údajmi z Wikipédie a porovnanie so starým indexom.
+Do 4. odovzdania pribudne index v PyLucene nad kapelami s týmito údajmi z Wikipédie a porovnanie so starým indexom. Na neskôr necháme popularitu z počtu odkazov a návštevnosti, graf vzťahov medzi kapelami, albumy z Wikipédie a články o členoch kapiel.
 
-Neskôr: popularita z počtu odkazov a návštevnosti, graf vzťahov medzi kapelami, albumy z Wikipédie, články o členoch kapiel.
-
-## 7. Spustenie
+## 8. Spustenie
 
 ```bash
 pip install -r requirements.txt   # pyspark, Java 17
@@ -167,8 +159,8 @@ aria2c -x2 -d data/wiki -o enwiki-latest-pages-articles.xml.bz2 \
 
 python -m sparkjobs bands     # kapely z MA
 python -m sparkjobs wiki      # wiki dump
-python -m sparkjobs join      # join → data/spark/bands_wiki, join_stats.json
-python -m sparkjobs eval      # overenie voči Wikidatám → eval_stats.json
+python -m sparkjobs join      # join -> data/spark/bands_wiki, join_stats.json
+python -m sparkjobs eval      # kontrola voči Wikidatám -> eval_stats.json
 
 # na klastri
 docker compose up -d

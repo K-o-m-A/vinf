@@ -1,0 +1,31 @@
+x-spark: &spark
+  image: apache/spark:4.3.0-python3
+  user: "1000:1000"
+  working_dir: /opt/vinf
+  volumes:
+    - .:/opt/vinf
+    # uid 1000 v obraze neexistuje a Hadoop bez mena pouzivatela spadne ("Invalid UID")
+    - /etc/passwd:/etc/passwd:ro
+    - /etc/group:/etc/group:ro
+  environment:
+    PYTHONPATH: /opt/vinf
+    HOME: /tmp
+
+services:
+  spark-master:
+    <<: *spark
+    command: /opt/spark/bin/spark-class org.apache.spark.deploy.master.Master
+    ports: ["8080:8080", "7077:7077", "4040:4040"]
+
+  spark-worker-1: &worker
+    <<: *spark
+    command: /opt/spark/bin/spark-class org.apache.spark.deploy.worker.Worker spark://spark-master:7077
+    environment:
+      PYTHONPATH: /opt/vinf
+      HOME: /tmp
+      SPARK_WORKER_CORES: "4"
+      SPARK_WORKER_MEMORY: "4g"
+      SPARK_WORKER_DIR: /tmp/spark-work  # /opt/spark/work patri pouzivatelovi spark z obrazu
+    depends_on: [spark-master]
+
+  spark-worker-2: *worker
